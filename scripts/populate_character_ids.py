@@ -13,8 +13,13 @@ from pathlib import Path
 
 def load_json(path: Path) -> dict | list:
     """Load a JSON file."""
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"File not found: {path}")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON in {path}: {e}")
 
 
 def save_json(path: Path, data: dict | list) -> None:

@@ -15,8 +15,13 @@ from pathlib import Path
 
 def load_characters(characters_file: Path) -> dict:
     """Load characters.json and build name-to-id mapping."""
-    with open(characters_file, encoding="utf-8") as f:
-        characters = json.load(f)
+    try:
+        with open(characters_file, encoding="utf-8") as f:
+            characters = json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Characters file not found: {characters_file}")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON in {characters_file}: {e}")
 
     # Build mapping from name/alias (lowercased) to character ID
     name_to_id = {}
