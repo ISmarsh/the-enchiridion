@@ -15,6 +15,8 @@ export interface Episode {
   // External IDs for data sourcing
   tmdbId?: number;
   tvdbId?: number;
+  // Transcript filename for validation (from adventuretime-transcripts repo)
+  transcriptFile?: string;
   // Optional editorial content
   notes?: string;
 }
@@ -25,7 +27,8 @@ export type CharacterType = 'individual' | 'group';
 interface BaseCharacter {
   id: string;
   name: string;
-  series: Series;
+  // Series this character appears in (most appear in multiple)
+  series: Series[];
   aliases?: string[];
   description: string;
   imageUrl?: string;

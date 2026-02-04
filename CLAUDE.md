@@ -42,9 +42,43 @@ src/data/
 
 ## External Resources
 
-- **Episode data:** TMDB API (series IDs: 15260, 105971, 205962)
+- **Episode data:** TMDB API (series IDs: 15260, 94810, 131378)
 - **Song tabs:** Link to Kumodori/Tumblr (don't host)
+- **Transcripts:** Submodule at `transcripts/` (CC-BY-SA 3.0 from Adventure Time Wiki)
 
-## TODO
+## Transcripts Submodule
 
-See `c:/Dev/todo.md` for project tasks.
+Git submodule: `transcripts/` → [ISmarsh/adventuretime-transcripts](https://github.com/ISmarsh/adventuretime-transcripts)
+
+See [transcripts/README.md](transcripts/README.md) for full documentation including:
+
+- Gap filling from SRT/SDH subtitles
+- PGS (Blu-ray bitmap) OCR workflow
+- Verification and correction processes
+
+**Initialize submodule** (optional, only needed for transcript scripts):
+
+```bash
+git submodule update --init transcripts
+```
+
+**Scripts:**
+
+- `scripts/parse_transcript_speakers.py` — Extract speaker names, map to character IDs
+- `scripts/populate_character_ids.py` — Update episodes.json with characterIds from transcripts
+
+**Future uses:**
+
+- Full-text search through dialogue
+- Extract memorable quotes for display
+
+## Python Scripts
+
+Scripts in `scripts/` require Python 3.10+ and no external dependencies.
+
+Run from project root:
+
+```bash
+python scripts/parse_transcript_speakers.py --output scripts/speaker-analysis.json
+python scripts/populate_character_ids.py
+```
