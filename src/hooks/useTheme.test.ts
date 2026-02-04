@@ -1,100 +1,66 @@
 import { renderHook, act } from '@testing-library/react';
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { useTheme } from './useTheme';
 
 describe('useTheme', () => {
   beforeEach(() => {
-    // Clear localStorage and DOM before each test
     localStorage.clear();
-    document.documentElement.classList.remove('dark');
-
-    // Mock matchMedia for system preference detection
-    vi.stubGlobal(
-      'matchMedia',
-      vi.fn((query: string) => ({
-        matches: query === '(prefers-color-scheme: dark)',
-        media: query,
-        onchange: null,
-        addListener: vi.fn(),
-        removeListener: vi.fn(),
-        addEventListener: vi.fn(),
-        removeEventListener: vi.fn(),
-        dispatchEvent: vi.fn(),
-      })),
-    );
+    document.documentElement.removeAttribute('data-theme');
   });
 
-  it('defaults to dark when no preference is saved and system prefers dark', () => {
+  it('defaults to enchiridion-dark', () => {
     const { result } = renderHook(() => useTheme());
-    expect(result.current.theme).toBe('dark');
-  });
-
-  it('defaults to light when system prefers light', () => {
-    vi.stubGlobal(
-      'matchMedia',
-      vi.fn((query: string) => ({
-        matches: query === '(prefers-color-scheme: light)',
-        media: query,
-        onchange: null,
-        addListener: vi.fn(),
-        removeListener: vi.fn(),
-        addEventListener: vi.fn(),
-        removeEventListener: vi.fn(),
-        dispatchEvent: vi.fn(),
-      })),
-    );
-
-    const { result } = renderHook(() => useTheme());
-    expect(result.current.theme).toBe('light');
+    expect(result.current.theme).toBe('enchiridion-dark');
   });
 
   it('restores theme from localStorage', () => {
-    localStorage.setItem('app-theme', 'light');
+    localStorage.setItem('app-theme', 'finn');
 
     const { result } = renderHook(() => useTheme());
-    expect(result.current.theme).toBe('light');
+    expect(result.current.theme).toBe('finn');
   });
 
-  it('toggles between light and dark', () => {
+  it('allows setting any theme', () => {
     const { result } = renderHook(() => useTheme());
-    const initialTheme = result.current.theme;
 
     act(() => {
-      result.current.toggleTheme();
+      result.current.setTheme('marceline');
     });
 
-    expect(result.current.theme).toBe(initialTheme === 'dark' ? 'light' : 'dark');
-
-    act(() => {
-      result.current.toggleTheme();
-    });
-
-    expect(result.current.theme).toBe(initialTheme);
+    expect(result.current.theme).toBe('marceline');
   });
 
   it('persists theme to localStorage', () => {
     const { result } = renderHook(() => useTheme());
 
     act(() => {
-      result.current.toggleTheme();
+      result.current.setTheme('enchiridion-light');
     });
 
-    expect(localStorage.getItem('app-theme')).toBe(result.current.theme);
+    expect(localStorage.getItem('app-theme')).toBe('enchiridion-light');
   });
 
-  it('adds dark class to document when theme is dark', () => {
-    localStorage.setItem('app-theme', 'dark');
+  it('sets data-theme attribute on document element', () => {
+    const { result } = renderHook(() => useTheme());
 
-    renderHook(() => useTheme());
+    act(() => {
+      result.current.setTheme('iceking');
+    });
 
-    expect(document.documentElement.classList.contains('dark')).toBe(true);
+    expect(document.documentElement.getAttribute('data-theme')).toBe('iceking');
   });
 
-  it('removes dark class from document when theme is light', () => {
-    localStorage.setItem('app-theme', 'light');
+  it('updates data-theme when switching themes', () => {
+    const { result } = renderHook(() => useTheme());
 
-    renderHook(() => useTheme());
+    act(() => {
+      result.current.setTheme('finn');
+    });
+    expect(document.documentElement.getAttribute('data-theme')).toBe('finn');
 
-    expect(document.documentElement.classList.contains('dark')).toBe(false);
+    act(() => {
+      result.current.setTheme('enchiridion-dark');
+    });
+    expect(document.documentElement.getAttribute('data-theme')).toBe('enchiridion-dark');
   });
 });

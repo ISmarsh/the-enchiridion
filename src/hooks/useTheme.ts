@@ -1,42 +1,28 @@
 /**
- * useTheme — custom hook for toggling light/dark mode
+ * useTheme — custom hook for managing the active site theme
  *
- * Syncs theme to <html> class and localStorage.
- * Uses system preference as default if no saved preference.
+ * Stores a theme name and sets data-theme on <html> for CSS to resolve.
+ * Each theme defines a full set of semantic tokens in index.css.
+ *
+ * Defaults to 'enchiridion-dark'.
  */
 
 import { useState, useEffect } from 'react';
 
-type Theme = 'light' | 'dark';
-
 const STORAGE_KEY = 'app-theme';
+const DEFAULT_THEME = 'enchiridion-dark';
 
-function getInitialTheme(): Theme {
-  // Check localStorage for saved preference
-  const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored === 'light' || stored === 'dark') return stored;
-
-  // Check system preference
-  if (window.matchMedia('(prefers-color-scheme: light)').matches) return 'light';
-
-  // Default to dark
-  return 'dark';
+function getInitialTheme(): string {
+  return localStorage.getItem(STORAGE_KEY) ?? DEFAULT_THEME;
 }
 
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(getInitialTheme);
+  const [theme, setTheme] = useState<string>(getInitialTheme);
 
   useEffect(() => {
-    const root = document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
+    document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(STORAGE_KEY, theme);
   }, [theme]);
 
-  const toggleTheme = () => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
-
-  return { theme, toggleTheme } as const;
+  return { theme, setTheme } as const;
 }
