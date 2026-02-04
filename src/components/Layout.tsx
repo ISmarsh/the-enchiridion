@@ -13,7 +13,7 @@ const navItems = [
 ];
 
 export function Layout() {
-  // Apply theme class to <html> on mount
+  // Apply theme attribute to <html> on mount
   useTheme();
 
   return (
