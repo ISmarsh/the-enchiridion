@@ -1,0 +1,485 @@
+[
+  {
+    "id": "finn",
+    "name": "Finn the Human",
+    "series": "adventure-time",
+    "aliases": ["Finn Mertens", "The Human"],
+    "description": "The last human in the Land of Ooo (or so he thought). Finn is a brave, righteous hero who lives for adventure with his best friend and adoptive brother Jake. Over the series, he matures from an enthusiastic kid into a thoughtful young adult.",
+    "type": "individual",
+    "parentIds": ["martin-mertens", "minerva-campbell"],
+    "childIds": [],
+    "siblingIds": ["jake", "jermaine"]
+  },
+  {
+    "id": "jake",
+    "name": "Jake the Dog",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Finn's best friend and adoptive brother, a magical dog with stretchy powers inherited from his shape-shifting alien father. Jake is laid-back, wise in his own way, and fiercely loyal. He's also a devoted partner to Lady Rainicorn and father to their pups.",
+    "type": "individual",
+    "parentIds": ["joshua", "margaret"],
+    "childIds": ["charlie", "tv", "viola", "kim-kil-whan", "jake-jr"],
+    "siblingIds": ["jermaine", "finn"]
+  },
+  {
+    "id": "bmo",
+    "name": "BMO",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A sentient video game console and one of Finn and Jake's closest companions. BMO is childlike, imaginative, and occasionally unpredictable. Created by Moe to bring joy (as explored in the episode 'Be More'), BMO eventually becomes ruler of Ooo in the distant future.",
+    "type": "individual",
+    "parentIds": ["moe"],
+    "childIds": []
+  },
+  {
+    "id": "princess-bubblegum",
+    "name": "Princess Bubblegum",
+    "series": "adventure-time",
+    "aliases": ["Bonnibel Bubblegum", "PB", "Bonnie"],
+    "description": "The brilliant, centuries-old ruler of the Candy Kingdom. A scientist and creator at heart, she built her entire kingdom and its citizens from candy biomass. Her relationship with Marceline spans centuries of complicated history.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": ["neddy"]
+  },
+  {
+    "id": "marceline",
+    "name": "Marceline the Vampire Queen",
+    "series": "adventure-time",
+    "aliases": ["Marceline Abadeer", "Marcy"],
+    "description": "A thousand-year-old half-demon, half-human vampire who's seen the world before and after the Mushroom War. She's a talented musician with a complicated past involving her demon father, her human mother, and a long friendship with Simon Petrikov.",
+    "type": "individual",
+    "parentIds": ["hunson-abadeer", "elise"],
+    "childIds": []
+  },
+  {
+    "id": "ice-king",
+    "name": "Ice King",
+    "series": "adventure-time",
+    "aliases": ["Simon Petrikov", "Simon"],
+    "description": "Once Simon Petrikov, an antiquarian who discovered a magical crown that slowly drove him mad while granting ice powers. He spent centuries as the Ice King, a lonely wizard obsessed with capturing princesses, before eventually being cured and restored to himself.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "lumpy-space-princess",
+    "name": "Lumpy Space Princess",
+    "series": "adventure-time",
+    "aliases": ["LSP"],
+    "description": "The dramatic, self-absorbed princess of Lumpy Space. Despite her valley-girl attitude and constant drama, LSP occasionally reveals unexpected depth and has saved the day more than once, including playing a key role in the series finale.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "lady-rainicorn",
+    "name": "Lady Rainicorn",
+    "series": "adventure-time",
+    "aliases": ["Lady"],
+    "description": "A rainbow unicorn who speaks Korean and is Jake's longtime girlfriend. She can fly, phase through objects, and change the color of things she touches. She and Jake have multiple children together.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["charlie", "tv", "viola", "kim-kil-whan", "jake-jr"]
+  },
+  {
+    "id": "flame-princess",
+    "name": "Flame Princess",
+    "series": "adventure-time",
+    "aliases": ["Phoebe", "FP"],
+    "description": "The ruler of the Fire Kingdom after overthrowing her father. She was Finn's first serious girlfriend, and their relationship taught him difficult lessons about honesty and respect. She's passionate, powerful, and determined to rule justly.",
+    "type": "individual",
+    "parentIds": ["flame-king"],
+    "childIds": []
+  },
+  {
+    "id": "betty-grof",
+    "name": "Betty Grof",
+    "series": "adventure-time",
+    "aliases": ["Betty", "Magic Woman"],
+    "description": "Simon Petrikov's fiancee who traveled through time to save him from the crown's curse. Her desperate quest to cure Simon led her down increasingly extreme paths, ultimately culminating in a sacrifice that merged her with GOLB.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "the-lich",
+    "name": "The Lich",
+    "series": "adventure-time",
+    "aliases": ["The Lich King"],
+    "description": "An ancient, undead being of pure evil born from the mutagenic bomb that caused the Mushroom War. The Lich seeks only the extinction of all life and is one of the most dangerous entities in existence. He was eventually reborn as the innocent Sweet P.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["sweet-p"]
+  },
+  {
+    "id": "hunson-abadeer",
+    "name": "Hunson Abadeer",
+    "series": "adventure-time",
+    "aliases": ["Lord of Evil"],
+    "description": "Marceline's demon father and ruler of the Nightosphere. He's genuinely evil in a cosmic sense but loves his daughter in his own dysfunctional way. Their complicated relationship is central to understanding Marceline's character.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["marceline"]
+  },
+  {
+    "id": "martin-mertens",
+    "name": "Martin Mertens",
+    "series": "adventure-time",
+    "aliases": ["Martin the Human"],
+    "description": "Finn's biological father, a con man who abandoned him as a baby. Martin is selfish and irresponsible, but his backstory reveals he was once a better person before trauma and the Guardian's interference. He eventually transcended to a new plane of existence.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["finn"]
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "series": "adventure-time",
+    "aliases": ["Fern the Human", "Grass Finn"],
+    "description": "A grass duplicate of Finn created when the Finn Sword merged with the Grass Demon's curse. Fern struggled with his identity, wanting to be the 'real' Finn while knowing he wasn't. His tragic arc explores themes of identity and self-acceptance.",
+    "type": "individual",
+    "variantOf": "finn",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "sweet-p",
+    "name": "Sweet P",
+    "series": "adventure-time",
+    "aliases": ["Sweet Pig-Trunks"],
+    "description": "The innocent giant child form of the Lich after being splashed with the Citadel Guardian's healing blood. Raised by Tree Trunks and Mr. Pig, Sweet P is kind and gentle, though the Lich's evil occasionally resurfaces within him.",
+    "type": "individual",
+    "variantOf": "the-lich",
+    "parentIds": ["tree-trunks", "mr-pig"],
+    "childIds": []
+  },
+  {
+    "id": "minerva-campbell",
+    "name": "Minerva Campbell",
+    "series": "adventure-time",
+    "aliases": ["Minerva"],
+    "description": "Finn's biological mother, a helper on the human island colony. After Martin disappeared with baby Finn, she became obsessed with helping others, eventually uploading her consciousness into robots to care for the island's population.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["finn"]
+  },
+  {
+    "id": "joshua",
+    "name": "Joshua",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake's father and a skilled adventurer who, along with his wife Margaret, raised Finn after finding him in the woods. He was bitten by a shape-shifting creature, which resulted in Jake's birth and magical stretchy powers.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["jake", "jermaine", "finn"]
+  },
+  {
+    "id": "margaret",
+    "name": "Margaret",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake's mother and Joshua's wife. A loving parent who helped raise both Jake and the adopted Finn. She and Joshua were adventurers in their younger days.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["jake", "jermaine", "finn"]
+  },
+  {
+    "id": "moe",
+    "name": "Moe",
+    "series": "adventure-time",
+    "aliases": ["Moe Giovanni"],
+    "description": "The human creator of BMO and the entire MO robot line. He created BMO specifically to be a friend and bring happiness. By the time Finn and Jake meet him, he's incredibly old and kept alive by his robot creations.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["bmo"]
+  },
+  {
+    "id": "elise",
+    "name": "Elise",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Marceline's human mother who lived during and after the Mushroom War. She cared for young Marceline in the post-apocalyptic wasteland before succumbing to illness. Her loss deeply affected Marceline for centuries.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["marceline"]
+  },
+  {
+    "id": "flame-king",
+    "name": "Flame King",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "The former tyrannical ruler of the Fire Kingdom and Flame Princess's father. He imprisoned his daughter as a child out of fear of a prophecy. After Flame Princess overthrew him, he was reduced in power but continued scheming.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["flame-princess"]
+  },
+  {
+    "id": "gumbald",
+    "name": "Uncle Gumbald",
+    "series": "adventure-time",
+    "aliases": ["Punch Bowl"],
+    "description": "Princess Bubblegum's uncle and one of her first candy creations. He plotted to usurp her kingdom, leading her to transform him into Punch Bowl for centuries. After being restored, he waged the Gum War against her before eventual reconciliation.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "lolly",
+    "name": "Aunt Lolly",
+    "series": "adventure-time",
+    "aliases": ["Manfried"],
+    "description": "Gumbald's wife and one of Princess Bubblegum's original candy creations. She was transformed into Manfried the Piñata after Gumbald's failed coup and remained that way for centuries before being restored.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "chicle",
+    "name": "Cousin Chicle",
+    "series": "adventure-time",
+    "aliases": ["Crunchy"],
+    "description": "Gumbald and Lolly's son and Princess Bubblegum's cousin. He was transformed into the simple-minded candy person Crunchy after Gumbald's coup attempt and lived that way for centuries.",
+    "type": "individual",
+    "parentIds": ["gumbald", "lolly"],
+    "childIds": []
+  },
+  {
+    "id": "neddy",
+    "name": "Neddy",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Princess Bubblegum's brother, born from the same Mother Gum at the same time. Unlike Bonnie, Neddy is non-verbal and extremely anxious, finding comfort only in suckling on the roots of the Candy Kingdom's tree, which produces its juice supply.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": ["princess-bubblegum"]
+  },
+  {
+    "id": "tree-trunks",
+    "name": "Tree Trunks",
+    "series": "adventure-time",
+    "aliases": ["TT"],
+    "description": "A tiny, elderly elephant known for her apple pies and sweet demeanor. She's had multiple marriages and adventures, and along with Mr. Pig, adopted Sweet P after he was reborn from the Lich.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["sweet-p"]
+  },
+  {
+    "id": "mr-pig",
+    "name": "Mr. Pig",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Tree Trunks' husband and adoptive father of Sweet P. A kind, simple pig who genuinely loves his unusual family despite the challenges of raising a giant child with a cosmic evil lurking inside him.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": ["sweet-p"]
+  },
+  {
+    "id": "gunter",
+    "name": "Gunter",
+    "series": "adventure-time",
+    "aliases": ["Orgalorg"],
+    "description": "Ice King's penguin companion, seemingly just a cute pet. In reality, Gunter is the ancient cosmic entity Orgalorg, a world-destroying being who was banished to Earth and compressed into penguin form. After the series, Gunter uses the Ice Crown to become Ice Thing.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "prismo",
+    "name": "Prismo",
+    "series": "adventure-time",
+    "aliases": ["The Wishmaster"],
+    "description": "A two-dimensional wish-granting entity who lives in the Time Room at the center of the multiverse. Despite his cosmic power, Prismo is chill and friendly, becoming one of Jake's closest friends. He exists as the dream of an old man.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "golb",
+    "name": "GOLB",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A mysterious, godlike entity representing chaos and discord. GOLB exists outside normal reality and is one of the few beings that can permanently destroy things. In the series finale, Betty merges with GOLB to save Simon.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "peppermint-butler",
+    "name": "Peppermint Butler",
+    "series": "adventure-time",
+    "aliases": ["Pep-But", "Dark One"],
+    "description": "Princess Bubblegum's loyal butler who harbors a secret fascination with dark magic and the occult. He has connections to Death, Hunson Abadeer, and other dark entities. In Distant Lands, his dark side fully emerges.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "jermaine",
+    "name": "Jermaine",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake's biological brother and Finn's adoptive brother. Unlike Jake, Jermaine stayed home to guard their parents' house and the demons trapped within. He struggles with resentment over his brothers' carefree adventuring lifestyle while he was stuck with responsibilities.",
+    "type": "individual",
+    "parentIds": ["joshua", "margaret"],
+    "childIds": [],
+    "siblingIds": ["jake", "finn"]
+  },
+  {
+    "id": "lemongrab",
+    "name": "Earl of Lemongrab",
+    "series": "adventure-time",
+    "aliases": ["Lemongrab"],
+    "description": "Princess Bubblegum's first attempt at creating candy life, and her only outright failure. Lemongrab is mentally unstable, prone to screaming fits, and obsessed with order. He rules Castle Lemongrab with his clone and their lemon children.",
+    "type": "individual",
+    "parentIds": ["princess-bubblegum"],
+    "childIds": ["lemonhope"]
+  },
+  {
+    "id": "lemonhope",
+    "name": "Lemonhope",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A lemon child from Castle Lemongrab who was freed and educated by Princess Bubblegum. His two-part episode explores themes of freedom versus responsibility, as he struggles with whether to help his oppressed people or pursue his own dreams.",
+    "type": "individual",
+    "parentIds": ["lemongrab"],
+    "childIds": []
+  },
+  {
+    "id": "susan-strong",
+    "name": "Susan Strong",
+    "series": "adventure-time",
+    "aliases": ["Kara"],
+    "description": "A muscular woman Finn befriends who he initially believes might be human. She's later revealed to be Kara, a human from the hidden islands with a cybernetic implant. Her character bridges Finn's journey to discovering his human origins.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "charlie",
+    "name": "Charlie",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake and Lady Rainicorn's daughter who can see into the future. She uses her precognitive abilities thoughtfully, though they sometimes cause her existential anxiety. She's shown to be responsible and caring.",
+    "type": "individual",
+    "parentIds": ["jake", "lady-rainicorn"],
+    "childIds": [],
+    "siblingIds": ["tv", "viola", "kim-kil-whan", "jake-jr"]
+  },
+  {
+    "id": "tv",
+    "name": "T.V.",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake and Lady Rainicorn's laid-back son who loves watching television. He's generally unmotivated but content with his simple lifestyle. His relaxed attitude mirrors his father's personality.",
+    "type": "individual",
+    "parentIds": ["jake", "lady-rainicorn"],
+    "childIds": [],
+    "siblingIds": ["charlie", "viola", "kim-kil-whan", "jake-jr"]
+  },
+  {
+    "id": "viola",
+    "name": "Viola",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake and Lady Rainicorn's shy daughter who plays the viola. She's the most reserved of the pups and prefers expressing herself through music.",
+    "type": "individual",
+    "parentIds": ["jake", "lady-rainicorn"],
+    "childIds": [],
+    "siblingIds": ["charlie", "tv", "kim-kil-whan", "jake-jr"]
+  },
+  {
+    "id": "kim-kil-whan",
+    "name": "Kim Kil Whan",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake and Lady Rainicorn's most responsible son, a successful businessman and real estate investor. He's serious and sometimes disapproves of his father's carefree lifestyle, creating tension between them.",
+    "type": "individual",
+    "parentIds": ["jake", "lady-rainicorn"],
+    "childIds": [],
+    "siblingIds": ["charlie", "tv", "viola", "jake-jr"]
+  },
+  {
+    "id": "jake-jr",
+    "name": "Jake Jr.",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Jake and Lady Rainicorn's daughter who most resembles her father, including inheriting his stretchy powers. She's adventurous and free-spirited like Jake.",
+    "type": "individual",
+    "parentIds": ["jake", "lady-rainicorn"],
+    "childIds": [],
+    "siblingIds": ["charlie", "tv", "viola", "kim-kil-whan"]
+  },
+  {
+    "id": "shermy",
+    "name": "Shermy",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A cat-like boy who lives in the far future of Ooo, a thousand years after the events of Adventure Time. Along with his friend Beth, he represents the cyclical nature of heroes - echoing Finn's adventurous spirit. He appears in the series finale and Distant Lands.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "beth",
+    "name": "Beth",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A large, stretchy pup who is Shermy's companion in the distant future - a descendant of Jake's pups who inherited his stretchy powers. She mirrors Jake's role as the wise, supportive partner to her adventurous friend.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "patience-st-pim",
+    "name": "Patience St. Pim",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "The ice elemental who froze herself before the Mushroom War and awakens in modern Ooo. Obsessed with reuniting the four elementals, her schemes trigger the Elements miniseries when she forcibly awakens the elemental powers in Princess Bubblegum, Flame Princess, and Slime Princess.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "slime-princess",
+    "name": "Slime Princess",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "The ruler of the Slime Kingdom and one of the four elementals of Ooo, representing slime. She's generally kind and level-headed. During the Elements miniseries, her elemental powers are forcibly awakened by Patience St. Pim.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "billy",
+    "name": "Billy",
+    "series": "adventure-time",
+    "aliases": ["Billy the Hero"],
+    "description": "A legendary hero who inspired Finn and defeated the Lich in ancient times. The Lich later possesses and kills Billy, using his body to manipulate Finn. His death deeply affects Finn and his girlfriend Canyon.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": []
+  },
+  {
+    "id": "canyon",
+    "name": "Canyon",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "A giant woman and Billy's girlfriend who helps Finn complete Billy's bucket list after his death. Their time together helps Finn process his grief and represents a more mature emotional connection.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": []
+  },
+  {
+    "id": "princesses-group",
+    "name": "Princesses of Ooo",
+    "type": "group",
+    "series": "adventure-time",
+    "aliases": [],
+    "description": "Ooo is home to numerous princesses ruling various kingdoms. Notable members include Ghost Princess (whose death mystery is solved in a two-parter), Breakfast Princess, Wildberry Princess, Hot Dog Princess, Turtle Princess (the librarian), and Muscle Princess. They often appear together at royal events and Princess Day.",
+    "memberIds": ["princess-bubblegum", "flame-princess", "slime-princess", "lumpy-space-princess"]
+  }
+]
