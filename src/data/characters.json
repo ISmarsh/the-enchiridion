@@ -457,7 +457,10 @@
     "series": "adventure-time",
     "aliases": ["Billy the Hero"],
     "description": "A legendary hero who inspired Finn and defeated the Lich in ancient times. The Lich later possesses and kills Billy, using his body to manipulate Finn. His death deeply affects Finn and his girlfriend Canyon.",
-    "type": "individual"
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": []
   },
   {
     "id": "canyon",
@@ -465,7 +468,10 @@
     "series": "adventure-time",
     "aliases": [],
     "description": "A giant woman and Billy's girlfriend who helps Finn complete Billy's bucket list after his death. Their time together helps Finn process his grief and represents a more mature emotional connection.",
-    "type": "individual"
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": []
   },
   {
     "id": "princesses-group",
