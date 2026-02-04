@@ -1,3 +1,6 @@
 [submodule ".planet-smars"]
 	path = .planet-smars
 	url = https://github.com/ISmarsh/planet-smars
+[submodule "transcripts"]
+	path = transcripts
+	url = https://github.com/ISmarsh/adventuretime-transcripts

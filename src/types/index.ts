@@ -15,6 +15,8 @@ export interface Episode {
   // External IDs for data sourcing
   tmdbId?: number;
   tvdbId?: number;
+  // Transcript filename for validation (from adventuretime-transcripts repo)
+  transcriptFile?: string;
   // Optional editorial content
   notes?: string;
 }
