@@ -107,8 +107,9 @@ function EpisodeCard({ episode }: { episode: Episode }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div
-      className="cursor-pointer rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary/30"
+    <button
+      type="button"
+      className="w-full cursor-pointer rounded-lg border border-border bg-card p-4 text-left transition-colors hover:border-primary/30"
       onClick={() => setExpanded(!expanded)}
     >
       <div className="flex items-start justify-between gap-4">
@@ -127,7 +128,7 @@ function EpisodeCard({ episode }: { episode: Episode }) {
           {formatDate(episode.airDate)}
         </span>
       </div>
-    </div>
+    </button>
   );
 }
 
