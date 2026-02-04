@@ -25,7 +25,8 @@ export type CharacterType = 'individual' | 'group';
 interface BaseCharacter {
   id: string;
   name: string;
-  series: Series;
+  // Series this character appears in (most appear in multiple)
+  series: Series[];
   aliases?: string[];
   description: string;
   imageUrl?: string;
