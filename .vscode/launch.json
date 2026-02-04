@@ -2,34 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Brave",
       "type": "chrome",
       "request": "launch",
+      "name": "Launch Brave against localhost",
+      "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/src",
-      "runtimeExecutable": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
-    },
-    {
-      "name": "Launch Chrome",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}/src"
-    },
-    {
-      "name": "Launch Edge",
-      "type": "msedge",
-      "request": "launch",
-      "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}/src"
-    }
-  ],
-  "compounds": [
-    {
-      "name": "Dev + Brave",
-      "configurations": ["Launch Brave"],
-      "preLaunchTask": "dev",
-      "stopAll": true
+      "sourceMaps": true,
+      "preLaunchTask": "npm: dev"
     }
   ]
 }

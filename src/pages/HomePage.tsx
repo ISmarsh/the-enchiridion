@@ -37,21 +37,6 @@ export function HomePage() {
           description="Music from the series with links to tabs and demos"
         />
       </div>
-
-      <section className="mt-12 text-center text-sm text-muted-foreground">
-        <p>
-          Episode data from{' '}
-          <a
-            href="https://www.themoviedb.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-foreground"
-          >
-            TMDB
-          </a>
-          . Characters, storylines, and songs curated by hand.
-        </p>
-      </section>
     </div>
   );
 }
