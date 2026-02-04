@@ -19,21 +19,45 @@ export interface Episode {
   notes?: string;
 }
 
-export interface Character {
+export type CharacterType = 'individual' | 'group';
+
+// Base fields shared by all character entries
+interface BaseCharacter {
   id: string;
   name: string;
+  series: Series;
   aliases?: string[];
   description: string;
-  // For characters with variants (Finn/Fionna, Ice King/Simon, etc.)
-  variantOf?: string;
   imageUrl?: string;
-  // Optional editorial content
   notes?: string;
 }
+
+// Individual character with relationships
+export interface IndividualCharacter extends BaseCharacter {
+  type: 'individual';
+  // For characters with variants (Finn/Fionna, Ice King/Simon, etc.)
+  variantOf?: string;
+  // Family relationships
+  parentIds?: string[];
+  childIds?: string[];
+  siblingIds?: string[];
+}
+
+// Group entry referencing individual characters
+export interface GroupCharacter extends BaseCharacter {
+  type: 'group';
+  // References to individual character entries
+  memberIds: string[];
+}
+
+export type Character = IndividualCharacter | GroupCharacter;
+
+export type StorylineCategory = 'major' | 'minor';
 
 export interface Storyline {
   id: string;
   name: string;
+  category: StorylineCategory;
   description: string;
   // For ordering episodes within a storyline
   episodeOrder?: string[];
