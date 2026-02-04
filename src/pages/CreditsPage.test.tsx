@@ -28,6 +28,6 @@ describe('CreditsPage', () => {
     render(<CreditsPage />);
 
     expect(screen.getByRole('heading', { name: /about this project/i })).toBeInTheDocument();
-    expect(screen.getByText(/Adventure Time/i)).toBeInTheDocument();
+    expect(screen.getByText(/fan-curated guide/i)).toBeInTheDocument();
   });
 });
