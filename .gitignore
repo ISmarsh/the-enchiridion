@@ -13,6 +13,7 @@ dist
 # Editor
 .vscode/*
 !.vscode/extensions.json
+!.vscode/tasks.json
 .idea
 
 # OS
