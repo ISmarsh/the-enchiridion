@@ -2,30 +2,32 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+      "name": "Launch Brave",
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/src",
-      "sourceMapPathOverrides": {
-        "webpack:///src/*": "${webRoot}/*"
-      }
+      "runtimeExecutable": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
+    },
+    {
+      "name": "Launch Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/src"
     },
     {
       "name": "Launch Edge",
       "type": "msedge",
       "request": "launch",
       "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}/src",
-      "sourceMapPathOverrides": {
-        "webpack:///src/*": "${webRoot}/*"
-      }
+      "webRoot": "${workspaceFolder}/src"
     }
   ],
   "compounds": [
     {
-      "name": "Dev + Chrome",
-      "configurations": ["Launch Chrome"],
+      "name": "Dev + Brave",
+      "configurations": ["Launch Brave"],
       "preLaunchTask": "dev",
       "stopAll": true
     }
