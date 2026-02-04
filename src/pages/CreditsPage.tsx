@@ -12,34 +12,6 @@ export function CreditsPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="mb-3 text-xl font-semibold">Dependencies</h2>
-        <p className="mb-4 text-muted-foreground">
-          This project uses the following open-source libraries:
-        </p>
-
-        <div className="space-y-3">
-          <LicenseItem name="React" license="MIT" url="https://github.com/facebook/react" />
-          <LicenseItem name="Vite" license="MIT" url="https://github.com/vitejs/vite" />
-          <LicenseItem
-            name="Tailwind CSS"
-            license="MIT"
-            url="https://github.com/tailwindlabs/tailwindcss"
-          />
-          <LicenseItem
-            name="React Router"
-            license="MIT"
-            url="https://github.com/remix-run/react-router"
-          />
-          <LicenseItem
-            name="Lucide React"
-            license="ISC"
-            url="https://github.com/lucide-icons/lucide"
-          />
-          <LicenseItem name="Sonner" license="MIT" url="https://github.com/emilkowalski/sonner" />
-        </div>
-      </section>
-
-      <section className="mb-8">
         <h2 className="mb-3 text-xl font-semibold">Data Sources</h2>
         <p className="mb-4 text-muted-foreground">
           This product uses the TMDB API but is not endorsed or certified by TMDB.
@@ -65,24 +37,6 @@ export function CreditsPage() {
           independent project and is not affiliated with Cartoon Network or Warner Bros.
         </p>
       </section>
-    </div>
-  );
-}
-
-function LicenseItem({ name, license, url }: { name: string; license: string; url: string }) {
-  return (
-    <div className="flex items-center justify-between rounded-lg border border-border p-3">
-      <div>
-        <a
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-medium text-primary hover:underline"
-        >
-          {name}
-        </a>
-        <span className="ml-2 text-sm text-muted-foreground">({license})</span>
-      </div>
     </div>
   );
 }

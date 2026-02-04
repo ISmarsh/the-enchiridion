@@ -12,30 +12,22 @@ describe('CreditsPage', () => {
   it('renders the license section', () => {
     render(<CreditsPage />);
 
-    expect(screen.getByRole('heading', { name: /this project/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /^this project$/i })).toBeInTheDocument();
     expect(screen.getByText(/MIT License/i)).toBeInTheDocument();
   });
 
-  it('renders dependency licenses', () => {
+  it('renders TMDB attribution', () => {
     render(<CreditsPage />);
 
-    expect(screen.getByRole('link', { name: 'React' })).toHaveAttribute(
-      'href',
-      'https://github.com/facebook/react',
-    );
-    expect(screen.getByRole('link', { name: 'Vite' })).toHaveAttribute(
-      'href',
-      'https://github.com/vitejs/vite',
-    );
-    expect(screen.getByRole('link', { name: 'Tailwind CSS' })).toHaveAttribute(
-      'href',
-      'https://github.com/tailwindlabs/tailwindcss',
-    );
+    expect(screen.getByRole('heading', { name: /data sources/i })).toBeInTheDocument();
+    expect(screen.getByText(/TMDB API/i)).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: /TMDB Logo/i })).toBeInTheDocument();
   });
 
-  it('renders acknowledgments section', () => {
+  it('renders about section', () => {
     render(<CreditsPage />);
 
-    expect(screen.getByRole('heading', { name: /acknowledgments/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /about this project/i })).toBeInTheDocument();
+    expect(screen.getByText(/Adventure Time/i)).toBeInTheDocument();
   });
 });
