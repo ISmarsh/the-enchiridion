@@ -420,6 +420,8 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 **Note:** S09E01, E04-E06, E09 transcripts exist but lack speaker labels (raw dialogue format per TRANSCRIPT-CORRECTIONS.md). Character data for these was validated against synopses.
 
+**Unmatched Elements speakers:** Several transformed characters appear frequently in S09 transcripts as unmatched speakers with no character entries: Marshmaline (Marceline), Nectr (Lemongrab), Lemonpink (LSP), Fun (Flame Princess), Fire Finn (Finn). These are elementally transformed versions of main characters. Decision needed: map to base characters, create separate entries, or leave unmatched.
+
 **Summary:** 8 episodes fixed, 29 character additions. Transcript linkage revealed significant gaps in season that previously had no transcript cross-reference.
 
 ---
@@ -462,7 +464,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 |---------|-------|--------|-------|
 | DL S01E01 | BMO | OK | Characters match transcript |
 | DL S01E02 | Obsidian | OK | Bronwyn visual appearance — correct |
-| DL S01E03 | Together Again | FIXED | Added ice-king, jermaine, joshua, lumpy-space-princess, margaret, mr-pig, peppermint-butler, the-lich, tiffany, tree-trunks, turtle-princess (Dead World episode — 11 characters with speaking lines in transcript) |
+| DL S01E03 | Together Again | FIXED | Added ice-king, jermaine, joshua, lumpy-space-princess, margaret, mr-pig, peppermint-butler, the-lich, tiffany, tree-trunks, turtle-princess (Dead World episode — 11 characters with speaking lines in transcript). Note: "New Death" speaks 45 times as an unmatched speaker — no `new-death` character entry exists; `death` is listed but transcript uses different name. |
 | DL S01E04 | Wizard City | FIXED | Added abracadaniel (transcript confirmed speaking) |
 
 **Summary:** 2 episodes fixed, 12 character additions. Transcript linkage revealed DL S01E03 had only 6 of 17 speaking characters listed.
@@ -650,3 +652,25 @@ Cross-checking the 24 newly linked episodes against transcript speaker analysis 
 - **S09E14** "Three Buckets" — 4 added (bmo, gumbald, neptr, princess-bubblegum)
 
 **Note:** S09 Elements episodes S09E01, E04-E06, E09 have transcripts but lack speaker labels (raw dialogue format). These cannot be validated via transcript analysis — character data was verified against synopses.
+
+---
+
+## Open Items
+
+Issues identified during validation that require future decisions or work.
+
+### Data Model Questions
+
+1. **`hunson-abadeer` in peppermint-butler-dark storyline** — Listed as a storyline character but doesn't appear in any of the storyline's episodes. Thematic reference (Hunson is connected to Peppermint Butler's dark magic backstory) rather than direct appearance. Decision: keep as thematic, or remove from storyline characters?
+
+2. **"New Death" in DL S01E03** — New Death speaks 45 times in the transcript (main antagonist of "Together Again"). The `death` character is already in the episode data, but the transcript parser doesn't match "New Death" → `death` because they're different characters (Death is the father, New Death is the son). Options: add a `new-death` character entry, add "New Death" as a `death` alias (inaccurate but functional), or leave unmatched.
+
+3. **S09 Elements transformed characters** — Elementally transformed versions of main characters appear frequently as unmatched transcript speakers: Marshmaline (Marceline), Nectr (Lemongrab), Lemonpink (LSP), Fun (Flame Princess), Fire Finn (Finn). These are the same characters in transformed states. Options: add as aliases to base characters (accurate for episode data purposes), create separate character entries (over-engineering), or leave unmatched (loses speaker data).
+
+### Transcript Gaps
+
+4. **31 missing transcript files** — All exist on the Adventure Time Wiki but were never scraped. Fandom blocks all automated requests. See [TRANSCRIPT-GAP-PLAN.md](TRANSCRIPT-GAP-PLAN.md) for full details, filenames, and priority tiers. Requires desktop browser or working scraper.
+
+5. **5 S09 transcripts without speaker labels** — S09E01 Orb, S09E04 Winter Light, S09E05 Cloudy, S09E06 Slime Central, S09E09 Skyhooks II have raw dialogue format (no `Speaker:  line` structure). These need speaker attribution added, likely via SDH subtitles + video verification (desktop pipeline).
+
+6. **Submodule sync** — `docs/TRANSCRIPT-GAP-PLAN.md` should be moved to `transcripts/TRANSCRIPT-GAP-PLAN.md` when the submodule is next updated. The plan document was created locally in the submodule but couldn't be pushed (no credentials for ISmarsh/adventuretime-transcripts from this environment).
