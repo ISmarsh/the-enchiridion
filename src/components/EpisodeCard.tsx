@@ -3,8 +3,8 @@ import type { Episode } from '@/types';
 
 export function EpisodeCard({ episode }: { episode: Episode }) {
   return (
-    <details className="group rounded-lg border border-border bg-card">
-      <summary className="flex cursor-pointer items-start justify-between gap-4 p-4 [&::-webkit-details-marker]:hidden">
+    <div className="row-span-2 grid grid-rows-[subgrid] rounded-lg border border-border bg-card">
+      <div className="flex items-baseline justify-between gap-2 border-b border-border/50 px-4 py-3">
         <div className="flex items-baseline gap-2">
           <Badge variant="outline" className="shrink-0 font-mono text-xs text-card-foreground">
             E{episode.episodeNumber.toString().padStart(2, '0')}
@@ -14,13 +14,11 @@ export function EpisodeCard({ episode }: { episode: Episode }) {
         <span className="shrink-0 text-xs text-muted-foreground">
           {formatDate(episode.airDate)}
         </span>
-      </summary>
+      </div>
       {episode.synopsis && (
-        <p className="border-t border-border/50 px-4 py-3 text-sm text-muted-foreground">
-          {episode.synopsis}
-        </p>
+        <p className="px-4 py-3 text-sm text-muted-foreground">{episode.synopsis}</p>
       )}
-    </details>
+    </div>
   );
 }
 
