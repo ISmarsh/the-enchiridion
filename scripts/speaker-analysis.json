@@ -1,13 +1,8 @@
 {
   "transcripts": {
     "Adventure.Time.S00E00.Animated.short.txt": {
-      "path": "transcripts/Adventure Time/Season 00/Adventure.Time.S00E00.Animated.short.txt",
-      "characterIds": [
-        "ice-king",
-        "jake",
-        "lady-rainicorn",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 00\\Adventure.Time.S00E00.Animated.short.txt",
+      "characterIds": ["ice-king", "jake", "lady-rainicorn", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Pen": 51,
         "Iceclops": 3,
@@ -18,7 +13,7 @@
       }
     },
     "Adventure.Time.S00E279.Diamonds.and.Lemons.txt": {
-      "path": "transcripts/Adventure Time/Season 00/Adventure.Time.S00E279.Diamonds.and.Lemons.txt",
+      "path": "transcripts\\Adventure Time\\Season 00\\Adventure.Time.S00E279.Diamonds.and.Lemons.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -37,7 +32,7 @@
       }
     },
     "Adventure.Time.S01E01.Slumber.Party.Panic.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E01.Slumber.Party.Panic.txt",
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E01.Slumber.Party.Panic.txt",
       "characterIds": [
         "finn",
         "jake",
@@ -65,13 +60,8 @@
       }
     },
     "Adventure.Time.S01E02.Trouble.in.Lumpy.Space.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E02.Trouble.in.Lumpy.Space.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E02.Trouble.in.Lumpy.Space.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Frog": 2,
         "Lumpy Space King": 2,
@@ -84,7 +74,7 @@
       }
     },
     "Adventure.Time.S01E03.Prisoners.of.Love.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E03.Prisoners.of.Love.txt",
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E03.Prisoners.of.Love.txt",
       "characterIds": [
         "finn",
         "ice-king",
@@ -100,12 +90,8 @@
       }
     },
     "Adventure.Time.S01E04.Tree.Trunks.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E04.Tree.Trunks.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E04.Tree.Trunks.txt",
+      "characterIds": ["finn", "jake", "tree-trunks"],
       "unmatchedSpeakers": {
         "Both Finn": 1,
         "Crystal Guardian Jake": 5,
@@ -113,14 +99,8 @@
       }
     },
     "Adventure.Time.S01E05.The.Enchiridion!.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E05.The.Enchiridion!.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "gumbald",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E05.The.Enchiridion!.txt",
+      "characterIds": ["cinnamon-bun", "finn", "gumbald", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Gumdrop Lass 1": 1,
         "Gumdrop Lass 2": 1,
@@ -137,17 +117,14 @@
       }
     },
     "Adventure.Time.S01E06.The.Jiggler.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E06.The.Jiggler.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E06.The.Jiggler.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Jiggler": 4
       }
     },
     "Adventure.Time.S01E07.Ricardio.the.Heart.Guy.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E07.Ricardio.the.Heart.Guy.txt",
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E07.Ricardio.the.Heart.Guy.txt",
       "characterIds": [
         "finn",
         "ice-king",
@@ -162,12 +139,8 @@
       }
     },
     "Adventure.Time.S01E08.Business.Time.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E08.Business.Time.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E08.Business.Time.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Red-tie businessman": 19,
         "Businessmen": 4,
@@ -178,26 +151,15 @@
       }
     },
     "Adventure.Time.S01E09.My.Two.Favorite.People.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E09.My.Two.Favorite.People.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lady-rainicorn",
-        "shelby",
-        "tiffany"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E09.My.Two.Favorite.People.txt",
+      "characterIds": ["finn", "jake", "lady-rainicorn", "shelby", "tiffany"],
       "unmatchedSpeakers": {
         "Cloud man": 2
       }
     },
     "Adventure.Time.S01E10.Memories.of.Boom.Boom.Mountain.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E10.Memories.of.Boom.Boom.Mountain.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "joshua",
-        "margaret"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E10.Memories.of.Boom.Boom.Mountain.txt",
+      "characterIds": ["finn", "jake", "joshua", "margaret"],
       "unmatchedSpeakers": {
         "Squid Bartender": 1,
         "Head Marauder": 12,
@@ -219,11 +181,8 @@
       }
     },
     "Adventure.Time.S01E11.Wizard.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E11.Wizard.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E11.Wizard.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Reaper": 4,
         "Host": 4,
@@ -236,22 +195,15 @@
       }
     },
     "Adventure.Time.S01E12.Evicted!.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E12.Evicted!.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E12.Evicted!.txt",
+      "characterIds": ["finn", "jake", "marceline"],
       "unmatchedSpeakers": {
         "King Worm": 1
       }
     },
     "Adventure.Time.S01E13.City.of.Thieves.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E13.City.of.Thieves.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E13.City.of.Thieves.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Hag": 5,
         "Penny": 28,
@@ -269,12 +221,8 @@
       }
     },
     "Adventure.Time.S01E14.The.Witch's.Garden.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E14.The.Witch's.Garden.txt",
-      "characterIds": [
-        "finn",
-        "gary-prince",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E14.The.Witch's.Garden.txt",
+      "characterIds": ["finn", "gary-prince", "jake"],
       "unmatchedSpeakers": {
         "Witch": 25,
         "Jake's subconscious": 7,
@@ -283,13 +231,8 @@
       }
     },
     "Adventure.Time.S01E15.What.is.Life.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E15.What.is.Life.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E15.What.is.Life.txt",
+      "characterIds": ["finn", "ice-king", "jake", "neptr"],
       "unmatchedSpeakers": {
         "Balloons": 3,
         "One Balloon": 2,
@@ -300,11 +243,8 @@
       }
     },
     "Adventure.Time.S01E16.Ocean.of.Fear.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E16.Ocean.of.Fear.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E16.Ocean.of.Fear.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Pat McHale": 2,
         "Fire Newt": 2,
@@ -315,12 +255,8 @@
       }
     },
     "Adventure.Time.S01E17.When.Wedding.Bells.Thaw.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E17.When.Wedding.Bells.Thaw.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E17.When.Wedding.Bells.Thaw.txt",
+      "characterIds": ["finn", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Old Lady Princess": 7,
         "Snowball": 2,
@@ -329,12 +265,8 @@
       }
     },
     "Adventure.Time.S01E18.Dungeon.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E18.Dungeon.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E18.Dungeon.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Demon Cat": 10,
         "Bucket Knight": 7,
@@ -344,12 +276,8 @@
       }
     },
     "Adventure.Time.S01E19.The.Duke.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E19.The.Duke.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E19.The.Duke.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Duke of Nuts": 15,
         "Dr. Ice Cream": 2,
@@ -360,12 +288,8 @@
       }
     },
     "Adventure.Time.S01E20.Freak.City.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E20.Freak.City.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "magic-man"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E20.Freak.City.txt",
+      "characterIds": ["finn", "jake", "magic-man"],
       "unmatchedSpeakers": {
         "Off screen": 1,
         "Man": 3,
@@ -386,12 +310,8 @@
       }
     },
     "Adventure.Time.S01E21.Donny.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E21.Donny.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E21.Donny.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Donny": 43,
         "Barn House": 1,
@@ -404,12 +324,8 @@
       }
     },
     "Adventure.Time.S01E22.Henchman.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E22.Henchman.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E22.Henchman.txt",
+      "characterIds": ["finn", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Old Man Henchman": 5,
         "Eberhardt": 5,
@@ -418,12 +334,8 @@
       }
     },
     "Adventure.Time.S01E23.Rainy.Day.Daydream.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E23.Rainy.Day.Daydream.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E23.Rainy.Day.Daydream.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Riddle Master": 5,
         "Bazooka Goblin": 1,
@@ -432,7 +344,7 @@
       }
     },
     "Adventure.Time.S01E24.What.Have.You.Done.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E24.What.Have.You.Done.txt",
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E24.What.Have.You.Done.txt",
       "characterIds": [
         "finn",
         "ice-king",
@@ -449,14 +361,8 @@
       }
     },
     "Adventure.Time.S01E25.His.Hero.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E25.His.Hero.txt",
-      "characterIds": [
-        "billy",
-        "finn",
-        "jake",
-        "lady-rainicorn",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E25.His.Hero.txt",
+      "characterIds": ["billy", "finn", "jake", "lady-rainicorn", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Swamp Giant": 7,
         "Young Billy": 1,
@@ -468,11 +374,8 @@
       }
     },
     "Adventure.Time.S01E26.Gut.Grinder.txt": {
-      "path": "transcripts/Adventure Time/Season 01/Adventure.Time.S01E26.Gut.Grinder.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 01\\Adventure.Time.S01E26.Gut.Grinder.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Soft Person #1": 7,
         "Old Soft Person": 3,
@@ -494,7 +397,7 @@
       }
     },
     "Adventure.Time.S02E01.It.Came.from.the.Nightosphere.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E01.It.Came.from.the.Nightosphere.txt",
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E01.It.Came.from.the.Nightosphere.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -510,14 +413,8 @@
       }
     },
     "Adventure.Time.S02E02.The.Eyes.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E02.The.Eyes.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "lumpy-space-princess",
-        "peppermint-butler"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E02.The.Eyes.txt",
+      "characterIds": ["finn", "ice-king", "jake", "lumpy-space-princess", "peppermint-butler"],
       "unmatchedSpeakers": {
         "Sheriff": 1,
         "Man": 1,
@@ -526,7 +423,7 @@
       }
     },
     "Adventure.Time.S02E03.Loyalty.to.the.King.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E03.Loyalty.to.the.King.txt",
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E03.Loyalty.to.the.King.txt",
       "characterIds": [
         "finn",
         "ghost-princess",
@@ -547,12 +444,8 @@
       }
     },
     "Adventure.Time.S02E04.Blood.Under.the.Skin.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E04.Blood.Under.the.Skin.txt",
-      "characterIds": [
-        "choose-goose",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E04.Blood.Under.the.Skin.txt",
+      "characterIds": ["choose-goose", "finn", "jake"],
       "unmatchedSpeakers": {
         "Knight 1": 1,
         "Knight\u00a01": 1,
@@ -574,12 +467,8 @@
       }
     },
     "Adventure.Time.S02E05.Storytelling.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E05.Storytelling.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "mr-fox"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E05.Storytelling.txt",
+      "characterIds": ["finn", "jake", "mr-fox"],
       "unmatchedSpeakers": {
         "Boy ant": 2,
         "Squirrels": 1,
@@ -594,12 +483,8 @@
       }
     },
     "Adventure.Time.S02E06.Slow.Love.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E06.Slow.Love.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E06.Slow.Love.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Snorlock": 39,
         "Snail Lady #1": 3,
@@ -613,14 +498,8 @@
       }
     },
     "Adventure.Time.S02E07.Power.Animal.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E07.Power.Animal.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E07.Power.Animal.txt",
+      "characterIds": ["cinnamon-bun", "finn", "ice-king", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Stranger": 3,
         "Stranger's voice": 1,
@@ -636,14 +515,8 @@
       }
     },
     "Adventure.Time.S02E08.Crystals.Have.Power.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E08.Crystals.Have.Power.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "jermaine",
-        "joshua",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E08.Crystals.Have.Power.txt",
+      "characterIds": ["finn", "jake", "jermaine", "joshua", "tree-trunks"],
       "unmatchedSpeakers": {
         "Crystal Guardian #1": 4,
         "Crystal Guardian #3?": 1,
@@ -654,13 +527,8 @@
       }
     },
     "Adventure.Time.S02E09.The.Other.Tarts.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E09.The.Other.Tarts.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E09.The.Other.Tarts.txt",
+      "characterIds": ["cinnamon-bun", "finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Taddle": 3,
         "Grimby": 3,
@@ -681,13 +549,8 @@
       }
     },
     "Adventure.Time.S02E10.To.Cut.a.Woman's.Hair.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E10.To.Cut.a.Woman's.Hair.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E10.To.Cut.a.Woman's.Hair.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Mrs. Yoder": 2,
         "Tree Witch": 34,
@@ -697,13 +560,8 @@
       }
     },
     "Adventure.Time.S02E11.The.Chamber.of.Frozen.Blades.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E11.The.Chamber.of.Frozen.Blades.txt",
-      "characterIds": [
-        "finn",
-        "gunter",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E11.The.Chamber.of.Frozen.Blades.txt",
+      "characterIds": ["finn", "gunter", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Fambo": 1,
         "Flambo": 2,
@@ -716,24 +574,16 @@
       }
     },
     "Adventure.Time.S02E12.Her.Parents.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E12.Her.Parents.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "lady-rainicorn"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E12.Her.Parents.txt",
+      "characterIds": ["bmo", "finn", "jake", "lady-rainicorn"],
       "unmatchedSpeakers": {
         "Ethel": 23,
         "Bob": 19
       }
     },
     "Adventure.Time.S02E13.The.Pods.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E13.The.Pods.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E13.The.Pods.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Frog": 9,
         "Gnome Knight": 1,
@@ -741,11 +591,8 @@
       }
     },
     "Adventure.Time.S02E14.The.Silent.King.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E14.The.Silent.King.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E14.The.Silent.King.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Xergiok": 14,
         "Goblins": 10,
@@ -771,7 +618,7 @@
       }
     },
     "Adventure.Time.S02E15.The.Real.You.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E15.The.Real.You.txt",
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E15.The.Real.You.txt",
       "characterIds": [
         "choose-goose",
         "finn",
@@ -790,12 +637,8 @@
       }
     },
     "Adventure.Time.S02E16.Guardians.of.Sunshine.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E16.Guardians.of.Sunshine.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E16.Guardians.of.Sunshine.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Jake together": 1,
         "Sleepy Sam": 5,
@@ -803,14 +646,8 @@
       }
     },
     "Adventure.Time.S02E17.Death.in.Bloom.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E17.Death.in.Bloom.txt",
-      "characterIds": [
-        "death",
-        "finn",
-        "jake",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E17.Death.in.Bloom.txt",
+      "characterIds": ["death", "finn", "jake", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Gate Guardian": 7,
         "Spear Skeleton": 2,
@@ -825,7 +662,7 @@
       }
     },
     "Adventure.Time.S02E18.Susan.Strong.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E18.Susan.Strong.txt",
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E18.Susan.Strong.txt",
       "characterIds": [
         "finn",
         "jake",
@@ -844,11 +681,8 @@
       }
     },
     "Adventure.Time.S02E19.Mystery.Train.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E19.Mystery.Train.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E19.Mystery.Train.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Conductor": 5,
         "Mr. Candy Cane": 4,
@@ -861,13 +695,8 @@
       }
     },
     "Adventure.Time.S02E20.Go.With.Me.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E20.Go.With.Me.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E20.Go.With.Me.txt",
+      "characterIds": ["finn", "jake", "marceline", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Marcelince": 1,
         "Woman in movie": 1,
@@ -875,11 +704,8 @@
       }
     },
     "Adventure.Time.S02E21.Belly.of.the.Beast.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E21.Belly.of.the.Beast.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E21.Belly.of.the.Beast.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Voice": 2,
         "Bear": 6,
@@ -892,11 +718,8 @@
       }
     },
     "Adventure.Time.S02E22.The.Limit.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E22.The.Limit.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E22.The.Limit.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Hot Dog Princess": 1,
         "Hot Dog Knight #1": 5,
@@ -910,7 +733,7 @@
       }
     },
     "Adventure.Time.S02E23.Video.Makers.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E23.Video.Makers.txt",
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E23.Video.Makers.txt",
       "characterIds": [
         "bmo",
         "finn",
@@ -928,27 +751,15 @@
       }
     },
     "Adventure.Time.S02E24.Mortal.Folly.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E24.Mortal.Folly.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum",
-        "the-lich"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E24.Mortal.Folly.txt",
+      "characterIds": ["finn", "ice-king", "jake", "princess-bubblegum", "the-lich"],
       "unmatchedSpeakers": {
         "Voice": 1
       }
     },
     "Adventure.Time.S02E25.Mortal.Recoil.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E25.Mortal.Recoil.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E25.Mortal.Recoil.txt",
+      "characterIds": ["finn", "ice-king", "jake", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Nurse Pound Cake": 6,
         "Dr. Ice Cream": 8,
@@ -958,13 +769,8 @@
       }
     },
     "Adventure.Time.S02E26.Heat.Signature.txt": {
-      "path": "transcripts/Adventure Time/Season 02/Adventure.Time.S02E26.Heat.Signature.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 02\\Adventure.Time.S02E26.Heat.Signature.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess", "marceline"],
       "unmatchedSpeakers": {
         "Wendy": 9,
         "Booboo": 9,
@@ -977,14 +783,8 @@
       }
     },
     "Adventure.Time.S03E01.Conquest.of.Cuteness.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E01.Conquest.of.Cuteness.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E01.Conquest.of.Cuteness.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Cute King": 13,
         "Voice": 1,
@@ -993,11 +793,8 @@
       }
     },
     "Adventure.Time.S03E02.Morituri.Te.Salutamus.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E02.Morituri.Te.Salutamus.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E02.Morituri.Te.Salutamus.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Fight King": 21,
         "Primo": 2,
@@ -1011,13 +808,8 @@
       }
     },
     "Adventure.Time.S03E03.Memory.of.a.Memory.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E03.Memory.of.a.Memory.txt",
-      "characterIds": [
-        "finn",
-        "hunson-abadeer",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E03.Memory.of.a.Memory.txt",
+      "characterIds": ["finn", "hunson-abadeer", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Rag Wizard": 13,
         "Young Marceline": 4,
@@ -1029,18 +821,14 @@
       }
     },
     "Adventure.Time.S03E04.Hitman.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E04.Hitman.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E04.Hitman.txt",
+      "characterIds": ["finn", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Breakfast Princess": 1
       }
     },
     "Adventure.Time.S03E05.Too.Young.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E05.Too.Young.txt",
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E05.Too.Young.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -1057,12 +845,8 @@
       }
     },
     "Adventure.Time.S03E06.The.Monster.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E06.The.Monster.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E06.The.Monster.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Lumpy Space Messenger": 1,
         "Lumpy Space Queen": 3,
@@ -1080,24 +864,13 @@
       }
     },
     "Adventure.Time.S03E07.Still.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E07.Still.txt",
-      "characterIds": [
-        "finn",
-        "gunter",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E07.Still.txt",
+      "characterIds": ["finn", "gunter", "ice-king", "jake"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S03E08.Wizard.Battle.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E08.Wizard.Battle.txt",
-      "characterIds": [
-        "abracadaniel",
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E08.Wizard.Battle.txt",
+      "characterIds": ["abracadaniel", "finn", "ice-king", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Grand Master Wizard": 10,
         "Lady Wizard #1": 1,
@@ -1108,41 +881,24 @@
       }
     },
     "Adventure.Time.S03E09.Fionna.and.Cake.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E09.Fionna.and.Cake.txt",
-      "characterIds": [
-        "cake",
-        "finn",
-        "fionna",
-        "ice-king",
-        "prince-gumball"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E09.Fionna.and.Cake.txt",
+      "characterIds": ["cake", "finn", "fionna", "ice-king", "prince-gumball"],
       "unmatchedSpeakers": {
         "Ice Queen": 9,
         "Lord Monochromicorn": 1
       }
     },
     "Adventure.Time.S03E10.What.Was.Missing.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E10.What.Was.Missing.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "marceline",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E10.What.Was.Missing.txt",
+      "characterIds": ["bmo", "finn", "jake", "marceline", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Door Lord": 9,
         "Princes Bubblegum": 1
       }
     },
     "Adventure.Time.S03E11.Apple.Thief.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E11.Apple.Thief.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "mr-pig",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E11.Apple.Thief.txt",
+      "characterIds": ["finn", "jake", "mr-pig", "tree-trunks"],
       "unmatchedSpeakers": {
         "Raggedy Princess": 2,
         "Candy Tavern Person": 1,
@@ -1156,7 +912,7 @@
       }
     },
     "Adventure.Time.S03E12.The.Creeps.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E12.The.Creeps.txt",
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E12.The.Creeps.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -1171,7 +927,7 @@
       }
     },
     "Adventure.Time.S03E13.From.Bad.to.Worse.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E13.From.Bad.to.Worse.txt",
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E13.From.Bad.to.Worse.txt",
       "characterIds": [
         "cinnamon-bun",
         "finn",
@@ -1188,23 +944,13 @@
       }
     },
     "Adventure.Time.S03E14.Beautopia.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E14.Beautopia.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "susan-strong"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E14.Beautopia.txt",
+      "characterIds": ["finn", "jake", "susan-strong"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S03E15.No.One.Can.Hear.You.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E15.No.One.Can.Hear.You.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "peppermint-butler",
-        "princess-bubblegum",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E15.No.One.Can.Hear.You.txt",
+      "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum", "starchy"],
       "unmatchedSpeakers": {
         "Jake?\nJake": 1,
         "Candy People": 1,
@@ -1212,12 +958,8 @@
       }
     },
     "Adventure.Time.S03E16.Jake.vs..Me-Mow.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E16.Jake.vs..Me-Mow.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "wildberry-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E16.Jake.vs..Me-Mow.txt",
+      "characterIds": ["finn", "jake", "wildberry-princess"],
       "unmatchedSpeakers": {
         "Me-Mow": 24,
         "Wildberry Guard #1": 2,
@@ -1226,12 +968,8 @@
       }
     },
     "Adventure.Time.S03E17.Thank.You.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E17.Thank.You.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E17.Thank.You.txt",
+      "characterIds": ["finn", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Alarm Clock Bird": 1,
         "Snow Golem": 15,
@@ -1239,55 +977,30 @@
       }
     },
     "Adventure.Time.S03E18.The.New.Frontier.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E18.The.New.Frontier.txt",
-      "characterIds": [
-        "banana-man",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E18.The.New.Frontier.txt",
+      "characterIds": ["banana-man", "finn", "jake"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S03E19.Holly.Jolly.Secrets.Part.I.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E19.Holly.Jolly.Secrets.Part.I.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E19.Holly.Jolly.Secrets.Part.I.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Penguin": 11
       }
     },
     "Adventure.Time.S03E20.Holly.Jolly.Secrets.Part.II.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E20.Holly.Jolly.Secrets.Part.II.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake",
-        "shelby",
-        "wildberry-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E20.Holly.Jolly.Secrets.Part.II.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "shelby", "wildberry-princess"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S03E21.Marceline's.Closet.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E21.Marceline's.Closet.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E21.Marceline's.Closet.txt",
+      "characterIds": ["finn", "jake", "marceline"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S03E22.Paper.Pete.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E22.Paper.Pete.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "turtle-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E22.Paper.Pete.txt",
+      "characterIds": ["finn", "jake", "turtle-princess"],
       "unmatchedSpeakers": {
         "People offscreen": 1,
         "Pagelings": 8,
@@ -1300,11 +1013,8 @@
       }
     },
     "Adventure.Time.S03E23.Another.Way.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E23.Another.Way.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E23.Another.Way.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Head Clown Nurse": 11,
         "Big Clown Nurse": 1,
@@ -1317,12 +1027,8 @@
       }
     },
     "Adventure.Time.S03E24.Ghost.Princess.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E24.Ghost.Princess.txt",
-      "characterIds": [
-        "finn",
-        "ghost-princess",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E24.Ghost.Princess.txt",
+      "characterIds": ["finn", "ghost-princess", "jake"],
       "unmatchedSpeakers": {
         "Boilbee": 7,
         "Clarence": 21,
@@ -1334,12 +1040,8 @@
       }
     },
     "Adventure.Time.S03E25.Dad's.Dungeon.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E25.Dad's.Dungeon.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E25.Dad's.Dungeon.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Dumb Rock": 2,
         "Ugly Monster": 5,
@@ -1351,15 +1053,8 @@
       }
     },
     "Adventure.Time.S03E26.Incendium.txt": {
-      "path": "transcripts/Adventure Time/Season 03/Adventure.Time.S03E26.Incendium.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "flame-king",
-        "flame-princess",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 03\\Adventure.Time.S03E26.Incendium.txt",
+      "characterIds": ["bmo", "finn", "flame-king", "flame-princess", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Flambo": 12,
         "Flame People": 6,
@@ -1367,20 +1062,15 @@
       }
     },
     "Adventure.Time.S04E01.Hot.to.the.Touch.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E01.Hot.to.the.Touch.txt",
-      "characterIds": [
-        "finn",
-        "flame-princess",
-        "jake",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E01.Hot.to.the.Touch.txt",
+      "characterIds": ["finn", "flame-princess", "jake", "neptr"],
       "unmatchedSpeakers": {
         "Brown Bird": 1,
         "Goblin": 2
       }
     },
     "Adventure.Time.S04E02.Five.Short.Graybles.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E02.Five.Short.Graybles.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E02.Five.Short.Graybles.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -1402,11 +1092,8 @@
       }
     },
     "Adventure.Time.S04E03.Web.Weirdos.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E03.Web.Weirdos.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E03.Web.Weirdos.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Bug": 9,
         "Fly": 3,
@@ -1418,7 +1105,7 @@
       }
     },
     "Adventure.Time.S04E04.Dream.of.Love.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E04.Dream.of.Love.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E04.Dream.of.Love.txt",
       "characterIds": [
         "cinnamon-bun",
         "finn",
@@ -1436,14 +1123,8 @@
       }
     },
     "Adventure.Time.S04E05.Return.to.the.Nightosphere.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E05.Return.to.the.Nightosphere.txt",
-      "characterIds": [
-        "charlie",
-        "finn",
-        "hunson-abadeer",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E05.Return.to.the.Nightosphere.txt",
+      "characterIds": ["charlie", "finn", "hunson-abadeer", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Nightosphere Jailer": 11,
         "Demon dad": 1,
@@ -1458,14 +1139,8 @@
       }
     },
     "Adventure.Time.S04E06.Daddy's.Little.Monster.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E06.Daddy's.Little.Monster.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "hunson-abadeer",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E06.Daddy's.Little.Monster.txt",
+      "characterIds": ["bmo", "finn", "hunson-abadeer", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Demon": 1,
         "Weird Punishment Demon": 2,
@@ -1478,13 +1153,8 @@
       }
     },
     "Adventure.Time.S04E07.In.Your.Footsteps.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E07.In.Your.Footsteps.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E07.In.Your.Footsteps.txt",
+      "characterIds": ["bmo", "finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Candy Person #24": 1,
         "Bear": 7,
@@ -1492,13 +1162,8 @@
       }
     },
     "Adventure.Time.S04E08.Hug.Wolf.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E08.Hug.Wolf.txt",
-      "characterIds": [
-        "bmo",
-        "cinnamon-bun",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E08.Hug.Wolf.txt",
+      "characterIds": ["bmo", "cinnamon-bun", "finn", "jake"],
       "unmatchedSpeakers": {
         "Alpha Hug Wolf": 4,
         "Mr. Cupcake": 1,
@@ -1517,7 +1182,7 @@
       }
     },
     "Adventure.Time.S04E09.Princess.Monster.Wife.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E09.Princess.Monster.Wife.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E09.Princess.Monster.Wife.txt",
       "characterIds": [
         "finn",
         "ice-king",
@@ -1535,13 +1200,8 @@
       }
     },
     "Adventure.Time.S04E10.Goliad.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E10.Goliad.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E10.Goliad.txt",
+      "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Goliad": 21,
         "Red Gumball/Candy Child": 1,
@@ -1553,13 +1213,8 @@
       }
     },
     "Adventure.Time.S04E11.Beyond.this.Earthly.Realm.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E11.Beyond.this.Earthly.Realm.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E11.Beyond.this.Earthly.Realm.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Penguin": 2,
         "Head": 5,
@@ -1567,25 +1222,15 @@
       }
     },
     "Adventure.Time.S04E12.Gotcha!.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E12.Gotcha!.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "lumpy-space-princess",
-        "turtle-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E12.Gotcha!.txt",
+      "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess", "turtle-princess"],
       "unmatchedSpeakers": {
         "Finn, Jake,": 1
       }
     },
     "Adventure.Time.S04E13.Princess.Cookie.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E13.Princess.Cookie.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E13.Princess.Cookie.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Cookie": 42,
         "Marshmallow": 1,
@@ -1600,25 +1245,15 @@
       }
     },
     "Adventure.Time.S04E14.Card.Wars.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E14.Card.Wars.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E14.Card.Wars.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Immortal Maize Walker": 2
       }
     },
     "Adventure.Time.S04E15.Sons.of.Mars.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E15.Sons.of.Mars.txt",
-      "characterIds": [
-        "death",
-        "finn",
-        "grob-gob-glob-grod",
-        "jake",
-        "magic-man"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E15.Sons.of.Mars.txt",
+      "characterIds": ["death", "finn", "grob-gob-glob-grod", "jake", "magic-man"],
       "unmatchedSpeakers": {
         "Gob": 6,
         "Grob": 4,
@@ -1631,14 +1266,8 @@
       }
     },
     "Adventure.Time.S04E16.Burning.Low.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E16.Burning.Low.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "flame-princess",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E16.Burning.Low.txt",
+      "characterIds": ["bmo", "finn", "flame-princess", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Morrow": 1,
         "President Porpoise": 1,
@@ -1646,19 +1275,14 @@
       }
     },
     "Adventure.Time.S04E17.BMO.Noire.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E17.BMO.Noire.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E17.BMO.Noire.txt",
+      "characterIds": ["bmo", "finn", "jake", "neptr"],
       "unmatchedSpeakers": {
         "Different BMO": 1
       }
     },
     "Adventure.Time.S04E18.King.Worm.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E18.King.Worm.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E18.King.Worm.txt",
       "characterIds": [
         "finn",
         "flame-princess",
@@ -1680,21 +1304,15 @@
       }
     },
     "Adventure.Time.S04E19.Lady.&.Peebles.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E19.Lady.&.Peebles.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "lady-rainicorn",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E19.Lady.&.Peebles.txt",
+      "characterIds": ["finn", "ice-king", "jake", "lady-rainicorn", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Tea robot": 1,
         "Ricardio": 11
       }
     },
     "Adventure.Time.S04E20.You.Made.Me.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E20.You.Made.Me.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E20.You.Made.Me.txt",
       "characterIds": [
         "chicle",
         "finn",
@@ -1720,11 +1338,8 @@
       }
     },
     "Adventure.Time.S04E21.Who.Would.Win.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E21.Who.Would.Win.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E21.Who.Would.Win.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Marauder": 1,
         "The Farm": 5,
@@ -1736,13 +1351,8 @@
       }
     },
     "Adventure.Time.S04E22.Ignition.Point.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E22.Ignition.Point.txt",
-      "characterIds": [
-        "finn",
-        "flame-king",
-        "flame-princess",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E22.Ignition.Point.txt",
+      "characterIds": ["finn", "flame-king", "flame-princess", "jake"],
       "unmatchedSpeakers": {
         "Flambo": 4,
         "Finn, Flame Princess,": 2,
@@ -1767,11 +1377,8 @@
       }
     },
     "Adventure.Time.S04E23.The.Hard.Easy.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E23.The.Hard.Easy.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E23.The.Hard.Easy.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Mudscamp": 1,
         "Woobeewoo": 5,
@@ -1782,7 +1389,7 @@
       }
     },
     "Adventure.Time.S04E24.Reign.of.Gunters.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E24.Reign.of.Gunters.txt",
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E24.Reign.of.Gunters.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -1801,27 +1408,15 @@
       }
     },
     "Adventure.Time.S04E25.I.Remember.You.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E25.I.Remember.You.txt",
-      "characterIds": [
-        "finn",
-        "gunter",
-        "ice-king",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E25.I.Remember.You.txt",
+      "characterIds": ["finn", "gunter", "ice-king", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Penguin": 1
       }
     },
     "Adventure.Time.S04E26.The.Lich.txt": {
-      "path": "transcripts/Adventure Time/Season 04/Adventure.Time.S04E26.The.Lich.txt",
-      "characterIds": [
-        "billy",
-        "finn",
-        "jake",
-        "princess-bubblegum",
-        "the-lich"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 04\\Adventure.Time.S04E26.The.Lich.txt",
+      "characterIds": ["billy", "finn", "jake", "princess-bubblegum", "the-lich"],
       "unmatchedSpeakers": {
         "Bear": 1,
         "Old Lady": 1,
@@ -1832,12 +1427,8 @@
       }
     },
     "Adventure.Time.S05E01.Finn.the.Human.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E01.Finn.the.Human.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "prismo"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E01.Finn.the.Human.txt",
+      "characterIds": ["finn", "jake", "prismo"],
       "unmatchedSpeakers": {
         "Farmworld Finn": 40,
         "Finn's mom": 1,
@@ -1854,7 +1445,7 @@
       }
     },
     "Adventure.Time.S05E02.Jake.the.Dog.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E02.Jake.the.Dog.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E02.Jake.the.Dog.txt",
       "characterIds": [
         "cosmic-owl",
         "finn",
@@ -1875,16 +1466,8 @@
       }
     },
     "Adventure.Time.S05E03.Five.More.Short.Graybles.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E03.Five.More.Short.Graybles.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake",
-        "marceline",
-        "shelby",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E03.Five.More.Short.Graybles.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "marceline", "shelby", "tree-trunks"],
       "unmatchedSpeakers": {
         "Cuber": 2,
         "And pulled out a plum,\nAnd said \"What a good boy am I!\"\nJake": 1,
@@ -1896,12 +1479,8 @@
       }
     },
     "Adventure.Time.S05E04.Up.a.Tree.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E04.Up.a.Tree.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lady-rainicorn"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E04.Up.a.Tree.txt",
+      "characterIds": ["finn", "jake", "lady-rainicorn"],
       "unmatchedSpeakers": {
         "Porcupine": 6,
         "Squirrel": 21,
@@ -1913,25 +1492,15 @@
       }
     },
     "Adventure.Time.S05E05.All.the.Little.People.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E05.All.the.Little.People.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E05.All.the.Little.People.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Little Finn": 1
       }
     },
     "Adventure.Time.S05E06.Jake.the.Dad.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E06.Jake.the.Dad.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "jake-jr",
-        "lady-rainicorn",
-        "mr-fox"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E06.Jake.the.Dad.txt",
+      "characterIds": ["bmo", "finn", "jake", "jake-jr", "lady-rainicorn", "mr-fox"],
       "unmatchedSpeakers": {
         "Holo-Margaret": 3,
         "Fox #1": 1,
@@ -1943,12 +1512,8 @@
       }
     },
     "Adventure.Time.S05E07.Davey.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E07.Davey.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E07.Davey.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Randy": 13,
         "Candy Person #1": 7,
@@ -1964,7 +1529,7 @@
       }
     },
     "Adventure.Time.S05E08.Mystery.Dungeon.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E08.Mystery.Dungeon.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E08.Mystery.Dungeon.txt",
       "characterIds": [
         "finn",
         "fionna",
@@ -1980,14 +1545,8 @@
       }
     },
     "Adventure.Time.S05E09.All.Your.Fault.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E09.All.Your.Fault.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "jake",
-        "lemongrab",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E09.All.Your.Fault.txt",
+      "characterIds": ["cinnamon-bun", "finn", "jake", "lemongrab", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Lemonjon": 8,
         "Lemongrab 2": 18,
@@ -1996,12 +1555,8 @@
       }
     },
     "Adventure.Time.S05E10.Little.Dude.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E10.Little.Dude.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E10.Little.Dude.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Ancient Sleeping Magi of Life Giving": 27,
         "Little Dude": 10,
@@ -2022,7 +1577,7 @@
       }
     },
     "Adventure.Time.S05E11.Bad.Little.Boy.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E11.Bad.Little.Boy.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E11.Bad.Little.Boy.txt",
       "characterIds": [
         "cake",
         "fionna",
@@ -2043,25 +1598,16 @@
       }
     },
     "Adventure.Time.S05E12.Vault.of.Bones.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E12.Vault.of.Bones.txt",
-      "characterIds": [
-        "finn",
-        "flame-king",
-        "flame-princess",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E12.Vault.of.Bones.txt",
+      "characterIds": ["finn", "flame-king", "flame-princess", "jake"],
       "unmatchedSpeakers": {
         "Boney": 9,
         "Snapdragon": 1
       }
     },
     "Adventure.Time.S05E13.The.Great.Bird.Man.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E13.The.Great.Bird.Man.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E13.The.Great.Bird.Man.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Xergiok": 39,
         "Far, far above,\nTime standing still,\nMemories are One,\nSame space, same will.\nNow move along,\nLight speed divides,\nRips all from One\nIt blows my eye-holes\nand fills me with real POW-ER,\nfills me with real POW-ER,\nPOWER POWER POWER POWER\nPower...\nFinn": 1,
@@ -2070,25 +1616,15 @@
       }
     },
     "Adventure.Time.S05E14.Simon.&.Marcy.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E14.Simon.&.Marcy.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E14.Simon.&.Marcy.txt",
+      "characterIds": ["finn", "ice-king", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Simon/Marcy": 2
       }
     },
     "Adventure.Time.S05E15.A.Glitch.is.a.Glitch.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E15.A.Glitch.is.a.Glitch.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E15.A.Glitch.is.a.Glitch.txt",
+      "characterIds": ["finn", "ice-king", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Donut Guy": 5,
         "Sugar Cube": 2,
@@ -2097,13 +1633,8 @@
       }
     },
     "Adventure.Time.S05E16.Puhoy.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E16.Puhoy.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E16.Puhoy.txt",
+      "characterIds": ["bmo", "finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Pillow children": 1,
         "Pillow child": 2,
@@ -2115,12 +1646,8 @@
       }
     },
     "Adventure.Time.S05E17.BMO.Lost.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E17.BMO.Lost.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E17.BMO.Lost.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "A worm": 1,
         "Bubble": 37,
@@ -2130,7 +1657,7 @@
       }
     },
     "Adventure.Time.S05E18.Princess.Potluck.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E18.Princess.Potluck.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E18.Princess.Potluck.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -2150,12 +1677,8 @@
       }
     },
     "Adventure.Time.S05E19.James.Baxter.the.Horse.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E19.James.Baxter.the.Horse.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E19.James.Baxter.the.Horse.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "James Baxter": 4,
         "Green Lollipop Girl": 3,
@@ -2166,12 +1689,8 @@
       }
     },
     "Adventure.Time.S05E20.Shh!.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E20.Shh!.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E20.Shh!.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Bikini Babe (green skin;black hair)": 1,
         "Bikini Babe (green skin;brown hair)": 1,
@@ -2180,13 +1699,8 @@
       }
     },
     "Adventure.Time.S05E21.The.Suitor.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E21.The.Suitor.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E21.The.Suitor.txt",
+      "characterIds": ["cinnamon-bun", "finn", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Ogdoad": 8,
         "Gumball Guardian": 4,
@@ -2209,26 +1723,16 @@
       }
     },
     "Adventure.Time.S05E22.The.Party's.Over,.Isla.de.Se\u00f1orita.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E22.The.Party's.Over,.Isla.de.Se\u00f1orita.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E22.The.Party's.Over,.Isla.de.Se\u00f1orita.txt",
+      "characterIds": ["finn", "ice-king", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Isla de Se\u00f1orita": 38,
         "Party God": 20
       }
     },
     "Adventure.Time.S05E23.One.Last.Job.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E23.One.Last.Job.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "jake-jr",
-        "tiffany"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E23.One.Last.Job.txt",
+      "characterIds": ["bmo", "finn", "jake", "jake-jr", "tiffany"],
       "unmatchedSpeakers": {
         "Bird": 3,
         "Unknown person": 1,
@@ -2249,7 +1753,7 @@
       }
     },
     "Adventure.Time.S05E24.Another.Five.More.Short.Graybles.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E24.Another.Five.More.Short.Graybles.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E24.Another.Five.More.Short.Graybles.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -2274,14 +1778,8 @@
       }
     },
     "Adventure.Time.S05E25.Candy.Streets.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E25.Candy.Streets.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "lumpy-space-princess",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E25.Candy.Streets.txt",
+      "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Finn, Jake": 1,
         "Ann": 5,
@@ -2295,15 +1793,8 @@
       }
     },
     "Adventure.Time.S05E26.Wizards.Only,.Fools.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E26.Wizards.Only,.Fools.txt",
-      "characterIds": [
-        "abracadaniel",
-        "finn",
-        "ice-king",
-        "jake",
-        "princess-bubblegum",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E26.Wizards.Only,.Fools.txt",
+      "characterIds": ["abracadaniel", "finn", "ice-king", "jake", "princess-bubblegum", "starchy"],
       "unmatchedSpeakers": {
         "Nurse Pound Cake": 3,
         "Wizard Policeman": 8,
@@ -2323,15 +1814,8 @@
       }
     },
     "Adventure.Time.S05E27.Jake.Suit.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E27.Jake.Suit.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "flame-princess",
-        "jake",
-        "lady-rainicorn",
-        "tv"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E27.Jake.Suit.txt",
+      "characterIds": ["bmo", "finn", "flame-princess", "jake", "lady-rainicorn", "tv"],
       "unmatchedSpeakers": {
         "Older brother": 2,
         "Big Clown Nurse": 1,
@@ -2339,13 +1823,8 @@
       }
     },
     "Adventure.Time.S05E28.Be.More.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E28.Be.More.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "moe"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E28.Be.More.txt",
+      "characterIds": ["bmo", "finn", "jake", "moe"],
       "unmatchedSpeakers": {
         "DMO": 12,
         "SMO 1": 8,
@@ -2358,21 +1837,15 @@
       }
     },
     "Adventure.Time.S05E29.Sky.Witch.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E29.Sky.Witch.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "maja",
-        "marceline",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E29.Sky.Witch.txt",
+      "characterIds": ["cinnamon-bun", "finn", "maja", "marceline", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Hambo": 3,
         "Crabbit": 5
       }
     },
     "Adventure.Time.S05E30.Frost.&.Fire.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E30.Frost.&.Fire.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E30.Frost.&.Fire.txt",
       "characterIds": [
         "bmo",
         "cosmic-owl",
@@ -2387,14 +1860,8 @@
       }
     },
     "Adventure.Time.S05E31.Too.Old.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E31.Too.Old.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lemongrab",
-        "lemonhope",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E31.Too.Old.txt",
+      "characterIds": ["finn", "jake", "lemongrab", "lemonhope", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Gatekeeper": 1,
         "Orange Lemon Child": 1,
@@ -2405,7 +1872,7 @@
       }
     },
     "Adventure.Time.S05E32.Earth.&.Water.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E32.Earth.&.Water.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E32.Earth.&.Water.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -2427,7 +1894,7 @@
       }
     },
     "Adventure.Time.S05E33.Time.Sandwich.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E33.Time.Sandwich.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E33.Time.Sandwich.txt",
       "characterIds": [
         "bmo",
         "finn",
@@ -2442,12 +1909,8 @@
       }
     },
     "Adventure.Time.S05E34.The.Vault.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E34.The.Vault.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E34.The.Vault.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Male Voice": 3,
         "Boss": 8,
@@ -2460,28 +1923,29 @@
       }
     },
     "Adventure.Time.S05E35.Love.Games.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E35.Love.Games.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake",
-        "slime-princess",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E35.Love.Games.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "slime-princess", "tree-trunks"],
       "unmatchedSpeakers": {
         "Slime People": 7,
         "Blargetha": 12,
         "Elder Plops": 16
       }
     },
+    "Adventure.Time.S05E36.Dungeon.Train.txt": {
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E36.Dungeon.Train.txt",
+      "characterIds": ["finn", "jake"],
+      "unmatchedSpeakers": {
+        "Creature": 4,
+        "Head": 1,
+        "Boss": 1,
+        "Future Finn": 2,
+        "Hair Ape": 4,
+        "Future Jake": 1
+      }
+    },
     "Adventure.Time.S05E37.Box.Prince.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E37.Box.Prince.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E37.Box.Prince.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Cat": 3,
         "Box Prince": 3,
@@ -2489,20 +1953,15 @@
       }
     },
     "Adventure.Time.S05E38.Red.Starved.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E38.Red.Starved.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E38.Red.Starved.txt",
+      "characterIds": ["finn", "jake", "marceline", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Crab Demon": 9,
         "Finn, Jake,": 1
       }
     },
     "Adventure.Time.S05E39.We.Fixed.a.Truck.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E39.We.Fixed.a.Truck.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E39.We.Fixed.a.Truck.txt",
       "characterIds": [
         "banana-man",
         "bmo",
@@ -2522,28 +1981,15 @@
       }
     },
     "Adventure.Time.S05E40.Play.Date.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E40.Play.Date.txt",
-      "characterIds": [
-        "abracadaniel",
-        "bmo",
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E40.Play.Date.txt",
+      "characterIds": ["abracadaniel", "bmo", "finn", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Kee-Oth": 8
       }
     },
     "Adventure.Time.S05E41.The.Pit.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E41.The.Pit.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "joshua",
-        "lady-rainicorn",
-        "shelby"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E41.The.Pit.txt",
+      "characterIds": ["bmo", "finn", "jake", "joshua", "lady-rainicorn", "shelby"],
       "unmatchedSpeakers": {
         "Kee-Oth": 29,
         "Little Buddy": 6,
@@ -2555,12 +2001,8 @@
       }
     },
     "Adventure.Time.S05E42.James.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E42.James.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E42.James.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "James": 24,
         "James' Clone": 3,
@@ -2568,13 +2010,8 @@
       }
     },
     "Adventure.Time.S05E43.Root.Beer.Guy.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E43.Root.Beer.Guy.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum",
-        "root-beer-guy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E43.Root.Beer.Guy.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum", "root-beer-guy"],
       "unmatchedSpeakers": {
         "Root Beer Guy's boss": 1,
         "Chocolate Bar": 3,
@@ -2588,7 +2025,7 @@
       }
     },
     "Adventure.Time.S05E44.Apple.Wedding.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E44.Apple.Wedding.txt",
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E44.Apple.Wedding.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -2610,13 +2047,8 @@
       }
     },
     "Adventure.Time.S05E45.Blade.of.Grass.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E45.Blade.of.Grass.txt",
-      "characterIds": [
-        "choose-goose",
-        "finn",
-        "jake",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E45.Blade.of.Grass.txt",
+      "characterIds": ["choose-goose", "finn", "jake", "tree-trunks"],
       "unmatchedSpeakers": {
         "Suzy": 5,
         "Sue": 5,
@@ -2630,12 +2062,8 @@
       }
     },
     "Adventure.Time.S05E46.Rattleballs.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E46.Rattleballs.txt",
-      "characterIds": [
-        "finn",
-        "princess-bubblegum",
-        "rattleballs"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E46.Rattleballs.txt",
+      "characterIds": ["finn", "princess-bubblegum", "rattleballs"],
       "unmatchedSpeakers": {
         "Shop Owner": 1,
         "Banana Guards": 3,
@@ -2644,13 +2072,8 @@
       }
     },
     "Adventure.Time.S05E47.The.Red.Throne.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E47.The.Red.Throne.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "flame-king",
-        "flame-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E47.The.Red.Throne.txt",
+      "characterIds": ["cinnamon-bun", "finn", "flame-king", "flame-princess"],
       "unmatchedSpeakers": {
         "Flame Messenger": 1,
         "Flame Person": 4,
@@ -2665,16 +2088,8 @@
       }
     },
     "Adventure.Time.S05E48.Betty.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E48.Betty.txt",
-      "characterIds": [
-        "betty-grof",
-        "death",
-        "finn",
-        "gunter",
-        "ice-king",
-        "jake",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E48.Betty.txt",
+      "characterIds": ["betty-grof", "death", "finn", "gunter", "ice-king", "jake", "marceline"],
       "unmatchedSpeakers": {
         "Bella Noche": 7,
         "Forest Wizard": 6,
@@ -2686,14 +2101,8 @@
       }
     },
     "Adventure.Time.S05E49.Bad.Timing.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E49.Bad.Timing.txt",
-      "characterIds": [
-        "gumbald",
-        "jake",
-        "lolly",
-        "lumpy-space-princess",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E49.Bad.Timing.txt",
+      "characterIds": ["gumbald", "jake", "lolly", "lumpy-space-princess", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Mudscamp": 3,
         "Bartender": 2,
@@ -2703,13 +2112,8 @@
       }
     },
     "Adventure.Time.S05E50.Lemonhope.Part.1.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E50.Lemonhope.Part.1.txt",
-      "characterIds": [
-        "finn",
-        "lemongrab",
-        "lemonhope",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E50.Lemonhope.Part.1.txt",
+      "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Lemongrab 2": 6,
         "Lemon Person": 1,
@@ -2717,13 +2121,8 @@
       }
     },
     "Adventure.Time.S05E51.Lemonhope.Part.2.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E51.Lemonhope.Part.2.txt",
-      "characterIds": [
-        "finn",
-        "lemongrab",
-        "lemonhope",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E51.Lemonhope.Part.2.txt",
+      "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Phlannel Boxingday": 20,
         "Cow": 3,
@@ -2732,14 +2131,8 @@
       }
     },
     "Adventure.Time.S05E52.Billy's.Bucket.List.txt": {
-      "path": "transcripts/Adventure Time/Season 05/Adventure.Time.S05E52.Billy's.Bucket.List.txt",
-      "characterIds": [
-        "billy",
-        "canyon",
-        "finn",
-        "jake",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 05\\Adventure.Time.S05E52.Billy's.Bucket.List.txt",
+      "characterIds": ["billy", "canyon", "finn", "jake", "starchy"],
       "unmatchedSpeakers": {
         "Rap Bear": 4,
         "Crowd": 3,
@@ -2755,17 +2148,14 @@
       }
     },
     "Adventure.Time.S06E01.All's.Well.That.Rats.Swell.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E01.All's.Well.That.Rats.Swell.txt",
-      "characterIds": [
-        "bmo",
-        "finn"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E01.All's.Well.That.Rats.Swell.txt",
+      "characterIds": ["bmo", "finn"],
       "unmatchedSpeakers": {
         "Rat": 2
       }
     },
     "Adventure.Time.S06E01.Wake.Up.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E01.Wake.Up.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E01.Wake.Up.txt",
       "characterIds": [
         "cosmic-owl",
         "death",
@@ -2789,37 +2179,22 @@
       }
     },
     "Adventure.Time.S06E02.Escape.from.the.Citadel.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E02.Escape.from.the.Citadel.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "martin-mertens",
-        "starchy",
-        "the-lich",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E02.Escape.from.the.Citadel.txt",
+      "characterIds": ["finn", "jake", "martin-mertens", "starchy", "the-lich", "tree-trunks"],
       "unmatchedSpeakers": {
         "Void Caster": 1
       }
     },
     "Adventure.Time.S06E02.Have.You.Seen.the.Muffin.Mess.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E02.Have.You.Seen.the.Muffin.Mess.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E02.Have.You.Seen.the.Muffin.Mess.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Muffin Giant": 1
       }
     },
     "Adventure.Time.S06E03.James.II.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E03.James.II.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E03.James.II.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Clone James": 14,
         "Princess Bubblegum, Finn": 1,
@@ -2844,36 +2219,22 @@
       }
     },
     "Adventure.Time.S06E03.Sow.Do.You.Like.Them.Apples.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E03.Sow.Do.You.Like.Them.Apples.txt",
-      "characterIds": [
-        "gunter",
-        "ice-king",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E03.Sow.Do.You.Like.Them.Apples.txt",
+      "characterIds": ["gunter", "ice-king", "marceline"],
       "unmatchedSpeakers": {
         "Pig": 2
       }
     },
     "Adventure.Time.S06E04.The.Tower.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E04.The.Tower.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "martin-mertens",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E04.The.Tower.txt",
+      "characterIds": ["bmo", "finn", "jake", "martin-mertens", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Carroll": 13
       }
     },
     "Adventure.Time.S06E05.Sad.Face.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E05.Sad.Face.txt",
-      "characterIds": [
-        "bmo",
-        "jake",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E05.Sad.Face.txt",
+      "characterIds": ["bmo", "jake", "neptr"],
       "unmatchedSpeakers": {
         "Bug": 1,
         "Ringmaster": 15,
@@ -2887,12 +2248,8 @@
       }
     },
     "Adventure.Time.S06E06.Breezy.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E06.Breezy.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E06.Breezy.txt",
+      "characterIds": ["finn", "jake", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Doctor Princess": 8,
         "Breezy": 27,
@@ -2908,12 +2265,8 @@
       }
     },
     "Adventure.Time.S06E07.Food.Chain.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E07.Food.Chain.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E07.Food.Chain.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Candy Children": 2,
         "Candy Child": 3,
@@ -2926,14 +2279,8 @@
       }
     },
     "Adventure.Time.S06E08.Furniture.&.Meat.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E08.Furniture.&.Meat.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "neptr",
-        "wildberry-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E08.Furniture.&.Meat.txt",
+      "characterIds": ["bmo", "finn", "jake", "neptr", "wildberry-princess"],
       "unmatchedSpeakers": {
         "Ancient Psychic Tandem War Elephant": 4,
         "Patron": 1,
@@ -2950,14 +2297,8 @@
       }
     },
     "Adventure.Time.S06E09.The.Prince.Who.Wanted.Everything.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E09.The.Prince.Who.Wanted.Everything.txt",
-      "characterIds": [
-        "cake",
-        "fionna",
-        "ice-king",
-        "lumpy-space-princess",
-        "prince-gumball"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E09.The.Prince.Who.Wanted.Everything.txt",
+      "characterIds": ["cake", "fionna", "ice-king", "lumpy-space-princess", "prince-gumball"],
       "unmatchedSpeakers": {
         "Lumpy Servants": 1,
         "Lumpy Space Prince": 49,
@@ -2967,7 +2308,7 @@
       }
     },
     "Adventure.Time.S06E10.Something.Big.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E10.Something.Big.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E10.Something.Big.txt",
       "characterIds": [
         "chicle",
         "finn",
@@ -2996,11 +2337,8 @@
       }
     },
     "Adventure.Time.S06E11.Little.Brother.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E11.Little.Brother.txt",
-      "characterIds": [
-        "jake",
-        "shelby"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E11.Little.Brother.txt",
+      "characterIds": ["jake", "shelby"],
       "unmatchedSpeakers": {
         "Voice": 1,
         "Pincer Beetle": 1,
@@ -3017,16 +2355,8 @@
       }
     },
     "Adventure.Time.S06E12.Ocarina.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E12.Ocarina.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "jake-jr",
-        "kim-kil-whan",
-        "lady-rainicorn",
-        "tv",
-        "viola"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E12.Ocarina.txt",
+      "characterIds": ["finn", "jake", "jake-jr", "kim-kil-whan", "lady-rainicorn", "tv", "viola"],
       "unmatchedSpeakers": {
         "Creature": 1,
         "Mr. B": 1,
@@ -3035,15 +2365,8 @@
       }
     },
     "Adventure.Time.S06E13.Thanks.for.the.Crabapples,.Giuseppe.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E13.Thanks.for.the.Crabapples,.Giuseppe.txt",
-      "characterIds": [
-        "abracadaniel",
-        "finn",
-        "ice-king",
-        "jake",
-        "mr-pig",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E13.Thanks.for.the.Crabapples,.Giuseppe.txt",
+      "characterIds": ["abracadaniel", "finn", "ice-king", "jake", "mr-pig", "tree-trunks"],
       "unmatchedSpeakers": {
         "Ancient Sleeping Magi of Life Giving": 7,
         "Ron James": 7,
@@ -3059,7 +2382,7 @@
       }
     },
     "Adventure.Time.S06E14.Princess.Day.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E14.Princess.Day.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E14.Princess.Day.txt",
       "characterIds": [
         "cinnamon-bun",
         "lumpy-space-princess",
@@ -3083,7 +2406,7 @@
       }
     },
     "Adventure.Time.S06E15.Nemesis.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E15.Nemesis.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E15.Nemesis.txt",
       "characterIds": [
         "finn",
         "jake",
@@ -3106,15 +2429,8 @@
       }
     },
     "Adventure.Time.S06E16.Joshua.and.Margaret.Investigations.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E16.Joshua.and.Margaret.Investigations.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "joshua",
-        "margaret",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E16.Joshua.and.Margaret.Investigations.txt",
+      "characterIds": ["bmo", "finn", "jake", "joshua", "margaret", "tree-trunks"],
       "unmatchedSpeakers": {
         "Wyatt": 4,
         "Monster": 1,
@@ -3122,13 +2438,8 @@
       }
     },
     "Adventure.Time.S06E17.Ghost.Fly.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E17.Ghost.Fly.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "peppermint-butler"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E17.Ghost.Fly.txt",
+      "characterIds": ["bmo", "finn", "jake", "peppermint-butler"],
       "unmatchedSpeakers": {
         "Voice": 1,
         "Ghost Fly": 7,
@@ -3139,12 +2450,8 @@
       }
     },
     "Adventure.Time.S06E18.Everything's.Jake.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E18.Everything's.Jake.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "magic-man"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E18.Everything's.Jake.txt",
+      "characterIds": ["finn", "jake", "magic-man"],
       "unmatchedSpeakers": {
         "Jake Person": 2,
         "Goose": 15,
@@ -3160,13 +2467,8 @@
       }
     },
     "Adventure.Time.S06E19.Is.That.You.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E19.Is.That.You.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "prismo",
-        "the-lich"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E19.Is.That.You.txt",
+      "characterIds": ["finn", "jake", "prismo", "the-lich"],
       "unmatchedSpeakers": {
         "Revived Prismo": 7,
         "Past Prismo": 2,
@@ -3175,23 +2477,13 @@
       }
     },
     "Adventure.Time.S06E20.Jake.The.Brick.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E20.Jake.The.Brick.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E20.Jake.The.Brick.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S06E21.Dentist.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E21.Dentist.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "princess-bubblegum",
-        "starchy",
-        "tiffany"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E21.Dentist.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum", "starchy", "tiffany"],
       "unmatchedSpeakers": {
         "Ant": 2,
         "Gamergate": 3,
@@ -3201,13 +2493,8 @@
       }
     },
     "Adventure.Time.S06E22.The.Cooler.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E22.The.Cooler.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "flame-princess",
-        "ice-king",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E22.The.Cooler.txt",
+      "characterIds": ["cinnamon-bun", "flame-princess", "ice-king", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Flame Person": 5,
         "Flame Guard": 2,
@@ -3217,15 +2504,8 @@
       }
     },
     "Adventure.Time.S06E23.The.Pajama.War.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E23.The.Pajama.War.txt",
-      "characterIds": [
-        "chicle",
-        "finn",
-        "jake",
-        "lolly",
-        "princess-bubblegum",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E23.The.Pajama.War.txt",
+      "characterIds": ["chicle", "finn", "jake", "lolly", "princess-bubblegum", "starchy"],
       "unmatchedSpeakers": {
         "Chet": 8,
         "Everyone": 1,
@@ -3240,11 +2520,8 @@
       }
     },
     "Adventure.Time.S06E24.Evergreen.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E24.Evergreen.txt",
-      "characterIds": [
-        "gunter",
-        "ice-king"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E24.Evergreen.txt",
+      "characterIds": ["gunter", "ice-king"],
       "unmatchedSpeakers": {
         "Chatsberry": 6,
         "Evergreen": 27,
@@ -3254,7 +2531,7 @@
       }
     },
     "Adventure.Time.S06E25.Astral.Plane.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E25.Astral.Plane.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E25.Astral.Plane.txt",
       "characterIds": [
         "finn",
         "grob-gob-glob-grod",
@@ -3275,15 +2552,8 @@
       }
     },
     "Adventure.Time.S06E26.Gold.Stars.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E26.Gold.Stars.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "king-of-ooo",
-        "mr-pig",
-        "sweet-p",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E26.Gold.Stars.txt",
+      "characterIds": ["finn", "jake", "king-of-ooo", "mr-pig", "sweet-p", "tree-trunks"],
       "unmatchedSpeakers": {
         "Kid 1": 4,
         "Toronto": 20,
@@ -3295,11 +2565,8 @@
       }
     },
     "Adventure.Time.S06E27.The.Visitor.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E27.The.Visitor.txt",
-      "characterIds": [
-        "finn",
-        "martin-mertens"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E27.The.Visitor.txt",
+      "characterIds": ["finn", "martin-mertens"],
       "unmatchedSpeakers": {
         "Baby Finn": 6,
         "Vulture": 2,
@@ -3312,7 +2579,7 @@
       }
     },
     "Adventure.Time.S06E28.The.Mountain.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E28.The.Mountain.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E28.The.Mountain.txt",
       "characterIds": [
         "bmo",
         "cinnamon-bun",
@@ -3336,14 +2603,8 @@
       }
     },
     "Adventure.Time.S06E29.Dark.Purple.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E29.Dark.Purple.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "marceline",
-        "susan-strong"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E29.Dark.Purple.txt",
+      "characterIds": ["bmo", "finn", "jake", "marceline", "susan-strong"],
       "unmatchedSpeakers": {
         "Everyone": 1,
         "Cheryl (recording)": 1,
@@ -3363,12 +2624,8 @@
       }
     },
     "Adventure.Time.S06E30.The.Diary.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E30.The.Diary.txt",
-      "characterIds": [
-        "jake",
-        "lady-rainicorn",
-        "tv"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E30.The.Diary.txt",
+      "characterIds": ["jake", "lady-rainicorn", "tv"],
       "unmatchedSpeakers": {
         "Old Sassy Man": 1,
         "Old Man": 1,
@@ -3385,26 +2642,37 @@
       }
     },
     "Adventure.Time.S06E31.Walnuts.&.Rain.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E31.Walnuts.&.Rain.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E31.Walnuts.&.Rain.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Huge King": 24,
         "Bear": 6,
         "Seven": 11
       }
     },
+    "Adventure.Time.S06E32.Friends.Forever.txt": {
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E32.Friends.Forever.txt",
+      "characterIds": ["ice-king"],
+      "unmatchedSpeakers": {
+        "Life Giving Magus": 15,
+        "Fiona": 4,
+        "Cake Omnibus": 4,
+        "Lamp": 11,
+        "Bass Drum": 6,
+        "Dresser": 6,
+        "Tom-Tom Drum": 2,
+        "Microwave": 3,
+        "Glass Two": 2,
+        "Key": 2,
+        "Drum Bass": 1,
+        "Coat Rack": 2,
+        "Hi Hats": 1,
+        "Together": 2
+      }
+    },
     "Adventure.Time.S06E33.Jermaine.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E33.Jermaine.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "jermaine",
-        "lady-rainicorn"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E33.Jermaine.txt",
+      "characterIds": ["bmo", "finn", "jake", "jermaine", "lady-rainicorn"],
       "unmatchedSpeakers": {
         "Jemraine": 1,
         "Shadow Demon 1": 1,
@@ -3422,12 +2690,8 @@
       }
     },
     "Adventure.Time.S06E34.Chips.and.Ice.Cream.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E34.Chips.and.Ice.Cream.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E34.Chips.and.Ice.Cream.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Chips": 4,
         "Ice Cream": 3,
@@ -3436,7 +2700,7 @@
       }
     },
     "Adventure.Time.S06E35.Graybles.1000+.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E35.Graybles.1000+.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E35.Graybles.1000+.txt",
       "characterIds": [
         "bmo",
         "chicle",
@@ -3461,7 +2725,7 @@
       }
     },
     "Adventure.Time.S06E36.Hoots.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E36.Hoots.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E36.Hoots.txt",
       "characterIds": [
         "cosmic-owl",
         "finn",
@@ -3482,14 +2746,31 @@
         "Penguins": 1
       }
     },
+    "Adventure.Time.S06E37.Water.Park.Prank.txt": {
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E37.Water.Park.Prank.txt",
+      "characterIds": ["finn", "jake", "princess-bubblegum"],
+      "unmatchedSpeakers": {
+        "Princess B'Onangutan": 2,
+        "What's taking Finn so long?\n\nTell you what, he's got seven --six more minutes,": 1,
+        "then I'm just heading in there without him.\n\nI mean, I can't be expected to sit here all day waiting for --\n\nFinn": 1,
+        "Come in.\n\nYeah, there's an old guy lost the plot at the top of the slide.\n\nI'm getting the duty manager involved.\n\nFine, get him involved!\n\nBut I'm not leaving until you carry out a full investigation of this slide": 1,
+        "question that pair as prime suspects!\n\nSorry, got to fly!\n\nJake": 1,
+        "Man": 1,
+        "Both": 1
+      }
+    },
+    "Adventure.Time.S06E38.You.Forgot.Your.Floaties.txt": {
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E38.You.Forgot.Your.Floaties.txt",
+      "characterIds": ["betty-grof", "finn", "jake", "magic-man"],
+      "unmatchedSpeakers": {
+        "Tiny Manticore": 8,
+        "Ohh!\n\nUnh!\n\nFinn": 1,
+        "Wait, what's happening?!\n\nAah!\n\nFinn": 1
+      }
+    },
     "Adventure.Time.S06E39.Be.Sweet.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E39.Be.Sweet.txt",
-      "characterIds": [
-        "lumpy-space-princess",
-        "marceline",
-        "sweet-p",
-        "tree-trunks"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E39.Be.Sweet.txt",
+      "characterIds": ["lumpy-space-princess", "marceline", "sweet-p", "tree-trunks"],
       "unmatchedSpeakers": {
         "Raccoon": 14,
         "Banana Guards": 2,
@@ -3497,10 +2778,8 @@
       }
     },
     "Adventure.Time.S06E41.On.the.Lam.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E41.On.the.Lam.txt",
-      "characterIds": [
-        "martin-mertens"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E41.On.the.Lam.txt",
+      "characterIds": ["martin-mertens"],
       "unmatchedSpeakers": {
         "One-eyed Koala": 2,
         "Two other Koalas": 1,
@@ -3512,7 +2791,7 @@
       }
     },
     "Adventure.Time.S06E42.Hot.Diggity.Doom.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E42.Hot.Diggity.Doom.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E42.Hot.Diggity.Doom.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -3535,7 +2814,7 @@
       }
     },
     "Adventure.Time.S06E43.The.Comet.txt": {
-      "path": "transcripts/Adventure Time/Season 06/Adventure.Time.S06E43.The.Comet.txt",
+      "path": "transcripts\\Adventure Time\\Season 06\\Adventure.Time.S06E43.The.Comet.txt",
       "characterIds": [
         "finn",
         "gunter",
@@ -3550,14 +2829,8 @@
       }
     },
     "Adventure.Time.S07E01.Bonnie.and.Neddy.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E01.Bonnie.and.Neddy.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "king-of-ooo",
-        "neddy",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E01.Bonnie.and.Neddy.txt",
+      "characterIds": ["finn", "jake", "king-of-ooo", "neddy", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Toronto": 3,
         "Old Banana Guards": 2,
@@ -3569,108 +2842,68 @@
       }
     },
     "Adventure.Time.S07E01.Frog.Seasons.Spring.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E01.Frog.Seasons.Spring.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E01.Frog.Seasons.Spring.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Breezy": 5
       }
     },
     "Adventure.Time.S07E02.Frog.Seasons.Summer.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E02.Frog.Seasons.Summer.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E02.Frog.Seasons.Summer.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Water Nymph": 4
       }
     },
     "Adventure.Time.S07E02.Varmints.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E02.Varmints.txt",
-      "characterIds": [
-        "king-of-ooo",
-        "marceline",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E02.Varmints.txt",
+      "characterIds": ["king-of-ooo", "marceline", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S07E03.Cherry.Cream.Soda.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E03.Cherry.Cream.Soda.txt",
-      "characterIds": [
-        "jake",
-        "lady-rainicorn",
-        "princess-bubblegum",
-        "root-beer-guy",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E03.Cherry.Cream.Soda.txt",
+      "characterIds": ["jake", "lady-rainicorn", "princess-bubblegum", "root-beer-guy", "starchy"],
       "unmatchedSpeakers": {
         "Cherry Cream Soda": 15,
         "Chery Cream Soda": 17
       }
     },
     "Adventure.Time.S07E03.Frog.Seasons.Autumn.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E03.Frog.Seasons.Autumn.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E03.Frog.Seasons.Autumn.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Raggedy Princess": 3
       }
     },
     "Adventure.Time.S07E04.Frog.Seasons.Winter.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E04.Frog.Seasons.Winter.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E04.Frog.Seasons.Winter.txt",
+      "characterIds": ["finn", "ice-king", "jake"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S07E04.Mama.Said.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E04.Mama.Said.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "king-of-ooo",
-        "root-beer-guy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E04.Mama.Said.txt",
+      "characterIds": ["finn", "jake", "king-of-ooo", "root-beer-guy"],
       "unmatchedSpeakers": {
         "Banana Guards": 1
       }
     },
     "Adventure.Time.S07E05.Football.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E05.Football.txt",
-      "characterIds": [
-        "bmo"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E05.Football.txt",
+      "characterIds": ["bmo"],
       "unmatchedSpeakers": {
         "Football": 11
       }
     },
     "Adventure.Time.S07E05.Frog.Seasons.Spring.Again.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E05.Frog.Seasons.Spring.Again.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E05.Frog.Seasons.Spring.Again.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Breezy": 6
       }
     },
     "Adventure.Time.S07E06.Marceline.The.Vampire.Queen.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E06.Marceline.The.Vampire.Queen.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E06.Marceline.The.Vampire.Queen.txt",
+      "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Cloud Dance": 12,
         "Villager": 2,
@@ -3686,25 +2919,15 @@
       }
     },
     "Adventure.Time.S07E07.Everything.Stays.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E07.Everything.Stays.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E07.Everything.Stays.txt",
+      "characterIds": ["finn", "ice-king", "marceline"],
       "unmatchedSpeakers": {
         "Marceline's mom": 4
       }
     },
     "Adventure.Time.S07E08.Vamps.About.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E08.Vamps.About.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E08.Vamps.About.txt",
+      "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Fool": 8,
         "Vampire King": 17,
@@ -3715,21 +2938,15 @@
       }
     },
     "Adventure.Time.S07E09.The.Empress.Eyes.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E09.The.Empress.Eyes.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake",
-        "marceline",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E09.The.Empress.Eyes.txt",
+      "characterIds": ["finn", "ice-king", "jake", "marceline", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Empress": 35,
         "Penguin": 2
       }
     },
     "Adventure.Time.S07E10.May.I.Come.In.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E10.May.I.Come.In.txt",
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E10.May.I.Come.In.txt",
       "characterIds": [
         "chicle",
         "finn",
@@ -3746,7 +2963,7 @@
       }
     },
     "Adventure.Time.S07E11.Take.Her.Back.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E11.Take.Her.Back.txt",
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E11.Take.Her.Back.txt",
       "characterIds": [
         "chicle",
         "finn",
@@ -3765,20 +2982,14 @@
       }
     },
     "Adventure.Time.S07E12.Checkmate.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E12.Checkmate.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "marceline",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E12.Checkmate.txt",
+      "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Vampire King": 25
       }
     },
     "Adventure.Time.S07E13.The.Dark.Cloud.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E13.The.Dark.Cloud.txt",
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E13.The.Dark.Cloud.txt",
       "characterIds": [
         "chicle",
         "finn",
@@ -3802,14 +3013,8 @@
       }
     },
     "Adventure.Time.S07E14.The.More.You.Moe,.The.Moe.You.Know.(Part.I).txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E14.The.More.You.Moe,.The.Moe.You.Know.(Part.I).txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "neptr",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E14.The.More.You.Moe,.The.Moe.You.Know.(Part.I).txt",
+      "characterIds": ["bmo", "finn", "jake", "neptr", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "MO": 18,
         "DMO": 4,
@@ -3820,14 +3025,8 @@
       }
     },
     "Adventure.Time.S07E15.The.More.You.Moe,.The.Moe.You.Know.(Part.II).txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E15.The.More.You.Moe,.The.Moe.You.Know.(Part.II).txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "moe",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E15.The.More.You.Moe,.The.Moe.You.Know.(Part.II).txt",
+      "characterIds": ["bmo", "finn", "jake", "moe", "neptr"],
       "unmatchedSpeakers": {
         "ALLMO": 14,
         "MO": 9,
@@ -3846,45 +3045,71 @@
       }
     },
     "Adventure.Time.S07E16.Summer.Showers.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E16.Summer.Showers.txt",
-      "characterIds": [
-        "lumpy-space-princess",
-        "viola"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E16.Summer.Showers.txt",
+      "characterIds": ["lumpy-space-princess", "viola"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S07E17.Angel.Face.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E17.Angel.Face.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E17.Angel.Face.txt",
+      "characterIds": ["bmo", "finn", "jake", "neptr"],
       "unmatchedSpeakers": {
         "Me-Mow": 19,
         "Armadillo": 2
       }
     },
     "Adventure.Time.S07E18.President.Porpoise.is.Missing!.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E18.President.Porpoise.is.Missing!.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E18.President.Porpoise.is.Missing!.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {}
+    },
+    "Adventure.Time.S07E19.Blank-Eyed.Girl.txt": {
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E19.Blank-Eyed.Girl.txt",
+      "characterIds": ["bmo", "finn", "jake", "lady-rainicorn", "starchy"],
+      "unmatchedSpeakers": {
+        "I'm your host \u2010\u2010 starchy.\nYou know what today is, everybody?\nIt's our fifth\u2010anniversary show.\nSo many things have happened in that time.\nI switched from drinking rainwater\nto eating distilled ice chips.\nI took up rock climbing.\nThat all chocolate has been secretly replaced by mud.\n\nAnd why is the burrito man giving away free burritos?\nHe's an amateur mad scientist trying to genetically change us into tortillas.\nMm. Dude, come on.\nWhen was the last time you sharpened your pencils? Hm?\nNever. They're pens painted to look like pencils. Conspiracy!\nOkay, the board is lighting up.\n\nWe're going to a caller.\nYou are on the air, caller.\n\nBanana Guard": 1,
+        "Banana Guard": 3,
+        "I call baloney!\n\nFinn": 1,
+        "They've been spotted around multiple kingdoms across the centuries. Nobody knows what they are. \u2010but I have a few theories.\u2010\n\nJake": 1
+      }
+    },
+    "Adventure.Time.S07E20.Bad.Jubies.txt": {
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E20.Bad.Jubies.txt",
+      "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess"],
+      "unmatchedSpeakers": {
+        "Unknown": 2,
+        "Tornado Man": 9,
+        "Episode Ends\nCategory": 1
+      }
     },
     "Adventure.Time.S07E21.King's.Ransom.txt": {
-      "path": "transcripts/Adventure Time/Season 07/Adventure.Time.S07E21.King's.Ransom.txt",
-      "characterIds": [
-        "finn",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E21.King's.Ransom.txt",
+      "characterIds": ["finn", "ice-king", "jake"],
       "unmatchedSpeakers": {}
     },
+    "Adventure.Time.S07E23.Crossover.txt": {
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E23.Crossover.txt",
+      "characterIds": ["bmo", "finn", "jake", "prismo"],
+      "unmatchedSpeakers": {
+        "Farmworld/Ice Finn": 25,
+        "Finn, Jake,": 1,
+        "Finn Sword": 1,
+        "Bobby": 3,
+        "Big Destiny": 2,
+        "Farmworld Lich": 9,
+        "The Maid": 1,
+        "Farmworld Jake": 1
+      }
+    },
+    "Adventure.Time.S07E26.The.Thin.Yellow.Line.txt": {
+      "path": "transcripts\\Adventure Time\\Season 07\\Adventure.Time.S07E26.The.Thin.Yellow.Line.txt",
+      "characterIds": [],
+      "unmatchedSpeakers": {
+        "I don't see anybody, Jake.\n\nThey'll be here.Don't worry none.\n\nMy plan is good.\n\nBoth": 1,
+        "Um, princess?\n\nYes?\n\nI don't have a special talent.\n\nThat's okay, too.\n\nHooray!\nCategory": 1
+      }
+    },
     "Adventure.Time.S08E01.Broke.His.Crown.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E01.Broke.His.Crown.txt",
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E01.Broke.His.Crown.txt",
       "characterIds": [
         "betty-grof",
         "gunter",
@@ -3898,7 +3123,7 @@
       }
     },
     "Adventure.Time.S08E02.Don't.Look.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E02.Don't.Look.txt",
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E02.Don't.Look.txt",
       "characterIds": [
         "bmo",
         "finn",
@@ -3914,28 +3139,148 @@
         "Everyone": 2
       }
     },
+    "Adventure.Time.S08E03.Beyond.the.Grotto.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E03.Beyond.the.Grotto.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "jake", "shelby"],
+      "unmatchedSpeakers": {
+        "Water Nymphs": 1,
+        "Water Nymph (Denise)": 6,
+        "Water Nymphs #2": 3,
+        "#3": 3,
+        "Water Nymph #2": 1,
+        "Water Nymph #3": 1,
+        "Pond": 1,
+        "Leaf Marceline": 4,
+        "Princess Purple Patch": 5,
+        "Princess Purple patch": 1,
+        "Purple": 1,
+        "Bush Boots": 9,
+        "Bee": 2,
+        "Pink pond": 2
+      }
+    },
+    "Adventure.Time.S08E04.Lady.Rainicorn.of.the.Crystal.Dimension.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E04.Lady.Rainicorn.of.the.Crystal.Dimension.txt",
+      "characterIds": ["cinnamon-bun", "lady-rainicorn"],
+      "unmatchedSpeakers": {
+        "TV": 30,
+        "Tom": 1,
+        "Lee": 41,
+        "Candy Box Man": 1,
+        "Farmer's market character": 1,
+        "Ethel (Lady Rainicorn's mother)": 1,
+        "Bob (Lady Rainicorn's father)": 1,
+        "Ethel": 5,
+        "Roy": 12,
+        "Bob": 1
+      }
+    },
     "Adventure.Time.S08E05.I.Am.a.Sword.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E05.I.Am.a.Sword.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E05.I.Am.a.Sword.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S08E07.Normal.Man.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E07.Normal.Man.txt",
-      "characterIds": [
-        "finn",
-        "grob-gob-glob-grod",
-        "jake",
-        "magic-man"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E07.Normal.Man.txt",
+      "characterIds": ["finn", "grob-gob-glob-grod", "jake", "magic-man"],
       "unmatchedSpeakers": {
         "Tiny Manticore": 10
       }
     },
+    "Adventure.Time.S08E10.The.Music.Hole.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E10.The.Music.Hole.txt",
+      "characterIds": [
+        "bmo",
+        "finn",
+        "flame-princess",
+        "ice-king",
+        "jake",
+        "princess-bubblegum",
+        "susan-strong"
+      ],
+      "unmatchedSpeakers": {
+        "Both": 3,
+        "Wow.\n\nI wonder how longthey practiced that.\n\nDon't forget to check outour merch table.\n\nFlame Princess": 1,
+        "Guess the song wasn't comingfrom them.\n\nWhat are youdoing here?\n\nYou're supposedto be judging the bands. Hmph!\n\n\u2010Do you guys hear that?\u2010Hear what?\n\nIt's like a beautiful voicesinging with itself,\n\nan entire universe vibratingin harmony.\n\nBoth": 1,
+        "All right, all right, everyone.Calm down!\n\nI'm yelling.I'm yelling up here.\n\nSimon,what are you doing?\n\nCrowd control, ma'am.\n\nAll": 1,
+        "Oh, my Glob.\n\nFinn, you okay?\n\nI can't believe I almost fellinto this...hole.\n\nIt's a face hole.\n\nThis is wherethe song's coming from.\n\nMusic Hole": 1,
+        "Oh.Nice pipes.\n\nMusic Hole": 1,
+        "Really?No one's ever said that.\n\nShut up.\u2010It's true!\n\nWell, I've, uh, hada lot of practice \u2010\u2010\n\n1,000 yearsgive or take.\n\nSay what?!\n\nYeah, I've been here singingfrom the very beginning of Ooo.\n\nSince I can't movefrom this spot,\n\nsinging is my only outlet.\n\nI can neither participate in joynor prevent disaster,\n\nso I sing.\n\nIs this likeone of those patterns\n\nthat's supposed to havea 3\u2010D image in it,\n\nand everyone can see itexcept you?\n\nWell, why can'tthey hear you?\n\nMusic Hole": 1,
+        "To everyone else,I'm just a period in a sentence\n\nin the book of Ooo.\n\nI don't knowabout child eyes,\n\nbut I have been goingthrough a rough patch.\n\nFinn": 1,
+        "Music Hole": 1,
+        "The winner isa very special someone\n\nwho I just met,last name \u2010\u2010 Hole.\n\nShe'll take home this handmadepotato\u2010chip\u2010bag crown.\n\nMusic Hole": 1,
+        "I've never wonan award before.\n\nBoth": 1
+      }
+    },
+    "Adventure.Time.S08E11.Daddy-Daughter.Card.Wars.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E11.Daddy-Daughter.Card.Wars.txt",
+      "characterIds": ["jake"],
+      "unmatchedSpeakers": {
+        "Doorman": 1,
+        "Grand Prix.\n\nGrand Prix": 1,
+        "Grand Prix": 1,
+        "Announcer": 3,
+        "Ohhhh!\n\nBlah, blah, blah!\n\nCommence Card Wars!\n\nI floop the Hay Barn,": 1,
+        "I attack with Feed Man!\n\nAnnouncer": 1,
+        "Least Bean Ball Bomba.\n\nAnnouncer": 1,
+        "Bean Ball?!\n\nAnnouncer": 1,
+        "Granary Weevil,on your first draw?!\n\nUnprecedented.\n\nAnd combined with a downed Feed Man, that means...\n\nAnnouncer": 1,
+        "Me hungy. Gomp! All y'all keep quiet! Charlie's flexin'!\n\nLet's see. Finally, I've got the hair of the mother": 1,
+        "a bone of the father. Time to do a rare turbo-boosted personal reading. Self-care mega-blow.\n\nAnnouncer": 1,
+        "Jake. Do it!\n\nJake": 1,
+        "That's too much sandwich! You got to chew!\n\nGah!\n\nIs this my 20s? Dad was right. I've got to fix these \"faults of youth.\"\n\nMy 30s? IIoohost\n\nMy 40s. I'm afraid. Also, I'm naming you \"Gibbon.\"\n\nMy 50s. Midlife crisis. Good luck, Gibbon!\n\nMy 60s. I'm unfamiliar with my changing body.\n\nMy 70s. I begin to lose people around me.\n\nMy 80s. I'm afraid again.\n\nMy 90s. I'm content": 1,
+        "wise!\n\nYeah! Wrinkles!\n\nOh, no! I've been a total wand to my dad! I've got to go help him!\n\nCome on, Jakey, pull it together.\n\nBlah! Win! Win at all costs!\n\nNo! I bury you!\n\nFeel your 20s!\n\nNo, no, no!\n\nCharlie": 1,
+        "Ka-pow!\n\nWhoop!\n\nYeah!\n\nWhoop!\n\nWhat\u2014what?!\n\nDignified!\n\nYeah!\n\nWinners": 1
+      }
+    },
+    "Adventure.Time.S08E15.Do.No.Harm.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E15.Do.No.Harm.txt",
+      "characterIds": ["jake"],
+      "unmatchedSpeakers": {
+        "Both": 1,
+        "This feels pretty right.\n\nGrass Beast": 1
+      }
+    },
+    "Adventure.Time.S08E16.Wheels.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E16.Wheels.txt",
+      "characterIds": ["bronwyn", "jake"],
+      "unmatchedSpeakers": {
+        "Thanks to my team of awesomelytalented sales associates": 1,
+        "also my father, Jake,who's visiting us this year... this has beenthe most successful animal sports/picnicsocializing event ever.\n\nUh, whoo\u2010hoo.\n\nAll": 1,
+        "I can skate way better betterthan you, Jake.\n\nTogether": 1,
+        "The winner is declaredundeniably cool.\n\nThe loser is bannedfrom the skate park.\n\nI can live with that.\n\nWhatever.\n\nDude, you're really gonna banyour own granddaughter\n\nfrom her own skate park?\n\nMan, I hope so.\n\nHmm.\n\nYeah, real cool.\n\nFox": 1
+      }
+    },
+    "Adventure.Time.S08E17.High.Strangeness.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E17.High.Strangeness.txt",
+      "characterIds": ["mr-pig", "tree-trunks"],
+      "unmatchedSpeakers": {
+        "Oh, it's you. Meh. Meh.\n\n(SLOW MOTION) Hi, everyone! My babies!\n\n(POWER SAW WHIRRING) (CRICKETS CHIRPING)\n\nMashed Potato? Pie Pie?\n\n(SNORING) (SNORING LIGHTLY)\n\nTree Trunks": 1,
+        "Hey, where'd you go?\n\nTree Trunks": 1,
+        "All right, sweetie. Thank you. (SMOOCHES) You gonna come with me to Princess Bubblegum's fireworks show tomorrow?\n\nTree Trunks": 1,
+        "Science rules! Here's some proof.\n\n(CAMERA SHUTTER CLICKING)\n\nI'm doing the right thing.\n\n(WARBLING) Free fireworks! Right! Here we go!\n\n(APPLAUSE)\n\n(WHIR!)\n\n(WHISTLE!) (LAUGHING)\n\nWhoa-ho-ho-ho! Whoa! Whoa-ho-ho!\n\nMr. Pig": 1,
+        "What?\n\nHow did you keep your probes out of my star children.\n\nTree Trunks, you don't know what you're talking about.\n\nDon't you condescend to me, you false idol. You probed the wrong famiglia! (TWINKLE!) Wake up. The fireworks show is a secret space war. Get your goo out of my UFO.\n\nDude, this town is full of kooks.\n\nSave the galactic chitlins!\n\nOh!\n\nMeet Starchy in that alley over there.\n\nCacaw! Cacaw!\n\nI'll just ask this duck.\n\nExcuse me, but Don't be alarmed. I am the disembodied voice of the people,": 1,
+        "I have witnessed your fire.\n\nIf given the opportunity, would you lead a small group of resistance fighters straight into the hornet's den?\n\nYou bet your wet booty.\n\nBehold! It's me, Starchy!\n\nOh. (WHIR!)\n\nBoth": 1,
+        "Starchy always screams.\n\nThis is very elaborate!\n\nHello, everyone. We have a new member with us here tonight. Please welcome Train Tracks.\n\nAll": 1,
+        "Veritas Brigade!\n\nTrain Tracks has her own incredible story to tell, so let's let her talk.\n\nHi, Train Tracks, I am a conduit for an alien entity known as Booshy. There is a 50/50 chance that Booshy will speak through me during this meeting.\n\n(GASPS)\n\nOh, my gosh, it's happening.\n\n(GRUNTING) I love when Booshy shows up.\n\nF-F-F (DEEP VOICE) It's Booshy. Hello!\n\nAll": 1,
+        "On my planet, we speak in colors instead of words.\n\nAw, stuff it, Booshy. We've got a real experiencer in our midst.\n\n(CLICKING TONGUE)\n\nDo y'all have any guns?\n\nNope.\n\nRaaah! I don't have time for campfire stories. I'm a mother of six,": 1,
+        "they're in trouble because Princess Bubblegum's probing them. Will you help me raise a ruckus?\n\nAll": 1,
+        "What in the-- Oh, my gracious. A full-scale galactic invasion? Well, let's see how well you fly without your thing. Aaaah! (WHIR!)\n\nOh, good night! You're the devil's hot little helpers. Come get extinguished!\n\nPrincess Bubblegum": 1,
+        "Girl, you just crossed the big line! Well, this is the people's justi-i-i Holy! i-i-ice.\n\n(SLOW MOTION) What should I do?\n\nBooshy's only prison is this wicked planet.\n\nYeah, well, join the club.\n\n(WHIR!)\n\n(SLOW MOTION) What? Tree Trunks! What is this place?\n\nYou already know.\n\n(GASPS)\n\nSee? They refuse to fight back.\n\n(RETCHING) (GRUNTS)\n\nWhat? What?! What?!!\n\nSee, I told you.\n\nWhat?!\n\nSpace men.\n\nPrincess Bubblegum": 1
+      }
+    },
+    "Adventure.Time.S08E19.Jelly.Beans.Have.Power.txt": {
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E19.Jelly.Beans.Have.Power.txt",
+      "characterIds": [],
+      "unmatchedSpeakers": {
+        "Run, Skibbles!\n\nAll": 1,
+        "Man": 1,
+        "Some of us have to work tomorrow!\n\nCategory": 1,
+        "Category": 1
+      }
+    },
     "Adventure.Time.S08E20.The.Invitation.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E20.The.Invitation.txt",
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E20.The.Invitation.txt",
       "characterIds": [
         "bmo",
         "charlie",
@@ -3959,11 +3304,8 @@
       }
     },
     "Adventure.Time.S08E21.Whipple.the.Happy.Dragon.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E21.Whipple.the.Happy.Dragon.txt",
-      "characterIds": [
-        "bmo",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E21.Whipple.the.Happy.Dragon.txt",
+      "characterIds": ["bmo", "jake"],
       "unmatchedSpeakers": {
         "So...if that's where we started\n\nand this is the water\n\nand this is where the humans are,\n\nthen we must be aroooound...\n\nhere.\n\nJake": 1,
         "And, voil\u00e0! We got a course \u2010\u2010\n\nstraight through the Sea of Sure Death.\n\nSusan, we've got a course!\n\nWhoo!\n\nBoth": 1,
@@ -3984,12 +3326,8 @@
       }
     },
     "Adventure.Time.S08E22.Mysterious.Island.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E22.Mysterious.Island.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E22.Mysterious.Island.txt",
+      "characterIds": ["bmo", "finn", "jake"],
       "unmatchedSpeakers": {
         "Bear": 4,
         "Alva": 16,
@@ -3999,7 +3337,7 @@
       }
     },
     "Adventure.Time.S08E23.Imaginary.Resources.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E23.Imaginary.Resources.txt",
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E23.Imaginary.Resources.txt",
       "characterIds": [],
       "unmatchedSpeakers": {
         "Huh.Bold claim.\n\nDo it.\n\nBoth": 1,
@@ -4007,14 +3345,8 @@
       }
     },
     "Adventure.Time.S08E24.Hide.and.Seek.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E24.Hide.and.Seek.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "minerva-campbell",
-        "susan-strong"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E24.Hide.and.Seek.txt",
+      "characterIds": ["bmo", "finn", "jake", "minerva-campbell", "susan-strong"],
       "unmatchedSpeakers": {
         "Dr. Gross": 12,
         "Seekers": 2,
@@ -4027,10 +3359,8 @@
       }
     },
     "Adventure.Time.S08E25.Min.and.Marty.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E25.Min.and.Marty.txt",
-      "characterIds": [
-        "minerva-campbell"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E25.Min.and.Marty.txt",
+      "characterIds": ["minerva-campbell"],
       "unmatchedSpeakers": {
         "What's happening?\nAre we being arrested?\n\nDon't worry, ladies. I'll get\nyou to your senior swim class.\n\nTOGETHER": 1,
         "MAN": 1,
@@ -4040,14 +3370,8 @@
       }
     },
     "Adventure.Time.S08E26.Helpers.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E26.Helpers.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "jake",
-        "minerva-campbell",
-        "susan-strong"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E26.Helpers.txt",
+      "characterIds": ["bmo", "finn", "jake", "minerva-campbell", "susan-strong"],
       "unmatchedSpeakers": {
         "Citizen": 5,
         "Kid": 3,
@@ -4061,10 +3385,8 @@
       }
     },
     "Adventure.Time.S08E27.The.Light.Cloud.txt": {
-      "path": "transcripts/Adventure Time/Season 08/Adventure.Time.S08E27.The.Light.Cloud.txt",
-      "characterIds": [
-        "finn"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 08\\Adventure.Time.S08E27.The.Light.Cloud.txt",
+      "characterIds": ["finn"],
       "unmatchedSpeakers": {
         "Huh? Huh?\n \n\nThe guardian!\n\nOh, no!\n\nWe never should've left the island!\n\nNow we die!\n\nMinerva": 1,
         "Always.\n\nMinerva bot, please show him today\u2019s specials.\n \n\nMinerva bot": 1,
@@ -4076,7 +3398,7 @@
       }
     },
     "Adventure.Time.S09E01.Orb.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E01.Orb.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E01.Orb.txt",
       "characterIds": [],
       "unmatchedSpeakers": {
         "I'm flying!\n\nNo more walking for this guy.\n\nYou hear that dudes?\n\nYou're retired.\n\nJust gonna float around\nlike a chubby bat.\n\nWater Nymph": 1,
@@ -4087,14 +3409,18 @@
       }
     },
     "Adventure.Time.S09E02.Skyhooks.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E02.Skyhooks.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E02.Skyhooks.txt",
       "characterIds": [
         "betty-grof",
         "bmo",
         "finn",
+        "flame-princess",
         "gunter",
         "ice-king",
         "jake",
+        "lemongrab",
+        "lumpy-space-princess",
+        "marceline",
         "mr-pig",
         "princess-bubblegum",
         "shelby",
@@ -4103,12 +3429,8 @@
       ],
       "unmatchedSpeakers": {
         "Gummy Fish": 1,
-        "Fun": 5,
-        "Nectr": 2,
-        "Lemonpink": 5,
         "Candies": 2,
         "Finn, Jake,": 2,
-        "Marshmaline": 5,
         "Life-Giving Magus": 1,
         "Door": 1,
         "Bogo": 1,
@@ -4117,15 +3439,8 @@
       }
     },
     "Adventure.Time.S09E03.Bespoken.For.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E03.Bespoken.For.txt",
-      "characterIds": [
-        "betty-grof",
-        "finn",
-        "gunter",
-        "ice-king",
-        "jake",
-        "patience-st-pim"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E03.Bespoken.For.txt",
+      "characterIds": ["betty-grof", "finn", "gunter", "ice-king", "jake", "patience-st-pim"],
       "unmatchedSpeakers": {
         "Ancient Sleeping Magi of Life Giving": 12,
         "Male voice": 1,
@@ -4134,7 +3449,7 @@
       }
     },
     "Adventure.Time.S09E04.Winter.Light.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E04.Winter.Light.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E04.Winter.Light.txt",
       "characterIds": [],
       "unmatchedSpeakers": {
         "Okay, fellas.\n\nUsing these blueprints I acquired,\n\nwe're gonna take down Patient St. Pim\n\nand rescue my new pal, Weird Lady.\n\nBut first, we have to crack through\n\nthe ice dome that covers the land,\n\navoid the Ice Kingdom peeps\n\nwho have all been turned into vicious ice mutants,\n\nand sneak into the ice fortress without being ice\u2010detected.\n\nWe'll enter via the sewer line.\n\nSo, that's the only way in": 1,
@@ -4144,26 +3459,20 @@
       }
     },
     "Adventure.Time.S09E05.Cloudy.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E05.Cloudy.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E05.Cloudy.txt",
       "characterIds": [],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S09E06.Slime.Central.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E06.Slime.Central.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E06.Slime.Central.txt",
       "characterIds": [],
       "unmatchedSpeakers": {
         "DJ Plop \u2010\u2010DJ\u2010DJ Plop Drops!\n\nGet ready to plop drooop!\n\n\u266a\u266a\n\nJake, look!\n\nThe crown!\n\nHarness me, bro.\n\nGonna get that jewel!\n\nRe\u2010re\u2010re\u2010rejected!\n\nHer slime's tougher than it looks.\n\nLSP": 1
       }
     },
     "Adventure.Time.S09E07.Happy.Warrior.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E07.Happy.Warrior.txt",
-      "characterIds": [
-        "cinnamon-bun",
-        "finn",
-        "gunter",
-        "lady-rainicorn",
-        "lumpy-space-princess"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E07.Happy.Warrior.txt",
+      "characterIds": ["cinnamon-bun", "finn", "gunter", "lady-rainicorn", "lumpy-space-princess"],
       "unmatchedSpeakers": {
         "Fire Kingdom Citizen": 1,
         "Second Citizen": 1,
@@ -4173,7 +3482,7 @@
       }
     },
     "Adventure.Time.S09E08.Hero.Heart.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E08.Hero.Heart.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E08.Hero.Heart.txt",
       "characterIds": [
         "betty-grof",
         "finn",
@@ -4181,33 +3490,24 @@
         "gunter",
         "ice-king",
         "jake",
+        "lemongrab",
         "lumpy-space-princess",
+        "marceline",
         "princess-bubblegum"
       ],
       "unmatchedSpeakers": {
         "Flame Crowd": 3,
-        "Fire Finn": 19,
-        "Fun": 10,
-        "Nectr": 8,
-        "Marshmaline": 2,
         "All": 2
       }
     },
     "Adventure.Time.S09E09.Skyhooks.II.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E09.Skyhooks.II.txt",
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E09.Skyhooks.II.txt",
       "characterIds": [],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.S09E10.Abstract.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E10.Abstract.txt",
-      "characterIds": [
-        "finn",
-        "jake",
-        "jermaine",
-        "joshua",
-        "lady-rainicorn",
-        "root-beer-guy"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E10.Abstract.txt",
+      "characterIds": ["finn", "jake", "jermaine", "joshua", "lady-rainicorn", "root-beer-guy"],
       "unmatchedSpeakers": {
         "Candy Person": 1,
         "James Baxter": 7,
@@ -4216,24 +3516,16 @@
       }
     },
     "Adventure.Time.S09E11.Ketchup.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E11.Ketchup.txt",
-      "characterIds": [
-        "marceline"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E11.Ketchup.txt",
+      "characterIds": ["marceline"],
       "unmatchedSpeakers": {
         "Ha ha! Hey!\n\nHa ha! Hey!\n\n\u266a You don't need a pill to be chill \u266a\n\n\u266a Just have a dill pickle \u266a\n\n\u266a Go get tickled \u266a\n\n\u266a And do not kill \u266a\n\nHey, my page!\n\n\u266a I'm gonna go pee \u266a\n\n\u266a Sorry \u266a\n\nBut one day, a mysterious, cold fart\n\nbrought the evil blue tranch into town.\n\nHa\u2010ha!\n\nHey, there!\n\nHi. You seem like you'd be into fulfilling\n\nyour evolutionary potential by becoming a potato\u2010head.\n\nAm I right or am I right?\n\nRemember that clocks were illegal in Weekend City.\n\nWell, today's your lucky day...\n\n'cause I'm offering this magic fertilizer.\n\nWhoo!\n\nMarceline": 1,
         "I'll never get these normies\n\nto understand what they're missing.\n\nTo be pure potato.\n\nPure tattoo.\n\nMarceline": 1
       }
     },
     "Adventure.Time.S09E12.Fionna.and.Cake.and.Fionna.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E12.Fionna.and.Cake.and.Fionna.txt",
-      "characterIds": [
-        "cake",
-        "fionna",
-        "gunter",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E12.Fionna.and.Cake.and.Fionna.txt",
+      "characterIds": ["cake", "fionna", "gunter", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Audience Member": 2,
         "Woman": 34,
@@ -4244,14 +3536,8 @@
       }
     },
     "Adventure.Time.S09E13.Whispers.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E13.Whispers.txt",
-      "characterIds": [
-        "bmo",
-        "fern",
-        "finn",
-        "sweet-p",
-        "the-lich"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E13.Whispers.txt",
+      "characterIds": ["bmo", "fern", "finn", "sweet-p", "the-lich"],
       "unmatchedSpeakers": {
         "Fox": 1,
         "Lich Hand": 5,
@@ -4260,33 +3546,42 @@
       }
     },
     "Adventure.Time.S09E14.Three.Buckets.txt": {
-      "path": "transcripts/Adventure Time/Season 09/Adventure.Time.S09E14.Three.Buckets.txt",
-      "characterIds": [
-        "bmo",
-        "fern",
-        "finn",
-        "gumbald",
-        "jake",
-        "neptr",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 09\\Adventure.Time.S09E14.Three.Buckets.txt",
+      "characterIds": ["bmo", "fern", "finn", "gumbald", "jake", "neptr", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Candy Children": 1
       }
     },
+    "Adventure.Time.S10E01.The.Wild.Hunt.txt": {
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E01.The.Wild.Hunt.txt",
+      "characterIds": ["finn", "huntress-wizard", "jake", "princess-bubblegum"],
+      "unmatchedSpeakers": {
+        "Right Guard": 7,
+        "Left Guard": 8,
+        "Both guards": 1,
+        "Banana Guard": 4,
+        "Fern face": 6,
+        "Banana Guards": 1,
+        "Another Banana Guard": 1,
+        "All": 1,
+        "Another Guard": 1,
+        "Mysterious character": 1
+      }
+    },
+    "Adventure.Time.S10E02.Always.BMO.Closing.txt": {
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E02.Always.BMO.Closing.txt",
+      "characterIds": ["bmo", "finn", "gumbald", "ice-king", "jake", "mr-pig", "tree-trunks"],
+      "unmatchedSpeakers": {}
+    },
     "Adventure.Time.S10E03.Son.of.Rap.Bear.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E03.Son.of.Rap.Bear.txt",
-      "characterIds": [
-        "finn",
-        "flame-princess",
-        "neptr"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E03.Son.of.Rap.Bear.txt",
+      "characterIds": ["finn", "flame-princess", "neptr"],
       "unmatchedSpeakers": {
         "Toronto": 1
       }
     },
     "Adventure.Time.S10E04.Bonnibel.Bubblegum.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E04.Bonnibel.Bubblegum.txt",
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E04.Bonnibel.Bubblegum.txt",
       "characterIds": [
         "bmo",
         "chicle",
@@ -4312,7 +3607,7 @@
       }
     },
     "Adventure.Time.S10E05.Seventeen.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E05.Seventeen.txt",
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E05.Seventeen.txt",
       "characterIds": [
         "bmo",
         "finn",
@@ -4334,8 +3629,22 @@
         "Finn at same time": 1
       }
     },
+    "Adventure.Time.S10E06.Ring.of.Fire.txt": {
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E06.Ring.of.Fire.txt",
+      "characterIds": ["king-of-ooo", "mr-pig", "sweet-p", "tree-trunks"],
+      "unmatchedSpeakers": {
+        "Randy": 20,
+        "Cookie": 3,
+        "Randy's father": 1,
+        "Mr. Faidutti": 1,
+        "Crew member": 1,
+        "Danny": 6,
+        "Crew members": 1,
+        "Wyatt": 11
+      }
+    },
     "Adventure.Time.S10E07.Marcy.&.Hunson.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E07.Marcy.&.Hunson.txt",
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E07.Marcy.&.Hunson.txt",
       "characterIds": [
         "finn",
         "hunson-abadeer",
@@ -4354,14 +3663,21 @@
         "Marcline": 1
       }
     },
+    "Adventure.Time.S10E08.The.First.Investigation.txt": {
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E08.The.First.Investigation.txt",
+      "characterIds": ["finn", "jake", "joshua", "kim-kil-whan", "margaret"],
+      "unmatchedSpeakers": {
+        "Rennie": 5,
+        "Baby Jake": 4,
+        "Mole Man": 1,
+        "Woman": 1,
+        "Clock Bear": 1,
+        "Shape-shifter": 1
+      }
+    },
     "Adventure.Time.S10E09.Blenanas.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E09.Blenanas.txt",
-      "characterIds": [
-        "bmo",
-        "finn",
-        "ice-king",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E09.Blenanas.txt",
+      "characterIds": ["bmo", "finn", "ice-king", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Candy people": 3,
         "Kenneth": 1,
@@ -4370,11 +3686,8 @@
       }
     },
     "Adventure.Time.S10E10.Jake.the.Starchild.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E10.Jake.the.Starchild.txt",
-      "characterIds": [
-        "finn",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E10.Jake.the.Starchild.txt",
+      "characterIds": ["finn", "jake"],
       "unmatchedSpeakers": {
         "Warren Ampersand": 43,
         "Alien": 1,
@@ -4384,15 +3697,8 @@
       }
     },
     "Adventure.Time.S10E11.Temple.of.Mars.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E11.Temple.of.Mars.txt",
-      "characterIds": [
-        "betty-grof",
-        "finn",
-        "gunter",
-        "jake",
-        "jermaine",
-        "magic-man"
-      ],
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E11.Temple.of.Mars.txt",
+      "characterIds": ["betty-grof", "finn", "gunter", "jake", "jermaine", "magic-man"],
       "unmatchedSpeakers": {
         "Guard Man": 2,
         "Fern frog": 1,
@@ -4400,7 +3706,7 @@
       }
     },
     "Adventure.Time.S10E12.Gumbaldia.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E12.Gumbaldia.txt",
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E12.Gumbaldia.txt",
       "characterIds": [
         "chicle",
         "fern",
@@ -4424,7 +3730,7 @@
       }
     },
     "Adventure.Time.S10E13.Come.Along.With.Me.txt": {
-      "path": "transcripts/Adventure Time/Season 10/Adventure.Time.S10E13.Come.Along.With.Me.txt",
+      "path": "transcripts\\Adventure Time\\Season 10\\Adventure.Time.S10E13.Come.Along.With.Me.txt",
       "characterIds": [
         "beth",
         "betty-grof",
@@ -4473,10 +3779,8 @@
       }
     },
     "Adventure.Time.Distant.Lands.S01E01.BMO.txt": {
-      "path": "transcripts/Adventure Time Distant Lands/Season 01/Adventure.Time.Distant.Lands.S01E01.BMO.txt",
-      "characterIds": [
-        "bmo"
-      ],
+      "path": "transcripts\\Adventure Time Distant Lands\\Season 01\\Adventure.Time.Distant.Lands.S01E01.BMO.txt",
+      "characterIds": ["bmo"],
       "unmatchedSpeakers": {
         "Football": 11,
         "Y4": 20,
@@ -4515,7 +3819,7 @@
       }
     },
     "Adventure.Time.Distant.Lands.S01E02.Obsidian.txt": {
-      "path": "transcripts/Adventure Time Distant Lands/Season 01/Adventure.Time.Distant.Lands.S01E02.Obsidian.txt",
+      "path": "transcripts\\Adventure Time Distant Lands\\Season 01\\Adventure.Time.Distant.Lands.S01E02.Obsidian.txt",
       "characterIds": [
         "choose-goose",
         "elise",
@@ -4567,7 +3871,7 @@
       }
     },
     "Adventure.Time.Distant.Lands.S01E03.Together.Again.txt": {
-      "path": "transcripts/Adventure Time Distant Lands/Season 01/Adventure.Time.Distant.Lands.S01E03.Together.Again.txt",
+      "path": "transcripts\\Adventure Time Distant Lands\\Season 01\\Adventure.Time.Distant.Lands.S01E03.Together.Again.txt",
       "characterIds": [
         "choose-goose",
         "finn",
@@ -4579,6 +3883,7 @@
         "margaret",
         "mr-fox",
         "mr-pig",
+        "new-death",
         "peppermint-butler",
         "the-lich",
         "tiffany",
@@ -4595,7 +3900,6 @@
         "Shoko": 2,
         "Undertaker #1": 5,
         "Undertaker #2": 4,
-        "New Death": 45,
         "Mr": 1,
         "Undertaker": 5,
         "Three-eyed, bird-like creature": 1,
@@ -4608,13 +3912,8 @@
       }
     },
     "Adventure.Time.Distant.Lands.S01E04.Wizard.City.txt": {
-      "path": "transcripts/Adventure Time Distant Lands/Season 01/Adventure.Time.Distant.Lands.S01E04.Wizard.City.txt",
-      "characterIds": [
-        "abracadaniel",
-        "choose-goose",
-        "peppermint-butler",
-        "princess-bubblegum"
-      ],
+      "path": "transcripts\\Adventure Time Distant Lands\\Season 01\\Adventure.Time.Distant.Lands.S01E04.Wizard.City.txt",
+      "characterIds": ["abracadaniel", "choose-goose", "peppermint-butler", "princess-bubblegum"],
       "unmatchedSpeakers": {
         "Driver": 1,
         "Con Wizard": 12,
@@ -4678,7 +3977,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E01.Fionna.Campbell.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E01.Fionna.Campbell.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E01.Fionna.Campbell.txt",
       "characterIds": [],
       "unmatchedSpeakers": {
         "Hold on, citizens!\n\nFionna": 1,
@@ -4700,10 +3999,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E02.Simon.Petrikov.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E02.Simon.Petrikov.txt",
-      "characterIds": [
-        "ice-king"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E02.Simon.Petrikov.txt",
+      "characterIds": ["ice-king"],
       "unmatchedSpeakers": {
         "Man": 1,
         "Woman": 1,
@@ -4712,13 +4009,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E03.Cake.the.Cat.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E03.Cake.the.Cat.txt",
-      "characterIds": [
-        "finn",
-        "fionna",
-        "ice-king",
-        "jake"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E03.Cake.the.Cat.txt",
+      "characterIds": ["finn", "fionna", "ice-king", "jake"],
       "unmatchedSpeakers": {
         "Both": 1,
         "Fionna?\n\nCake": 1,
@@ -4726,23 +4018,15 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E04.Prismo.the.Wishmaster.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E04.Prismo.the.Wishmaster.txt",
-      "characterIds": [
-        "betty-grof",
-        "cake",
-        "fionna",
-        "ice-king",
-        "marceline",
-        "prismo",
-        "scarab"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E04.Prismo.the.Wishmaster.txt",
+      "characterIds": ["betty-grof", "cake", "fionna", "ice-king", "marceline", "prismo", "scarab"],
       "unmatchedSpeakers": {
         "Sammy": 4,
         "Wyatt": 4
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E05.Destiny.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E05.Destiny.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E05.Destiny.txt",
       "characterIds": [
         "cake",
         "finn",
@@ -4775,13 +4059,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E06.The.Winter.King.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E06.The.Winter.King.txt",
-      "characterIds": [
-        "fionna",
-        "gary-prince",
-        "ice-king",
-        "winter-king"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E06.The.Winter.King.txt",
+      "characterIds": ["fionna", "gary-prince", "ice-king", "winter-king"],
       "unmatchedSpeakers": {
         "Yoink. Whoa! Whoa!\n\nAah! Cake": 1,
         "Where you goin'?\n\nI need to run a ton of\nerrands": 1,
@@ -4796,21 +4075,13 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E07.The.Star.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E07.The.Star.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E07.The.Star.txt",
       "characterIds": [],
       "unmatchedSpeakers": {}
     },
     "Adventure.Time.Fionna.and.Cake.S01E08.Jerry.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E08.Jerry.txt",
-      "characterIds": [
-        "betty-grof",
-        "bmo",
-        "cake",
-        "fionna",
-        "gunter",
-        "ice-king",
-        "scarab"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E08.Jerry.txt",
+      "characterIds": ["betty-grof", "bmo", "cake", "fionna", "gunter", "ice-king", "scarab"],
       "unmatchedSpeakers": {
         "Orbo": 7,
         "Past Simon": 25,
@@ -4822,7 +4093,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E09.Casper.and.Nova.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E09.Casper.and.Nova.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E09.Casper.and.Nova.txt",
       "characterIds": [
         "beth",
         "cake",
@@ -4847,7 +4118,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S01E10.Cheers.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 01/Adventure.Time.Fionna.and.Cake.S01E10.Cheers.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 01\\Adventure.Time.Fionna.and.Cake.S01E10.Cheers.txt",
       "characterIds": [
         "beth",
         "cake",
@@ -4880,7 +4151,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E01.The.Hare.and.the.Sprout.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E01.The.Hare.and.the.Sprout.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E01.The.Hare.and.the.Sprout.txt",
       "characterIds": [
         "fionna",
         "gary-prince",
@@ -4901,7 +4172,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E02.The.Crocodile.Who.Bit.a.Log.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E02.The.Crocodile.Who.Bit.a.Log.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E02.The.Crocodile.Who.Bit.a.Log.txt",
       "characterIds": [
         "cake",
         "finn",
@@ -4927,7 +4198,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E03.The.Lion.of.Embers.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E03.The.Lion.of.Embers.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E03.The.Lion.of.Embers.txt",
       "characterIds": [
         "cake",
         "cosmic-owl",
@@ -4955,11 +4226,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E04.The.Cat.Who.Tipped.the.Box.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E04.The.Cat.Who.Tipped.the.Box.txt",
-      "characterIds": [
-        "fionna",
-        "prismo"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E04.The.Cat.Who.Tipped.the.Box.txt",
+      "characterIds": ["fionna", "prismo"],
       "unmatchedSpeakers": {
         "Narrator": 16,
         "Woman": 16,
@@ -4967,14 +4235,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E05.The.Butterfly.and.the.River.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E05.The.Butterfly.and.the.River.txt",
-      "characterIds": [
-        "cake",
-        "fionna",
-        "gary-prince",
-        "huntress-wizard",
-        "marshall-lee"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E05.The.Butterfly.and.the.River.txt",
+      "characterIds": ["cake", "fionna", "gary-prince", "huntress-wizard", "marshall-lee"],
       "unmatchedSpeakers": {
         "Mom": 3,
         "Woman": 5,
@@ -4986,7 +4248,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E06.The.Bird.in.the.Clock.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E06.The.Bird.in.the.Clock.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E06.The.Bird.in.the.Clock.txt",
       "characterIds": [
         "cake",
         "cosmic-owl",
@@ -5005,11 +4267,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E07.The.Wolves.Who.Wandered.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E07.The.Wolves.Who.Wandered.txt",
-      "characterIds": [
-        "fionna",
-        "starchy"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E07.The.Wolves.Who.Wandered.txt",
+      "characterIds": ["fionna", "starchy"],
       "unmatchedSpeakers": {
         "Spirit": 8,
         "Fennel": 4,
@@ -5019,15 +4278,8 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E08.The.Insect.that.Sang.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E08.The.Insect.that.Sang.txt",
-      "characterIds": [
-        "cake",
-        "fionna",
-        "huntress-wizard",
-        "ice-king",
-        "marshall-lee",
-        "scarab"
-      ],
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E08.The.Insect.that.Sang.txt",
+      "characterIds": ["cake", "fionna", "huntress-wizard", "ice-king", "marshall-lee", "scarab"],
       "unmatchedSpeakers": {
         "Narrator": 8,
         "Hana": 6,
@@ -5040,7 +4292,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E09.The.Worm.and.his.Orchard.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E09.The.Worm.and.his.Orchard.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E09.The.Worm.and.his.Orchard.txt",
       "characterIds": [
         "cake",
         "cosmic-owl",
@@ -5060,7 +4312,7 @@
       }
     },
     "Adventure.Time.Fionna.and.Cake.S02E10.The.Bear.and.the.Rose.txt": {
-      "path": "transcripts/Adventure Time Fionna and Cake/Season 02/Adventure.Time.Fionna.and.Cake.S02E10.The.Bear.and.the.Rose.txt",
+      "path": "transcripts\\Adventure Time Fionna and Cake\\Season 02\\Adventure.Time.Fionna.and.Cake.S02E10.The.Bear.and.the.Rose.txt",
       "characterIds": [
         "cake",
         "finn",
@@ -5081,26 +4333,26 @@
   "unmatchedSpeakers": {
     "Y5": 94,
     "Cadebra": 85,
-    "Banana Guard": 76,
-    "Woman": 69,
+    "Banana Guard": 83,
+    "Woman": 70,
     "Bufo": 66,
     "Xergiok": 53,
     "Pen": 51,
+    "Man": 51,
     "Lumpy Space Prince": 51,
     "Glassboy": 51,
-    "Man": 49,
     "See-Thru Princess": 49,
     "Vampire King": 48,
     "Ancient Sleeping Magi of Life Giving": 46,
+    "Cookie": 45,
     "Lemongrab 2": 45,
     "Braco": 45,
-    "New Death": 45,
     "Donny": 43,
     "Me-Mow": 43,
     "Warren Ampersand": 43,
-    "Cookie": 42,
     "Jay": 42,
     "Empress": 42,
+    "Lee": 41,
     "Farmworld Finn": 40,
     "Snorlock": 39,
     "Isla de Se\u00f1orita": 38,
@@ -5110,7 +4362,10 @@
     "Colonel Candy Corn": 37,
     "Bubble": 37,
     "Kee-Oth": 37,
+    "Randy": 36,
+    "Wyatt": 36,
     "Tree Witch": 34,
+    "TV": 34,
     "KS-2": 34,
     "Dr. Caledonius": 34,
     "Shoko": 33,
@@ -5122,35 +4377,36 @@
     "Peace Master": 31,
     "Past Betty": 31,
     "Past Simon": 31,
+    "Both": 30,
     "Bird Woman": 30,
     "Cuber": 29,
     "Little Destiny": 29,
     "Penny": 28,
+    "Ethel": 28,
     "Grand Master Wizard": 28,
     "Football": 28,
     "Spader": 28,
     "Party God": 27,
+    "Big Destiny": 27,
     "Davey": 27,
     "Evergreen": 27,
     "MO": 27,
     "Sandy": 27,
     "Blaine": 27,
     "Narrator": 27,
+    "Banana Guards": 26,
+    "Tiny Manticore": 26,
     "Cherry Cream Soda": 26,
     "Toronto": 26,
     "Young Bubblegum": 26,
     "Green Knight": 26,
     "Witch": 25,
-    "Both": 25,
-    "Banana Guards": 25,
-    "Big Destiny": 25,
     "James": 25,
-    "Wyatt": 25,
+    "Farmworld/Ice Finn": 25,
     "Frieda": 25,
     "Bear": 24,
     "Paper Pete": 24,
     "Huge King": 24,
-    "Ethel": 23,
     "Ash": 23,
     "Ron James": 23,
     "Hierophant": 23,
@@ -5160,6 +4416,7 @@
     "Barb": 22,
     "Penguin": 21,
     "Fear Feaster": 21,
+    "Bob": 21,
     "Fight King": 21,
     "Young Marceline": 21,
     "Clarence": 21,
@@ -5168,16 +4425,11 @@
     "Flame Lord": 21,
     "DJ Flame": 21,
     "Mr. Cupcake": 20,
-    "Bob": 20,
     "Phlannel Boxingday": 20,
     "Banana Guard Leader": 20,
     "Y4": 20,
     "Candy People": 19,
     "Red-tie businessman": 19,
-    "Flambo": 19,
-    "Darren": 19,
-    "Fire Finn": 19,
-    "Sir Soda": 19,
-    "Forest Wizard": 18
+    "Flambo": 19
   }
 }

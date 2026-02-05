@@ -199,7 +199,7 @@
     "synopsis": "Finn and Jake search the land of Ooo for a new home after Marceline claims the duo's treehouse as her own.",
     "characterIds": ["finn", "jake", "marceline"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["house-hunting-song"],
     "runtime": 11,
     "tmdbId": 537640,
     "transcriptFile": "Adventure.Time.S01E12.Evicted!.txt"
@@ -439,7 +439,7 @@
       "marceline"
     ],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["fry-song"],
     "runtime": 11,
     "tmdbId": 537669,
     "transcriptFile": "Adventure.Time.S02E01.It.Came.from.the.Nightosphere.txt"
@@ -999,7 +999,7 @@
     "synopsis": "In this gender-swapped episode, Fionna and Cake must battle the evil Ice Queen.",
     "characterIds": ["cake", "finn", "fionna", "ice-king", "prince-gumball"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["oh-fionna"],
     "runtime": 11,
     "tmdbId": 537678,
     "transcriptFile": "Adventure.Time.S03E09.Fionna.and.Cake.txt"
@@ -1014,7 +1014,7 @@
     "synopsis": "Finn and his friends must come together as a genuine band in order to open the gate of the Door Lord and get back their taken items.",
     "characterIds": ["bmo", "finn", "jake", "marceline", "princess-bubblegum"],
     "storylineIds": ["bubbline"],
-    "songIds": [],
+    "songIds": ["im-just-your-problem", "my-best-friends-in-the-world"],
     "runtime": 11,
     "tmdbId": 537679,
     "transcriptFile": "Adventure.Time.S03E10.What.Was.Missing.txt"
@@ -1270,7 +1270,7 @@
     "synopsis": "Jake embarks on a solo mission to help a broken-hearted Finn.",
     "characterIds": ["bmo", "finn", "flame-king", "flame-princess", "jake", "princess-bubblegum"],
     "storylineIds": ["flame-princess-arc"],
-    "songIds": [],
+    "songIds": ["all-gummed-up-inside", "all-warmed-up-inside"],
     "runtime": 11,
     "tmdbId": 537691,
     "transcriptFile": "Adventure.Time.S03E26.Incendium.txt"
@@ -1339,7 +1339,7 @@
     "synopsis": "Tree Trunks is courted by an oinking suitor, but much to Jake's dismay, this interferes with her baking habits.",
     "characterIds": ["cinnamon-bun", "finn", "jake", "mr-pig", "princess-bubblegum", "tree-trunks"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["dream-of-love"],
     "runtime": 10,
     "tmdbId": 537696,
     "transcriptFile": "Adventure.Time.S04E04.Dream.of.Love.txt"
@@ -1527,7 +1527,7 @@
     "synopsis": "Princess Bubblegum may be jealous when Finn start hanging out with Flame Princess.",
     "characterIds": ["bmo", "finn", "flame-princess", "jake", "princess-bubblegum"],
     "storylineIds": ["flame-princess-arc"],
-    "songIds": [],
+    "songIds": ["bacon-pancakes"],
     "runtime": 11,
     "tmdbId": 537708,
     "transcriptFile": "Adventure.Time.S04E16.Burning.Low.txt"
@@ -1679,7 +1679,7 @@
     "synopsis": "The Ice King and Marceline bond over song and memories.",
     "characterIds": ["finn", "gunter", "ice-king", "jake", "marceline"],
     "storylineIds": ["simon-and-marcy"],
-    "songIds": [],
+    "songIds": ["remember-you"],
     "runtime": 11,
     "tmdbId": 537718,
     "transcriptFile": "Adventure.Time.S04E25.I.Remember.You.txt"
@@ -1888,7 +1888,7 @@
       "wildberry-princess"
     ],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["bad-little-boy", "good-little-girl"],
     "runtime": 11,
     "tmdbId": 537729,
     "transcriptFile": "Adventure.Time.S05E11.Bad.Little.Boy.txt"
@@ -2310,7 +2310,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 537749
+    "tmdbId": 537749,
+    "transcriptFile": "Adventure.Time.S05E36.Dungeon.Train.txt"
   },
   {
     "id": "adventure-time-s05e37",
@@ -2535,7 +2536,7 @@
     "synopsis": "Tired of all of Princess Bubblegum's talk about responsibility, Lemonhope yearns for true freedom.",
     "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
     "storylineIds": ["lemongrab-saga"],
-    "songIds": [],
+    "songIds": ["lemonhope-song"],
     "runtime": 11,
     "tmdbId": 972812,
     "transcriptFile": "Adventure.Time.S05E50.Lemonhope.Part.1.txt"
@@ -2550,7 +2551,7 @@
     "synopsis": "Though Lemonhope finds refuge from the desert with monster hunter Phlannel Boxingday, he might not be able to escape the ghosts of his past.",
     "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
     "storylineIds": ["lemongrab-saga"],
-    "songIds": [],
+    "songIds": ["lemonhope-song"],
     "runtime": 11,
     "tmdbId": 972813,
     "transcriptFile": "Adventure.Time.S05E51.Lemonhope.Part.2.txt"
@@ -2670,7 +2671,7 @@
     "synopsis": "Finn and Jake learn about the food chain by becoming the food chain!",
     "characterIds": ["finn", "jake", "princess-bubblegum"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["food-chain"],
     "runtime": 11,
     "tmdbId": 989714,
     "transcriptFile": "Adventure.Time.S06E07.Food.Chain.txt"
@@ -2874,7 +2875,7 @@
     "synopsis": "Following an ally's memorial service, Jake begins acting strangely.",
     "characterIds": ["finn", "jake", "prismo", "the-lich"],
     "storylineIds": ["prismo-cosmic"],
-    "songIds": [],
+    "songIds": ["bacon-pancakes"],
     "runtime": 11,
     "tmdbId": 1023683,
     "transcriptFile": "Adventure.Time.S06E19.Is.That.You.txt"
@@ -3088,7 +3089,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1046893
+    "tmdbId": 1046893,
+    "transcriptFile": "Adventure.Time.S06E32.Friends.Forever.txt"
   },
   {
     "id": "adventure-time-s06e33",
@@ -3193,7 +3195,8 @@
     "storylineIds": ["simon-and-marcy"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1066865
+    "tmdbId": 1066865,
+    "transcriptFile": "Adventure.Time.S06E38.You.Forgot.Your.Floaties.txt"
   },
   {
     "id": "adventure-time-s06e39",
@@ -3391,7 +3394,7 @@
     "synopsis": "As the sun rises on her last day, Marceline recalls her long extraordinary life.",
     "characterIds": ["finn", "ice-king", "marceline"],
     "storylineIds": ["stakes"],
-    "songIds": [],
+    "songIds": ["everything-stays"],
     "runtime": 11,
     "tmdbId": 1134935,
     "transcriptFile": "Adventure.Time.S07E07.Everything.Stays.txt"
@@ -3613,7 +3616,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1156212
+    "tmdbId": 1156212,
+    "transcriptFile": "Adventure.Time.S07E20.Bad.Jubies.txt"
   },
   {
     "id": "adventure-time-s07e21",
@@ -3656,7 +3660,8 @@
     "storylineIds": ["simon-and-marcy", "prismo-cosmic"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1156215
+    "tmdbId": 1156215,
+    "transcriptFile": "Adventure.Time.S07E23.Crossover.txt"
   },
   {
     "id": "adventure-time-s07e24",
@@ -3752,7 +3757,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312842
+    "tmdbId": 2312842,
+    "transcriptFile": "Adventure.Time.S08E03.Beyond.the.Grotto.txt"
   },
   {
     "id": "adventure-time-s08e04",
@@ -3766,7 +3772,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312843
+    "tmdbId": 2312843,
+    "transcriptFile": "Adventure.Time.S08E04.Lady.Rainicorn.of.the.Crystal.Dimension.txt"
   },
   {
     "id": "adventure-time-s08e05",
@@ -3850,7 +3857,7 @@
     "synopsis": "Finn hears a mysterious song while judging a Battle of the Bands.",
     "characterIds": ["finn", "marceline", "princess-bubblegum"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["the-music-hole"],
     "runtime": 11,
     "tmdbId": 2312849
   },
@@ -4062,7 +4069,7 @@
     "synopsis": "While exploring futuristic ruins, Susan sees glimpses of a familiar girl.",
     "characterIds": ["bmo", "finn", "jake", "minerva-campbell", "susan-strong"],
     "storylineIds": ["finn-the-human"],
-    "songIds": [],
+    "songIds": ["founders-song"],
     "runtime": 11,
     "tmdbId": 1260531,
     "transcriptFile": "Adventure.Time.S08E24.Hide.and.Seek.txt"
@@ -4382,7 +4389,8 @@
     "storylineIds": ["grass-sword-fern"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1418023
+    "tmdbId": 1418023,
+    "transcriptFile": "Adventure.Time.S10E01.The.Wild.Hunt.txt"
   },
   {
     "id": "adventure-time-s10e02",
@@ -4396,7 +4404,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1418024
+    "tmdbId": 1418024,
+    "transcriptFile": "Adventure.Time.S10E02.Always.BMO.Closing.txt"
   },
   {
     "id": "adventure-time-s10e03",
@@ -4408,7 +4417,7 @@
     "synopsis": "When Flame Princess is coaxed into a battle against Son of Rap Bear, Finn must help.",
     "characterIds": ["finn", "flame-princess", "neptr"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["son-of-rap-bear"],
     "runtime": 11,
     "tmdbId": 1418025,
     "transcriptFile": "Adventure.Time.S10E03.Son.of.Rap.Bear.txt"
@@ -4475,7 +4484,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1418028
+    "tmdbId": 1418028,
+    "transcriptFile": "Adventure.Time.S10E06.Ring.of.Fire.txt"
   },
   {
     "id": "adventure-time-s10e07",
@@ -4494,7 +4504,7 @@
       "princess-bubblegum"
     ],
     "storylineIds": ["bubbline"],
-    "songIds": [],
+    "songIds": ["slow-dance-with-you"],
     "runtime": 11,
     "tmdbId": 1418029,
     "transcriptFile": "Adventure.Time.S10E07.Marcy.&.Hunson.txt"
@@ -4511,7 +4521,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1418030
+    "tmdbId": 1418030,
+    "transcriptFile": "Adventure.Time.S10E08.The.First.Investigation.txt"
   },
   {
     "id": "adventure-time-s10e09",
@@ -4632,7 +4643,7 @@
       "gum-war",
       "future-ooo"
     ],
-    "songIds": [],
+    "songIds": ["time-adventure"],
     "runtime": 44,
     "tmdbId": 1563459,
     "transcriptFile": "Adventure.Time.S10E13.Come.Along.With.Me.txt"
@@ -4647,7 +4658,7 @@
     "synopsis": "BMO travels to a far corner of the galaxy to save its people from a deadly threat.",
     "characterIds": ["bmo"],
     "storylineIds": ["future-ooo"],
-    "songIds": [],
+    "songIds": ["fresh-potatoes"],
     "runtime": 45,
     "tmdbId": 1961665,
     "transcriptFile": "Adventure.Time.Distant.Lands.S01E01.BMO.txt"
@@ -4670,7 +4681,7 @@
       "choose-goose"
     ],
     "storylineIds": ["simon-and-marcy", "bubbline"],
-    "songIds": [],
+    "songIds": ["eternity-with-you", "monster", "red-light", "see-through", "woke-up"],
     "runtime": 45,
     "tmdbId": 1961673,
     "transcriptFile": "Adventure.Time.Distant.Lands.S01E02.Obsidian.txt"
@@ -4719,7 +4730,7 @@
     "synopsis": "Peppermint Butler starts over at Wizard School. When mysterious events cast suspicion on him, can he master the mystic arts in time?",
     "characterIds": ["abracadaniel", "choose-goose", "peppermint-butler", "princess-bubblegum"],
     "storylineIds": ["peppermint-butler-dark"],
-    "songIds": [],
+    "songIds": ["wizard-city-song"],
     "runtime": 50,
     "tmdbId": 1961675,
     "transcriptFile": "Adventure.Time.Distant.Lands.S01E04.Wizard.City.txt"
@@ -4734,7 +4745,7 @@
     "synopsis": "After a disastrous morning, a down-on-her luck Fionna seeks treatment for an out-of-sorts Cake.",
     "characterIds": ["cake", "fionna", "gary-prince", "hunter", "ice-king", "marshall-lee"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["not-myself"],
     "runtime": 26,
     "tmdbId": 4582728,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E01.Fionna.Campbell.txt"
@@ -4757,7 +4768,7 @@
       "root-beer-guy"
     ],
     "storylineIds": ["simon-and-marcy"],
-    "songIds": [],
+    "songIds": ["part-of-the-madness"],
     "runtime": 27,
     "tmdbId": 4591683,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E02.Simon.Petrikov.txt"
@@ -4781,7 +4792,7 @@
       "scarab"
     ],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["cake-on-the-loose"],
     "runtime": 24,
     "tmdbId": 4591684,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E03.Cake.the.Cat.txt"
@@ -4836,7 +4847,7 @@
     "synopsis": "After landing in the Winter Kingdom, Fionna and Simon discover a possible solution.",
     "characterIds": ["cake", "fionna", "ice-king", "winter-king", "gary-prince"],
     "storylineIds": ["simon-and-marcy"],
-    "songIds": [],
+    "songIds": ["baked-with-love", "winter-wonder-world"],
     "runtime": 25,
     "tmdbId": 4591687,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E06.The.Winter.King.txt"
@@ -4873,7 +4884,7 @@
     "synopsis": "Stranded in a desolate wasteland, Fionna, Cake and Simon must resort to desperate measures.",
     "characterIds": ["betty-grof", "bmo", "cake", "fionna", "gunter", "ice-king", "scarab"],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["everything-in-you"],
     "runtime": 26,
     "tmdbId": 4591689,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E08.Jerry.txt"
@@ -5140,7 +5151,7 @@
       "princess-bubblegum"
     ],
     "storylineIds": [],
-    "songIds": [],
+    "songIds": ["transformation"],
     "runtime": 25,
     "tmdbId": 6596779,
     "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E09.The.Worm.and.his.Orchard.txt"
