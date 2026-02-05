@@ -9,10 +9,7 @@ interface SectionCardProps {
 
 export function SectionCard({ to, icon: Icon, title, description }: SectionCardProps) {
   return (
-    <Link
-      to={to}
-      className="parchment-card group rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/50 hover:bg-primary/5"
-    >
+    <Link to={to} className="group rounded-lg border border-border bg-card p-6">
       <Icon className="mb-3 h-8 w-8 text-primary" />
       <h2 className="text-xl font-semibold text-card-foreground transition-colors group-hover:text-primary">
         {title}

@@ -14,12 +14,6 @@ const ALL_THEMES = [
   'simon',
   'lemongrab',
   'prismo',
-  'grasslands',
-  'candy',
-  'ice',
-  'fire',
-  'slime',
-  'nightosphere',
 ];
 
 // Screenshot every theme for visual inspection.
@@ -29,8 +23,9 @@ test('screenshots: capture all themes', async ({ page }) => {
     await page.goto('/themes');
     await page.selectOption('#theme-select', theme);
     await page.locator(`html[data-theme="${theme}"]`).waitFor();
-    await page.locator('[data-testid="theme-preview"]').screenshot({
+    await page.screenshot({
       path: `e2e/screenshots/${theme}.png`,
+      fullPage: true,
     });
   }
 });
@@ -42,10 +37,10 @@ for (const theme of ALL_THEMES) {
     await page.goto('/themes');
     await page.selectOption('#theme-select', theme);
     await page.locator(`html[data-theme="${theme}"]`).waitFor();
+    // Wait for CSS transition-colors (150ms) to settle
+    await page.waitForTimeout(200);
 
-    const results = await new AxeBuilder({ page })
-      .include('[data-testid="theme-preview"]')
-      .analyze();
+    const results = await new AxeBuilder({ page }).analyze();
 
     const summary = results.violations
       .map(

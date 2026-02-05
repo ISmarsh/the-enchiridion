@@ -13,117 +13,79 @@
 @layer base {
   :root {
     /*
-     * Enchiridion site theme — extracted from book cover image
-     * Brown leather, gold trim, parchment pages
+     * Enchiridion site theme — curated from book cover ref images
+     * Brown leather, dark gray clasps, cream parchment pages
      */
-    /* #826552 */
-    --enchiridion-brown: 24 23% 42%;
-    /* #f4b43c */
-    --enchiridion-gold: 39 89% 60%;
-    /* #eee687 */
-    --enchiridion-parchment: 55 75% 73%;
-    /* #ac8c66 */
-    --enchiridion-leather: 33 30% 54%;
-    /* #709ec1 */
-    --enchiridion-sword: 206 40% 60%;
-    /* #50221f */
+    --enchiridion-brown: 30 45% 35%;
+    /* repurposed: dark gray metal clasps (book has no gold trim) */
+    --enchiridion-gold: 0 0% 35%;
+    --enchiridion-parchment: 45 30% 82%;
+    --enchiridion-leather: 25 36% 29%;
+    /* muted purple from sword/shields illustration */
+    --enchiridion-sword: 270 20% 55%;
     --enchiridion-gem: 4 44% 22%;
-    /* #11100d */
-    --enchiridion-dark: 45 13% 6%;
+    --enchiridion-dark: 18 43% 10%;
 
     /*
-     * Character palettes — extracted via colorthief from Wikimedia Commons
-     * reference images. Each has primary, secondary, accent, dark.
+     * Character palettes — curated from ref image visual analysis.
+     * Environment colors removed, only character design colors retained.
+     * Each has primary, secondary, accent, dark.
      */
 
-    --finn-primary: 191 100% 34%;
-    --finn-secondary: 0 0% 100%;
-    --finn-accent: 152 38% 52%;
-    --finn-dark: 195 4% 20%;
+    --finn-primary: 198 96% 41%;
+    --finn-secondary: 205 95% 31%;
+    --finn-accent: 94 44% 36%;
+    --finn-dark: 0 0% 4%;
 
-    --jake-primary: 50 71% 66%;
-    --jake-secondary: 45 65% 42%;
-    --jake-accent: 130 42% 37%;
-    --jake-dark: 41 45% 29%;
+    --jake-primary: 42 95% 57%;
+    --jake-secondary: 44 97% 64%;
+    --jake-accent: 39 82% 27%;
+    --jake-dark: 30 56% 7%;
 
-    --bubblegum-primary: 326 85% 79%;
-    --bubblegum-secondary: 321 69% 49%;
-    --bubblegum-accent: 47 89% 51%;
-    --bubblegum-dark: 339 20% 25%;
+    --bubblegum-primary: 319 93% 68%;
+    --bubblegum-secondary: 311 97% 49%;
+    --bubblegum-accent: 47 86% 56%;
+    --bubblegum-dark: 325 29% 12%;
 
-    --marceline-primary: 196 70% 61%;
-    --marceline-secondary: 0 0% 2%;
-    --marceline-accent: 203 57% 40%;
-    --marceline-dark: 0 0% 2%;
+    --marceline-primary: 347 73% 40%;
+    --marceline-secondary: 234 58% 33%;
+    --marceline-accent: 343 22% 28%;
+    --marceline-dark: 233 36% 5%;
 
-    --bmo-primary: 180 51% 45%;
-    --bmo-secondary: 58 74% 44%;
-    --bmo-accent: 165 29% 64%;
-    --bmo-dark: 0 0% 2%;
+    --bmo-primary: 181 41% 40%;
+    --bmo-secondary: 143 45% 72%;
+    --bmo-accent: 358 77% 52%;
+    --bmo-dark: 193 36% 5%;
 
-    --iceking-primary: 225 73% 57%;
-    --iceking-secondary: 196 59% 79%;
-    --iceking-accent: 51 100% 50%;
-    --iceking-dark: 240 47% 20%;
+    --iceking-primary: 237 91% 38%;
+    --iceking-secondary: 0 0% 92%;
+    --iceking-accent: 59 90% 52%;
+    --iceking-dark: 237 91% 20%;
 
-    --flame-primary: 24 100% 50%;
-    --flame-secondary: 16 100% 50%;
-    --flame-accent: 51 100% 50%;
-    --flame-dark: 12 56% 34%;
+    --flame-primary: 14 97% 52%;
+    --flame-secondary: 31 94% 53%;
+    --flame-accent: 41 97% 52%;
+    --flame-dark: 0 91% 44%;
 
-    --lsp-primary: 260 60% 65%;
-    --lsp-secondary: 288 59% 58%;
-    --lsp-accent: 51 100% 50%;
-    --lsp-dark: 270 52% 27%;
+    --lsp-primary: 285 90% 80%;
+    --lsp-secondary: 272 43% 12%;
+    --lsp-accent: 55 90% 70%;
+    --lsp-dark: 272 43% 12%;
 
-    --simon-primary: 30 40% 45%;
-    --simon-secondary: 40 20% 90%;
-    --simon-accent: 35 60% 50%;
-    --simon-dark: 20 20% 20%;
+    --simon-primary: 35 30% 40%;
+    --simon-secondary: 0 0% 25%;
+    --simon-accent: 350 60% 35%;
+    --simon-dark: 28 16% 16%;
 
-    --lemongrab-primary: 55 90% 60%;
-    --lemongrab-secondary: 50 70% 40%;
-    --lemongrab-accent: 0 0% 10%;
-    --lemongrab-dark: 55 50% 20%;
+    --lemongrab-primary: 54 81% 45%;
+    --lemongrab-secondary: 51 70% 73%;
+    --lemongrab-accent: 0 0% 30%;
+    --lemongrab-dark: 54 50% 20%;
 
-    --prismo-primary: 330 70% 60%;
-    --prismo-secondary: 280 50% 45%;
-    --prismo-accent: 50 90% 65%;
-    --prismo-dark: 270 40% 15%;
-
-    /*
-     * Kingdom/location themes — derived from show locations
-     */
-
-    --grasslands-primary: 120 45% 55%;
-    --grasslands-secondary: 200 70% 70%;
-    --grasslands-accent: 45 85% 65%;
-    --grasslands-dark: 130 40% 25%;
-
-    --candy-primary: 326 85% 79%;
-    --candy-secondary: 321 69% 49%;
-    --candy-accent: 317 77% 63%;
-    --candy-dark: 339 20% 25%;
-
-    --ice-primary: 225 73% 57%;
-    --ice-secondary: 196 59% 79%;
-    --ice-accent: 210 50% 85%;
-    --ice-dark: 240 47% 20%;
-
-    --fire-primary: 24 100% 50%;
-    --fire-secondary: 16 100% 50%;
-    --fire-accent: 39 89% 60%;
-    --fire-dark: 12 56% 34%;
-
-    --slime-primary: 120 60% 50%;
-    --slime-secondary: 100 50% 65%;
-    --slime-accent: 80 70% 55%;
-    --slime-dark: 130 45% 25%;
-
-    --nightosphere-primary: 0 70% 35%;
-    --nightosphere-secondary: 0 0% 2%;
-    --nightosphere-accent: 0 84% 60%;
-    --nightosphere-dark: 0 0% 6%;
+    --prismo-primary: 350 60% 70%;
+    --prismo-secondary: 55 90% 60%;
+    --prismo-accent: 200 80% 60%;
+    --prismo-dark: 350 40% 35%;
 
     --radius: 0.5rem;
   }
@@ -142,10 +104,10 @@
     --card-foreground: 24 23% 15%;
     --popover: 50 40% 88%;
     --popover-foreground: 24 23% 15%;
-    /* Gold — deep enough for parchment contrast, bright enough on leather */
-    --primary: 39 89% 42%;
-    --primary-foreground: 30 20% 10%;
-    --primary-hover: 39 89% 36%;
+    /* Warm sienna — book-adjacent warm tone for contrast on both surfaces */
+    --primary: 25 55% 30%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 25 55% 38%;
     /* Card-level tones (secondary/muted sit on parchment) */
     --secondary: 33 25% 78%;
     --secondary-foreground: 24 23% 18%;
@@ -171,196 +133,196 @@
    * ─── CHARACTER THEMES ─────────────────────────────────────────────────
    */
 
-  /* Finn — light: sky blue, adventurous and clean */
+  /* Finn — dark: shirt blue background, white bear-hat cards */
   [data-theme='finn'] {
-    --background: 195 25% 95%;
-    --foreground: 195 20% 15%;
-    --card: 195 30% 92%;
-    --card-foreground: 195 20% 12%;
-    --popover: 195 30% 92%;
-    --popover-foreground: 195 20% 12%;
-    --primary: 191 100% 26%;
+    --background: 191 70% 18%;
+    --foreground: 195 15% 90%;
+    --card: 195 10% 96%;
+    --card-foreground: 191 30% 15%;
+    --popover: 191 50% 22%;
+    --popover-foreground: 195 15% 90%;
+    --primary: 191 100% 29%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 191 100% 20%;
-    --secondary: 195 15% 82%;
-    --secondary-foreground: 195 20% 18%;
-    --muted: 195 10% 88%;
-    --muted-foreground: 195 10% 38%;
-    --accent: 152 48% 28%;
+    --primary-hover: 191 100% 44%;
+    --secondary: 195 25% 25%;
+    --secondary-foreground: 195 15% 85%;
+    --muted: 195 20% 22%;
+    --muted-foreground: 195 15% 42%;
+    --accent: 94 44% 30%;
     --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
+    --destructive: 0 50% 40%;
     --destructive-foreground: 0 0% 98%;
-    --border: 195 15% 80%;
-    --input: 195 15% 80%;
-    --ring: 191 100% 26%;
+    --border: 195 20% 30%;
+    --input: 195 20% 30%;
+    --ring: 191 100% 34%;
   }
 
-  /* Jake — light: warm golden yellow, sunny and friendly */
+  /* Jake — light: golden fur yellow, sunny and friendly */
   [data-theme='jake'] {
-    --background: 45 35% 94%;
-    --foreground: 40 30% 15%;
-    --card: 45 40% 90%;
-    --card-foreground: 40 30% 12%;
-    --popover: 45 40% 90%;
-    --popover-foreground: 40 30% 12%;
-    --primary: 45 80% 24%;
+    --background: 50 56% 65%;
+    --foreground: 40 35% 12%;
+    --card: 48 45% 93%;
+    --card-foreground: 40 35% 10%;
+    --popover: 48 45% 93%;
+    --popover-foreground: 40 35% 10%;
+    --primary: 45 80% 22%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 45 80% 18%;
-    --secondary: 45 25% 82%;
-    --secondary-foreground: 40 30% 18%;
-    --muted: 45 15% 88%;
-    --muted-foreground: 40 15% 38%;
-    --accent: 130 42% 34%;
+    --primary-hover: 45 80% 16%;
+    --secondary: 50 40% 58%;
+    --secondary-foreground: 40 35% 12%;
+    --muted: 50 35% 60%;
+    --muted-foreground: 40 25% 29%;
+    --accent: 39 82% 22%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 60% 45%;
     --destructive-foreground: 0 0% 98%;
-    --border: 45 20% 78%;
-    --input: 45 20% 78%;
+    --border: 48 35% 55%;
+    --input: 48 35% 55%;
     --ring: 45 80% 24%;
   }
 
-  /* Princess Bubblegum — light: sweet pink, regal candy */
+  /* Princess Bubblegum — pink hair background, candy cards */
   [data-theme='bubblegum'] {
-    --background: 330 30% 95%;
-    --foreground: 330 20% 15%;
-    --card: 330 35% 92%;
-    --card-foreground: 330 20% 12%;
-    --popover: 330 35% 92%;
-    --popover-foreground: 330 20% 12%;
-    --primary: 321 69% 40%;
-    --primary-foreground: 330 20% 98%;
-    --primary-hover: 321 69% 34%;
-    --secondary: 330 20% 84%;
-    --secondary-foreground: 330 20% 18%;
-    --muted: 330 12% 88%;
-    --muted-foreground: 330 12% 38%;
-    --accent: 47 90% 27%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 330 18% 80%;
-    --input: 330 18% 80%;
-    --ring: 321 69% 40%;
-  }
-
-  /* Marceline — dark: near-black, vampire night with blue glow */
-  [data-theme='marceline'] {
-    --background: 0 0% 4%;
-    --foreground: 200 15% 85%;
-    --card: 200 10% 8%;
-    --card-foreground: 200 15% 85%;
-    --popover: 200 10% 8%;
-    --popover-foreground: 200 15% 85%;
-    --primary: 196 70% 61%;
-    --primary-foreground: 0 0% 5%;
-    --primary-hover: 196 70% 71%;
-    --secondary: 200 10% 16%;
-    --secondary-foreground: 200 15% 80%;
-    --muted: 200 5% 14%;
-    --muted-foreground: 200 10% 55%;
-    --accent: 203 57% 32%;
-    --accent-foreground: 200 15% 92%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 200 10% 18%;
-    --input: 200 10% 18%;
-    --ring: 196 70% 61%;
-  }
-
-  /* BMO — light: teal and mint, playful and digital */
-  [data-theme='bmo'] {
-    --background: 170 25% 95%;
-    --foreground: 180 20% 12%;
-    --card: 170 30% 92%;
-    --card-foreground: 180 20% 10%;
-    --popover: 170 30% 92%;
-    --popover-foreground: 180 20% 10%;
-    --primary: 180 60% 28%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 180 60% 22%;
-    --secondary: 170 18% 82%;
-    --secondary-foreground: 170 20% 18%;
-    --muted: 170 12% 88%;
-    --muted-foreground: 170 12% 38%;
-    --accent: 58 90% 23%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 170 15% 78%;
-    --input: 170 15% 78%;
-    --ring: 180 60% 28%;
-  }
-
-  /* Ice King — dark: cold deep blue, icy royal */
-  [data-theme='iceking'] {
-    --background: 230 30% 8%;
-    --foreground: 210 20% 88%;
-    --card: 230 25% 12%;
-    --card-foreground: 210 20% 88%;
-    --popover: 230 25% 12%;
-    --popover-foreground: 210 20% 88%;
-    --primary: 225 73% 65%;
-    --primary-foreground: 225 30% 8%;
-    --primary-hover: 225 73% 75%;
-    --secondary: 220 20% 20%;
-    --secondary-foreground: 210 20% 80%;
-    --muted: 225 15% 16%;
-    --muted-foreground: 220 15% 55%;
-    --accent: 51 90% 45%;
+    --background: 326 50% 42%;
+    --foreground: 330 15% 95%;
+    --card: 330 35% 93%;
+    --card-foreground: 330 25% 12%;
+    --popover: 326 40% 38%;
+    --popover-foreground: 330 15% 95%;
+    --primary: 321 69% 44%;
+    --primary-foreground: 330 30% 98%;
+    --primary-hover: 321 69% 54%;
+    --secondary: 326 35% 36%;
+    --secondary-foreground: 330 15% 90%;
+    --muted: 326 30% 38%;
+    --muted-foreground: 330 15% 44%;
+    --accent: 47 90% 50%;
     --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 225 15% 20%;
-    --input: 225 15% 20%;
-    --ring: 225 73% 65%;
+    --destructive: 0 50% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 326 25% 48%;
+    --input: 326 25% 48%;
+    --ring: 321 69% 65%;
   }
 
-  /* Flame Princess — dark: volcanic ember, fierce warmth */
+  /* Marceline — dark: vampire red on near-black, navy jeans undertone */
+  [data-theme='marceline'] {
+    --background: 233 36% 5%;
+    --foreground: 347 10% 85%;
+    --card: 234 28% 12%;
+    --card-foreground: 347 10% 85%;
+    --popover: 234 28% 12%;
+    --popover-foreground: 347 10% 85%;
+    --primary: 347 73% 63%;
+    --primary-foreground: 347 30% 8%;
+    --primary-hover: 347 73% 70%;
+    --secondary: 234 25% 16%;
+    --secondary-foreground: 347 10% 78%;
+    --muted: 234 18% 14%;
+    --muted-foreground: 347 8% 58%;
+    --accent: 234 58% 33%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 50% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 234 18% 20%;
+    --input: 234 18% 20%;
+    --ring: 347 73% 40%;
+  }
+
+  /* BMO — dark: teal body background, yellow-green screen cards */
+  [data-theme='bmo'] {
+    --background: 180 42% 22%;
+    --foreground: 160 20% 90%;
+    --card: 75 35% 82%;
+    --card-foreground: 180 30% 12%;
+    --popover: 180 35% 26%;
+    --popover-foreground: 160 20% 90%;
+    --primary: 180 51% 28%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 180 51% 38%;
+    --secondary: 180 32% 28%;
+    --secondary-foreground: 160 20% 85%;
+    --muted: 180 28% 26%;
+    --muted-foreground: 170 15% 35%;
+    --accent: 358 70% 35%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 50% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 25% 32%;
+    --input: 180 25% 32%;
+    --ring: 181 41% 40%;
+  }
+
+  /* Ice King — dark: royal blue robe, icy crown */
+  [data-theme='iceking'] {
+    --background: 225 55% 32%;
+    --foreground: 215 20% 92%;
+    --card: 210 25% 85%;
+    --card-foreground: 225 35% 15%;
+    --popover: 210 25% 85%;
+    --popover-foreground: 225 35% 15%;
+    --primary: 210 80% 37%;
+    --primary-foreground: 210 20% 98%;
+    --primary-hover: 210 80% 47%;
+    --secondary: 225 40% 38%;
+    --secondary-foreground: 215 20% 88%;
+    --muted: 225 35% 36%;
+    --muted-foreground: 215 18% 38%;
+    --accent: 51 90% 50%;
+    --accent-foreground: 40 30% 8%;
+    --destructive: 0 50% 45%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 225 30% 45%;
+    --input: 225 30% 45%;
+    --ring: 210 80% 70%;
+  }
+
+  /* Flame Princess — dark: bright ember, fierce warmth */
   [data-theme='flame'] {
-    --background: 15 25% 8%;
-    --foreground: 30 20% 88%;
-    --card: 15 20% 12%;
-    --card-foreground: 30 20% 88%;
-    --popover: 15 20% 12%;
-    --popover-foreground: 30 20% 88%;
+    --background: 15 40% 12%;
+    --foreground: 35 25% 90%;
+    --card: 20 35% 18%;
+    --card-foreground: 35 25% 90%;
+    --popover: 20 35% 18%;
+    --popover-foreground: 35 25% 90%;
     --primary: 24 100% 50%;
     --primary-foreground: 15 30% 8%;
     --primary-hover: 24 100% 60%;
-    --secondary: 15 20% 20%;
-    --secondary-foreground: 30 20% 80%;
-    --muted: 15 12% 16%;
-    --muted-foreground: 20 12% 55%;
-    --accent: 51 90% 45%;
+    --secondary: 18 30% 22%;
+    --secondary-foreground: 35 20% 82%;
+    --muted: 18 25% 18%;
+    --muted-foreground: 25 18% 58%;
+    --accent: 45 90% 50%;
     --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 35%;
+    --destructive: 0 60% 42%;
     --destructive-foreground: 0 0% 95%;
-    --border: 15 15% 20%;
-    --input: 15 15% 20%;
+    --border: 18 25% 25%;
+    --input: 18 25% 25%;
     --ring: 24 100% 50%;
   }
 
-  /* LSP — dark: deep purple space, dramatic star */
+  /* LSP — purple with star yellow primary */
   [data-theme='lsp'] {
-    --background: 270 25% 8%;
-    --foreground: 270 15% 88%;
-    --card: 270 20% 12%;
-    --card-foreground: 270 15% 88%;
-    --popover: 270 20% 12%;
-    --popover-foreground: 270 15% 88%;
-    --primary: 260 60% 65%;
-    --primary-foreground: 270 30% 8%;
-    --primary-hover: 260 60% 75%;
-    --secondary: 270 20% 20%;
-    --secondary-foreground: 270 15% 80%;
-    --muted: 270 12% 16%;
-    --muted-foreground: 270 12% 55%;
-    --accent: 51 90% 45%;
-    --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 35%;
+    --background: 268 40% 28%;
+    --foreground: 270 15% 92%;
+    --card: 268 28% 36%;
+    --card-foreground: 270 15% 92%;
+    --popover: 268 28% 36%;
+    --popover-foreground: 270 15% 92%;
+    --primary: 50 85% 55%;
+    --primary-foreground: 270 30% 10%;
+    --primary-hover: 50 85% 65%;
+    --secondary: 268 28% 34%;
+    --secondary-foreground: 270 15% 85%;
+    --muted: 268 24% 32%;
+    --muted-foreground: 270 12% 76%;
+    --accent: 260 60% 42%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 50% 45%;
     --destructive-foreground: 0 0% 95%;
-    --border: 270 15% 20%;
-    --input: 270 15% 20%;
-    --ring: 260 60% 65%;
+    --border: 268 22% 38%;
+    --input: 268 22% 38%;
+    --ring: 50 85% 55%;
   }
 
   /* Simon Petrikov — dark: warm scholarly, aged paper by candlelight */
@@ -378,209 +340,61 @@
     --secondary-foreground: 35 15% 80%;
     --muted: 25 8% 16%;
     --muted-foreground: 30 10% 55%;
-    --accent: 35 70% 32%;
-    --accent-foreground: 30 15% 95%;
+    --accent: 350 60% 35%;
+    --accent-foreground: 0 0% 95%;
     --destructive: 0 50% 35%;
     --destructive-foreground: 0 0% 95%;
     --border: 25 10% 22%;
     --input: 25 10% 22%;
-    --ring: 30 40% 55%;
+    --ring: 350 60% 40%;
   }
 
-  /* Lemongrab — light: acidic yellow, harsh and unpleasant */
+  /* Lemongrab — light: acidic lemon skin, harsh and unpleasant */
   [data-theme='lemongrab'] {
-    --background: 55 30% 94%;
-    --foreground: 55 25% 12%;
-    --card: 55 35% 90%;
-    --card-foreground: 55 25% 10%;
-    --popover: 55 35% 90%;
-    --popover-foreground: 55 25% 10%;
-    --primary: 50 80% 26%;
+    --background: 52 80% 68%;
+    --foreground: 50 35% 10%;
+    --card: 52 50% 90%;
+    --card-foreground: 50 35% 8%;
+    --popover: 52 50% 90%;
+    --popover-foreground: 50 35% 8%;
+    --primary: 50 85% 24%;
     --primary-foreground: 55 20% 96%;
-    --primary-hover: 50 80% 20%;
-    --secondary: 55 20% 82%;
-    --secondary-foreground: 55 25% 18%;
-    --muted: 55 12% 88%;
-    --muted-foreground: 55 12% 38%;
+    --primary-hover: 50 85% 18%;
+    --secondary: 52 50% 60%;
+    --secondary-foreground: 50 35% 12%;
+    --muted: 52 45% 62%;
+    --muted-foreground: 50 25% 28%;
     --accent: 0 0% 15%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 60% 45%;
     --destructive-foreground: 0 0% 98%;
-    --border: 55 18% 78%;
-    --input: 55 18% 78%;
-    --ring: 50 80% 26%;
+    --border: 52 40% 55%;
+    --input: 52 40% 55%;
+    --ring: 50 85% 24%;
   }
 
-  /* Prismo — dark: cosmic pink/purple, Time Room */
+  /* Prismo — light: warm golden Time Room, pink silhouette */
   [data-theme='prismo'] {
-    --background: 280 25% 8%;
-    --foreground: 300 15% 88%;
-    --card: 280 20% 12%;
-    --card-foreground: 300 15% 88%;
-    --popover: 280 20% 12%;
-    --popover-foreground: 300 15% 88%;
-    --primary: 330 70% 60%;
-    --primary-foreground: 280 25% 8%;
-    --primary-hover: 330 70% 70%;
-    --secondary: 280 20% 20%;
-    --secondary-foreground: 300 15% 80%;
-    --muted: 280 12% 16%;
-    --muted-foreground: 280 12% 55%;
-    --accent: 50 80% 50%;
-    --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 280 15% 20%;
-    --input: 280 15% 20%;
-    --ring: 330 70% 60%;
-  }
-
-  /*
-   * ─── KINGDOM / LOCATION THEMES ────────────────────────────────────────
-   */
-
-  /* Grass Lands — light: verdant green, open sky, warm sun */
-  [data-theme='grasslands'] {
-    --background: 120 20% 95%;
-    --foreground: 130 20% 12%;
-    --card: 120 25% 92%;
-    --card-foreground: 130 20% 10%;
-    --popover: 120 25% 92%;
-    --popover-foreground: 130 20% 10%;
-    --primary: 120 50% 28%;
+    --background: 45 70% 68%;
+    --foreground: 40 35% 10%;
+    --card: 45 45% 92%;
+    --card-foreground: 40 35% 8%;
+    --popover: 45 45% 92%;
+    --popover-foreground: 40 35% 8%;
+    --primary: 330 70% 37%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 120 50% 22%;
-    --secondary: 120 15% 82%;
-    --secondary-foreground: 130 20% 18%;
-    --muted: 120 10% 88%;
-    --muted-foreground: 120 10% 38%;
-    --accent: 200 60% 38%;
+    --primary-hover: 330 70% 47%;
+    --secondary: 45 45% 60%;
+    --secondary-foreground: 40 30% 12%;
+    --muted: 45 40% 62%;
+    --muted-foreground: 40 22% 30%;
+    --accent: 200 80% 34%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 60% 45%;
     --destructive-foreground: 0 0% 98%;
-    --border: 120 12% 78%;
-    --input: 120 12% 78%;
-    --ring: 120 50% 28%;
-  }
-
-  /* Candy Kingdom — light: sweet pink, sugary pastels */
-  [data-theme='candy'] {
-    --background: 330 30% 95%;
-    --foreground: 330 20% 15%;
-    --card: 330 35% 92%;
-    --card-foreground: 330 20% 12%;
-    --popover: 330 35% 92%;
-    --popover-foreground: 330 20% 12%;
-    --primary: 321 69% 40%;
-    --primary-foreground: 330 20% 98%;
-    --primary-hover: 321 69% 34%;
-    --secondary: 330 20% 84%;
-    --secondary-foreground: 330 20% 18%;
-    --muted: 330 12% 88%;
-    --muted-foreground: 330 12% 38%;
-    --accent: 317 70% 48%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 330 18% 80%;
-    --input: 330 18% 80%;
-    --ring: 321 69% 40%;
-  }
-
-  /* Ice Kingdom — dark: frozen deep blue, bitter cold */
-  [data-theme='ice'] {
-    --background: 230 30% 8%;
-    --foreground: 210 20% 88%;
-    --card: 230 25% 12%;
-    --card-foreground: 210 20% 88%;
-    --popover: 230 25% 12%;
-    --popover-foreground: 210 20% 88%;
-    --primary: 225 73% 65%;
-    --primary-foreground: 225 30% 8%;
-    --primary-hover: 225 73% 75%;
-    --secondary: 220 20% 20%;
-    --secondary-foreground: 210 20% 80%;
-    --muted: 225 15% 16%;
-    --muted-foreground: 220 15% 55%;
-    --accent: 210 50% 65%;
-    --accent-foreground: 225 30% 8%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 225 15% 20%;
-    --input: 225 15% 20%;
-    --ring: 225 73% 65%;
-  }
-
-  /* Fire Kingdom — dark: volcanic, molten orange glow */
-  [data-theme='fire'] {
-    --background: 15 25% 8%;
-    --foreground: 30 20% 88%;
-    --card: 15 20% 12%;
-    --card-foreground: 30 20% 88%;
-    --popover: 15 20% 12%;
-    --popover-foreground: 30 20% 88%;
-    --primary: 24 100% 50%;
-    --primary-foreground: 15 30% 8%;
-    --primary-hover: 24 100% 60%;
-    --secondary: 15 20% 20%;
-    --secondary-foreground: 30 20% 80%;
-    --muted: 15 12% 16%;
-    --muted-foreground: 20 12% 55%;
-    --accent: 39 80% 50%;
-    --accent-foreground: 30 25% 8%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 15 15% 20%;
-    --input: 15 15% 20%;
-    --ring: 24 100% 50%;
-  }
-
-  /* Slime Kingdom — light: gooey green, translucent */
-  [data-theme='slime'] {
-    --background: 120 20% 94%;
-    --foreground: 130 25% 12%;
-    --card: 120 28% 90%;
-    --card-foreground: 130 25% 10%;
-    --popover: 120 28% 90%;
-    --popover-foreground: 130 25% 10%;
-    --primary: 120 65% 26%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 120 65% 20%;
-    --secondary: 120 18% 82%;
-    --secondary-foreground: 130 25% 18%;
-    --muted: 120 10% 88%;
-    --muted-foreground: 120 10% 38%;
-    --accent: 80 70% 26%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 120 14% 78%;
-    --input: 120 14% 78%;
-    --ring: 120 65% 26%;
-  }
-
-  /* Nightosphere — dark: hellish void, deep red on black */
-  [data-theme='nightosphere'] {
-    --background: 0 10% 5%;
-    --foreground: 0 10% 85%;
-    --card: 0 12% 9%;
-    --card-foreground: 0 10% 85%;
-    --popover: 0 12% 9%;
-    --popover-foreground: 0 10% 85%;
-    --primary: 0 70% 60%;
-    --primary-foreground: 0 0% 5%;
-    --primary-hover: 0 70% 70%;
-    --secondary: 0 8% 16%;
-    --secondary-foreground: 0 10% 80%;
-    --muted: 0 5% 14%;
-    --muted-foreground: 0 8% 55%;
-    --accent: 0 84% 55%;
-    --accent-foreground: 0 0% 5%;
-    --destructive: 0 60% 40%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 0 8% 18%;
-    --input: 0 8% 18%;
-    --ring: 0 70% 60%;
+    --border: 45 35% 55%;
+    --input: 45 35% 55%;
+    --ring: 350 60% 50%;
   }
 }
 
@@ -599,18 +413,20 @@
 
 @layer components {
   /*
-   * Parchment card — base styles shared by all themes.
-   * The aged paper texture only activates on enchiridion themes;
+   * Card surface — base styles shared by all themes.
+   * The aged paper texture only activates on the enchiridion theme;
    * other themes get a clean card with hover effects.
+   * Targets .bg-card (Tailwind utility) so any card-like surface
+   * automatically gets the treatment without a special class.
    */
-  .parchment-card {
+  .bg-card {
     position: relative;
     transition:
       box-shadow 0.2s ease,
       border-color 0.2s ease;
   }
 
-  .parchment-card:hover {
+  .bg-card:hover {
     box-shadow: 0 4px 12px hsl(var(--foreground) / 0.1);
     border-color: hsl(var(--primary) / 0.5);
   }
@@ -620,7 +436,7 @@
    * Uses fixed warm tones (not theme tokens) so the paper reads as
    * "old parchment" regardless of light/dark variant.
    */
-  [data-theme='enchiridion'] :is(.card, .parchment-card) {
+  [data-theme='enchiridion'] .bg-card {
     background-image:
       /* Corner wear — asymmetric darkening like a handled book page */
       radial-gradient(ellipse at 0% 0%, hsl(30 30% 15% / 0.07) 0%, transparent 50%),
@@ -652,7 +468,7 @@
   }
 
   /* Edge damage — rough, worn edge effect via pseudo-element */
-  [data-theme='enchiridion'] :is(.card, .parchment-card)::after {
+  [data-theme='enchiridion'] .bg-card::after {
     content: '';
     position: absolute;
     inset: 0;
@@ -666,7 +482,7 @@
       inset 0 -2px 6px -3px hsl(30 20% 15% / 0.12);
   }
 
-  [data-theme='enchiridion'] :is(.card, .parchment-card):hover {
+  [data-theme='enchiridion'] .bg-card:hover {
     box-shadow:
       inset 0 1px 4px hsl(30 20% 15% / 0.08),
       inset 0 -1px 2px hsl(30 20% 15% / 0.05),

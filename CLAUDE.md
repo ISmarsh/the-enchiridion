@@ -44,11 +44,10 @@ src/data/
 
 CSS variables in `src/index.css`, Tailwind tokens in `tailwind.config.js`.
 
-Three theme layers:
+Two theme layers:
 
 - **Enchiridion** (site chrome) — brown, gold, parchment
 - **Character** — finn, jake, bubblegum, marceline, bmo, iceking, flame, lsp, simon, lemongrab, prismo
-- **Kingdom/location** — grasslands, candy, ice, fire, slime, nightosphere
 
 Each theme defines: primary, secondary, accent, dark.
 
