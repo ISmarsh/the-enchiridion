@@ -44,10 +44,10 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S07 | 26 | Complete | 2 | 2 |
 | S08 | 27 | Complete | 2 | 2 |
 | S09 | 14 | Complete | 0 | 0 |
-| S10 | 13 | Complete | 1 | 1 |
-| DL | 4 | Not started | — | — |
-| F&C S1 | 10 | Not started | — | — |
-| F&C S2 | 10 | Not started | — | — |
+| S10 | 13 | Complete | 2 | 2 |
+| DL | 4 | Complete | 0 | 0 |
+| F&C S1 | 10 | Complete | 2 | 2 |
+| F&C S2 | 10 | Complete | 0 | 0 |
 
 ---
 
@@ -423,9 +423,9 @@ All episodes validated against synopses and storyline definitions. No transcript
 | S10E10 | Jake the Starchild | OK | |
 | S10E11 | Temple of Mars | FIXED | Added gunter (appears as Ice Thing, a known alias) |
 | S10E12 | Gumbaldia | OK | Gum War — correct |
-| S10E13 | Come Along With Me | OK | Series finale — winter-king is false positive (alias overlap); 8 chars visual-only in ensemble |
+| S10E13 | Come Along With Me | FIXED | Added golb (major physical presence); winter-king is false positive (alias overlap) |
 
-**Summary:** 1 character fix applied. No storyline changes needed.
+**Summary:** 2 character fixes applied (gunter in S10E11, golb in S10E13). No storyline changes needed.
 
 ---
 
@@ -433,7 +433,17 @@ All episodes validated against synopses and storyline definitions. No transcript
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 2/4 (DL S01E01-02 have transcripts; S01E03-04 do not)
+**Storyline episodes:** DL S01E01 (future-ooo), DL S01E02 (simon-and-marcy, bubbline), DL S01E03 (future-ooo), DL S01E04 (peppermint-butler-dark) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| DL S01E01 | BMO | OK | Characters match transcript |
+| DL S01E02 | Obsidian | OK | Bronwyn visual appearance — correct |
+| DL S01E03 | Together Again | OK | No transcript; characters validated against synopsis |
+| DL S01E04 | Wizard City | OK | No transcript; characters validated against synopsis |
+
+**Summary:** No fixes needed.
 
 ---
 
@@ -441,4 +451,77 @@ All episodes validated against synopses and storyline definitions. No transcript
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 0/20 (no transcripts available — validated via web search)
+**Storyline episodes:** F&C S01E02 (simon-and-marcy), S01E04 (prismo-cosmic), S01E06 (simon-and-marcy), S01E10 (simon-and-marcy) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| F&C S01E01 | Fionna Campbell | FIXED | Added marshall-lee (confirmed via web search — significant dialogue) |
+| F&C S01E02 | Simon Petrikov | OK | Simon & Marcy — correct |
+| F&C S01E03 | Cake the Cat | OK | |
+| F&C S01E04 | Prismo the Wishmaster | OK | Prismo & Cosmic — correct |
+| F&C S01E05 | Destiny | OK | |
+| F&C S01E06 | The Winter King | OK | Simon & Marcy — correct |
+| F&C S01E07 | The Star | OK | Marshall Lee listed — correct |
+| F&C S01E08 | Jerry | OK | |
+| F&C S01E09 | Casper & Nova | OK | |
+| F&C S01E10 | Cheers | FIXED | Added marshall-lee (confirmed via web search — fights Scarab in finale) |
+| F&C S02E01-10 | Season 2 fables | OK | Minimal cast (mostly Fionna + Cake); no storyline assignments — correct |
+
+**Summary:** 2 fixes applied (added marshall-lee to S01E01 and S01E10).
+
+---
+
+## Final Validation Summary
+
+**Completed:** 2026-02-05
+**Total episodes validated:** 303
+
+### Fixes Applied
+
+| # | Episode | Fix | Source |
+|---|---------|-----|--------|
+| 1 | S01E07 | Added wildberry-princess | Transcript (speaking line) |
+| 2 | S02E15 | Added choose-goose | Transcript (speaking lines) |
+| 3 | S03E20 | Added wildberry-princess | Transcript (speaking lines on Ice King tape) |
+| 4 | S03E22 | Added turtle-princess | Transcript (speaking lines as librarian) |
+| 5 | S04E09 | Added turtle-princess + wildberry-princess | Transcript (speaking lines) |
+| 6 | S04E24 | Added huntress-wizard | Transcript (speaking lines in magic shop) |
+| 7 | S05E11 | Added turtle-princess + wildberry-princess | Transcript (speaking lines as audience) |
+| 8 | S05E24 | Added mr-fox | Transcript (Short Graybles segment) |
+| 9 | S06E01 | Fixed transcriptFile mapping | Was pointing to mini-episode |
+| 10 | S07E02 | Fixed transcriptFile mapping | Was pointing to Frog Seasons mini-episode |
+| 11 | S07E04 | Fixed transcriptFile mapping | Was pointing to Frog Seasons mini-episode |
+| 12 | S08E02 | Added turtle-princess | Transcript (speaking line) |
+| 13 | S08E07 | Added grob-gob-glob-grod | Transcript (Glob has speaking lines) |
+| 14 | S10E11 | Added gunter | Transcript (appears as Ice Thing) |
+| 15 | S10E13 | Added golb | Transcript (major physical presence in finale) |
+| 16 | F&C S01E01 | Added marshall-lee | Web search (significant dialogue confirmed) |
+| 17 | F&C S01E10 | Added marshall-lee | Web search (fights Scarab in finale) |
+
+**Total: 14 character additions, 3 transcript file corrections**
+
+### Known False Positives in Transcript Analysis
+
+The automated speaker analysis produces false matches in these cases:
+- **winter-king** detected in AT episodes via shared alias "Simon Petrikov" (actually refers to Ice King)
+- **gary-prince** detected in S01E14 via alias "Gary" (actually a different character — a river mermaid)
+- **gunter** detected in S08E01 via alias "Gunther" (Evergreen's ancient dinosaur apprentice, not the penguin)
+
+### Storyline Integrity
+
+All 15 storyline definitions verified:
+- Episode-to-storyline cross-references: **100% consistent** (no broken links)
+- Storyline-to-episode cross-references: **100% consistent**
+- Storyline character gap resolved: **GOLB added to S10E13** (was missing from gum-war storyline episodes)
+- Remaining storyline metadata note: `hunson-abadeer` is listed as a peppermint-butler-dark storyline character but doesn't appear in any of its episodes — thematic reference rather than direct appearance
+
+### Transcript Coverage
+
+| Series | With Transcript | Without | Coverage |
+|--------|----------------|---------|----------|
+| Adventure Time S01-S06 | 249 | 5 | 98% |
+| Adventure Time S07-S10 | 29 | 51 | 36% |
+| Distant Lands | 2 | 2 | 50% |
+| Fionna and Cake | 0 | 20 | 0% |
+| **Total** | **280** | **78** | **78%** |

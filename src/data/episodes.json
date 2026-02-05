@@ -5853,15 +5853,19 @@
     "airDate": "2018-09-03",
     "synopsis": "In the distant future, Beth and Shermy recover Finn's rusty old mechanical arm.",
     "characterIds": [
+      "banana-man",
       "beth",
       "betty-grof",
       "bmo",
+      "bronwyn",
       "charlie",
       "fern",
       "finn",
       "flame-princess",
+      "golb",
       "gumbald",
       "gunter",
+      "huntress-wizard",
       "ice-king",
       "jake",
       "jermaine",
@@ -5869,20 +5873,17 @@
       "lemongrab",
       "lumpy-space-princess",
       "magic-man",
+      "maja",
       "marceline",
       "neptr",
       "princess-bubblegum",
+      "rattleballs",
+      "root-beer-guy",
       "shelby",
       "shermy",
       "slime-princess",
-      "huntress-wizard",
-      "bronwyn",
-      "banana-man",
-      "rattleballs",
-      "maja",
-      "root-beer-guy",
-      "wildberry-princess",
-      "turtle-princess"
+      "turtle-princess",
+      "wildberry-princess"
     ],
     "storylineIds": [
       "simon-and-marcy",
@@ -5996,9 +5997,10 @@
     "characterIds": [
       "cake",
       "fionna",
-      "ice-king",
+      "gary-prince",
       "hunter",
-      "gary-prince"
+      "ice-king",
+      "marshall-lee"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6184,12 +6186,13 @@
     "characterIds": [
       "cake",
       "fionna",
+      "gary-prince",
       "golb",
-      "ice-king",
-      "prismo",
-      "scarab",
       "hunter",
-      "gary-prince"
+      "ice-king",
+      "marshall-lee",
+      "prismo",
+      "scarab"
     ],
     "storylineIds": [
       "simon-and-marcy"
