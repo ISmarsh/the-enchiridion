@@ -144,7 +144,7 @@
     --popover-foreground: 24 23% 15%;
     /* Gold — deep enough for parchment contrast, bright enough on leather */
     --primary: 39 89% 42%;
-    --primary-foreground: 0 0% 98%;
+    --primary-foreground: 30 20% 10%;
     --primary-hover: 39 89% 36%;
     /* Card-level tones (secondary/muted sit on parchment) */
     --secondary: 33 25% 78%;
