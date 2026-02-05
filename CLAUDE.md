@@ -40,11 +40,40 @@ src/data/
 | Storylines | Major arcs (~5-8)                                             |
 | Songs      | Popular songs, link to external tabs                          |
 
+## Theming
+
+CSS variables in `src/index.css`, Tailwind tokens in `tailwind.config.js`.
+
+Three theme layers:
+
+- **Enchiridion** (site chrome) — brown, gold, parchment
+- **Character** — finn, jake, bubblegum, marceline, bmo, iceking, flame, lsp, simon, lemongrab, prismo
+- **Kingdom/location** — grasslands, candy, ice, fire, slime, nightosphere
+
+Each theme defines: primary, secondary, accent, dark.
+
+**Design rule:** Shared components (cards, badges, etc.) must use semantic tokens
+(`bg-primary`, `border-accent`) — never hardcode a specific theme name. Parent
+context sets which palette maps to the semantic tokens via `data-theme` or class:
+
+```css
+[data-theme="finn"] {
+  --primary: var(--finn-primary);
+  --accent: var(--finn-accent);
+  ...
+}
+```
+
+This lets the same `<Card>` work on the book-themed home page and a character-themed
+detail page.
+
 ## External Resources
 
 - **Episode data:** TMDB API (series IDs: 15260, 94810, 131378)
 - **Song tabs:** Link to Kumodori/Tumblr (don't host)
 - **Transcripts:** Submodule at `transcripts/` (CC-BY-SA 3.0 from Adventure Time Wiki)
+- **AT Wiki:** adventuretime.fandom.com — Fandom sites block automated requests
+  (403 from WebFetch, curl, scripts). Use Wikimedia Commons or web search instead.
 
 ## Transcripts Submodule
 
