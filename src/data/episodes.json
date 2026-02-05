@@ -1972,7 +1972,7 @@
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537712,
-    "transcriptFile": "Adventure.Time.S04E18.King.Worm 2.txt"
+    "transcriptFile": "Adventure.Time.S04E18.King.Worm.txt"
   },
   {
     "id": "adventure-time-s04e19",
@@ -5140,7 +5140,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260527
+    "tmdbId": 1260527,
+    "transcriptFile": "Adventure.Time.S08E20.The.Invitation.txt"
   },
   {
     "id": "adventure-time-s08e21",
@@ -5161,7 +5162,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260528
+    "tmdbId": 1260528,
+    "transcriptFile": "Adventure.Time.S08E21.Whipple.the.Happy.Dragon.txt"
   },
   {
     "id": "adventure-time-s08e22",
@@ -5181,7 +5183,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260529
+    "tmdbId": 1260529,
+    "transcriptFile": "Adventure.Time.S08E22.Mysterious.Island.txt"
   },
   {
     "id": "adventure-time-s08e23",
@@ -5201,7 +5204,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260530
+    "tmdbId": 1260530,
+    "transcriptFile": "Adventure.Time.S08E23.Imaginary.Resources.txt"
   },
   {
     "id": "adventure-time-s08e24",
@@ -5223,7 +5227,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260531
+    "tmdbId": 1260531,
+    "transcriptFile": "Adventure.Time.S08E24.Hide.and.Seek.txt"
   },
   {
     "id": "adventure-time-s08e25",
@@ -5243,7 +5248,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260532
+    "tmdbId": 1260532,
+    "transcriptFile": "Adventure.Time.S08E25.Min.and.Marty.txt"
   },
   {
     "id": "adventure-time-s08e26",
@@ -5264,7 +5270,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260533
+    "tmdbId": 1260533,
+    "transcriptFile": "Adventure.Time.S08E26.Helpers.txt"
   },
   {
     "id": "adventure-time-s08e27",
@@ -5286,7 +5293,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260534
+    "tmdbId": 1260534,
+    "transcriptFile": "Adventure.Time.S08E27.The.Light.Cloud.txt"
   },
   {
     "id": "adventure-time-s09e01",
@@ -5306,7 +5314,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338582
+    "tmdbId": 1338582,
+    "transcriptFile": "Adventure.Time.S09E01.Orb.txt"
   },
   {
     "id": "adventure-time-s09e02",
@@ -5326,7 +5335,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338583
+    "tmdbId": 1338583,
+    "transcriptFile": "Adventure.Time.S09E02.Skyhooks.txt"
   },
   {
     "id": "adventure-time-s09e03",
@@ -5347,7 +5357,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338584
+    "tmdbId": 1338584,
+    "transcriptFile": "Adventure.Time.S09E03.Bespoken.For.txt"
   },
   {
     "id": "adventure-time-s09e04",
@@ -5367,7 +5378,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338585
+    "tmdbId": 1338585,
+    "transcriptFile": "Adventure.Time.S09E04.Winter.Light.txt"
   },
   {
     "id": "adventure-time-s09e05",
@@ -5389,7 +5401,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338586
+    "tmdbId": 1338586,
+    "transcriptFile": "Adventure.Time.S09E05.Cloudy.txt"
   },
   {
     "id": "adventure-time-s09e06",
@@ -5410,7 +5423,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338587
+    "tmdbId": 1338587,
+    "transcriptFile": "Adventure.Time.S09E06.Slime.Central.txt"
   },
   {
     "id": "adventure-time-s09e07",
@@ -5430,7 +5444,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338588
+    "tmdbId": 1338588,
+    "transcriptFile": "Adventure.Time.S09E07.Happy.Warrior.txt"
   },
   {
     "id": "adventure-time-s09e08",
@@ -5450,7 +5465,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338590
+    "tmdbId": 1338590,
+    "transcriptFile": "Adventure.Time.S09E08.Hero.Heart.txt"
   },
   {
     "id": "adventure-time-s09e09",
@@ -5478,7 +5494,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338591
+    "tmdbId": 1338591,
+    "transcriptFile": "Adventure.Time.S09E09.Skyhooks.II.txt"
   },
   {
     "id": "adventure-time-s09e10",
@@ -5500,7 +5517,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338592
+    "tmdbId": 1338592,
+    "transcriptFile": "Adventure.Time.S09E10.Abstract.txt"
   },
   {
     "id": "adventure-time-s09e11",
@@ -5519,7 +5537,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338593
+    "tmdbId": 1338593,
+    "transcriptFile": "Adventure.Time.S09E11.Ketchup.txt"
   },
   {
     "id": "adventure-time-s09e12",
@@ -5537,7 +5556,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338594
+    "tmdbId": 1338594,
+    "transcriptFile": "Adventure.Time.S09E12.Fionna.and.Cake.and.Fionna.txt"
   },
   {
     "id": "adventure-time-s09e13",
@@ -5560,7 +5580,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1338596
+    "tmdbId": 1338596,
+    "transcriptFile": "Adventure.Time.S09E13.Whispers.txt"
   },
   {
     "id": "adventure-time-s09e14",
@@ -5580,7 +5601,8 @@
     ],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1340497
+    "tmdbId": 1340497,
+    "transcriptFile": "Adventure.Time.S09E14.Three.Buckets.txt"
   },
   {
     "id": "adventure-time-s10e01",
@@ -5966,7 +5988,8 @@
     ],
     "songIds": [],
     "runtime": 46,
-    "tmdbId": 1961677
+    "tmdbId": 1961677,
+    "transcriptFile": "Adventure.Time.Distant.Lands.S01E03.Together.Again.txt"
   },
   {
     "id": "distant-lands-s01e04",
@@ -5986,7 +6009,8 @@
     ],
     "songIds": [],
     "runtime": 50,
-    "tmdbId": 1961675
+    "tmdbId": 1961675,
+    "transcriptFile": "Adventure.Time.Distant.Lands.S01E04.Wizard.City.txt"
   },
   {
     "id": "fionna-and-cake-s01e01",
