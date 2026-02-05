@@ -1,5 +1,5 @@
 import { Outlet, Link, NavLink } from 'react-router-dom';
-import { BookOpen, Users, Route, Music } from 'lucide-react';
+import { BookOpen, Users, Route, MapPin, Music } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 import { cn, toRomanNumeral } from '@/lib/utils';
 
@@ -9,7 +9,8 @@ const navItems = [
   { to: '/episodes', label: 'Episodes', icon: BookOpen, numeral: 1 },
   { to: '/characters', label: 'Characters', icon: Users, numeral: 2 },
   { to: '/storylines', label: 'Storylines', icon: Route, numeral: 3 },
-  { to: '/songs', label: 'Songs', icon: Music, numeral: 4 },
+  { to: '/locations', label: 'Locations', icon: MapPin, numeral: 4 },
+  { to: '/songs', label: 'Songs', icon: Music, numeral: 5 },
 ];
 
 export function Layout() {

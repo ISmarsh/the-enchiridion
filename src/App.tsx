@@ -8,6 +8,8 @@ import { CharacterPage } from './pages/CharacterPage';
 import { CharactersPage } from './pages/CharactersPage';
 import { StorylinesPage } from './pages/StorylinesPage';
 import { StorylinePage } from './pages/StorylinePage';
+import { LocationsPage } from './pages/LocationsPage';
+import { LocationPage } from './pages/LocationPage';
 import { SongsPage } from './pages/SongsPage';
 import { ThemeShowcasePage } from './pages/ThemeShowcasePage';
 
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="/characters/:id" element={<CharacterPage />} />
           <Route path="/storylines" element={<StorylinesPage />} />
           <Route path="/storylines/:id" element={<StorylinePage />} />
+          <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/locations/:id" element={<LocationPage />} />
           <Route path="/songs" element={<SongsPage />} />
           <Route path="/credits" element={<CreditsPage />} />
           <Route path="/themes" element={<ThemeShowcasePage />} />

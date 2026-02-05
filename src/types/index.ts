@@ -69,6 +69,25 @@ export interface Storyline {
   notes?: string;
 }
 
+export type LocationCategory = 'kingdom' | 'dimension' | 'landmark';
+
+export interface Location {
+  id: string;
+  name: string;
+  category: LocationCategory;
+  description: string;
+  // Series this location appears in
+  series: Series[];
+  // Characters associated with this location (rulers, residents, etc.)
+  characterIds?: string[];
+  // Related storylines
+  storylineIds?: string[];
+  // Key episodes featuring this location
+  episodeIds?: string[];
+  // Optional editorial content
+  notes?: string;
+}
+
 export interface Song {
   id: string;
   title: string;

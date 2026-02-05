@@ -20,6 +20,7 @@ describe('HomePage', () => {
     expect(screen.getByText('Episodes')).toBeInTheDocument();
     expect(screen.getByText('Characters')).toBeInTheDocument();
     expect(screen.getByText('Storylines')).toBeInTheDocument();
+    expect(screen.getByText('Locations')).toBeInTheDocument();
     expect(screen.getByText('Songs')).toBeInTheDocument();
   });
 
@@ -35,6 +36,7 @@ describe('HomePage', () => {
       'href',
       '/storylines',
     );
+    expect(screen.getByRole('link', { name: /locations/i })).toHaveAttribute('href', '/locations');
     expect(screen.getByRole('link', { name: /songs/i })).toHaveAttribute('href', '/songs');
   });
 });

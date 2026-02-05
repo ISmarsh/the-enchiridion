@@ -1,0 +1,232 @@
+[
+  {
+    "id": "candy-kingdom",
+    "name": "Candy Kingdom",
+    "category": "kingdom",
+    "description": "A kingdom built entirely of candy and confectionery, ruled by Princess Bubblegum. Home to the Candy People and the center of scientific research in Ooo.",
+    "series": ["adventure-time", "distant-lands", "fionna-and-cake"],
+    "characterIds": [
+      "princess-bubblegum",
+      "peppermint-butler",
+      "cinnamon-bun",
+      "starchy",
+      "banana-guards",
+      "rattleballs",
+      "root-beer-guy"
+    ],
+    "storylineIds": ["gum-war", "peppermint-butler-dark"],
+    "episodeIds": [
+      "adventure-time-s01e01",
+      "adventure-time-s03e05",
+      "adventure-time-s06e22",
+      "adventure-time-s08e08",
+      "adventure-time-s10e13"
+    ],
+    "notes": "The Candy Kingdom was created by Princess Bubblegum using the Mother Gum. It has been destroyed and rebuilt multiple times throughout the series."
+  },
+  {
+    "id": "ice-kingdom",
+    "name": "Ice Kingdom",
+    "category": "kingdom",
+    "description": "A frozen realm ruled by the Ice King, located in the snowy mountains of Ooo. Home to Gunter and an army of penguins.",
+    "series": ["adventure-time"],
+    "characterIds": ["ice-king", "gunter"],
+    "storylineIds": ["simon-and-marcy"],
+    "episodeIds": [
+      "adventure-time-s01e03",
+      "adventure-time-s02e11",
+      "adventure-time-s04e25",
+      "adventure-time-s05e48"
+    ],
+    "notes": "The Ice Kingdom was shaped by the Crown's magic. After Simon regained his sanity, the kingdom's future became uncertain."
+  },
+  {
+    "id": "fire-kingdom",
+    "name": "Fire Kingdom",
+    "category": "kingdom",
+    "description": "A volcanic kingdom inhabited by fire elementals, originally ruled by Flame King and later by Flame Princess. Outsiders require fire-proof suits to visit.",
+    "series": ["adventure-time"],
+    "characterIds": ["flame-princess", "flame-king", "cinnamon-bun"],
+    "storylineIds": ["flame-princess-arc", "elements"],
+    "episodeIds": [
+      "adventure-time-s04e22",
+      "adventure-time-s06e22",
+      "adventure-time-s06e32",
+      "adventure-time-s08e06"
+    ],
+    "notes": "After deposing her father, Flame Princess reformed the Fire Kingdom into a more democratic society."
+  },
+  {
+    "id": "tree-fort",
+    "name": "Tree Fort",
+    "category": "landmark",
+    "description": "A massive oak tree converted into a multi-story home, serving as the beloved residence of Finn, Jake, BMO, and NEPTR. The primary base of operations for Ooo's greatest heroes.",
+    "series": ["adventure-time", "distant-lands"],
+    "characterIds": ["finn", "jake", "bmo", "neptr", "shelby", "fern"],
+    "storylineIds": ["finn-the-human", "grass-sword-fern"],
+    "episodeIds": [
+      "adventure-time-s01e12",
+      "adventure-time-s01e23",
+      "adventure-time-s06e17",
+      "adventure-time-s10e16"
+    ]
+  },
+  {
+    "id": "marcelines-cave",
+    "name": "Marceline's House",
+    "category": "landmark",
+    "description": "A cozy house built inside a cave, home to Marceline the Vampire Queen. Features her extensive music collection and a distinctly rock-and-roll aesthetic.",
+    "series": ["adventure-time", "distant-lands"],
+    "characterIds": ["marceline"],
+    "storylineIds": ["bubbline", "stakes"],
+    "episodeIds": [
+      "adventure-time-s01e12",
+      "adventure-time-s02e20",
+      "adventure-time-s03e10",
+      "adventure-time-s07e06"
+    ]
+  },
+  {
+    "id": "nightosphere",
+    "name": "The Nightosphere",
+    "category": "dimension",
+    "description": "A chaotic demon dimension ruled by Hunson Abadeer, Marceline's father. Accessible by drawing a circle with a smiley face and dousing it in bug milk while chanting.",
+    "series": ["adventure-time"],
+    "characterIds": ["hunson-abadeer", "marceline"],
+    "storylineIds": ["stakes"],
+    "episodeIds": ["adventure-time-s02e01", "adventure-time-s04e05"],
+    "notes": "The Nightosphere operates as a soul-harvesting enterprise under Hunson Abadeer. Marceline inherited the Nightosphere Amulet but rejected its power."
+  },
+  {
+    "id": "lumpy-space",
+    "name": "Lumpy Space",
+    "category": "dimension",
+    "description": "A cloud-like dimension floating above Ooo, inhabited by the Lumpy Space People. Accessible via a frog sitting on a mushroom that serves as a portal.",
+    "series": ["adventure-time"],
+    "characterIds": ["lumpy-space-princess"],
+    "episodeIds": ["adventure-time-s01e02", "adventure-time-s03e06", "adventure-time-s04e12"],
+    "notes": "Lumpy Space is one of the elemental dimensions, representing the Lumps element. Getting bitten by a Lumpy Space Person can turn you lumpy."
+  },
+  {
+    "id": "castle-lemongrab",
+    "name": "Castle Lemongrab",
+    "category": "kingdom",
+    "description": "A mountain fortress ruled by the Earl of Lemongrab, filled with his lemon-candy creations. Known for its strict rules and the unsettling atmosphere of its dungeon.",
+    "series": ["adventure-time"],
+    "characterIds": ["lemongrab", "lemonhope"],
+    "storylineIds": ["lemongrab-saga"],
+    "episodeIds": [
+      "adventure-time-s03e05",
+      "adventure-time-s04e20",
+      "adventure-time-s05e08",
+      "adventure-time-s05e09",
+      "adventure-time-s06e28"
+    ],
+    "notes": "Lemongrab was Princess Bubblegum's first experiment in creating candy life, predating the Candy Kingdom itself."
+  },
+  {
+    "id": "prismos-time-room",
+    "name": "Prismo's Time Room",
+    "category": "dimension",
+    "description": "A cosmic space existing outside normal reality, inhabited by the wish-granting entity Prismo. Time behaves differently here, and visitors can make a single wish.",
+    "series": ["adventure-time", "fionna-and-cake"],
+    "characterIds": ["prismo", "cosmic-owl"],
+    "storylineIds": ["the-lich", "prismo-cosmic"],
+    "episodeIds": [
+      "adventure-time-s04e26",
+      "adventure-time-s05e01",
+      "adventure-time-s06e01",
+      "fionna-and-cake-s01e04"
+    ],
+    "notes": "Prismo is a projection of an old man's dream. If the old man wakes up, Prismo ceases to exist — a vulnerability the Lich exploited."
+  },
+  {
+    "id": "dead-worlds",
+    "name": "Dead Worlds",
+    "category": "dimension",
+    "description": "A series of afterlife dimensions overseen by Death and New Death. The Land of the Dead contains multiple levels, each with its own unique and surreal landscape.",
+    "series": ["adventure-time", "distant-lands"],
+    "characterIds": ["death"],
+    "episodeIds": ["adventure-time-s02e17", "adventure-time-s03e04", "distant-lands-s01e03"],
+    "notes": "There are 50 Dead Worlds, each representing a different afterlife. The 37th Dead World is where ghosts go when they die."
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "category": "dimension",
+    "description": "A planet once ruled by Abraham Lincoln (King of Mars) and home to the cosmic beings Grob Gob Glob Grod. Mars has its own civilization with advanced magic and technology.",
+    "series": ["adventure-time"],
+    "characterIds": ["grob-gob-glob-grod", "magic-man"],
+    "storylineIds": ["the-lich"],
+    "episodeIds": ["adventure-time-s04e15", "adventure-time-s06e19", "adventure-time-s10e11"],
+    "notes": "Magic Man was banished from Mars to Ooo for his cruelty after the loss of his wife Margles. Grob Gob Glob Grod sacrificed themselves to stop the Lich's comet."
+  },
+  {
+    "id": "crystal-dimension",
+    "name": "Crystal Dimension",
+    "category": "dimension",
+    "description": "A dimension made entirely of crystalline structures, connected to Ooo through various portals. Tree Trunks became its queen after consuming a crystal apple.",
+    "series": ["adventure-time"],
+    "characterIds": ["tree-trunks"],
+    "episodeIds": ["adventure-time-s01e04", "adventure-time-s02e08", "adventure-time-s08e04"]
+  },
+  {
+    "id": "wizard-city",
+    "name": "Wizard City",
+    "category": "landmark",
+    "description": "A hidden city inhabited by wizards and magical practitioners, governed by its own rules and customs. Home to Wizard Battles and various magical institutions.",
+    "series": ["adventure-time", "distant-lands"],
+    "characterIds": ["abracadaniel", "huntress-wizard"],
+    "episodeIds": [
+      "adventure-time-s01e11",
+      "adventure-time-s03e08",
+      "adventure-time-s05e26",
+      "distant-lands-s01e04"
+    ],
+    "notes": "Wizard City has strict rules about who can enter — non-wizards are generally not welcome. It has its own economy, politics, and school system."
+  },
+  {
+    "id": "wildberry-kingdom",
+    "name": "Wildberry Kingdom",
+    "category": "kingdom",
+    "description": "A kingdom of berry people ruled by Wildberry Princess, set within a lush forested region of Ooo.",
+    "series": ["adventure-time"],
+    "characterIds": ["wildberry-princess"],
+    "episodeIds": ["adventure-time-s03e18", "adventure-time-s06e14"]
+  },
+  {
+    "id": "ghost-kingdom",
+    "name": "Ghost Kingdom",
+    "category": "kingdom",
+    "description": "An ethereal kingdom inhabited by ghosts and spectral beings, ruled by Ghost Princess before she moved on to the 50th Dead World.",
+    "series": ["adventure-time"],
+    "characterIds": ["ghost-princess"],
+    "episodeIds": ["adventure-time-s03e24", "adventure-time-s05e37"]
+  },
+  {
+    "id": "pillow-world",
+    "name": "Pillow World",
+    "category": "dimension",
+    "description": "A dimension made entirely of pillows and soft fabric, where Finn once lived an entire lifetime — growing old, having a family, and eventually returning to Ooo.",
+    "series": ["adventure-time"],
+    "characterIds": ["finn"],
+    "episodeIds": ["adventure-time-s05e03"],
+    "notes": "In 'Puhoy,' Finn enters Pillow World through a pillow fort and lives a full life there before waking up back in Ooo with no memory of it."
+  },
+  {
+    "id": "sea-of-something",
+    "name": "Founders' Island",
+    "category": "landmark",
+    "description": "An archipelago far across the ocean from Ooo where the surviving humans built a technologically advanced society after the Mushroom War. Finn's birthplace and home to his mother Minerva.",
+    "series": ["adventure-time"],
+    "characterIds": ["finn", "minerva-campbell", "susan-strong", "martin-mertens"],
+    "storylineIds": ["finn-the-human"],
+    "episodeIds": [
+      "adventure-time-s08e18",
+      "adventure-time-s08e19",
+      "adventure-time-s08e20",
+      "adventure-time-s08e21"
+    ],
+    "notes": "The humans of Founders' Island developed Helper programs to protect their society, eventually uploading Minerva's consciousness into the system."
+  }
+]

@@ -1,4 +1,4 @@
-import { BookOpen, Users, Route, Music } from 'lucide-react';
+import { BookOpen, Users, Route, MapPin, Music } from 'lucide-react';
 import { PageHeader } from '@/components/PageHeader';
 import { SectionCard } from '@/components/SectionCard';
 
@@ -28,6 +28,12 @@ export function HomePage() {
           icon={Route}
           title="Storylines"
           description="Major story arcs from the Lich to Simon & Betty"
+        />
+        <SectionCard
+          to="/locations"
+          icon={MapPin}
+          title="Locations"
+          description="Kingdoms, dimensions, and landmarks across Ooo and beyond"
         />
         <SectionCard
           to="/songs"
