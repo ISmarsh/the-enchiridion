@@ -87,7 +87,7 @@ export function EpisodesPage() {
             <section key={key}>
               <h2 className="mb-4 flex items-center gap-3 text-lg font-semibold">
                 <span>{sectionTitle}</span>
-                <div className="ornamental-rule flex-1" />
+                <div className="ornamental-rule flex-1" aria-hidden="true" />
               </h2>
               <div className="space-y-3">
                 {eps.map((ep) => (
