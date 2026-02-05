@@ -35,9 +35,9 @@ describe('SectionCard', () => {
     expect(screen.getByTestId('section-icon')).toBeInTheDocument();
   });
 
-  it('applies parchment-card class for texture', () => {
+  it('applies bg-card class for parchment texture', () => {
     renderWithRouter(<SectionCard to="/test" icon={TestIcon} title="Title" description="Desc" />);
 
-    expect(screen.getByRole('link')).toHaveClass('parchment-card');
+    expect(screen.getByRole('link')).toHaveClass('bg-card');
   });
 });

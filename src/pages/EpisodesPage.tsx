@@ -1,5 +1,7 @@
 import { useState, useMemo } from 'react';
-import { cn } from '@/lib/utils';
+import { PageHeader } from '@/components/PageHeader';
+import { EpisodeCard } from '@/components/EpisodeCard';
+import { Button } from '@/components/ui/button';
 import episodes from '@/data/episodes.json';
 import type { Episode, Series } from '@/types';
 
@@ -52,29 +54,23 @@ export function EpisodesPage() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="mb-2 text-3xl font-bold">Episodes</h1>
-        <p className="text-muted-foreground">
-          {filteredEpisodes.length} episodes across Adventure Time, Distant Lands, and Fionna &
-          Cake.
-        </p>
-      </div>
+      <PageHeader
+        title="Episodes"
+        subtitle={`${filteredEpisodes.length} episodes across Adventure Time, Distant Lands, and Fionna & Cake.`}
+        centered={false}
+      />
 
       {/* Series filter tabs */}
       <div className="mb-6 flex flex-wrap gap-2">
         {SERIES_OPTIONS.map(({ id, label }) => (
-          <button
+          <Button
             key={id}
+            size="sm"
+            variant={selectedSeries === id ? 'default' : 'outline'}
             onClick={() => setSelectedSeries(id)}
-            className={cn(
-              'rounded-md px-3 py-1.5 text-sm font-medium transition-colors',
-              selectedSeries === id
-                ? 'bg-primary text-primary-foreground'
-                : 'bg-muted text-muted-foreground hover:bg-muted/80 hover:text-foreground',
-            )}
           >
             {label}
-          </button>
+          </Button>
         ))}
       </div>
 
@@ -89,7 +85,10 @@ export function EpisodesPage() {
 
           return (
             <section key={key}>
-              <h2 className="mb-4 text-xl font-semibold">{sectionTitle}</h2>
+              <h2 className="mb-4 flex items-center gap-3 text-lg font-semibold">
+                <span>{sectionTitle}</span>
+                <div className="ornamental-rule flex-1" />
+              </h2>
               <div className="space-y-3">
                 {eps.map((ep) => (
                   <EpisodeCard key={ep.id} episode={ep} />
@@ -101,43 +100,4 @@ export function EpisodesPage() {
       </div>
     </div>
   );
-}
-
-function EpisodeCard({ episode }: { episode: Episode }) {
-  const [expanded, setExpanded] = useState(false);
-
-  return (
-    <button
-      type="button"
-      className="w-full cursor-pointer rounded-lg border border-border bg-card p-4 text-left transition-colors hover:border-primary/30"
-      onClick={() => setExpanded(!expanded)}
-    >
-      <div className="flex items-start justify-between gap-4">
-        <div className="min-w-0 flex-1">
-          <div className="flex items-baseline gap-2">
-            <span className="text-sm font-medium text-muted-foreground">
-              E{episode.episodeNumber.toString().padStart(2, '0')}
-            </span>
-            <h3 className="font-medium text-card-foreground">{episode.title}</h3>
-          </div>
-          {expanded && episode.synopsis && (
-            <p className="mt-2 text-sm text-muted-foreground">{episode.synopsis}</p>
-          )}
-        </div>
-        <span className="shrink-0 text-xs text-muted-foreground">
-          {formatDate(episode.airDate)}
-        </span>
-      </div>
-    </button>
-  );
-}
-
-function formatDate(dateStr: string): string {
-  if (!dateStr) return '';
-  const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  });
 }

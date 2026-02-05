@@ -22,10 +22,10 @@ export function Layout() {
       <header className="py-6">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <Link to="/" className="group inline-block">
-            <h1 className="text-2xl font-bold tracking-wide text-primary transition-colors group-hover:text-primary-hover sm:text-3xl">
+            <h1 className="text-2xl font-bold tracking-wide text-foreground transition-colors group-hover:text-primary sm:text-3xl">
               The Enchiridion
             </h1>
-            <p className="mt-1 font-serif text-sm italic text-muted-foreground">
+            <p className="mt-1 font-serif text-sm italic text-foreground">
               A Guide to the Land of Ooo
             </p>
           </Link>
@@ -42,7 +42,7 @@ export function Layout() {
                     'flex items-center gap-1 border-b-2 px-1 py-1 text-sm transition-colors sm:px-2',
                     isActive
                       ? 'border-primary text-primary'
-                      : 'border-transparent text-muted-foreground hover:border-primary/30 hover:text-foreground',
+                      : 'border-transparent text-foreground hover:border-primary/30 hover:text-foreground',
                   )
                 }
               >
@@ -65,7 +65,7 @@ export function Layout() {
       <footer className="mt-auto py-6">
         <div className="mx-auto max-w-4xl px-4">
           <div className="ornamental-rule mx-auto mb-4 max-w-xs" />
-          <div className="flex items-center justify-center gap-4 font-serif text-sm text-muted-foreground">
+          <div className="flex items-center justify-center gap-4 font-serif text-sm text-foreground">
             <Link to="/credits" className="hover:text-foreground">
               Credits & Licenses
             </Link>

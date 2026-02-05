@@ -23,8 +23,7 @@ describe('ThemeShowcasePage', () => {
   it('renders a theme selector with all themes', () => {
     render(<ThemeShowcasePage />);
 
-    const select = screen.getByLabelText('Theme');
-    expect(select).toBeInTheDocument();
+    expect(screen.getByLabelText('Theme')).toBeInTheDocument();
 
     // Enchiridion
     expect(screen.getByRole('option', { name: 'Enchiridion' })).toBeInTheDocument();
@@ -32,10 +31,6 @@ describe('ThemeShowcasePage', () => {
     // Characters
     expect(screen.getByRole('option', { name: 'Finn' })).toBeInTheDocument();
     expect(screen.getByRole('option', { name: 'Prismo' })).toBeInTheDocument();
-
-    // Kingdoms
-    expect(screen.getByRole('option', { name: 'Candy Kingdom' })).toBeInTheDocument();
-    expect(screen.getByRole('option', { name: 'Nightosphere' })).toBeInTheDocument();
   });
 
   it('renders component previews', () => {

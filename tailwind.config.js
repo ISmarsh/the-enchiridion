@@ -11,6 +11,7 @@ export default {
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
@@ -114,42 +115,6 @@ export default {
           secondary: 'hsl(var(--prismo-secondary))',
           accent: 'hsl(var(--prismo-accent))',
           dark: 'hsl(var(--prismo-dark))',
-        },
-        grasslands: {
-          DEFAULT: 'hsl(var(--grasslands-primary))',
-          secondary: 'hsl(var(--grasslands-secondary))',
-          accent: 'hsl(var(--grasslands-accent))',
-          dark: 'hsl(var(--grasslands-dark))',
-        },
-        candy: {
-          DEFAULT: 'hsl(var(--candy-primary))',
-          secondary: 'hsl(var(--candy-secondary))',
-          accent: 'hsl(var(--candy-accent))',
-          dark: 'hsl(var(--candy-dark))',
-        },
-        ice: {
-          DEFAULT: 'hsl(var(--ice-primary))',
-          secondary: 'hsl(var(--ice-secondary))',
-          accent: 'hsl(var(--ice-accent))',
-          dark: 'hsl(var(--ice-dark))',
-        },
-        fire: {
-          DEFAULT: 'hsl(var(--fire-primary))',
-          secondary: 'hsl(var(--fire-secondary))',
-          accent: 'hsl(var(--fire-accent))',
-          dark: 'hsl(var(--fire-dark))',
-        },
-        slime: {
-          DEFAULT: 'hsl(var(--slime-primary))',
-          secondary: 'hsl(var(--slime-secondary))',
-          accent: 'hsl(var(--slime-accent))',
-          dark: 'hsl(var(--slime-dark))',
-        },
-        nightosphere: {
-          DEFAULT: 'hsl(var(--nightosphere-primary))',
-          secondary: 'hsl(var(--nightosphere-secondary))',
-          accent: 'hsl(var(--nightosphere-accent))',
-          dark: 'hsl(var(--nightosphere-dark))',
         },
         chart: {
           1: 'hsl(var(--chart-1))',

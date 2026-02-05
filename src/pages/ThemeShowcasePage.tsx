@@ -1,4 +1,6 @@
+import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageHeader } from '@/components/PageHeader';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -18,13 +20,11 @@ const CHARACTER_THEMES = [
   { id: 'prismo', label: 'Prismo' },
 ] as const;
 
-const KINGDOM_THEMES = [
-  { id: 'grasslands', label: 'Grass Lands' },
-  { id: 'candy', label: 'Candy Kingdom' },
-  { id: 'ice', label: 'Ice Kingdom' },
-  { id: 'fire', label: 'Fire Kingdom' },
-  { id: 'slime', label: 'Slime Kingdom' },
-  { id: 'nightosphere', label: 'Nightosphere' },
+const ICON_SAMPLES = [
+  { icon: BookOpen, label: 'Episodes' },
+  { icon: Users, label: 'Characters' },
+  { icon: Route, label: 'Storylines' },
+  { icon: Music, label: 'Songs' },
 ] as const;
 
 const PALETTE_VARIANTS = ['primary', 'secondary', 'accent', 'dark'] as const;
@@ -64,36 +64,25 @@ export function ThemeShowcasePage() {
   const paletteKey = theme;
 
   return (
-    <div className="mx-auto max-w-5xl space-y-8 px-4 py-8">
-      <div>
-        <h1 className="text-3xl font-bold">Theme Showcase</h1>
-        <p className="text-muted-foreground">
-          Select a theme to preview. The entire page updates to reflect the chosen theme.
-        </p>
-      </div>
+    <div className="mx-auto max-w-5xl px-4 py-8">
+      <PageHeader
+        title="Theme Showcase"
+        subtitle="Select a theme to preview. The entire page updates to reflect the chosen palette."
+      />
 
-      <div>
-        <label htmlFor="theme-select" className="mr-2 text-sm font-medium">
+      <div className="mb-8">
+        <label htmlFor="theme-select" className="mb-2 block text-sm font-medium">
           Theme
         </label>
         <select
           id="theme-select"
           value={theme}
           onChange={(e) => setTheme(e.target.value)}
-          className="rounded-md border border-input bg-background px-3 py-1.5 text-sm"
+          className="rounded-md border border-border bg-card px-3 py-2 text-sm text-card-foreground"
         >
-          <optgroup label="Enchiridion">
-            <option value="enchiridion">Enchiridion</option>
-          </optgroup>
+          <option value="enchiridion">Enchiridion</option>
           <optgroup label="Characters">
             {CHARACTER_THEMES.map(({ id, label }) => (
-              <option key={id} value={id}>
-                {label}
-              </option>
-            ))}
-          </optgroup>
-          <optgroup label="Kingdoms">
-            {KINGDOM_THEMES.map(({ id, label }) => (
               <option key={id} value={id}>
                 {label}
               </option>
@@ -102,10 +91,15 @@ export function ThemeShowcasePage() {
         </select>
       </div>
 
-      <div data-testid="theme-preview">
-        <Card>
+      <div data-testid="theme-preview" className="space-y-6">
+        {/* Background surface text */}
+        <p className="text-sm text-foreground">Foreground on background</p>
+
+        <Card className="group">
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm">Theme Preview</CardTitle>
+            <CardTitle className="text-sm transition-colors group-hover:text-primary">
+              Theme Preview
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             {/* Raw palette colors */}
@@ -164,8 +158,16 @@ export function ThemeShowcasePage() {
               <Badge variant="outline">Outline</Badge>
               <Badge variant="destructive">Destructive</Badge>
             </div>
+            <div className="flex flex-wrap gap-4">
+              {ICON_SAMPLES.map(({ icon: Icon, label: iconLabel }) => (
+                <div key={iconLabel} className="flex items-center gap-1.5 text-sm">
+                  <Icon className="h-5 w-5 text-primary" />
+                  <span className="text-card-foreground">{iconLabel}</span>
+                </div>
+              ))}
+            </div>
             <div className="space-y-1 text-sm">
-              <p className="text-foreground">Foreground text</p>
+              <p className="text-card-foreground">Card foreground text</p>
               <p className="text-muted-foreground">Muted foreground text</p>
               <p className="text-primary">Primary text</p>
               <p className="inline-block rounded bg-accent px-2 text-accent-foreground">
