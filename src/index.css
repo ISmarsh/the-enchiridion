@@ -132,62 +132,39 @@
    * ─── ENCHIRIDION THEMES ───────────────────────────────────────────────
    */
 
-  /* Enchiridion Light — parchment bg, brown text, gold primary */
-  [data-theme='enchiridion-light'] {
-    --background: 45 30% 92%;
-    --foreground: 24 23% 20%;
+  /* Enchiridion — dark leather cover with parchment page cards */
+  [data-theme='enchiridion'] {
+    /* Surface: dark leather cover */
+    --background: 30 20% 10%;
+    --foreground: 40 25% 85%;
+    /* Surface: parchment pages */
     --card: 50 40% 88%;
     --card-foreground: 24 23% 15%;
     --popover: 50 40% 88%;
     --popover-foreground: 24 23% 15%;
-    --primary: 39 89% 28%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 39 89% 22%;
+    /* Gold — deep enough for parchment contrast, bright enough on leather */
+    --primary: 39 89% 42%;
+    --primary-foreground: 30 20% 10%;
+    --primary-hover: 39 89% 36%;
+    /* Card-level tones (secondary/muted sit on parchment) */
     --secondary: 33 25% 78%;
     --secondary-foreground: 24 23% 18%;
-    --muted: 40 20% 85%;
-    --muted-foreground: 24 15% 35%;
+    --muted: 40 20% 82%;
+    --muted-foreground: 24 15% 38%;
+    /* Accent/destructive */
     --accent: 33 40% 32%;
     --accent-foreground: 45 30% 95%;
     --destructive: 4 44% 35%;
     --destructive-foreground: 45 30% 95%;
-    --border: 33 25% 75%;
-    --input: 33 25% 75%;
-    --ring: 39 89% 28%;
+    /* Border: mid-tone visible on both surfaces */
+    --border: 33 25% 65%;
+    --input: 33 25% 65%;
+    --ring: 39 89% 42%;
     --chart-1: 39 89% 50%;
     --chart-2: 24 23% 42%;
     --chart-3: 206 40% 60%;
     --chart-4: 4 44% 22%;
     --chart-5: 55 75% 73%;
-  }
-
-  /* Enchiridion Dark — aged leather bg, warm text, bright gold */
-  [data-theme='enchiridion-dark'] {
-    --background: 30 20% 10%;
-    --foreground: 40 25% 85%;
-    --card: 30 18% 14%;
-    --card-foreground: 40 25% 85%;
-    --popover: 30 18% 14%;
-    --popover-foreground: 40 25% 85%;
-    --primary: 39 85% 55%;
-    --primary-foreground: 30 20% 10%;
-    --primary-hover: 39 85% 65%;
-    --secondary: 30 15% 20%;
-    --secondary-foreground: 40 25% 80%;
-    --muted: 30 15% 18%;
-    --muted-foreground: 33 15% 55%;
-    --accent: 33 30% 35%;
-    --accent-foreground: 40 25% 90%;
-    --destructive: 4 44% 30%;
-    --destructive-foreground: 40 25% 90%;
-    --border: 30 15% 22%;
-    --input: 30 15% 22%;
-    --ring: 39 85% 55%;
-    --chart-1: 39 85% 55%;
-    --chart-2: 33 30% 54%;
-    --chart-3: 206 40% 60%;
-    --chart-4: 4 44% 35%;
-    --chart-5: 55 75% 60%;
   }
 
   /*
@@ -619,5 +596,95 @@
   h3,
   h4 {
     font-family: theme('fontFamily.serif');
+  }
+}
+
+@layer components {
+  /*
+   * Parchment card — base styles shared by all themes.
+   * The aged paper texture only activates on enchiridion themes;
+   * other themes get a clean card with hover effects.
+   */
+  .parchment-card {
+    position: relative;
+    transition:
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .parchment-card:hover {
+    box-shadow: 0 4px 12px hsl(var(--foreground) / 0.1);
+    border-color: hsl(var(--primary) / 0.5);
+  }
+
+  /*
+   * Enchiridion-only: aged paper texture via CSS-only gradients.
+   * Uses fixed warm tones (not theme tokens) so the paper reads as
+   * "old parchment" regardless of light/dark variant.
+   */
+  [data-theme='enchiridion'] :is(.card, .parchment-card) {
+    background-image:
+      /* Corner wear — asymmetric darkening like a handled book page */
+      radial-gradient(ellipse at 0% 0%, hsl(30 30% 15% / 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse at 100% 100%, hsl(30 30% 15% / 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 100% 0%, hsl(30 30% 15% / 0.05) 0%, transparent 40%),
+      radial-gradient(ellipse at 0% 100%, hsl(30 30% 15% / 0.06) 0%, transparent 45%),
+      /* Edge darkening — simulates aged paper browning at borders */
+        linear-gradient(
+          to right,
+          hsl(30 20% 20% / 0.06),
+          transparent 12%,
+          transparent 88%,
+          hsl(30 20% 20% / 0.06)
+        ),
+      linear-gradient(
+        to bottom,
+        hsl(30 20% 20% / 0.04),
+        transparent 10%,
+        transparent 90%,
+        hsl(30 20% 20% / 0.06)
+      ),
+      /* Subtle warm texture variation — uneven paper aging */
+        radial-gradient(ellipse at 30% 60%, hsl(40 40% 80% / 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 25%, hsl(35 35% 75% / 0.07) 0%, transparent 45%);
+    box-shadow:
+      inset 0 1px 4px hsl(30 20% 15% / 0.08),
+      inset 0 -1px 2px hsl(30 20% 15% / 0.05),
+      inset 1px 0 2px hsl(30 20% 15% / 0.03);
+  }
+
+  /* Edge damage — rough, worn edge effect via pseudo-element */
+  [data-theme='enchiridion'] :is(.card, .parchment-card)::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow:
+      /* Irregular inner edge shadows — varying thickness per side */
+      inset 2px 0 4px -2px hsl(30 20% 15% / 0.1),
+      inset -3px 0 5px -3px hsl(30 20% 15% / 0.08),
+      inset 0 2px 3px -2px hsl(30 20% 15% / 0.06),
+      inset 0 -2px 6px -3px hsl(30 20% 15% / 0.12);
+  }
+
+  [data-theme='enchiridion'] :is(.card, .parchment-card):hover {
+    box-shadow:
+      inset 0 1px 4px hsl(30 20% 15% / 0.08),
+      inset 0 -1px 2px hsl(30 20% 15% / 0.05),
+      inset 1px 0 2px hsl(30 20% 15% / 0.03),
+      0 4px 12px hsl(var(--foreground) / 0.1);
+  }
+
+  .ornamental-rule {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      hsl(var(--primary) / 0.5),
+      hsl(var(--primary)),
+      hsl(var(--primary) / 0.5),
+      transparent
+    );
   }
 }

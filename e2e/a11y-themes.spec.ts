@@ -2,8 +2,7 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
 const ALL_THEMES = [
-  'enchiridion-dark',
-  'enchiridion-light',
+  'enchiridion',
   'finn',
   'jake',
   'bubblegum',

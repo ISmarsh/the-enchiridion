@@ -8,9 +8,9 @@ describe('useTheme', () => {
     document.documentElement.removeAttribute('data-theme');
   });
 
-  it('defaults to enchiridion-dark', () => {
+  it('defaults to enchiridion', () => {
     const { result } = renderHook(() => useTheme());
-    expect(result.current.theme).toBe('enchiridion-dark');
+    expect(result.current.theme).toBe('enchiridion');
   });
 
   it('restores theme from localStorage', () => {
@@ -34,10 +34,10 @@ describe('useTheme', () => {
     const { result } = renderHook(() => useTheme());
 
     act(() => {
-      result.current.setTheme('enchiridion-light');
+      result.current.setTheme('finn');
     });
 
-    expect(localStorage.getItem('app-theme')).toBe('enchiridion-light');
+    expect(localStorage.getItem('app-theme')).toBe('finn');
   });
 
   it('sets data-theme attribute on document element', () => {
@@ -59,8 +59,8 @@ describe('useTheme', () => {
     expect(document.documentElement.getAttribute('data-theme')).toBe('finn');
 
     act(() => {
-      result.current.setTheme('enchiridion-dark');
+      result.current.setTheme('enchiridion');
     });
-    expect(document.documentElement.getAttribute('data-theme')).toBe('enchiridion-dark');
+    expect(document.documentElement.getAttribute('data-theme')).toBe('enchiridion');
   });
 });
