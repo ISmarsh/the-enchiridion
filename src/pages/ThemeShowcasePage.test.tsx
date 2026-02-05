@@ -26,9 +26,8 @@ describe('ThemeShowcasePage', () => {
     const select = screen.getByLabelText('Theme');
     expect(select).toBeInTheDocument();
 
-    // Enchiridion variants
-    expect(screen.getByRole('option', { name: 'Enchiridion Dark' })).toBeInTheDocument();
-    expect(screen.getByRole('option', { name: 'Enchiridion Light' })).toBeInTheDocument();
+    // Enchiridion
+    expect(screen.getByRole('option', { name: 'Enchiridion' })).toBeInTheDocument();
 
     // Characters
     expect(screen.getByRole('option', { name: 'Finn' })).toBeInTheDocument();

@@ -4,13 +4,13 @@
  * Stores a theme name and sets data-theme on <html> for CSS to resolve.
  * Each theme defines a full set of semantic tokens in index.css.
  *
- * Defaults to 'enchiridion-dark'.
+ * Defaults to 'enchiridion'.
  */
 
 import { useState, useEffect } from 'react';
 
 const STORAGE_KEY = 'app-theme';
-const DEFAULT_THEME = 'enchiridion-dark';
+const DEFAULT_THEME = 'enchiridion';
 
 function getInitialTheme(): string {
   return localStorage.getItem(STORAGE_KEY) ?? DEFAULT_THEME;

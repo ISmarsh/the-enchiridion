@@ -61,9 +61,7 @@ function ColorSwatch({
 
 export function ThemeShowcasePage() {
   const { theme, setTheme } = useTheme();
-  const isEnchiridion = theme.startsWith('enchiridion');
-  // Derive palette key: 'finn' from 'finn', 'enchiridion' from 'enchiridion-dark'
-  const paletteKey = isEnchiridion ? 'enchiridion' : theme;
+  const paletteKey = theme;
 
   return (
     <div className="mx-auto max-w-5xl space-y-8 px-4 py-8">
@@ -85,8 +83,7 @@ export function ThemeShowcasePage() {
           className="rounded-md border border-input bg-background px-3 py-1.5 text-sm"
         >
           <optgroup label="Enchiridion">
-            <option value="enchiridion-dark">Enchiridion Dark</option>
-            <option value="enchiridion-light">Enchiridion Light</option>
+            <option value="enchiridion">Enchiridion</option>
           </optgroup>
           <optgroup label="Characters">
             {CHARACTER_THEMES.map(({ id, label }) => (
@@ -174,6 +171,14 @@ export function ThemeShowcasePage() {
               <p className="inline-block rounded bg-accent px-2 text-accent-foreground">
                 Accent foreground on accent
               </p>
+            </div>
+
+            <Separator />
+
+            {/* Ornamental rule preview */}
+            <div className="space-y-2">
+              <p className="text-xs text-muted-foreground">Ornamental Rule</p>
+              <div className="ornamental-rule" />
             </div>
           </CardContent>
         </Card>

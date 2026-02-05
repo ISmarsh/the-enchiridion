@@ -1,15 +1,14 @@
-import { Link } from 'react-router-dom';
 import { BookOpen, Users, Route, Music } from 'lucide-react';
+import { PageHeader } from '@/components/PageHeader';
+import { SectionCard } from '@/components/SectionCard';
 
 export function HomePage() {
   return (
     <div className="mx-auto max-w-3xl">
-      <div className="mb-12 text-center">
-        <h1 className="mb-4 text-4xl font-bold">The Enchiridion</h1>
-        <p className="text-xl text-muted-foreground">
-          Your guide to Adventure Time, Distant Lands, and Fionna and Cake.
-        </p>
-      </div>
+      <PageHeader
+        title="The Enchiridion"
+        subtitle="Your guide to Adventure Time, Distant Lands, and Fionna and Cake."
+      />
 
       <div className="grid gap-4 sm:grid-cols-2">
         <SectionCard
@@ -38,30 +37,5 @@ export function HomePage() {
         />
       </div>
     </div>
-  );
-}
-
-function SectionCard({
-  to,
-  icon: Icon,
-  title,
-  description,
-}: {
-  to: string;
-  icon: React.ComponentType<{ className?: string }>;
-  title: string;
-  description: string;
-}) {
-  return (
-    <Link
-      to={to}
-      className="group rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/50 hover:bg-primary/5"
-    >
-      <Icon className="mb-3 h-8 w-8 text-primary" />
-      <h2 className="text-xl font-semibold text-card-foreground transition-colors group-hover:text-primary">
-        {title}
-      </h2>
-      <p className="mt-1 text-sm text-muted-foreground">{description}</p>
-    </Link>
   );
 }
