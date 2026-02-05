@@ -288,22 +288,114 @@ Avoid targeting these episodes for art extraction until fixes land.
 
 ## Shot List
 
-> **Status:** Pending — generate once episode data validation is complete.
->
-> For each themed character, find candidates across eras:
->
-> | Slot               | Purpose                                    |
-> | ------------------ | ------------------------------------------ |
-> | Primary candidate  | Most recognizable version, clean shot       |
-> | Early-series       | Classic/original design                     |
-> | Mid-series         | Character development era                   |
-> | Late/spinoff       | Mature or alternate version                 |
->
-> Episode selection weighted by: cast size (smaller = better), character presence
-> in title/synopsis, era match for target version.
->
-> **Safe ranges for initial shot list:** S01–S07, S10, F&C. Avoid S08 (Islands),
-> S09 (Elements), and DL S01E03–04 until queued fixes land.
+For each themed character, find candidates across eras:
+
+| Slot               | Purpose                                    |
+| ------------------ | ------------------------------------------ |
+| Primary candidate  | Most recognizable version, clean shot       |
+| Early-series       | Classic/original design                     |
+| Mid-series         | Character development era                   |
+| Late/spinoff       | Mature or alternate version                 |
+
+Episode selection weighted by: cast size (smaller = better), character presence
+in title/synopsis, era match for target version.
+
+**Safe ranges for initial shot list:** S01–S07, S10, F&C. Avoid S08 (Islands),
+S09 (Elements), and DL S01E03–04 until queued fixes land.
+
+### Draft Candidates (Pre-Validation)
+
+> **Caveat:** These candidates were generated before episode data validation
+> completed. Cast sizes and character assignments may have shifted — revalidate
+> against corrected `episodes.json` before committing to a final shot list.
+
+#### Finn
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S07E24 | The Hall of Egress | 1 | Solo Finn episode — 100% screen time. Surreal/abstract; Finn may look unusual. |
+| 2 | S01E16 | Ocean of Fear | 2 | Classic S1 design, small cast, personal Finn story. Safest pick for standard look. |
+| 3 | S05E01 | Finn the Human | 5 | Finn in the title, pivotal hero shots. Also yields Prismo frames. |
+
+#### Jake
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S10E10 | Jake the Starchild | 2 | Jake in title, tiny cast, plot centers on Jake's destiny. |
+| 2 | S06E18 | Everything's Jake | 3 | Entire episode takes place inside Jake — maximum Jake visuals. |
+| 3 | S06E20 | Jake the Brick | 3 | Contemplative Jake-focused episode. |
+
+#### BMO
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | DL S01E01 | BMO | 1 | Solo BMO special — higher production quality as a Distant Lands episode. |
+| 2 | S10E02 | Always BMO Closing | 2 | BMO in title, cast of 2. |
+| 3 | S05E17 | BMO Lost | 3 | BMO as protagonist, navigating alone for most of the episode. |
+
+#### Princess Bubblegum
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S01E19 | The Duke | 3 | Small cast, PB central to plot, S1 classic design. |
+| 2 | S07E01 | Bonnie and Neddy | 5 | "Bonnie" in title, PB origin/backstory episode. |
+| 3 | S08E19 | Jelly Beans Have Power | 2 | Smallest PB cast — but in S08 (queued fixes zone). Verify before using. |
+
+#### Marceline
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S09E11 | Ketchup | 2 | Smallest Marceline cast — but in S09 (queued fixes zone). Verify before using. |
+| 2 | S03E21 | Marceline's Closet | 3 | Name in title, set in her house. Natural poses (playing music, floating). |
+| 3 | S01E22 | Henchman | 3 | S1 classic design, Marceline drives the plot. |
+
+#### Ice King
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S06E32 | Friends Forever | 2 | Smallest Ice King cast, character-focused. |
+| 2 | S01E17 | When Wedding Bells Thaw | 3 | S1 classic design, classic Ice King personality. |
+| 3 | S03E04 | Hitman | 3 | Ice King drives the plot, early season. |
+
+#### Simon (Post-Crown)
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | F&C S01E08 | Jerry | 3 | Smallest F&C cast with Simon. Survival episode, Simon in nearly every scene. |
+| 2 | F&C S01E02 | Simon Petrikov | 7 | Titled with his full name — THE Simon character study. Larger cast but Simon is unambiguous lead. |
+| 3 | F&C S01E09 | Casper & Nova | 4 | Simon named in synopsis, distinct subplot with dedicated screen time. |
+
+#### Flame Princess
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S10E03 | Son of Rap Bear | 3 | Smallest FP cast, FP central to conflict. |
+| 2 | S04E01 | Hot to the Touch | 4 | FP's first major episode, iconic introduction of her design. |
+| 3 | S05E47 | The Red Throne | 4 | Set in Fire Kingdom — visually striking fire-themed backgrounds. |
+
+#### Lumpy Space Princess
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S07E16 | Summer Showers | 2 | Smallest LSP cast. LSP putting on a play — expect dramatic poses. |
+| 2 | S01E02 | Trouble in Lumpy Space | 4 | S1 classic design, set in Lumpy Space (LSP's home turf). |
+| 3 | S09E07 | Happy Warrior (Elements 6) | 3 | LSP in heroic role — but in S09 (queued fixes zone). Verify before using. |
+
+#### Lemongrab
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | S05E50 | Lemonhope (1) | 4 | Lemongrab rules Castle Lemongrab, tyrannical visuals. |
+| 2 | S05E51 | Lemonhope (2) | 4 | Dramatic Lemongrab confrontation scenes in climax. |
+| 3 | S05E09 | All Your Fault | 5 | Set in Castle Lemongrab, "Earls of Lemongrab" take center stage. |
+
+#### Prismo
+
+| Pick | Episode | Title | Cast Size | Rationale |
+| ---- | ------- | ----- | --------- | --------- |
+| 1 | F&C S01E04 | Prismo the Wishmaster | 5 | "Prismo" is the episode title. Set in Time Room. Modern F&C production quality. |
+| 2 | S06E19 | Is That You? | 4 | Smallest AT Prismo cast. Heavily features Time Room. |
+| 3 | S05E01 | Finn the Human | 5 | Prismo's debut — iconic introduction of his design. Also yields Finn frames. |
 
 ## Notes
 
