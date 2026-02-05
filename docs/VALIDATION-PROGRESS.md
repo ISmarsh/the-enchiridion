@@ -550,10 +550,61 @@ All 15 storyline definitions verified:
 
 ### Transcript Coverage
 
+After linking orphan transcripts (DL S01E03-04, Islands S08E20-27, Elements S09E01-14) and fixing the S04E18 broken link:
+
 | Series | With Transcript | Without | Coverage |
 |--------|----------------|---------|----------|
-| Adventure Time S01-S06 | 249 | 5 | 98% |
-| Adventure Time S07-S10 | 29 | 51 | 36% |
-| Distant Lands | 2 | 2 | 50% |
+| Adventure Time S01-S06 | 174 | 5 | 97% |
+| Adventure Time S07-S10 | 54 | 26 | 68% |
+| Distant Lands | 4 | 0 | 100% |
 | Fionna and Cake | 20 | 0 | 100% |
-| **Total** | **302** | **56** | **84%** |
+| **Total** | **272** | **31** | **90%** |
+
+#### Transcript Linkage Audit
+
+24 transcript files existed in the submodule but had no `transcriptFile` field in episodes.json:
+- **DL S01E03-04** — 2 episodes (wiki-scraped transcripts per TRANSCRIPT-GAPS.md)
+- **AT S08E20-27** — 8 episodes (Islands miniseries)
+- **AT S09E01-14** — 14 episodes (Elements miniseries + post-Elements)
+
+Also fixed: S04E18 "King Worm" had a broken link (`King.Worm 2.txt` → `King.Worm.txt`).
+
+Orphan transcript files with no matching episode in the database (mini-episodes/specials):
+- `S00E00` Animated short, `S00E279` Diamonds and Lemons
+- `S06E01-03` mini-episodes (All's Well That Rats Swell, Have You Seen the Muffin Mess, Sow Do You Like Them Apples)
+- `S07E01-05` Frog Seasons (Spring, Summer, Autumn, Winter, Spring Again)
+
+#### 31 Episodes With No Transcript on Disk
+
+All 31 have transcript pages on the Adventure Time Wiki — they were never scraped into the submodule.
+
+| Season | Episodes | Titles | Wiki Status |
+|--------|----------|--------|-------------|
+| S05 | E36 | Dungeon Train | Complete |
+| S06 | E32, E37, E38 | Friends Forever, Water Park Prank, You Forgot Your Floaties | Complete |
+| S06 | E40 | Orgalorg | Incomplete |
+| S07 | E19-E20, E26 | Blank Eyed Girl, Bad Jubies, The Thin Yellow Line | Complete |
+| S07 | E22 | Scamps | Incomplete |
+| S07 | E23 | Crossover | Complete |
+| S07 | E24-E25 | The Hall of Egress, Flute Spell | Incomplete (missing [actions]) |
+| S08 | E03-E04, E10-E11, E15-E16 | Beyond the Grotto, Lady Rainicorn, Music Hole, Daddy-Daughter Card Wars, Do No Harm, Wheels | Complete |
+| S08 | E06, E08-E09 | Bun Bun, Elemental, Five Short Tables | Incomplete |
+| S08 | E12-E14 | Preboot, Reboot, Two Swords | Incomplete |
+| S08 | E17 | High Strangeness | Complete (needs formatting) |
+| S08 | E18 | Horse and Ball | Incomplete |
+| S08 | E19 | Jelly Beans Have Power | Complete (needs formatting) |
+| S10 | E01-E02, E06, E08 | The Wild Hunt, Always BMO Closing, Ring of Fire, The First Investigation | Complete |
+
+**Summary:** 19 complete or near-complete, 12 incomplete (missing stage directions or partial dialogue). All have at least partial dialogue with speaker labels usable for character validation.
+
+#### Character Gaps Exposed by New Linkage
+
+Cross-checking the 24 newly linked episodes against transcript speaker analysis revealed discrepancies in:
+- **DL S01E03** "Together Again" — 11 characters speaking in transcript but missing from episode data
+- **DL S01E04** "Wizard City" — 1 missing (abracadaniel)
+- **S08E20** "The Invitation" — 7 missing (opening of Islands miniseries)
+- **S08E26** "Helpers" — 1 missing (susan-strong)
+- **S09** Elements — gaps in 8 of 14 episodes (gunter frequently detected as Ice King transforms)
+- **S04E18** "King Worm" — 2 missing (flame-princess, peppermint-butler)
+
+These are queued for the next validation pass.
