@@ -40,7 +40,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S03 | 26 | Complete | 2 | 2 |
 | S04 | 26 | Complete | 3 | 3 |
 | S05 | 52 | Complete | 3 | 3 |
-| S06 | 43 | Complete | 1 | 1 |
+| S06 | 43 | Complete | 2 | 2 |
 | S07 | 26 | Complete | 2 | 2 |
 | S08 | 27 | Complete | 2 | 2 |
 | S09 | 14 | Complete | 0 | 0 |
@@ -288,7 +288,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 **Transcript coverage:** 39/43 (S06E32, S06E37, S06E38, S06E40 have no transcripts)
 **Automated discrepancies:** 7 episodes flagged
-**Storyline episodes:** S06E01-02 (finn-the-human, prismo-cosmic, the-lich, grass-sword-fern, sweet-p), S06E04 (finn-the-human), S06E06 (finn-the-human, grass-sword-fern), S06E12 (jake-pups), S06E15 (peppermint-butler-dark), S06E16 (jake-pups), S06E19 (prismo-cosmic), S06E22 (elements, flame-princess-arc), S06E24 (simon-and-marcy, elements), S06E26 (the-lich, sweet-p), S06E27 (finn-the-human), S06E35 (lemongrab-saga, future-ooo), S06E39 (sweet-p), S06E43 (finn-the-human) — all correct
+**Storyline episodes:** S06E01-02 (finn-the-human, prismo-cosmic, the-lich, grass-sword-fern, sweet-p), S06E04 (finn-the-human), S06E06 (finn-the-human, grass-sword-fern), S06E12 (jake-pups), S06E15 (peppermint-butler-dark), S06E16 (jake-pups), S06E19 (prismo-cosmic), S06E22 (elements, flame-princess-arc), S06E24 (simon-and-marcy, elements), S06E26 (the-lich, sweet-p), S06E27 (finn-the-human), S06E28 (lemongrab-saga), S06E35 (lemongrab-saga, future-ooo), S06E39 (sweet-p), S06E43 (finn-the-human) — all correct
 
 | Episode | Title | Status | Notes |
 |---------|-------|--------|-------|
@@ -319,7 +319,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S06E25 | Astral Plane | OK | Banana Man visual appearance — correct |
 | S06E26 | Gold Stars | OK | Lich presence within Sweet P — correct |
 | S06E27 | The Visitor | OK | Finn the Human — correct |
-| S06E28 | The Mountain | OK | |
+| S06E28 | The Mountain | FIXED | Added lemongrab-saga storylineId (Lemongrab's self-discovery journey; Lemonhope appears in vision) |
 | S06E29 | Dark Purple | OK | |
 | S06E30 | The Diary | OK | |
 | S06E31 | Walnuts & Rain | OK | |
@@ -336,7 +336,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S06E42 | Hot Diggity Doom | OK | |
 | S06E43 | The Comet | OK | Finn the Human — correct |
 
-**Summary:** 1 fix applied (S06E01 transcriptFile corrected). No character or storyline changes needed.
+**Summary:** 2 fixes applied (S06E01 transcriptFile corrected, S06E28 added to lemongrab-saga storyline).
 
 ---
 
@@ -498,8 +498,9 @@ All episodes validated against synopses and storyline definitions. No transcript
 | 15 | S10E13 | Added golb | Transcript (major physical presence in finale) |
 | 16 | F&C S01E01 | Added marshall-lee | Web search (significant dialogue confirmed) |
 | 17 | F&C S01E10 | Added marshall-lee | Web search (fights Scarab in finale) |
+| 18 | S06E28 | Added lemongrab-saga storylineId | Transcript + web search (core Lemongrab episode) |
 
-**Total: 14 character additions, 3 transcript file corrections**
+**Total: 14 character additions, 3 transcript file corrections, 1 storyline addition**
 
 ### Known False Positives in Transcript Analysis
 
