@@ -649,6 +649,16 @@
     "description": "The skeletal personification of death who rules the Land of the Dead. Despite his fearsome role, he has a rock-and-roll personality and maintains relationships with various Ooo residents, including a complicated friendship with Peppermint Butler. He plays a major role in Distant Lands: Together Again.",
     "type": "individual",
     "parentIds": [],
+    "childIds": ["new-death"]
+  },
+  {
+    "id": "new-death",
+    "name": "New Death",
+    "series": ["distant-lands"],
+    "aliases": [],
+    "description": "Death's son who usurps control of the Dead World in Distant Lands: Together Again. The main antagonist of the special, he disrupts the natural order of the afterlife and forces Finn and Jake to confront him.",
+    "type": "individual",
+    "parentIds": ["death"],
     "childIds": []
   },
   {
