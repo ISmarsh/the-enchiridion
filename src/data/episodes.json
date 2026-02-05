@@ -3889,7 +3889,9 @@
       "lemonhope",
       "princess-bubblegum"
     ],
-    "storylineIds": ["lemongrab-saga"],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1040689,
@@ -6005,7 +6007,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
-    "tmdbId": 4582728
+    "tmdbId": 4582728,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E01.Fionna.Campbell.txt"
   },
   {
     "id": "fionna-and-cake-s01e02",
@@ -6029,7 +6032,8 @@
     ],
     "songIds": [],
     "runtime": 27,
-    "tmdbId": 4591683
+    "tmdbId": 4591683,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E02.Simon.Petrikov.txt"
   },
   {
     "id": "fionna-and-cake-s01e03",
@@ -6041,16 +6045,19 @@
     "synopsis": "While Cake crash-lands in a fantastic new world, Fionna continues her search.",
     "characterIds": [
       "cake",
-      "fionna",
-      "ice-king",
-      "scarab",
       "choose-goose",
-      "gary-prince"
+      "finn",
+      "fionna",
+      "gary-prince",
+      "ice-king",
+      "jake",
+      "scarab"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 4591684
+    "tmdbId": 4591684,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E03.Cake.the.Cat.txt"
   },
   {
     "id": "fionna-and-cake-s01e04",
@@ -6061,9 +6068,11 @@
     "airDate": "2023-09-07",
     "synopsis": "Fionna, Cake, and Simon converge in a strange place to discover how they're connected.",
     "characterIds": [
+      "betty-grof",
       "cake",
       "fionna",
       "ice-king",
+      "marceline",
       "prismo",
       "scarab"
     ],
@@ -6072,7 +6081,8 @@
     ],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 4591685
+    "tmdbId": 4591685,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E04.Prismo.the.Wishmaster.txt"
   },
   {
     "id": "fionna-and-cake-s01e05",
@@ -6084,16 +6094,20 @@
     "synopsis": "Pursued by a powerful enemy, Fionna, Cake and Simon venture through a lawless world.",
     "characterIds": [
       "cake",
+      "finn",
       "fionna",
-      "ice-king",
-      "scarab",
+      "gary-prince",
       "hunter",
-      "gary-prince"
+      "ice-king",
+      "jake",
+      "prismo",
+      "scarab"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 4591686
+    "tmdbId": 4591686,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E05.Destiny.txt"
   },
   {
     "id": "fionna-and-cake-s01e06",
@@ -6115,7 +6129,8 @@
     ],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 4591687
+    "tmdbId": 4591687,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E06.The.Winter.King.txt"
   },
   {
     "id": "fionna-and-cake-s01e07",
@@ -6136,7 +6151,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 4591688
+    "tmdbId": 4591688,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E07.The.Star.txt"
   },
   {
     "id": "fionna-and-cake-s01e08",
@@ -6147,14 +6163,19 @@
     "airDate": "2023-09-21",
     "synopsis": "Stranded in a desolate wasteland, Fionna, Cake and Simon must resort to desperate measures.",
     "characterIds": [
+      "betty-grof",
+      "bmo",
       "cake",
       "fionna",
-      "ice-king"
+      "gunter",
+      "ice-king",
+      "scarab"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
-    "tmdbId": 4591689
+    "tmdbId": 4591689,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E08.Jerry.txt"
   },
   {
     "id": "fionna-and-cake-s01e09",
@@ -6165,15 +6186,22 @@
     "airDate": "2023-09-28",
     "synopsis": "While Simon experiences a cosmic detour, doom closes in on Fionna and Cake.",
     "characterIds": [
+      "beth",
       "cake",
       "fionna",
+      "gary-prince",
       "ice-king",
-      "scarab"
+      "lumpy-space-princess",
+      "marshall-lee",
+      "prismo",
+      "scarab",
+      "shermy"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 4591690
+    "tmdbId": 4591690,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E09.Casper.and.Nova.txt"
   },
   {
     "id": "fionna-and-cake-s01e10",
@@ -6184,7 +6212,9 @@
     "airDate": "2023-09-28",
     "synopsis": "Simon battles his demons as Fionna, Cake and friends fight for their world.",
     "characterIds": [
+      "beth",
       "cake",
+      "finn",
       "fionna",
       "gary-prince",
       "golb",
@@ -6199,7 +6229,8 @@
     ],
     "songIds": [],
     "runtime": 27,
-    "tmdbId": 4591691
+    "tmdbId": 4591691,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S01E10.Cheers.txt"
   },
   {
     "id": "fionna-and-cake-s02e01",
@@ -6213,16 +6244,19 @@
       "cake",
       "fionna",
       "gary-prince",
+      "hunter",
       "huntress-wizard",
       "ice-king",
       "marceline",
       "marshall-lee",
-      "princess-bubblegum"
+      "princess-bubblegum",
+      "winter-king"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 6567376
+    "tmdbId": 6567376,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E01.The.Hare.and.the.Sprout.txt"
   },
   {
     "id": "fionna-and-cake-s02e02",
@@ -6234,16 +6268,19 @@
     "synopsis": "Fionna and Cake attempt to solve a heated debate with force.",
     "characterIds": [
       "cake",
+      "finn",
       "fionna",
       "gary-prince",
       "huntress-wizard",
       "ice-king",
-      "marshall-lee"
+      "marshall-lee",
+      "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 6596771
+    "tmdbId": 6596771,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E02.The.Crocodile.Who.Bit.a.Log.txt"
   },
   {
     "id": "fionna-and-cake-s02e03",
@@ -6255,20 +6292,24 @@
     "synopsis": "A nervous Cake goes on her first date. Fionna revisits an old flame.",
     "characterIds": [
       "cake",
+      "cosmic-owl",
       "fionna",
       "flame-princess",
       "gary-prince",
+      "hunter",
       "huntress-wizard",
       "ice-king",
       "marceline",
       "marshall-lee",
       "princess-bubblegum",
-      "prismo"
+      "prismo",
+      "scarab"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 6596772
+    "tmdbId": 6596772,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E03.The.Lion.of.Embers.txt"
   },
   {
     "id": "fionna-and-cake-s02e04",
@@ -6290,7 +6331,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 6596773
+    "tmdbId": 6596773,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E04.The.Cat.Who.Tipped.the.Box.txt"
   },
   {
     "id": "fionna-and-cake-s02e05",
@@ -6313,7 +6355,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
-    "tmdbId": 6596774
+    "tmdbId": 6596774,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E05.The.Butterfly.and.the.River.txt"
   },
   {
     "id": "fionna-and-cake-s02e06",
@@ -6338,7 +6381,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 6596776
+    "tmdbId": 6596776,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E06.The.Bird.in.the.Clock.txt"
   },
   {
     "id": "fionna-and-cake-s02e07",
@@ -6352,12 +6396,14 @@
       "cake",
       "fionna",
       "huntress-wizard",
-      "marshall-lee"
+      "marshall-lee",
+      "starchy"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 6596777
+    "tmdbId": 6596777,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E07.The.Wolves.Who.Wandered.txt"
   },
   {
     "id": "fionna-and-cake-s02e08",
@@ -6381,7 +6427,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 6596778
+    "tmdbId": 6596778,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E08.The.Insect.that.Sang.txt"
   },
   {
     "id": "fionna-and-cake-s02e09",
@@ -6402,7 +6449,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
-    "tmdbId": 6596779
+    "tmdbId": 6596779,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E09.The.Worm.and.his.Orchard.txt"
   },
   {
     "id": "fionna-and-cake-s02e10",
@@ -6418,15 +6466,18 @@
       "fionna",
       "gary-prince",
       "hunson-abadeer",
+      "hunter",
       "huntress-wizard",
       "ice-king",
       "marceline",
       "marshall-lee",
+      "minerva-campbell",
       "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
-    "tmdbId": 6596780
+    "tmdbId": 6596780,
+    "transcriptFile": "Adventure.Time.Fionna.and.Cake.S02E10.The.Bear.and.the.Rose.txt"
   }
 ]

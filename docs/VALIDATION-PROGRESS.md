@@ -46,7 +46,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S09 | 14 | Complete | 0 | 0 |
 | S10 | 13 | Complete | 2 | 2 |
 | DL | 4 | Complete | 0 | 0 |
-| F&C S1 | 10 | Complete | 2 | 2 |
+| F&C S1 | 10 | Complete | 7 | 7 |
 | F&C S2 | 10 | Complete | 10 | 10 |
 
 ---
@@ -451,33 +451,33 @@ All episodes validated against synopses and storyline definitions. No transcript
 
 ### Validation Notes
 
-**Transcript coverage:** 0/20 (no transcripts available — validated via web search)
+**Transcript coverage:** 20/20 (transcriptFile was missing — added for all F&C episodes; aliases "Huntress" and "Marshall" added to characters.json)
 **Storyline episodes:** F&C S01E02 (simon-and-marcy), S01E04 (prismo-cosmic), S01E06 (simon-and-marcy), S01E10 (simon-and-marcy) — all correct
 
 | Episode | Title | Status | Notes |
 |---------|-------|--------|-------|
 | F&C S01E01 | Fionna Campbell | FIXED | Added marshall-lee (confirmed via web search — significant dialogue) |
 | F&C S01E02 | Simon Petrikov | OK | Simon & Marcy — correct |
-| F&C S01E03 | Cake the Cat | OK | |
-| F&C S01E04 | Prismo the Wishmaster | OK | Prismo & Cosmic — correct |
-| F&C S01E05 | Destiny | OK | |
+| F&C S01E03 | Cake the Cat | FIXED | Added finn, jake (brief Ooo scene — transcript confirmed) |
+| F&C S01E04 | Prismo the Wishmaster | FIXED | Added betty-grof, marceline (transcript confirmed speaking) |
+| F&C S01E05 | Destiny | FIXED | Added finn (22 lines), jake, prismo. "Bonnie" = Finn's daughter, NOT princess-bubblegum (false positive) |
 | F&C S01E06 | The Winter King | OK | Simon & Marcy — correct |
 | F&C S01E07 | The Star | OK | Marshall Lee listed — correct |
-| F&C S01E08 | Jerry | OK | |
-| F&C S01E09 | Casper & Nova | OK | |
-| F&C S01E10 | Cheers | FIXED | Added marshall-lee (confirmed via web search — fights Scarab in finale) |
-| F&C S02E01 | The Hare and the Sprout | FIXED | Added gary-prince, huntress-wizard, marceline, marshall-lee, princess-bubblegum (all confirmed speaking) |
-| F&C S02E02 | The Crocodile Who Bit a Log | FIXED | Added gary-prince, huntress-wizard, ice-king, marshall-lee (all confirmed speaking) |
-| F&C S02E03 | The Lion of Embers | FIXED | Added flame-princess, gary-prince, huntress-wizard, ice-king, marceline, princess-bubblegum, prismo (all confirmed speaking) |
+| F&C S01E08 | Jerry | FIXED | Added betty-grof (25 lines as Betty + Past Betty), bmo (26 lines), gunter, scarab (10 lines) |
+| F&C S01E09 | Casper & Nova | FIXED | Added beth (36 lines), gary-prince, lumpy-space-princess, marshall-lee, prismo, shermy — major crossover episode |
+| F&C S01E10 | Cheers | FIXED | Added marshall-lee (prior web search), beth (13 lines), finn (3 lines) — all transcript confirmed |
+| F&C S02E01 | The Hare and the Sprout | FIXED | Added gary-prince, huntress-wizard, marceline, marshall-lee, princess-bubblegum (web search) + hunter, winter-king (transcript confirmed) |
+| F&C S02E02 | The Crocodile Who Bit a Log | FIXED | Added gary-prince, huntress-wizard, ice-king, marshall-lee (web search) + finn (speaks while dying), princess-bubblegum (transcript confirmed) |
+| F&C S02E03 | The Lion of Embers | FIXED | Added flame-princess, gary-prince, huntress-wizard, ice-king, marceline, princess-bubblegum, prismo (web search) + cosmic-owl, hunter, scarab (transcript confirmed) |
 | F&C S02E04 | The Cat Who Tipped the Box | FIXED | Added huntress-wizard, ice-king, marceline, princess-bubblegum, prismo (all confirmed speaking) |
 | F&C S02E05 | The Butterfly and the River | FIXED | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum (all confirmed speaking) |
 | F&C S02E06 | The Bird in the Clock | FIXED | Added cosmic-owl, gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum (Cosmic Owl is killed by Huntress) |
-| F&C S02E07 | The Wolves Who Wandered | FIXED | Added huntress-wizard, marshall-lee (both confirmed speaking) |
+| F&C S02E07 | The Wolves Who Wandered | FIXED | Added huntress-wizard, marshall-lee (web search) + starchy (transcript confirmed) |
 | F&C S02E08 | The Insect that Sang | FIXED | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum, scarab (trial episode + Boys Night) |
 | F&C S02E09 | The Worm and his Orchard | FIXED | Added cosmic-owl, fern, huntress-wizard, princess-bubblegum (Fern's major return; Cosmic Owl resurrected) |
-| F&C S02E10 | The Bear and the Rose | FIXED | Added finn, gary-prince, hunson-abadeer, huntress-wizard, ice-king, marceline, marshall-lee (Finn wakes up; season finale) |
+| F&C S02E10 | The Bear and the Rose | FIXED | Added finn, gary-prince, hunson-abadeer, huntress-wizard, ice-king, marceline, marshall-lee (web search) + hunter, minerva-campbell (transcript confirmed) |
 
-**Summary:** 12 fixes applied — 2 in S1 (marshall-lee), 10 in S2 (all episodes had severely incomplete character lists). Season 2 re-validated via web search; Huntress Wizard confirmed as co-lead appearing in all 10 episodes.
+**Summary:** 17 fixes applied — 7 in S1 (transcript analysis revealed finn, jake, betty-grof, bmo, gunter, scarab, beth, gary-prince, lumpy-space-princess, marshall-lee, prismo, shermy, marceline across 6 episodes), 10 in S2 (web search + transcript cross-check). Root cause: transcriptFile field was never populated for F&C episodes, so automated analysis couldn't link transcripts to episode data. Also added "Huntress" and "Marshall" aliases to characters.json for parser coverage.
 
 ---
 
@@ -518,8 +518,19 @@ All episodes validated against synopses and storyline definitions. No transcript
 | 26 | F&C S02E08 | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum, scarab | Web search (trial + Boys Night) |
 | 27 | F&C S02E09 | Added cosmic-owl, fern, huntress-wizard, princess-bubblegum | Web search (Fern's major return) |
 | 28 | F&C S02E10 | Added finn, gary-prince, hunson-abadeer, huntress-wizard, ice-king, marceline, marshall-lee | Web search (Finn wakes up; season finale) |
+| 29 | F&C S01E03 | Added finn, jake | Transcript (brief Ooo scene) |
+| 30 | F&C S01E04 | Added betty-grof, marceline | Transcript (both speaking) |
+| 31 | F&C S01E05 | Added finn, jake, prismo | Transcript (Finn 22 lines; "Bonnie" ≠ PB — false positive) |
+| 32 | F&C S01E08 | Added betty-grof, bmo, gunter, scarab | Transcript (Betty 25 lines, BMO 26 lines, Scarab 10 lines) |
+| 33 | F&C S01E09 | Added beth, gary-prince, lumpy-space-princess, marshall-lee, prismo, shermy | Transcript (major crossover episode) |
+| 34 | F&C S01E10 | Added beth, finn | Transcript (Beth 13 lines, Finn 3 lines) |
+| 35 | F&C S02E01 | Added hunter, winter-king | Transcript (Hunter 9 lines, Winter King 1 line) |
+| 36 | F&C S02E02 | Added finn, princess-bubblegum | Transcript (Finn speaks while dying, PB 1 line) |
+| 37 | F&C S02E03 | Added cosmic-owl, hunter, scarab | Transcript (all speaking) |
+| 38 | F&C S02E07 | Added starchy | Transcript (3 lines) |
+| 39 | F&C S02E10 | Added hunter, minerva-campbell | Transcript (Hunter 7 lines, Minerva 16 lines) |
 
-**Total: 14 + 53 character additions (10 F&C S2 episodes re-validated), 3 transcript file corrections, 1 storyline addition**
+**Total: 96 character additions, 3 transcript file corrections, 1 storyline addition, 20 transcriptFile fields added, 2 character aliases added**
 
 ### Known False Positives in Transcript Analysis
 
@@ -527,6 +538,7 @@ The automated speaker analysis produces false matches in these cases:
 - **winter-king** detected in AT episodes via shared alias "Simon Petrikov" (actually refers to Ice King)
 - **gary-prince** detected in S01E14 via alias "Gary" (actually a different character — a river mermaid)
 - **gunter** detected in S08E01 via alias "Gunther" (Evergreen's ancient dinosaur apprentice, not the penguin)
+- **princess-bubblegum** detected in F&C S01E05 via alias "Bonnie" (actually Finn's daughter in alternate Destiny universe)
 
 ### Storyline Integrity
 
@@ -543,5 +555,5 @@ All 15 storyline definitions verified:
 | Adventure Time S01-S06 | 249 | 5 | 98% |
 | Adventure Time S07-S10 | 29 | 51 | 36% |
 | Distant Lands | 2 | 2 | 50% |
-| Fionna and Cake | 0 | 20 | 0% |
-| **Total** | **280** | **78** | **78%** |
+| Fionna and Cake | 20 | 0 | 100% |
+| **Total** | **302** | **56** | **84%** |
