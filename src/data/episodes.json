@@ -4245,7 +4245,7 @@
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134370,
-    "transcriptFile": "Adventure.Time.S07E02.Frog.Seasons.Summer.txt"
+    "transcriptFile": "Adventure.Time.S07E02.Varmints.txt"
   },
   {
     "id": "adventure-time-s07e03",
@@ -4287,7 +4287,7 @@
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134735,
-    "transcriptFile": "Adventure.Time.S07E04.Frog.Seasons.Winter.txt"
+    "transcriptFile": "Adventure.Time.S07E04.Mama.Said.txt"
   },
   {
     "id": "adventure-time-s07e05",
@@ -4781,7 +4781,8 @@
       "neptr",
       "princess-bubblegum",
       "shelby",
-      "starchy"
+      "starchy",
+      "turtle-princess"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -4872,6 +4873,7 @@
     "synopsis": "Normal Man asks for Finn and Jake's help to rescue his brother.",
     "characterIds": [
       "finn",
+      "grob-gob-glob-grod",
       "jake",
       "magic-man"
     ],
@@ -5802,6 +5804,7 @@
     "characterIds": [
       "betty-grof",
       "finn",
+      "gunter",
       "jake",
       "jermaine",
       "magic-man"

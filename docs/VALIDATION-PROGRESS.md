@@ -41,10 +41,10 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S04 | 26 | Complete | 3 | 3 |
 | S05 | 52 | Complete | 3 | 3 |
 | S06 | 43 | Complete | 1 | 1 |
-| S07 | 26 | Not started | — | — |
-| S08 | 27 | Not started | — | — |
-| S09 | 14 | Not started | — | — |
-| S10 | 13 | Not started | — | — |
+| S07 | 26 | Complete | 2 | 2 |
+| S08 | 27 | Complete | 2 | 2 |
+| S09 | 14 | Complete | 0 | 0 |
+| S10 | 13 | Complete | 1 | 1 |
 | DL | 4 | Not started | — | — |
 | F&C S1 | 10 | Not started | — | — |
 | F&C S2 | 10 | Not started | — | — |
@@ -344,7 +344,22 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 18/26 (S07E19-26 have no transcripts — late S7 gap)
+**Automated discrepancies:** 8 episodes flagged (6 due to missing transcripts)
+**Storyline episodes:** S07E01 (gum-war), S07E02 (bubbline), S07E06-13 (stakes), S07E21 (simon-and-marcy), S07E23 (simon-and-marcy, prismo-cosmic) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S07E01 | Bonnie and Neddy | OK | Gum War — correct |
+| S07E02 | Varmints | FIXED | transcriptFile was pointing to mini-episode "Frog Seasons Summer" |
+| S07E03 | Cherry Cream Soda | OK | Maja in visual coma, doesn't speak — correct |
+| S07E04 | Mama Said | FIXED | transcriptFile was pointing to mini-episode "Frog Seasons Winter" |
+| S07E05 | Football | OK | |
+| S07E06-13 | Stakes miniseries (8 eps) | OK | All storyline assignments correct |
+| S07E14-18 | OK | | Characters match transcripts |
+| S07E19-26 | OK | | No transcripts; character data validated against synopses |
+
+**Summary:** 2 transcript file fixes. No character or storyline changes needed.
 
 ---
 
@@ -352,7 +367,25 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 7/27 (major gap — Islands miniseries and late episodes lack transcripts)
+**Automated discrepancies:** 23 episodes flagged (20 due to missing transcripts)
+**Storyline episodes:** S08E01 (simon-and-marcy), S08E05 (grass-sword-fern), S08E08 (elements), S08E11 (jake-pups), S08E12-15 (finn-the-human, grass-sword-fern), S08E19 (flame-princess-arc), S08E20-27 Islands miniseries (finn-the-human) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S08E01 | Broke His Crown | OK | winter-king + gunter are false positives (Simon Petrikov alias / Evergreen's Gunther) |
+| S08E02 | Don't Look | FIXED | Added turtle-princess (has "Shh!" speaking line) |
+| S08E03-04 | No transcripts | OK | Character data validated against synopses |
+| S08E05 | I am a Sword | OK | Grass Sword & Fern — correct |
+| S08E06 | No transcript | OK | |
+| S08E07 | Normal Man | FIXED | Added grob-gob-glob-grod (Glob has speaking lines) |
+| S08E08-27 | Mixed transcript coverage | OK | Character data validated; storyline assignments correct |
+
+**Notable false positives documented:**
+- S08E01: `winter-king` detected via shared alias "Simon Petrikov" — this refers to AT's Simon/Ice King, not F&C's Winter King
+- S08E01: `gunter` detected via "Gunther" — this is Evergreen's ancient dinosaur apprentice, not the penguin
+
+**Summary:** 2 character fixes applied. No storyline changes needed.
 
 ---
 
@@ -360,7 +393,12 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 0/14 (entire season lacks transcripts)
+**Storyline episodes:** S09E01-09 (elements miniseries), S09E10 (jake-pups), S09E11 (bubbline), S09E13 (the-lich, sweet-p), S09E14 (grass-sword-fern) — all correct
+
+All episodes validated against synopses and storyline definitions. No transcript data available for cross-reference. Character data appears consistent with episode descriptions.
+
+**Summary:** No fixes needed. No transcripts available for deeper validation.
 
 ---
 
@@ -368,7 +406,26 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 9/13 (S10E01-02, S10E06, S10E08 lack transcripts)
+**Automated discrepancies:** 5 episodes flagged
+**Storyline episodes:** S10E01 (grass-sword-fern), S10E04-05 (gum-war, grass-sword-fern), S10E07 (bubbline), S10E11 (simon-and-marcy), S10E12 (gum-war), S10E13 (6 storylines — series finale) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S10E01-02 | No transcripts | OK | Characters validated against synopses |
+| S10E03 | Son of Rap Bear | OK | |
+| S10E04 | Bonnibel Bubblegum | OK | Gum War — correct |
+| S10E05 | Seventeen | OK | Bronwyn visual appearance — correct |
+| S10E06 | Ring of Fire | OK | No transcript |
+| S10E07 | Marcy & Hunson | OK | Bubbline — correct |
+| S10E08 | The First Investigation | OK | No transcript |
+| S10E09 | Blenanas | OK | |
+| S10E10 | Jake the Starchild | OK | |
+| S10E11 | Temple of Mars | FIXED | Added gunter (appears as Ice Thing, a known alias) |
+| S10E12 | Gumbaldia | OK | Gum War — correct |
+| S10E13 | Come Along With Me | OK | Series finale — winter-king is false positive (alias overlap); 8 chars visual-only in ensemble |
+
+**Summary:** 1 character fix applied. No storyline changes needed.
 
 ---
 
