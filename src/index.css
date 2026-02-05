@@ -588,14 +588,12 @@
   * {
     @apply border-border;
   }
+  html {
+    font-size: 17px;
+  }
   body {
     @apply bg-background text-foreground;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: theme('fontFamily.serif');
+    font-family: theme('fontFamily.display');
   }
 }
 
