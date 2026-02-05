@@ -31,7 +31,12 @@
     "title": "Trouble in Lumpy Space",
     "airDate": "2010-04-05",
     "synopsis": "Finn must travel to Lumpy Space to find a cure that will save Jake, who was accidentally bitten by Lumpy Space Princess at a tea party.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -69,7 +74,11 @@
     "title": "Tree Trunks",
     "airDate": "2010-04-12",
     "synopsis": "Finn and Jake join Tree Trunks in search for the rare Crystal Gem Apple, but question whether Tree Trunks has what it takes to adventure.",
-    "characterIds": ["finn", "jake", "tree-trunks"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -84,7 +93,13 @@
     "title": "The Enchiridion!",
     "airDate": "2010-04-19",
     "synopsis": "Finn and Jake go on a quest for a magical book that would prove them worthy of being righteous heroes.",
-    "characterIds": ["cinnamon-bun", "finn", "gumbald", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "gumbald",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -99,7 +114,10 @@
     "title": "The Jiggler",
     "airDate": "2010-04-19",
     "synopsis": "A jiggly creature attracted by Finn's auto-tuned singing follows Finn and Jake home but soon feels ill effects of separation from its family.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -120,7 +138,8 @@
       "jake",
       "lumpy-space-princess",
       "peppermint-butler",
-      "princess-bubblegum"
+      "princess-bubblegum",
+      "wildberry-princess"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -136,7 +155,11 @@
     "title": "Business Time",
     "airDate": "2010-04-26",
     "synopsis": "When Finn and Jake discover a group of businessmen frozen in an iceberg, the duo thaws them and hires them to help with their adventures.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -151,7 +174,13 @@
     "title": "My Two Favorite People",
     "airDate": "2010-05-03",
     "synopsis": "Jake's plan to spend time with both Lady Rainicorn and Finn backfires.",
-    "characterIds": ["finn", "jake", "lady-rainicorn", "shelby", "tiffany"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lady-rainicorn",
+      "shelby",
+      "tiffany"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -166,7 +195,12 @@
     "title": "Memories of Boom Boom Mountain",
     "airDate": "2010-05-03",
     "synopsis": "Finn reflects on an upsetting experience in his past and pledges to help everyone in town, but this proves more difficult than imagined.",
-    "characterIds": ["finn", "jake", "joshua", "margaret"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "joshua",
+      "margaret"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -181,7 +215,10 @@
     "title": "Wizard",
     "airDate": "2010-05-10",
     "synopsis": "Finn and Jake temporarily get magic powers from an evil wizard, but are tricked into helping stop a comet.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -196,7 +233,11 @@
     "title": "Evicted!",
     "airDate": "2010-05-17",
     "synopsis": "Finn and Jake search the land of Ooo for a new home after Marceline claims the duo's treehouse as her own.",
-    "characterIds": ["finn", "jake", "marceline"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -211,7 +252,10 @@
     "title": "City of Thieves",
     "airDate": "2010-05-24",
     "synopsis": "Finn and Jake go off to face a thief king who has been stealing from little girls.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -226,7 +270,10 @@
     "title": "The Witch's Garden",
     "airDate": "2010-06-07",
     "synopsis": "Finn and Jake consider breaking up after a witch strips Jake of his powers.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -241,7 +288,12 @@
     "title": "What Is Life?",
     "airDate": "2010-06-14",
     "synopsis": "Finn brings a pie-throwing robot to life, but the machine begins to long for a more fulfilling existence.",
-    "characterIds": ["finn", "ice-king", "jake", "neptr"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -256,7 +308,10 @@
     "title": "Ocean of Fear",
     "airDate": "2010-06-21",
     "synopsis": "Finn struggles to overcome his fear of the ocean.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -271,7 +326,11 @@
     "title": "When Wedding Bells Thaw",
     "airDate": "2010-06-28",
     "synopsis": "The Ice King gets married but not before he convinces Finn and Jake to throw him a manlorette party.",
-    "characterIds": ["finn", "ice-king", "jake"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -286,7 +345,11 @@
     "title": "Dungeon",
     "airDate": "2010-07-12",
     "synopsis": "Finn's headstrong decision to explore a dungeon in defiance of Jake's warnings leads to a dangerous escapade.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -301,7 +364,11 @@
     "title": "The Duke",
     "airDate": "2010-07-19",
     "synopsis": "Finn must tell the truth when he accidentally turns Princess Bubblegum bald and green and blames the Duke of Nuts.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -316,7 +383,11 @@
     "title": "Freak City",
     "airDate": "2010-07-26",
     "synopsis": "After being transformed into a foot, Finn joins forces with a band of misfits to make things right.",
-    "characterIds": ["finn", "jake", "magic-man"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "magic-man"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -331,7 +402,11 @@
     "title": "Donny",
     "airDate": "2010-08-09",
     "synopsis": "Finn and Jake try to help an obnoxious grass ogre named Donny develop better social skills, only to find out Donny's jerky behavior protects the house people from the why-wolves, which eat the house people.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -346,7 +421,11 @@
     "title": "Henchman",
     "airDate": "2010-08-23",
     "synopsis": "After seeing Marceline the vampire queen torment an elderly henchman, Finn steps in to be her new henchman, doing whatever he is told to do.",
-    "characterIds": ["finn", "jake", "marceline"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -361,7 +440,11 @@
     "title": "Rainy Day Daydream",
     "airDate": "2010-09-06",
     "synopsis": "Stuck inside the treehouse due to a knife storm, Finn and Jake use their imagination to pass the time.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -399,8 +482,16 @@
     "title": "His Hero",
     "airDate": "2010-09-20",
     "synopsis": "The great warrior Billy inspires Finn and Jake to practice nonviolence, but the duo finds it difficult to resist old ways.",
-    "characterIds": ["billy", "finn", "jake", "lady-rainicorn", "lumpy-space-princess"],
-    "storylineIds": ["the-lich"],
+    "characterIds": [
+      "billy",
+      "finn",
+      "jake",
+      "lady-rainicorn",
+      "lumpy-space-princess"
+    ],
+    "storylineIds": [
+      "the-lich"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537639,
@@ -414,7 +505,10 @@
     "title": "Gut Grinder",
     "airDate": "2010-09-27",
     "synopsis": "When the Fluffy People's gold has been devoured by a culprit only known as \"The Gut Grinder\", Finn and Jake team up to find him with his tracks.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -451,7 +545,13 @@
     "title": "The Eyes",
     "airDate": "2010-10-18",
     "synopsis": "Finn and Jake try to rid themselves of a weird horse that creeps them out.",
-    "characterIds": ["finn", "ice-king", "jake", "lumpy-space-princess", "peppermint-butler"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "lumpy-space-princess",
+      "peppermint-butler"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -490,7 +590,11 @@
     "title": "Blood Under the Skin",
     "airDate": "2010-11-01",
     "synopsis": "When Finn gets a splinter on his finger, he wants to get the best armor. In order to receive it, he must go on a quest to get the Magical Armor of Zelderon and survive one embarrassing situation after another.",
-    "characterIds": ["finn", "jake", "choose-goose"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "choose-goose"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -505,7 +609,11 @@
     "title": "Storytelling",
     "airDate": "2010-11-08",
     "synopsis": "Jake is sick and demands to hear a good story full of romance, fighting and suspense.",
-    "characterIds": ["finn", "jake", "mr-fox"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "mr-fox"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -520,7 +628,11 @@
     "title": "Slow Love",
     "airDate": "2010-11-15",
     "synopsis": "Finn and Jake agree to help a snail named Snorlock find a girlfriend.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -535,7 +647,13 @@
     "title": "Power Animal",
     "airDate": "2010-11-22",
     "synopsis": "Finn is captured by gnomes who want to use his energy to power their infernal machines, and it's up to Jake to stay focused and rescue him.",
-    "characterIds": ["cinnamon-bun", "finn", "ice-king", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "ice-king",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -550,7 +668,13 @@
     "title": "Crystals Have Power",
     "airDate": "2010-11-29",
     "synopsis": "Jake takes a pledge of nonviolence just before Finn is kidnapped by outlaws from the crystalline dimension.",
-    "characterIds": ["finn", "jake", "jermaine", "joshua", "tree-trunks"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "jermaine",
+      "joshua",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -565,7 +689,12 @@
     "title": "The Other Tarts",
     "airDate": "2011-01-03",
     "synopsis": "Finn choses to cross the Desert of Doom to deliver the royal tarts to the annual back rubbing ceremony.",
-    "characterIds": ["cinnamon-bun", "finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -580,7 +709,12 @@
     "title": "To Cut a Woman's Hair",
     "airDate": "2011-01-10",
     "synopsis": "A tree witch demands a lock of princess hair or else Jake will be sucked into her bottomless bottom.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -595,7 +729,12 @@
     "title": "The Chamber of Frozen Blades",
     "airDate": "2011-01-17",
     "synopsis": "Whilst the Ice King goes out to take Gunther to the hospital, Finn and Jake decide to sneak inside his lair and flex their ninja skills.",
-    "characterIds": ["finn", "gunter", "ice-king", "jake"],
+    "characterIds": [
+      "finn",
+      "gunter",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -610,7 +749,12 @@
     "title": "Her Parents",
     "airDate": "2011-01-24",
     "synopsis": "Jake's relationship with Lady Rainicorn is in danger when he promises to meet with her parents, as both species had a long history of war with each other. However, thanks to Jake's shape-shifting powers, they mistake the dog as one of their own, but for how long?",
-    "characterIds": ["bmo", "finn", "jake", "lady-rainicorn"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "lady-rainicorn"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -625,7 +769,10 @@
     "title": "The Pods",
     "airDate": "2011-01-31",
     "synopsis": "Finn and Jake discover a box containing three beans. Planting them causes three pods to grow. Two of them are good and one is evil, but which is which?",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -640,7 +787,10 @@
     "title": "The Silent King",
     "airDate": "2011-02-07",
     "synopsis": "After defeating a evil king of goblins, Finn finds himself crowned as their new king. Unfortunately, he's unable to do anything for them due to the rules of the previous king including defending the goblins from the previous king.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -655,7 +805,14 @@
     "title": "The Real You",
     "airDate": "2011-02-14",
     "synopsis": "Finn has to give a speech at Princess Bubblegum's science barbecue and seeks a quick fix to make himself smarter.",
-    "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum", "turtle-princess"],
+    "characterIds": [
+      "choose-goose",
+      "finn",
+      "jake",
+      "peppermint-butler",
+      "princess-bubblegum",
+      "turtle-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -670,7 +827,11 @@
     "title": "Guardians of Sunshine",
     "airDate": "2011-02-21",
     "synopsis": "Finn and Jake get sucked into one of BMO's games and they have to defeat all three of his bosses.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -685,8 +846,16 @@
     "title": "Death in Bloom",
     "airDate": "2011-02-28",
     "synopsis": "After killing Princess Bubblegum's plant when left to take care of it, Finn and Jake make a trip to the Land of the Dead in order to get it's soul back.",
-    "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum", "death"],
-    "storylineIds": ["peppermint-butler-dark"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "peppermint-butler",
+      "princess-bubblegum",
+      "death"
+    ],
+    "storylineIds": [
+      "peppermint-butler-dark"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537655,
@@ -708,7 +877,9 @@
       "starchy",
       "susan-strong"
     ],
-    "storylineIds": ["finn-the-human"],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537649,
@@ -722,7 +893,10 @@
     "title": "Mystery Train",
     "airDate": "2011-03-14",
     "synopsis": "Wanting to surprise Finn on his birthday, Jake takes Finn on a train, where they get wrapped up in a murder mystery.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -737,7 +911,12 @@
     "title": "Go with Me",
     "airDate": "2011-03-28",
     "synopsis": "Marceline and Jake give Finn advice so he can ask Princess Bubblegum to see a movie with him.",
-    "characterIds": ["finn", "jake", "marceline", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -752,7 +931,10 @@
     "title": "Belly of the Beast",
     "airDate": "2011-04-04",
     "synopsis": "In order to cure the stomach ache of a giant, Finn and Jake must break up a party happening in his belly.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -767,7 +949,10 @@
     "title": "The Limit",
     "airDate": "2011-04-11",
     "synopsis": "On a mission to save soldiers of the Hot Dog Princess, Finn and Jake go inside a massive maze where wishes can be granted and where Jake's stretching powers are pushed to their limits.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -806,8 +991,16 @@
     "title": "Mortal Folly",
     "airDate": "2011-05-02",
     "synopsis": "When the Lich is accidentally freed from its amber prison in Princess Bubblegum's Castle, Finn and Jake must head forth to stop it from regaining its full power, all while being pestered by the Ice King to give him their blessing to marry Princess Bubblegum.",
-    "characterIds": ["finn", "ice-king", "jake", "princess-bubblegum", "the-lich"],
-    "storylineIds": ["the-lich"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "princess-bubblegum",
+      "the-lich"
+    ],
+    "storylineIds": [
+      "the-lich"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537667,
@@ -821,8 +1014,16 @@
     "title": "Mortal Recoil",
     "airDate": "2011-05-02",
     "synopsis": "Princess Bubblegum recovers from being dropped in the Well of Power by the Ice King; however, she is altered and her condition leads to an unlikely final showdown with one of the greatest evils in order to save all life in Ooo.",
-    "characterIds": ["finn", "ice-king", "jake", "peppermint-butler", "princess-bubblegum"],
-    "storylineIds": ["the-lich"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "the-lich"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537668,
@@ -836,7 +1037,12 @@
     "title": "Heat Signature",
     "airDate": "2011-05-09",
     "synopsis": "Marceline plays a prank on Finn and Jake by making them believe they're vampires, but it goes too far and escalates when they're manipulated by her ghost friends.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess", "marceline"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -851,7 +1057,13 @@
     "title": "Conquest of Cuteness",
     "airDate": "2011-07-11",
     "synopsis": "Finn and Jake must defend their home from the Cuties, a tiny race who believe themselves to be evil, destructive invaders.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "lumpy-space-princess"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "lumpy-space-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -866,7 +1078,10 @@
     "title": "Morituri te Salutamus",
     "airDate": "2011-07-18",
     "synopsis": "The duo choose to partake in gladiatorial combat against the Fight King's ghost warriors, but Finn succumbs to bloodlust while Jake becomes obsessed in keeping a cool morale.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -881,7 +1096,12 @@
     "title": "Memory of a Memory",
     "airDate": "2011-07-25",
     "synopsis": "Finn and Jake enter Marceline's mind to awaken her from a sleep spell she had cast on herself, without knowing that they are being tricked by a person from her past.",
-    "characterIds": ["finn", "hunson-abadeer", "jake", "marceline"],
+    "characterIds": [
+      "finn",
+      "hunson-abadeer",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -896,8 +1116,14 @@
     "title": "Hitman",
     "airDate": "2011-08-01",
     "synopsis": "The grounded Ice King hires a fire-manipulating hitman to attack Finn and Jake, without realizing the potentially deadly consequences.",
-    "characterIds": ["finn", "ice-king", "jake"],
-    "storylineIds": ["peppermint-butler-dark"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "peppermint-butler-dark"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537673,
@@ -922,7 +1148,9 @@
       "princess-bubblegum",
       "starchy"
     ],
-    "storylineIds": ["lemongrab-saga"],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537674,
@@ -936,7 +1164,11 @@
     "title": "The Monster",
     "airDate": "2011-08-15",
     "synopsis": "The king and queen of Lumpy Space ask Finn and Jake to bring their daughter back home. At the same time, they attempt to stop a \"monster\" from destroying a village.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -951,7 +1183,12 @@
     "title": "Still",
     "airDate": "2011-08-22",
     "synopsis": "Finn and Jake are literally unable to move and are at the mercy of the Ice King.",
-    "characterIds": ["finn", "gunter", "ice-king", "jake"],
+    "characterIds": [
+      "finn",
+      "gunter",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -989,7 +1226,13 @@
     "title": "Fionna and Cake",
     "airDate": "2011-09-05",
     "synopsis": "In this gender-swapped episode, Fionna and Cake must battle the evil Ice Queen.",
-    "characterIds": ["cake", "finn", "fionna", "ice-king", "prince-gumball"],
+    "characterIds": [
+      "cake",
+      "finn",
+      "fionna",
+      "ice-king",
+      "prince-gumball"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1004,8 +1247,16 @@
     "title": "What Was Missing",
     "airDate": "2011-09-26",
     "synopsis": "Finn and his friends must come together as a genuine band in order to open the gate of the Door Lord and get back their taken items.",
-    "characterIds": ["bmo", "finn", "jake", "marceline", "princess-bubblegum"],
-    "storylineIds": ["bubbline"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "marceline",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537679,
@@ -1019,7 +1270,12 @@
     "title": "Apple Thief",
     "airDate": "2011-10-03",
     "synopsis": "When Tree Trunks's apples go missing, she, Finn and Jake descend into the dark side of the Candy Kingdom in order to find the thief.",
-    "characterIds": ["finn", "jake", "mr-pig", "tree-trunks"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "mr-pig",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1080,8 +1336,14 @@
     "title": "Beautopia",
     "airDate": "2011-11-07",
     "synopsis": "Susan Strong asks Finn and Jake to help fight off the Glub Glubs in the sewers below to regain her people's home in Beautopia.",
-    "characterIds": ["finn", "jake", "susan-strong"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "susan-strong"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537684,
@@ -1095,7 +1357,13 @@
     "title": "No One Can Hear You",
     "airDate": "2011-11-14",
     "synopsis": "Finn awakens after an accident to find the Candy Kingdom citizens mysteriously gone and Jake acting crazier than usual.",
-    "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum", "starchy"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "peppermint-butler",
+      "princess-bubblegum",
+      "starchy"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1110,7 +1378,11 @@
     "title": "Jake vs. Me-Mow",
     "airDate": "2011-11-21",
     "synopsis": "Finn and Jake take on a request to protect Wildberry Princess from an unknown assassin. The assassin turns out to be a tiny cat assassin called Me-Mow, who ends up bribing Jake by poisoning him.",
-    "characterIds": ["finn", "jake", "wildberry-princess"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "wildberry-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1125,7 +1397,11 @@
     "title": "Thank You",
     "airDate": "2011-11-23",
     "synopsis": "The Snow Golem visits the Fire Kingdom and finds an unlikely follower.",
-    "characterIds": ["finn", "ice-king", "jake"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1140,7 +1416,11 @@
     "title": "The New Frontier",
     "airDate": "2011-11-28",
     "synopsis": "Jake dreams about his death, and Finn takes action when events from the dream start to come true.",
-    "characterIds": ["finn", "jake", "banana-man"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "banana-man"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1155,8 +1435,16 @@
     "title": "Holly Jolly Secrets (1)",
     "airDate": "2011-12-05",
     "synopsis": "Finn and Jake find the Ice King's video diary and have a chance to unearth his secrets.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "princess-bubblegum"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537687,
@@ -1170,8 +1458,17 @@
     "title": "Holly Jolly Secrets (2)",
     "airDate": "2011-12-05",
     "synopsis": "The Ice King summons an army of snowmen to recover the secret tapes Finn and Jake are watching. They must work against the clock to find out the secrets enclosed within.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "shelby"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "shelby",
+      "wildberry-princess"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537686,
@@ -1185,7 +1482,11 @@
     "title": "Marceline's Closet",
     "airDate": "2011-12-12",
     "synopsis": "Finn and Jake play Cloud Hunt in Marceline's house, but they get trapped in her closet after she comes home.",
-    "characterIds": ["finn", "jake", "marceline"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1200,7 +1501,11 @@
     "title": "Paper Pete",
     "airDate": "2012-01-16",
     "synopsis": "Library books seek help from Finn and Jake to save them from the evil Moldari.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "turtle-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1215,7 +1520,10 @@
     "title": "Another Way",
     "airDate": "2012-01-23",
     "synopsis": "Cyclops tears may heal Finn and Jake's broken toes.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1230,7 +1538,11 @@
     "title": "Ghost Princess",
     "airDate": "2012-01-30",
     "synopsis": "Finn and Jake play detective and try to solve Ghost Princess' murder.",
-    "characterIds": ["finn", "jake", "ghost-princess"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "ghost-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1245,8 +1557,14 @@
     "title": "Dad's Dungeon",
     "airDate": "2012-02-06",
     "synopsis": "Jake's dad presents a strange challenge to the guys when he appears to them in a holographic message, telling them about a dungeon he made for them.",
-    "characterIds": ["bmo", "finn", "jake"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537692,
@@ -1260,8 +1578,17 @@
     "title": "Incendium",
     "airDate": "2012-02-13",
     "synopsis": "Jake embarks on a solo mission to help a broken-hearted Finn.",
-    "characterIds": ["bmo", "finn", "flame-king", "flame-princess", "jake", "princess-bubblegum"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "flame-king",
+      "flame-princess",
+      "jake",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537691,
@@ -1275,8 +1602,15 @@
     "title": "Hot to the Touch",
     "airDate": "2012-04-02",
     "synopsis": "Finn develops a crush on Flame Princess and tries to get to know her, which proves difficult due to her destructive power.",
-    "characterIds": ["finn", "flame-princess", "jake", "neptr"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "finn",
+      "flame-princess",
+      "jake",
+      "neptr"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537694,
@@ -1314,7 +1648,10 @@
     "title": "Web Weirdos",
     "airDate": "2012-04-16",
     "synopsis": "When Finn gets trapped in a giant spider web, he ends up playing marriage counselor to a couple of grumpy arachnids.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 10,
@@ -1329,7 +1666,14 @@
     "title": "Dream of Love",
     "airDate": "2012-04-23",
     "synopsis": "Tree Trunks is courted by an oinking suitor, but much to Jake's dismay, this interferes with her baking habits.",
-    "characterIds": ["cinnamon-bun", "finn", "jake", "mr-pig", "princess-bubblegum", "tree-trunks"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "jake",
+      "mr-pig",
+      "princess-bubblegum",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 10,
@@ -1344,7 +1688,13 @@
     "title": "Return to the Nightosphere",
     "airDate": "2012-04-30",
     "synopsis": "Marceline's dad banishes Finn and Jake to the Nightosphere, and it stinks. Literally.",
-    "characterIds": ["charlie", "finn", "hunson-abadeer", "jake", "marceline"],
+    "characterIds": [
+      "charlie",
+      "finn",
+      "hunson-abadeer",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1359,7 +1709,13 @@
     "title": "Daddy's Little Monster",
     "airDate": "2012-04-30",
     "synopsis": "Finn and Jake attempt to rescue Marceline and find out what's making her behave so strangely.",
-    "characterIds": ["bmo", "finn", "hunson-abadeer", "jake", "marceline"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "hunson-abadeer",
+      "jake",
+      "marceline"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1374,7 +1730,12 @@
     "title": "In Your Footsteps",
     "airDate": "2012-05-07",
     "synopsis": "A bear cozies up to the guys, but his true intentions may be hidden.",
-    "characterIds": ["bmo", "finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1389,7 +1750,12 @@
     "title": "Hug Wolf",
     "airDate": "2012-05-14",
     "synopsis": "Finn goes through a transformation after a run-in with a hug wolf.",
-    "characterIds": ["bmo", "cinnamon-bun", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "cinnamon-bun",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1404,7 +1770,15 @@
     "title": "Princess Monster Wife",
     "airDate": "2012-05-28",
     "synopsis": "Princesses lose body parts under mysterious circumstances.",
-    "characterIds": ["finn", "ice-king", "jake", "lumpy-space-princess", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "lumpy-space-princess",
+      "princess-bubblegum",
+      "turtle-princess",
+      "wildberry-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1419,7 +1793,12 @@
     "title": "Goliad",
     "airDate": "2012-06-04",
     "synopsis": "Battling with her new realization of her own mortality, in a sleep deprived state Princess bubblegum creates her own heir to the throne. After meeting the heir, Finn and Jake decide to teach her the ways of the world.",
-    "characterIds": ["finn", "jake", "peppermint-butler", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 10,
@@ -1434,8 +1813,15 @@
     "title": "Beyond This Earthly Realm",
     "airDate": "2012-06-11",
     "synopsis": "When Finn finds a porcelain lamb, it transports him into the spirit world and only the Ice King can help get him out.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake"],
-    "storylineIds": ["peppermint-butler-dark"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "peppermint-butler-dark"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537705,
@@ -1449,7 +1835,13 @@
     "title": "Gotcha!",
     "airDate": "2012-06-18",
     "synopsis": "In order to do research for her tell-all memoir about men, Lumpy Space Princess goes undercover working for Finn and Jake.",
-    "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess", "turtle-princess"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "turtle-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1464,7 +1856,11 @@
     "title": "Princess Cookie",
     "airDate": "2012-06-25",
     "synopsis": "Finn and Jake are called to solve a Candy Kingdom hostage crisis when a rogue cookie takes over.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1479,7 +1875,11 @@
     "title": "Card Wars",
     "airDate": "2012-07-16",
     "synopsis": "Finn and Jake play Card Quest, an epic game.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1494,8 +1894,16 @@
     "title": "Sons of Mars",
     "airDate": "2012-07-23",
     "synopsis": "Magic man has most of his power taken from him by his brother, in a fit of desperation, he swaps the way Jake and Himself look. Magic Mans brother takes Jake to Mars for punishment.",
-    "characterIds": ["finn", "jake", "magic-man", "death", "grob-gob-glob-grod"],
-    "storylineIds": ["prismo-cosmic"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "magic-man",
+      "death",
+      "grob-gob-glob-grod"
+    ],
+    "storylineIds": [
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537706,
@@ -1509,8 +1917,16 @@
     "title": "Burning Low",
     "airDate": "2012-07-30",
     "synopsis": "Princess Bubblegum may be jealous when Finn start hanging out with Flame Princess.",
-    "characterIds": ["bmo", "finn", "flame-princess", "jake", "princess-bubblegum"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "flame-princess",
+      "jake",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537708,
@@ -1524,7 +1940,12 @@
     "title": "BMO Noire",
     "airDate": "2012-08-06",
     "synopsis": "BMO tries to find Finn's sock.",
-    "characterIds": ["bmo", "finn", "jake", "neptr"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1539,7 +1960,14 @@
     "title": "King Worm",
     "airDate": "2012-08-13",
     "synopsis": "Finn has a vivid dream that may be more than it seems.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "lady-rainicorn", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "lady-rainicorn",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1554,7 +1982,13 @@
     "title": "Lady & Peebles",
     "airDate": "2012-08-20",
     "synopsis": "Princess Bubblegum and Lady Rainicorn look for Finn and Jake, who are missing after a run-in with the Ice King.",
-    "characterIds": ["finn", "ice-king", "jake", "lady-rainicorn", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "lady-rainicorn",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1578,7 +2012,9 @@
       "princess-bubblegum",
       "starchy"
     ],
-    "storylineIds": ["lemongrab-saga"],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537711,
@@ -1592,7 +2028,10 @@
     "title": "Who Would Win?",
     "airDate": "2012-09-03",
     "synopsis": "The guys challenge a monster to a fight but end up battling each other.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1607,8 +2046,15 @@
     "title": "Ignition Point",
     "airDate": "2012-09-17",
     "synopsis": "Finn and Jake sneak into the Fire Kingdom to retrieve Fire Princess' scented candles and overhear a plot to assassinate the king.",
-    "characterIds": ["finn", "flame-king", "flame-princess", "jake"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "finn",
+      "flame-king",
+      "flame-princess",
+      "jake"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537713,
@@ -1622,7 +2068,10 @@
     "title": "The Hard Easy",
     "airDate": "2012-10-01",
     "synopsis": "Frog People seek protection from an evil lizard who's attacking their swamp.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1637,7 +2086,14 @@
     "title": "Reign of Gunters",
     "airDate": "2012-10-08",
     "synopsis": "The Gunters cause chaos in Ooo.",
-    "characterIds": ["finn", "gunter", "ice-king", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "gunter",
+      "huntress-wizard",
+      "ice-king",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1652,8 +2108,16 @@
     "title": "I Remember You",
     "airDate": "2012-10-15",
     "synopsis": "The Ice King and Marceline bond over song and memories.",
-    "characterIds": ["finn", "gunter", "ice-king", "jake", "marceline"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "finn",
+      "gunter",
+      "ice-king",
+      "jake",
+      "marceline"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537718,
@@ -1667,8 +2131,17 @@
     "title": "The Lich",
     "airDate": "2012-10-22",
     "synopsis": "A visit from the Lich King sheds light on Ooo's secrets.",
-    "characterIds": ["billy", "finn", "jake", "princess-bubblegum", "the-lich"],
-    "storylineIds": ["the-lich", "prismo-cosmic"],
+    "characterIds": [
+      "billy",
+      "finn",
+      "jake",
+      "princess-bubblegum",
+      "the-lich"
+    ],
+    "storylineIds": [
+      "the-lich",
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537717,
@@ -1682,8 +2155,18 @@
     "title": "Finn the Human",
     "airDate": "2012-11-12",
     "synopsis": "Part 2 of a three-part episode. Finn and Jake chase the Lich through a dimensional portal and meet a wishmaster.",
-    "characterIds": ["finn", "jake", "prismo", "the-lich", "choose-goose"],
-    "storylineIds": ["the-lich", "finn-the-human", "prismo-cosmic"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "prismo",
+      "the-lich",
+      "choose-goose"
+    ],
+    "storylineIds": [
+      "the-lich",
+      "finn-the-human",
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537719,
@@ -1708,7 +2191,11 @@
       "prismo",
       "the-lich"
     ],
-    "storylineIds": ["the-lich", "sweet-p", "prismo-cosmic"],
+    "storylineIds": [
+      "the-lich",
+      "sweet-p",
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537721,
@@ -1722,7 +2209,15 @@
     "title": "Five More Short Graybles",
     "airDate": "2012-11-19",
     "synopsis": "A series of short stories all centered around a common theme, hosted by a mysterious man named Cuber from the future.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "marceline", "shelby", "tree-trunks"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "marceline",
+      "shelby",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1737,7 +2232,11 @@
     "title": "Up a Tree",
     "airDate": "2012-11-26",
     "synopsis": "The guys' game of catch goes awry when their throwing disc is lodged in a large tree.",
-    "characterIds": ["finn", "jake", "lady-rainicorn"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lady-rainicorn"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1752,7 +2251,10 @@
     "title": "All the Little People",
     "airDate": "2012-12-03",
     "synopsis": "Finn receives a bag full of miniature versions of his friends.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1767,8 +2269,17 @@
     "title": "Jake the Dad",
     "airDate": "2013-01-07",
     "synopsis": "Jake's a daddy, but being a father and keeping his rainicorn pups from killing themselves or each other is a lot harder than he imagined.",
-    "characterIds": ["bmo", "finn", "jake", "jake-jr", "lady-rainicorn", "mr-fox"],
-    "storylineIds": ["jake-pups"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "jake-jr",
+      "lady-rainicorn",
+      "mr-fox"
+    ],
+    "storylineIds": [
+      "jake-pups"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537724,
@@ -1782,7 +2293,11 @@
     "title": "Davey",
     "airDate": "2013-01-14",
     "synopsis": "Finn creates an alter ego, Davey. Davey soon begins to take over, and Jake is forced into action to get his old friend back.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1821,8 +2336,16 @@
     "title": "All Your Fault",
     "airDate": "2013-01-28",
     "synopsis": "Princess Bubblegum sends Finn and Jake to investigate a message of distress from the Earls of Lemongrab.",
-    "characterIds": ["cinnamon-bun", "finn", "jake", "lemongrab", "princess-bubblegum"],
-    "storylineIds": ["lemongrab-saga"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "jake",
+      "lemongrab",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537727,
@@ -1836,7 +2359,11 @@
     "title": "Little Dude",
     "airDate": "2013-02-04",
     "synopsis": "Finn's hat comes to life and becomes evil after it is touched by a wizard.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1874,8 +2401,15 @@
     "title": "Vault of Bones",
     "airDate": "2013-02-25",
     "synopsis": "When Flame Princess begins to doubt her evilness, Finn insists she is not evil and takes her on a journey into a dungeon to help her sort out her thoughts.",
-    "characterIds": ["finn", "flame-king", "flame-princess", "jake"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "finn",
+      "flame-king",
+      "flame-princess",
+      "jake"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537728,
@@ -1889,7 +2423,11 @@
     "title": "The Great Bird Man",
     "airDate": "2013-03-04",
     "synopsis": "Xergiok, the former Goblin king who was deposed by Finn and Jake claims to have turned over a new leaf.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1904,8 +2442,15 @@
     "title": "Simon & Marcy",
     "airDate": "2013-03-25",
     "synopsis": "A look at what Ice King and Marceline were like 996 years ago.",
-    "characterIds": ["finn", "ice-king", "jake", "marceline"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "marceline"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537735,
@@ -1919,7 +2464,12 @@
     "title": "A Glitch Is a Glitch",
     "airDate": "2013-04-01",
     "synopsis": "The Ice King creates a computer virus that will delete everyone in Ooo except for him and Princess Bubblegum.",
-    "characterIds": ["finn", "ice-king", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1934,7 +2484,13 @@
     "title": "Puhoy",
     "airDate": "2013-04-08",
     "synopsis": "While dwelling on a joke he told to Flame Princess, Finn finds himself trapped in a strange pillow world.",
-    "characterIds": ["bmo", "finn", "flame-princess", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "flame-princess",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1949,7 +2505,11 @@
     "title": "BMO Lost",
     "airDate": "2013-04-15",
     "synopsis": "BMO makes his way home after being snatched by an eagle.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -1989,7 +2549,11 @@
     "title": "James Baxter the Horse",
     "airDate": "2013-05-06",
     "synopsis": "Finn and Jake stumble across a horse named James Baxter who has the ability to make sad people feel better.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2004,7 +2568,11 @@
     "title": "Shh!",
     "airDate": "2013-05-13",
     "synopsis": "Finn and Jake make a bet to see who can not talk the longest.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2019,7 +2587,12 @@
     "title": "The Suitor",
     "airDate": "2013-05-20",
     "synopsis": "Peppermint Butler thinks that Bubblegum is working too hard in her lab, so he tries to get her a suitor.",
-    "characterIds": ["cinnamon-bun", "finn", "peppermint-butler", "princess-bubblegum"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2034,7 +2607,11 @@
     "title": "The Party's Over, Isla de Señorita",
     "airDate": "2013-05-27",
     "synopsis": "After another one of his schemes fails, the Ice King decides to give up.",
-    "characterIds": ["finn", "ice-king", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2049,7 +2626,13 @@
     "title": "One Last Job",
     "airDate": "2013-06-10",
     "synopsis": "Jake Jr. gets involved with a group of troublemakers, and Jake is forced to reunite his old gang to rescue his daughter.",
-    "characterIds": ["bmo", "finn", "jake", "jake-jr", "tiffany"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "jake-jr",
+      "tiffany"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2088,7 +2671,13 @@
     "title": "Candy Streets",
     "airDate": "2013-06-24",
     "synopsis": "Lumpy Space Princess is robbed, but before she is able to explain the details to Finn and Jake, she faints.",
-    "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2103,7 +2692,14 @@
     "title": "Wizards Only, Fools",
     "airDate": "2013-07-01",
     "synopsis": "After Starchy comes down with a cold and needs a magic cure, Finn, Jake, and Princess Bubblegum disguise themselves as wizards and sneak into Wizard City.",
-    "characterIds": ["abracadaniel", "finn", "ice-king", "jake", "princess-bubblegum", "starchy"],
+    "characterIds": [
+      "abracadaniel",
+      "finn",
+      "ice-king",
+      "jake",
+      "princess-bubblegum",
+      "starchy"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2118,7 +2714,14 @@
     "title": "Jake Suit",
     "airDate": "2013-07-15",
     "synopsis": "Jake gets upset with the amount of times that Finn uses his body as a suit of armor.",
-    "characterIds": ["bmo", "finn", "flame-princess", "jake", "lady-rainicorn", "tv"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "flame-princess",
+      "jake",
+      "lady-rainicorn",
+      "tv"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2133,7 +2736,12 @@
     "title": "Be More",
     "airDate": "2013-07-22",
     "synopsis": "BMO accidentally deletes his core system files. Finn and Jake must infiltrate the MO factory to save BMO from a memory wipe.",
-    "characterIds": ["bmo", "finn", "jake", "moe"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "moe"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2148,8 +2756,17 @@
     "title": "Sky Witch",
     "airDate": "2013-07-29",
     "synopsis": "Marceline tracks the Sky Witch, but finds out that she may need Princess Bubblegum's help.",
-    "characterIds": ["cinnamon-bun", "finn", "marceline", "princess-bubblegum", "maja"],
-    "storylineIds": ["simon-and-marcy", "bubbline"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "marceline",
+      "princess-bubblegum",
+      "maja"
+    ],
+    "storylineIds": [
+      "simon-and-marcy",
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537744,
@@ -2172,7 +2789,9 @@
       "jake",
       "princess-bubblegum"
     ],
-    "storylineIds": ["flame-princess-arc"],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537747,
@@ -2186,8 +2805,16 @@
     "title": "Too Old",
     "airDate": "2013-08-12",
     "synopsis": "Finn, Jake and Princess Bubblegum discover a talented mutant named Lemonhope at The Pageant of Mutants.",
-    "characterIds": ["finn", "jake", "lemongrab", "lemonhope", "princess-bubblegum"],
-    "storylineIds": ["lemongrab-saga"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lemongrab",
+      "lemonhope",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537615,
@@ -2211,7 +2838,9 @@
       "jake",
       "princess-bubblegum"
     ],
-    "storylineIds": ["flame-princess-arc"],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537752,
@@ -2248,8 +2877,15 @@
     "title": "The Vault",
     "airDate": "2013-09-16",
     "synopsis": "When Finn starts sleepwalking and dreaming about the Green Lady, Jake and BMO help him tap into his repressed memories.",
-    "characterIds": ["bmo", "finn", "jake", "princess-bubblegum"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 537751,
@@ -2263,7 +2899,14 @@
     "title": "Love Games",
     "airDate": "2013-09-23",
     "synopsis": "Slime Princess needs a husband or else she'll lose the Slime Kingdom to her obnoxious sis.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "slime-princess", "tree-trunks"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "slime-princess",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2278,7 +2921,11 @@
     "title": "Dungeon Train",
     "airDate": "2013-09-30",
     "synopsis": "Finn and Jake discover a train where every car is a dungeon filled with a new foe for Finn to fight.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2292,7 +2939,11 @@
     "title": "Box Prince",
     "airDate": "2013-10-07",
     "synopsis": "Finn meets the Box Prince and learns that the Box Kingdom has been taken over by an imposter.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2307,7 +2958,12 @@
     "title": "Red Starved",
     "airDate": "2013-10-14",
     "synopsis": "Finn, Jake and Marceline are trapped in an underground cavern with no red in sight.",
-    "characterIds": ["finn", "jake", "marceline", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2345,7 +3001,13 @@
     "title": "Play Date",
     "airDate": "2013-11-04",
     "synopsis": "Finn and Jake call up Abracadaniel to hang out with Ice King.",
-    "characterIds": ["abracadaniel", "bmo", "finn", "ice-king", "jake"],
+    "characterIds": [
+      "abracadaniel",
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2360,7 +3022,14 @@
     "title": "The Pit",
     "airDate": "2013-11-18",
     "synopsis": "Finn needs Lady Rainicorn's help to rescue Jake when he is kidnapped by Kee-Oth the Blood Demon.",
-    "characterIds": ["bmo", "finn", "jake", "joshua", "lady-rainicorn", "shelby"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "joshua",
+      "lady-rainicorn",
+      "shelby"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2375,7 +3044,11 @@
     "title": "James",
     "airDate": "2013-11-25",
     "synopsis": "Finn, Jake, and Princess Bubblegum are attacked by nasty goo monsters in the Desert of Wonders.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2390,7 +3063,12 @@
     "title": "Root Beer Guy",
     "airDate": "2013-12-02",
     "synopsis": "Root Beer Guy witnesses Finn and Jake kidnapping Princess Bubblegum! There's only one problem: no one believes him.",
-    "characterIds": ["finn", "jake", "princess-bubblegum", "root-beer-guy"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum",
+      "root-beer-guy"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2430,8 +3108,15 @@
     "title": "Blade of Grass",
     "airDate": "2014-01-20",
     "synopsis": "Finn reluctantly buys a grass sword from a mysterious old man, but the sword turns out to be cursed!",
-    "characterIds": ["finn", "jake", "tree-trunks", "choose-goose"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "tree-trunks",
+      "choose-goose"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 971108,
@@ -2445,7 +3130,12 @@
     "title": "Rattleballs",
     "airDate": "2014-01-27",
     "synopsis": "Finn meets an old gumball robot named Rattleballs and begs him for training.",
-    "characterIds": ["finn", "princess-bubblegum", "rattleballs", "root-beer-guy"],
+    "characterIds": [
+      "finn",
+      "princess-bubblegum",
+      "rattleballs",
+      "root-beer-guy"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2460,8 +3150,15 @@
     "title": "The Red Throne",
     "airDate": "2014-02-10",
     "synopsis": "When Flame King breaks out of his prison and takes over the Flame Kingdom again, Flame Princess turns to Finn.",
-    "characterIds": ["cinnamon-bun", "finn", "flame-king", "flame-princess"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "flame-king",
+      "flame-princess"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 971758,
@@ -2475,8 +3172,18 @@
     "title": "Betty",
     "airDate": "2014-02-24",
     "synopsis": "After a magic spell backfires, the Ice King reverts back to Simon.",
-    "characterIds": ["betty-grof", "finn", "gunter", "ice-king", "jake", "marceline", "death"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "betty-grof",
+      "finn",
+      "gunter",
+      "ice-king",
+      "jake",
+      "marceline",
+      "death"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 971759,
@@ -2490,7 +3197,13 @@
     "title": "Bad Timing",
     "airDate": "2014-03-03",
     "synopsis": "Love is in the air when Lumpy Space Princess reconnects with an old classmate.",
-    "characterIds": ["gumbald", "jake", "lolly", "lumpy-space-princess", "princess-bubblegum"],
+    "characterIds": [
+      "gumbald",
+      "jake",
+      "lolly",
+      "lumpy-space-princess",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2505,8 +3218,15 @@
     "title": "Lemonhope (1)",
     "airDate": "2014-03-10",
     "synopsis": "Tired of all of Princess Bubblegum's talk about responsibility, Lemonhope yearns for true freedom.",
-    "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
-    "storylineIds": ["lemongrab-saga"],
+    "characterIds": [
+      "finn",
+      "lemongrab",
+      "lemonhope",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 972812,
@@ -2520,8 +3240,15 @@
     "title": "Lemonhope (2)",
     "airDate": "2014-03-10",
     "synopsis": "Though Lemonhope finds refuge from the desert with monster hunter Phlannel Boxingday, he might not be able to escape the ghosts of his past.",
-    "characterIds": ["finn", "lemongrab", "lemonhope", "princess-bubblegum"],
-    "storylineIds": ["lemongrab-saga"],
+    "characterIds": [
+      "finn",
+      "lemongrab",
+      "lemonhope",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "lemongrab-saga"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 972813,
@@ -2535,8 +3262,16 @@
     "title": "Billy's Bucket List",
     "airDate": "2014-03-17",
     "synopsis": "Finn finds the hero Billy's bucket list and decides to complete the unfinished items as a final tribute.",
-    "characterIds": ["billy", "canyon", "finn", "jake", "starchy"],
-    "storylineIds": ["the-lich"],
+    "characterIds": [
+      "billy",
+      "canyon",
+      "finn",
+      "jake",
+      "starchy"
+    ],
+    "storylineIds": [
+      "the-lich"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 972814,
@@ -2550,8 +3285,18 @@
     "title": "Wake Up",
     "airDate": "2014-04-21",
     "synopsis": "In order to find Finn's father, Finn and Jake must commit a cosmic crime...unless the Lich beats them to it.",
-    "characterIds": ["bmo", "finn", "jake", "the-lich", "death", "grob-gob-glob-grod"],
-    "storylineIds": ["finn-the-human", "prismo-cosmic"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "the-lich",
+      "death",
+      "grob-gob-glob-grod"
+    ],
+    "storylineIds": [
+      "finn-the-human",
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 989720,
@@ -2565,8 +3310,20 @@
     "title": "Escape from the Citadel",
     "airDate": "2014-04-21",
     "synopsis": "Finn and Jake follow the Lich to the Citadel, where Finn meets his long lost dad.",
-    "characterIds": ["finn", "jake", "martin-mertens", "starchy", "the-lich", "tree-trunks"],
-    "storylineIds": ["the-lich", "finn-the-human", "grass-sword-fern", "sweet-p"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "martin-mertens",
+      "starchy",
+      "the-lich",
+      "tree-trunks"
+    ],
+    "storylineIds": [
+      "the-lich",
+      "finn-the-human",
+      "grass-sword-fern",
+      "sweet-p"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 989718,
@@ -2580,7 +3337,11 @@
     "title": "James II",
     "airDate": "2014-04-28",
     "synopsis": "Finn and Jake discover that Clone James has been faking his own death to collect medals.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2595,8 +3356,16 @@
     "title": "The Tower",
     "airDate": "2014-05-05",
     "synopsis": "Finn doesn't like any of the new arms the princesses give him, so he builds a tower into space.",
-    "characterIds": ["bmo", "finn", "jake", "martin-mertens", "princess-bubblegum"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "martin-mertens",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 989717,
@@ -2610,7 +3379,11 @@
     "title": "Sad Face",
     "airDate": "2014-05-12",
     "synopsis": "Once a month, while Jake's asleep, his tail stretches out to go work as a clown in a traveling bug circus.",
-    "characterIds": ["bmo", "jake", "neptr"],
+    "characterIds": [
+      "bmo",
+      "jake",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2625,8 +3398,15 @@
     "title": "Breezy",
     "airDate": "2014-06-05",
     "synopsis": "With a friendly bee named Breezy as his wingman, Finn decides to get back into the dating game.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess"],
-    "storylineIds": ["finn-the-human", "grass-sword-fern"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess"
+    ],
+    "storylineIds": [
+      "finn-the-human",
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 989715,
@@ -2640,7 +3420,11 @@
     "title": "Food Chain",
     "airDate": "2014-06-12",
     "synopsis": "Finn and Jake learn about the food chain by becoming the food chain!",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2655,7 +3439,12 @@
     "title": "Furniture & Meat",
     "airDate": "2014-06-19",
     "synopsis": "Big money problems send Finn and Jake to Wildberry Kingdom.",
-    "characterIds": ["bmo", "finn", "jake", "neptr"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2670,7 +3459,13 @@
     "title": "The Prince Who Wanted Everything",
     "airDate": "2014-06-26",
     "synopsis": "The beautiful and sensitive Lumpy Space Prince flees his cruel parents to start a new life.",
-    "characterIds": ["cake", "fionna", "ice-king", "lumpy-space-princess", "prince-gumball"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "lumpy-space-princess",
+      "prince-gumball"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2709,7 +3504,10 @@
     "title": "Little Brother",
     "airDate": "2014-07-10",
     "synopsis": "Shelby the worm discovers that he has a little brother who is bound for adventure.",
-    "characterIds": ["jake", "shelby"],
+    "characterIds": [
+      "jake",
+      "shelby"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2724,8 +3522,18 @@
     "title": "Ocarina",
     "airDate": "2014-07-17",
     "synopsis": "Fed up with Jake's antics, his son Kim Kil Whan takes action.",
-    "characterIds": ["finn", "jake", "jake-jr", "kim-kil-whan", "lady-rainicorn", "tv", "viola"],
-    "storylineIds": ["jake-pups"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "jake-jr",
+      "kim-kil-whan",
+      "lady-rainicorn",
+      "tv",
+      "viola"
+    ],
+    "storylineIds": [
+      "jake-pups"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 993409,
@@ -2739,7 +3547,14 @@
     "title": "Thanks for the Crabapples, Giuseppe!",
     "airDate": "2014-07-24",
     "synopsis": "Ice King and a band of misfit wizards go on a mystical road trip.",
-    "characterIds": ["abracadaniel", "finn", "ice-king", "jake", "mr-pig", "tree-trunks"],
+    "characterIds": [
+      "abracadaniel",
+      "finn",
+      "ice-king",
+      "jake",
+      "mr-pig",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2785,7 +3600,9 @@
       "starchy",
       "rattleballs"
     ],
-    "storylineIds": ["peppermint-butler-dark"],
+    "storylineIds": [
+      "peppermint-butler-dark"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1001819,
@@ -2799,8 +3616,17 @@
     "title": "Joshua & Margaret Investigations",
     "airDate": "2014-08-14",
     "synopsis": "Finn and Jake's parents hunt an unearthly menace in the woods.",
-    "characterIds": ["bmo", "finn", "jake", "joshua", "margaret", "tree-trunks"],
-    "storylineIds": ["jake-pups"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "joshua",
+      "margaret",
+      "tree-trunks"
+    ],
+    "storylineIds": [
+      "jake-pups"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1001820,
@@ -2814,7 +3640,12 @@
     "title": "Ghost Fly",
     "airDate": "2014-10-28",
     "synopsis": "Jake and the tree house are haunted by a vengeful specter.",
-    "characterIds": ["bmo", "finn", "jake", "peppermint-butler"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "peppermint-butler"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2829,7 +3660,11 @@
     "title": "Everything's Jake",
     "airDate": "2014-11-24",
     "synopsis": "Jake finds himself trapped in a world made of himself.",
-    "characterIds": ["finn", "jake", "magic-man"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "magic-man"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2844,8 +3679,15 @@
     "title": "Is That You?",
     "airDate": "2014-11-25",
     "synopsis": "Following an ally's memorial service, Jake begins acting strangely.",
-    "characterIds": ["finn", "jake", "prismo", "the-lich"],
-    "storylineIds": ["prismo-cosmic"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "prismo",
+      "the-lich"
+    ],
+    "storylineIds": [
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1023683,
@@ -2859,7 +3701,11 @@
     "title": "Jake the Brick",
     "airDate": "2014-11-26",
     "synopsis": "Jake wants to fulfill a bizarre lifelong ambition.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2874,7 +3720,13 @@
     "title": "Dentist",
     "airDate": "2014-11-28",
     "synopsis": "When Finn's toothache gets too much to take, he has no choice but to go see dentist.",
-    "characterIds": ["finn", "jake", "princess-bubblegum", "starchy", "tiffany"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum",
+      "starchy",
+      "tiffany"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2889,8 +3741,16 @@
     "title": "The Cooler",
     "airDate": "2014-12-04",
     "synopsis": "When the Fire Kingdom is struck by a natural disaster, Flame Princess turns to an unlikely ally.",
-    "characterIds": ["cinnamon-bun", "flame-princess", "ice-king", "princess-bubblegum"],
-    "storylineIds": ["elements", "flame-princess-arc"],
+    "characterIds": [
+      "cinnamon-bun",
+      "flame-princess",
+      "ice-king",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "elements",
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1023684,
@@ -2904,7 +3764,14 @@
     "title": "The Pajama War",
     "airDate": "2015-01-08",
     "synopsis": "A Candy Kingdom slumber party devolves into panic when Finn and Princess Bubblegum vanish.",
-    "characterIds": ["chicle", "finn", "jake", "lolly", "princess-bubblegum", "starchy"],
+    "characterIds": [
+      "chicle",
+      "finn",
+      "jake",
+      "lolly",
+      "princess-bubblegum",
+      "starchy"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -2919,8 +3786,14 @@
     "title": "Evergreen",
     "airDate": "2015-01-15",
     "synopsis": "In a distant age, the wizard Evergreen quests to save the world.",
-    "characterIds": ["gunter", "ice-king"],
-    "storylineIds": ["simon-and-marcy", "elements"],
+    "characterIds": [
+      "gunter",
+      "ice-king"
+    ],
+    "storylineIds": [
+      "simon-and-marcy",
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1032452,
@@ -2957,8 +3830,19 @@
     "title": "Gold Stars",
     "airDate": "2015-01-29",
     "synopsis": "Tree Trunks and Mr. Pig's child, Sweet P, runs into trouble on his first day of school.",
-    "characterIds": ["finn", "jake", "king-of-ooo", "mr-pig", "sweet-p", "the-lich", "tree-trunks"],
-    "storylineIds": ["the-lich", "sweet-p"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "king-of-ooo",
+      "mr-pig",
+      "sweet-p",
+      "the-lich",
+      "tree-trunks"
+    ],
+    "storylineIds": [
+      "the-lich",
+      "sweet-p"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1039799,
@@ -2972,8 +3856,13 @@
     "title": "The Visitor",
     "airDate": "2015-02-05",
     "synopsis": "Finn meets a friendly civilization and a sees a mysterious crash site in a vision.",
-    "characterIds": ["finn", "martin-mertens"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "finn",
+      "martin-mertens"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1040528,
@@ -3011,7 +3900,13 @@
     "title": "Dark Purple",
     "airDate": "2015-02-19",
     "synopsis": "Susan Strong and her allies infiltrate the mysterious Super Porp factory.",
-    "characterIds": ["bmo", "finn", "jake", "marceline", "susan-strong"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "marceline",
+      "susan-strong"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3026,7 +3921,11 @@
     "title": "The Diary",
     "airDate": "2015-02-26",
     "synopsis": "Jake's son TV discovers a lost diary and sets out to solve a decades-old mystery.",
-    "characterIds": ["jake", "lady-rainicorn", "tv"],
+    "characterIds": [
+      "jake",
+      "lady-rainicorn",
+      "tv"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3041,7 +3940,10 @@
     "title": "Walnuts & Rain",
     "airDate": "2015-03-05",
     "synopsis": "When Finn and Jake stumble into two different holes, they meet two different fates.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3056,7 +3958,10 @@
     "title": "Friends Forever",
     "airDate": "2015-04-16",
     "synopsis": "Ice King has a plan to form a perfect circle of confidants.",
-    "characterIds": ["ice-king", "princess-bubblegum"],
+    "characterIds": [
+      "ice-king",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3070,7 +3975,13 @@
     "title": "Jermaine",
     "airDate": "2015-04-23",
     "synopsis": "After a chilling dream encounter, Finn & Jake are determined to reconnect with their reclusive brother.",
-    "characterIds": ["bmo", "finn", "jake", "jermaine", "lady-rainicorn"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "jermaine",
+      "lady-rainicorn"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3085,7 +3996,11 @@
     "title": "Chips & Ice Cream",
     "airDate": "2015-04-30",
     "synopsis": "BMO'S favorite artists find a new home in the treehouse.",
-    "characterIds": ["bmo", "finn", "jake"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3110,7 +4025,10 @@
       "princess-bubblegum",
       "starchy"
     ],
-    "storylineIds": ["lemongrab-saga", "future-ooo"],
+    "storylineIds": [
+      "lemongrab-saga",
+      "future-ooo"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1058801,
@@ -3147,7 +4065,10 @@
     "title": "Water Park Prank",
     "airDate": "2015-05-21",
     "synopsis": "After rescuing Princess Orangutan from Daddy-sad-heads, Finn and Jake head to a post-apocalyptic water park.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3161,8 +4082,15 @@
     "title": "You Forgot Your Floaties",
     "airDate": "2015-06-01",
     "synopsis": "Finn and Jake storm Magic Man's house to rescue his new apprentice.",
-    "characterIds": ["finn", "jake", "magic-man", "grob-gob-glob-grod"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "magic-man",
+      "grob-gob-glob-grod"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1066865
@@ -3175,8 +4103,15 @@
     "title": "Be Sweet",
     "airDate": "2015-06-02",
     "synopsis": "A fed up Lumpy Space Princess leaves the woods for a glamorous career in babysitting.",
-    "characterIds": ["lumpy-space-princess", "marceline", "sweet-p", "tree-trunks"],
-    "storylineIds": ["sweet-p"],
+    "characterIds": [
+      "lumpy-space-princess",
+      "marceline",
+      "sweet-p",
+      "tree-trunks"
+    ],
+    "storylineIds": [
+      "sweet-p"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1066866,
@@ -3190,7 +4125,12 @@
     "title": "Orgalorg",
     "airDate": "2015-06-03",
     "synopsis": "After a walrus race accident, Gunther starts to experience strange visions.",
-    "characterIds": ["finn", "gunter", "ice-king", "jake"],
+    "characterIds": [
+      "finn",
+      "gunter",
+      "ice-king",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3204,7 +4144,9 @@
     "title": "On the Lam",
     "airDate": "2015-06-04",
     "synopsis": "Finn's dad Martin the Human fights for freedom on a strange new planet!",
-    "characterIds": ["martin-mertens"],
+    "characterIds": [
+      "martin-mertens"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3250,7 +4192,9 @@
       "peppermint-butler",
       "princess-bubblegum"
     ],
-    "storylineIds": ["finn-the-human"],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1070833,
@@ -3264,8 +4208,16 @@
     "title": "Bonnie and Neddy",
     "airDate": "2015-11-02",
     "synopsis": "The greed of the King of Ooo leads to a crisis in the Candy Kingdom.",
-    "characterIds": ["finn", "jake", "king-of-ooo", "neddy", "princess-bubblegum"],
-    "storylineIds": ["gum-war"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "king-of-ooo",
+      "neddy",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "gum-war"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134155,
@@ -3279,8 +4231,14 @@
     "title": "Varmints",
     "airDate": "2015-11-03",
     "synopsis": "Bubblegum turns to Marceline's help when something threatens the citizens of her homestead.",
-    "characterIds": ["finn", "jake", "marceline"],
-    "storylineIds": ["bubbline"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline"
+    ],
+    "storylineIds": [
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134370,
@@ -3316,7 +4274,12 @@
     "title": "Mama Said",
     "airDate": "2015-11-05",
     "synopsis": "The loyalty of Finn and Jake comes into question when the King of Ooo orders them to intercept a flying mushroom.",
-    "characterIds": ["finn", "ice-king", "jake", "king-of-ooo"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "king-of-ooo"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3331,7 +4294,9 @@
     "title": "Football",
     "airDate": "2015-11-06",
     "synopsis": "BMO and Football decide upon a deal, but one of them cannot keep up their end of the bargain.",
-    "characterIds": ["bmo"],
+    "characterIds": [
+      "bmo"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3346,8 +4311,16 @@
     "title": "Stakes: Marceline the Vampire Queen (1)",
     "airDate": "2015-11-16",
     "synopsis": "Finn and Jake hunt a shadowy predator and Marceline asks Princess Bubblegum for a favor.",
-    "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
-    "storylineIds": ["stakes"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134934,
@@ -3361,8 +4334,14 @@
     "title": "Stakes: Everything Stays (2)",
     "airDate": "2015-11-16",
     "synopsis": "As the sun rises on her last day, Marceline recalls her long extraordinary life.",
-    "characterIds": ["finn", "ice-king", "marceline"],
-    "storylineIds": ["stakes"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "marceline"
+    ],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134935,
@@ -3376,8 +4355,16 @@
     "title": "Stakes: Vamps About (3)",
     "airDate": "2015-11-17",
     "synopsis": "Five foes from Marceline's past come back to cause trouble for the Land of Ooo.",
-    "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
-    "storylineIds": ["stakes"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134936,
@@ -3391,8 +4378,16 @@
     "title": "Stakes: The Empress Eyes (4)",
     "airDate": "2015-11-17",
     "synopsis": "When one of her oldest adversaries targets the Ice Kingdom, Marceline rushes to Simon's rescue.",
-    "characterIds": ["finn", "ice-king", "jake", "marceline", "princess-bubblegum"],
-    "storylineIds": ["stakes"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake",
+      "marceline",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134937,
@@ -3415,7 +4410,9 @@
       "marceline",
       "princess-bubblegum"
     ],
-    "storylineIds": ["stakes"],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134938,
@@ -3439,7 +4436,9 @@
       "peppermint-butler",
       "princess-bubblegum"
     ],
-    "storylineIds": ["stakes"],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134939,
@@ -3453,8 +4452,16 @@
     "title": "Stakes: Checkmate (7)",
     "airDate": "2015-11-19",
     "synopsis": "On the eve of battle, Marceline's archenemy comes to her with a strange proposal.",
-    "characterIds": ["finn", "jake", "marceline", "peppermint-butler", "princess-bubblegum"],
-    "storylineIds": ["stakes"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "marceline",
+      "peppermint-butler",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134940,
@@ -3478,7 +4485,9 @@
       "peppermint-butler",
       "princess-bubblegum"
     ],
-    "storylineIds": ["stakes"],
+    "storylineIds": [
+      "stakes"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1134941,
@@ -3492,7 +4501,13 @@
     "title": "The More You Moe, The Moe You Know (1)",
     "airDate": "2015-12-03",
     "synopsis": "On BMO's birthday, Moe comes to visit and give BMO a special birthday mission.",
-    "characterIds": ["bmo", "finn", "jake", "neptr", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "neptr",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3507,7 +4522,13 @@
     "title": "The More You Moe, The Moe You Know (2)",
     "airDate": "2015-12-03",
     "synopsis": "BMO continues its quest to adulthood.",
-    "characterIds": ["bmo", "finn", "jake", "moe", "neptr"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "moe",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3522,7 +4543,10 @@
     "title": "Summer Showers",
     "airDate": "2016-01-07",
     "synopsis": "Viola tries to get a part in LSP's play.",
-    "characterIds": ["lumpy-space-princess", "viola"],
+    "characterIds": [
+      "lumpy-space-princess",
+      "viola"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3537,7 +4561,12 @@
     "title": "Angel Face",
     "airDate": "2016-01-11",
     "synopsis": "BMO convinces his friends to join him in a live action cowboy role-playing game.",
-    "characterIds": ["bmo", "finn", "jake", "neptr"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3552,7 +4581,10 @@
     "title": "President Porpoise Is Missing!",
     "airDate": "2016-01-12",
     "synopsis": "Finn and Jake attempt to track down President Porpoise before Vice President Blowfish takes over.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3567,7 +4599,10 @@
     "title": "Blank Eyed Girl",
     "airDate": "2016-01-13",
     "synopsis": "One very spooky night, Finn and Jake come face-to-face with an urban myth.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3581,7 +4616,12 @@
     "title": "Bad Jubies",
     "airDate": "2016-01-14",
     "synopsis": "Finn, Jake, LSP and BMO seek shelter as they contend with some deadly weather.",
-    "characterIds": ["bmo", "finn", "jake", "lumpy-space-princess"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "lumpy-space-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3595,8 +4635,14 @@
     "title": "King's Ransom",
     "airDate": "2016-01-15",
     "synopsis": "Ice King suffers a heartbreaking loss and it's up to Finn and Jake to find the culprit.",
-    "characterIds": ["finn", "ice-king", "jake"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1156213,
@@ -3610,7 +4656,10 @@
     "title": "Scamps",
     "airDate": "2016-01-21",
     "synopsis": "Finn takes a group of at-risk Candy Kingdom youth on a camping trip.",
-    "characterIds": ["finn", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3624,8 +4673,15 @@
     "title": "Crossover",
     "airDate": "2016-01-28",
     "synopsis": "Finn and Jake crossover into Farmworld Finn's dimension.",
-    "characterIds": ["finn", "ice-king", "jake"],
-    "storylineIds": ["simon-and-marcy", "prismo-cosmic"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "simon-and-marcy",
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1156215
@@ -3638,7 +4694,9 @@
     "title": "The Hall of Egress",
     "airDate": "2016-03-05",
     "synopsis": "Trapped and alone, Finn must unravel the riddle of the weird cave with no exit.",
-    "characterIds": ["finn"],
+    "characterIds": [
+      "finn"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3652,7 +4710,12 @@
     "title": "Flute Spell",
     "airDate": "2016-03-12",
     "synopsis": "Finn has secret meetings with a powerful wizard.",
-    "characterIds": ["finn", "jake", "huntress-wizard", "maja"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "huntress-wizard",
+      "maja"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3666,7 +4729,11 @@
     "title": "The Thin Yellow Line",
     "airDate": "2016-03-19",
     "synopsis": "Finn and Jake infiltrate the Banana Guard ranks and stumble upon a conspiracy.",
-    "characterIds": ["finn", "jake", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3680,8 +4747,16 @@
     "title": "Broke His Crown",
     "airDate": "2016-03-26",
     "synopsis": "When Ice King's magic crown goes haywire, Marceline and Princess Bubblegum resort to extreme measures.",
-    "characterIds": ["betty-grof", "gunter", "ice-king", "marceline", "princess-bubblegum"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "betty-grof",
+      "gunter",
+      "ice-king",
+      "marceline",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312840,
@@ -3719,7 +4794,10 @@
     "title": "Beyond the Grotto",
     "airDate": "2016-04-09",
     "synopsis": "Finn and Jake follow their Sea Lard into the pond, leading to a strange new world.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3733,7 +4811,11 @@
     "title": "Lady Rainicorn of the Crystal Dimension",
     "airDate": "2016-04-16",
     "synopsis": "Jake's son finds a hidden box and draws attention from a Rainicorn.",
-    "characterIds": ["jake", "lady-rainicorn", "tv"],
+    "characterIds": [
+      "jake",
+      "lady-rainicorn",
+      "tv"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3747,8 +4829,13 @@
     "title": "I am a Sword",
     "airDate": "2016-04-23",
     "synopsis": "When Finn begins having nightmares about his missing Finn Sword, he wonders if they are real.",
-    "characterIds": ["finn", "jake"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312844,
@@ -3762,7 +4849,11 @@
     "title": "Bun Bun",
     "airDate": "2016-05-05",
     "synopsis": "Finn brings a special delivery for Cinnamon Bun to the Fire Kingdom.",
-    "characterIds": ["cinnamon-bun", "finn", "flame-princess"],
+    "characterIds": [
+      "cinnamon-bun",
+      "finn",
+      "flame-princess"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3776,7 +4867,11 @@
     "title": "Normal Man",
     "airDate": "2016-05-12",
     "synopsis": "Normal Man asks for Finn and Jake's help to rescue his brother.",
-    "characterIds": ["finn", "jake", "magic-man"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "magic-man"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3791,8 +4886,14 @@
     "title": "Elemental",
     "airDate": "2016-05-19",
     "synopsis": "Ice King digs up an item buried underneath the Ice Kingdom.",
-    "characterIds": ["ice-king", "patience-st-pim", "princess-bubblegum"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "ice-king",
+      "patience-st-pim",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312847
@@ -3805,7 +4906,11 @@
     "title": "Five Short Tables",
     "airDate": "2016-05-26",
     "synopsis": "Fionna and Cake go on a cooking adventure.",
-    "characterIds": ["cake", "fionna", "ice-king"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3819,7 +4924,11 @@
     "title": "The Music Hole",
     "airDate": "2016-06-23",
     "synopsis": "Finn hears a mysterious song while judging a Battle of the Bands.",
-    "characterIds": ["finn", "marceline", "princess-bubblegum"],
+    "characterIds": [
+      "finn",
+      "marceline",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3833,8 +4942,14 @@
     "title": "Daddy-Daughter Card Wars",
     "airDate": "2016-07-07",
     "synopsis": "Jake and his daughter Charlie fight to restore Jake's honor in a Card Wars tourney.",
-    "characterIds": ["charlie", "jake", "lady-rainicorn"],
-    "storylineIds": ["jake-pups"],
+    "characterIds": [
+      "charlie",
+      "jake",
+      "lady-rainicorn"
+    ],
+    "storylineIds": [
+      "jake-pups"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312850
@@ -3847,8 +4962,16 @@
     "title": "Preboot",
     "airDate": "2016-11-19",
     "synopsis": "While searching for old human artifacts, Jake, Finn, and Susan Strong meet Tiffany.",
-    "characterIds": ["finn", "jake", "susan-strong", "tiffany"],
-    "storylineIds": ["finn-the-human", "grass-sword-fern"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "susan-strong",
+      "tiffany"
+    ],
+    "storylineIds": [
+      "finn-the-human",
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312851
@@ -3861,8 +4984,18 @@
     "title": "Reboot",
     "airDate": "2016-11-19",
     "synopsis": "After Susan Strong's chip is activated, she goes rogue and attacks Finn.",
-    "characterIds": ["bmo", "finn", "ice-king", "jake", "susan-strong", "rattleballs"],
-    "storylineIds": ["finn-the-human", "grass-sword-fern"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "jake",
+      "susan-strong",
+      "rattleballs"
+    ],
+    "storylineIds": [
+      "finn-the-human",
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 2312852
@@ -3875,8 +5008,15 @@
     "title": "Two Swords",
     "airDate": "2017-01-23",
     "synopsis": "Finn and Jake puzzle over the nature of a mysterious newcomer.",
-    "characterIds": ["bmo", "fern", "finn", "jake"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "bmo",
+      "fern",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260521
@@ -3889,8 +5029,14 @@
     "title": "Do No Harm",
     "airDate": "2017-01-23",
     "synopsis": "Doctor Princess thrusts a great responsibility upon Finn.",
-    "characterIds": ["fern", "finn", "jake"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "fern",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260522
@@ -3903,7 +5049,11 @@
     "title": "Wheels",
     "airDate": "2017-01-24",
     "synopsis": "Kim Kil Whan is worried about his daughter's future.",
-    "characterIds": ["jake", "kim-kil-whan", "bronwyn"],
+    "characterIds": [
+      "jake",
+      "kim-kil-whan",
+      "bronwyn"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3917,7 +5067,12 @@
     "title": "High Strangeness",
     "airDate": "2017-01-25",
     "synopsis": "An otherworldly encounter puts Tree Trunks on the trail of a conspiracy.",
-    "characterIds": ["bmo", "jake", "tree-trunks", "banana-man"],
+    "characterIds": [
+      "bmo",
+      "jake",
+      "tree-trunks",
+      "banana-man"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3931,7 +5086,10 @@
     "title": "Horse and Ball",
     "airDate": "2017-01-26",
     "synopsis": "When disaster befalls James Baxter, it's up to Finn and Jake to help him.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -3945,8 +5103,13 @@
     "title": "Jelly Beans Have Power",
     "airDate": "2017-01-27",
     "synopsis": "Princess Bubblegum's scientific mind must wrestle with her Elemental magic potential.",
-    "characterIds": ["marceline", "princess-bubblegum"],
-    "storylineIds": ["flame-princess-arc"],
+    "characterIds": [
+      "marceline",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "flame-princess-arc"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260525
@@ -3959,8 +5122,15 @@
     "title": "Islands: The Invitation (1)",
     "airDate": "2017-01-30",
     "synopsis": "A mysterious craft invades Ooo and Finn believes it may hold the secrets to his past.",
-    "characterIds": ["bmo", "finn", "jake", "susan-strong"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "susan-strong"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260527
@@ -3973,8 +5143,15 @@
     "title": "Islands: Whipple the Happy Dragon (2)",
     "airDate": "2017-01-30",
     "synopsis": "Finn, Jake, and Susan set sail on an ocean voyage full of wonders and danger.",
-    "characterIds": ["bmo", "finn", "jake", "susan-strong"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "susan-strong"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260528
@@ -3987,8 +5164,14 @@
     "title": "Islands: Mysterious Island (3)",
     "airDate": "2017-01-31",
     "synopsis": "After waking up alone and shipwrecked, Finn investigates a bizarre island.",
-    "characterIds": ["bmo", "finn", "jake"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260529
@@ -4001,8 +5184,14 @@
     "title": "Islands: Imaginary Resources (4)",
     "airDate": "2017-01-31",
     "synopsis": "Finn and Jake travel to a land where reality has been redesigned.",
-    "characterIds": ["bmo", "finn", "jake"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260530
@@ -4015,8 +5204,16 @@
     "title": "Islands: Hide and Seek (5)",
     "airDate": "2017-02-01",
     "synopsis": "While exploring futuristic ruins, Susan sees glimpses of a familiar girl.",
-    "characterIds": ["bmo", "finn", "jake", "minerva-campbell", "susan-strong"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "minerva-campbell",
+      "susan-strong"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260531
@@ -4029,8 +5226,14 @@
     "title": "Islands: Min & Marty (6)",
     "airDate": "2017-02-01",
     "synopsis": "An unexpected revelation from Susan leads Finn closer to answers about his past.",
-    "characterIds": ["finn", "martin-mertens", "minerva-campbell"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "finn",
+      "martin-mertens",
+      "minerva-campbell"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260532
@@ -4043,8 +5246,15 @@
     "title": "Islands: Helpers (7)",
     "airDate": "2017-02-02",
     "synopsis": "Finn and his friends journey to a last refuge called Founders Island.",
-    "characterIds": ["bmo", "finn", "jake", "minerva-campbell"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "minerva-campbell"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260533
@@ -4057,8 +5267,16 @@
     "title": "Islands: The Light Cloud (8)",
     "airDate": "2017-02-02",
     "synopsis": "Finn confronts the power behind Founders Island.",
-    "characterIds": ["bmo", "finn", "jake", "minerva-campbell", "susan-strong"],
-    "storylineIds": ["finn-the-human"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake",
+      "minerva-campbell",
+      "susan-strong"
+    ],
+    "storylineIds": [
+      "finn-the-human"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1260534
@@ -4071,8 +5289,14 @@
     "title": "Orb",
     "airDate": "2017-04-21",
     "synopsis": "During the journey home, Finn, Jake, and BMO encounter a mysterious force.",
-    "characterIds": ["bmo", "finn", "jake"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338582
@@ -4085,8 +5309,14 @@
     "title": "Elements: Skyhooks (1)",
     "airDate": "2017-04-24",
     "synopsis": "Finn, Jake, and BMO return to a radically changed Ooo.",
-    "characterIds": ["bmo", "finn", "jake"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338583
@@ -4099,8 +5329,15 @@
     "title": "Elements: Bespoken For (2)",
     "airDate": "2017-04-24",
     "synopsis": "The friends learn what happened to Ooo while Betty continues her attempt to reach Simon.",
-    "characterIds": ["betty-grof", "finn", "ice-king", "jake"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "betty-grof",
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338584
@@ -4113,8 +5350,14 @@
     "title": "Elements: Winter Light (3)",
     "airDate": "2017-04-25",
     "synopsis": "Finn, Jake and Ice King break into the Ice World to confront the power-hungry evildoer.",
-    "characterIds": ["finn", "ice-king", "jake"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "finn",
+      "ice-king",
+      "jake"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338585
@@ -4127,8 +5370,16 @@
     "title": "Elements: Cloudy (4)",
     "airDate": "2017-04-25",
     "synopsis": "After taking a nap, Finn and Jake get separated from Betty and the Ice King.",
-    "characterIds": ["betty-grof", "finn", "ice-king", "jake", "lumpy-space-princess"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "betty-grof",
+      "finn",
+      "ice-king",
+      "jake",
+      "lumpy-space-princess"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338586
@@ -4141,8 +5392,15 @@
     "title": "Elements: Slime Central (5)",
     "airDate": "2017-04-26",
     "synopsis": "Finn and Jake must gather the four elemental gems from the Slime Kingdom.",
-    "characterIds": ["finn", "jake", "lumpy-space-princess", "slime-princess"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "lumpy-space-princess",
+      "slime-princess"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338587
@@ -4155,8 +5413,14 @@
     "title": "Elements: Happy Warrior (6)",
     "airDate": "2017-04-26",
     "synopsis": "Finn and LSP go to the Fire Kingdom to gather the Flame Jewel.",
-    "characterIds": ["finn", "flame-princess", "lumpy-space-princess"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "finn",
+      "flame-princess",
+      "lumpy-space-princess"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338588
@@ -4169,8 +5433,14 @@
     "title": "Elements: Hero Heart (7)",
     "airDate": "2017-04-27",
     "synopsis": "After going to the Fire Kingdom, Finn becomes taken over by fire.",
-    "characterIds": ["finn", "lumpy-space-princess", "princess-bubblegum"],
-    "storylineIds": ["elements"],
+    "characterIds": [
+      "finn",
+      "lumpy-space-princess",
+      "princess-bubblegum"
+    ],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338590
@@ -4196,7 +5466,9 @@
       "princess-bubblegum",
       "slime-princess"
     ],
-    "storylineIds": ["elements"],
+    "storylineIds": [
+      "elements"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338591
@@ -4209,8 +5481,16 @@
     "title": "Abstract",
     "airDate": "2017-07-17",
     "synopsis": "Jake struggles through personal changes as a mysterious dream with Jermaine haunts him.",
-    "characterIds": ["jake", "jermaine", "lady-rainicorn", "bronwyn", "root-beer-guy"],
-    "storylineIds": ["jake-pups"],
+    "characterIds": [
+      "jake",
+      "jermaine",
+      "lady-rainicorn",
+      "bronwyn",
+      "root-beer-guy"
+    ],
+    "storylineIds": [
+      "jake-pups"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338592
@@ -4223,8 +5503,13 @@
     "title": "Ketchup",
     "airDate": "2017-07-18",
     "synopsis": "BMO and Marceline play catch up on recent events.",
-    "characterIds": ["bmo", "marceline"],
-    "storylineIds": ["bubbline"],
+    "characterIds": [
+      "bmo",
+      "marceline"
+    ],
+    "storylineIds": [
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338593
@@ -4237,7 +5522,11 @@
     "title": "Fionna and Cake and Fionna",
     "airDate": "2017-07-19",
     "synopsis": "While performing a reading of 'Fionna and Cake', Ice King is confronted by a familiar figure.",
-    "characterIds": ["cake", "fionna", "ice-king"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4251,8 +5540,17 @@
     "title": "Whispers",
     "airDate": "2017-07-20",
     "synopsis": "While safeguarding Sweet P, Finn is led into a confrontation with an old foe.",
-    "characterIds": ["finn", "jake", "sweet-p", "tree-trunks", "mr-fox"],
-    "storylineIds": ["the-lich", "sweet-p"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "sweet-p",
+      "tree-trunks",
+      "mr-fox"
+    ],
+    "storylineIds": [
+      "the-lich",
+      "sweet-p"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1338596
@@ -4265,8 +5563,14 @@
     "title": "Three Buckets",
     "airDate": "2017-07-21",
     "synopsis": "Finn and Fern's carefree visit to some old ruins turns disastrous.",
-    "characterIds": ["fern", "finn", "jake"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "fern",
+      "finn",
+      "jake"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1340497
@@ -4279,8 +5583,17 @@
     "title": "The Wild Hunt",
     "airDate": "2017-09-17",
     "synopsis": "A fierce creature is terrorizing the Candy Kingdom but Finn must first overcome a guilty conscience.",
-    "characterIds": ["fern", "finn", "jake", "marceline", "princess-bubblegum", "huntress-wizard"],
-    "storylineIds": ["grass-sword-fern"],
+    "characterIds": [
+      "fern",
+      "finn",
+      "jake",
+      "marceline",
+      "princess-bubblegum",
+      "huntress-wizard"
+    ],
+    "storylineIds": [
+      "grass-sword-fern"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1418023
@@ -4293,7 +5606,10 @@
     "title": "Always BMO Closing",
     "airDate": "2017-09-17",
     "synopsis": "BMO and Ice King hit the road as door to door salesmen.",
-    "characterIds": ["bmo", "ice-king"],
+    "characterIds": [
+      "bmo",
+      "ice-king"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4307,7 +5623,11 @@
     "title": "Son of Rap Bear",
     "airDate": "2017-09-17",
     "synopsis": "When Flame Princess is coaxed into a battle against Son of Rap Bear, Finn must help.",
-    "characterIds": ["finn", "flame-princess", "neptr"],
+    "characterIds": [
+      "finn",
+      "flame-princess",
+      "neptr"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4332,7 +5652,9 @@
       "neddy",
       "princess-bubblegum"
     ],
-    "storylineIds": ["gum-war"],
+    "storylineIds": [
+      "gum-war"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1418026,
@@ -4358,7 +5680,10 @@
       "huntress-wizard",
       "bronwyn"
     ],
-    "storylineIds": ["grass-sword-fern", "gum-war"],
+    "storylineIds": [
+      "grass-sword-fern",
+      "gum-war"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1418027,
@@ -4372,7 +5697,12 @@
     "title": "Ring of Fire",
     "airDate": "2017-12-17",
     "synopsis": "When an old flame comes calling, Tree Trunks reconsiders her wild past and tranquil present.",
-    "characterIds": ["finn", "jake", "mr-pig", "tree-trunks"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "mr-pig",
+      "tree-trunks"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4394,7 +5724,9 @@
       "peppermint-butler",
       "princess-bubblegum"
     ],
-    "storylineIds": ["bubbline"],
+    "storylineIds": [
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1418029,
@@ -4408,7 +5740,11 @@
     "title": "The First Investigation",
     "airDate": "2017-12-17",
     "synopsis": "Kim Kil Whan tasks Jake and Finn to investigate reports of a haunting.",
-    "characterIds": ["finn", "jake", "kim-kil-whan"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "kim-kil-whan"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4422,7 +5758,12 @@
     "title": "Blenanas",
     "airDate": "2018-03-18",
     "synopsis": "Finn's latest literary work meets with only derision.",
-    "characterIds": ["bmo", "finn", "ice-king", "princess-bubblegum"],
+    "characterIds": [
+      "bmo",
+      "finn",
+      "ice-king",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4437,7 +5778,10 @@
     "title": "Jake the Starchild",
     "airDate": "2018-03-18",
     "synopsis": "To fulfill his grand destiny, Jake is spirited away by a shape-shifting alien.",
-    "characterIds": ["finn", "jake"],
+    "characterIds": [
+      "finn",
+      "jake"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
@@ -4452,8 +5796,16 @@
     "title": "Temple of Mars",
     "airDate": "2018-03-18",
     "synopsis": "Searching for answers on Mars, Finn and Jermaine must survive a Martian mental trap.",
-    "characterIds": ["betty-grof", "finn", "jake", "jermaine", "magic-man"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "betty-grof",
+      "finn",
+      "jake",
+      "jermaine",
+      "magic-man"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1464287,
@@ -4478,7 +5830,9 @@
       "princess-bubblegum",
       "starchy"
     ],
-    "storylineIds": ["gum-war"],
+    "storylineIds": [
+      "gum-war"
+    ],
     "songIds": [],
     "runtime": 11,
     "tmdbId": 1464288,
@@ -4545,8 +5899,12 @@
     "title": "BMO",
     "airDate": "2020-06-25",
     "synopsis": "BMO travels to a far corner of the galaxy to save its people from a deadly threat.",
-    "characterIds": ["bmo"],
-    "storylineIds": ["future-ooo"],
+    "characterIds": [
+      "bmo"
+    ],
+    "storylineIds": [
+      "future-ooo"
+    ],
     "songIds": [],
     "runtime": 45,
     "tmdbId": 1961665,
@@ -4569,7 +5927,10 @@
       "bronwyn",
       "choose-goose"
     ],
-    "storylineIds": ["simon-and-marcy", "bubbline"],
+    "storylineIds": [
+      "simon-and-marcy",
+      "bubbline"
+    ],
     "songIds": [],
     "runtime": 45,
     "tmdbId": 1961673,
@@ -4583,8 +5944,17 @@
     "title": "Together Again",
     "airDate": "2021-05-20",
     "synopsis": "Finn and Jake rediscover their brotherly bond and embark on the most important adventure of their lives.",
-    "characterIds": ["finn", "jake", "death", "choose-goose", "mr-fox", "ghost-princess"],
-    "storylineIds": ["future-ooo"],
+    "characterIds": [
+      "finn",
+      "jake",
+      "death",
+      "choose-goose",
+      "mr-fox",
+      "ghost-princess"
+    ],
+    "storylineIds": [
+      "future-ooo"
+    ],
     "songIds": [],
     "runtime": 46,
     "tmdbId": 1961677
@@ -4597,8 +5967,14 @@
     "title": "Wizard City",
     "airDate": "2021-09-02",
     "synopsis": "Peppermint Butler starts over at Wizard School. When mysterious events cast suspicion on him, can he master the mystic arts in time?",
-    "characterIds": ["peppermint-butler", "princess-bubblegum", "choose-goose"],
-    "storylineIds": ["peppermint-butler-dark"],
+    "characterIds": [
+      "peppermint-butler",
+      "princess-bubblegum",
+      "choose-goose"
+    ],
+    "storylineIds": [
+      "peppermint-butler-dark"
+    ],
     "songIds": [],
     "runtime": 50,
     "tmdbId": 1961675
@@ -4611,7 +5987,13 @@
     "title": "Fionna Campbell",
     "airDate": "2023-08-31",
     "synopsis": "After a disastrous morning, a down-on-her luck Fionna seeks treatment for an out-of-sorts Cake.",
-    "characterIds": ["cake", "fionna", "ice-king", "hunter", "gary-prince"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "hunter",
+      "gary-prince"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
@@ -4634,7 +6016,9 @@
       "choose-goose",
       "root-beer-guy"
     ],
-    "storylineIds": ["simon-and-marcy"],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 27,
     "tmdbId": 4591683
@@ -4647,7 +6031,14 @@
     "title": "Cake the Cat",
     "airDate": "2023-09-07",
     "synopsis": "While Cake crash-lands in a fantastic new world, Fionna continues her search.",
-    "characterIds": ["cake", "fionna", "ice-king", "scarab", "choose-goose", "gary-prince"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "scarab",
+      "choose-goose",
+      "gary-prince"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4661,8 +6052,16 @@
     "title": "Prismo the Wishmaster",
     "airDate": "2023-09-07",
     "synopsis": "Fionna, Cake, and Simon converge in a strange place to discover how they're connected.",
-    "characterIds": ["cake", "fionna", "ice-king", "prismo", "scarab"],
-    "storylineIds": ["prismo-cosmic"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "prismo",
+      "scarab"
+    ],
+    "storylineIds": [
+      "prismo-cosmic"
+    ],
     "songIds": [],
     "runtime": 24,
     "tmdbId": 4591685
@@ -4675,7 +6074,14 @@
     "title": "Destiny",
     "airDate": "2023-09-14",
     "synopsis": "Pursued by a powerful enemy, Fionna, Cake and Simon venture through a lawless world.",
-    "characterIds": ["cake", "fionna", "ice-king", "scarab", "hunter", "gary-prince"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "scarab",
+      "hunter",
+      "gary-prince"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4689,8 +6095,16 @@
     "title": "The Winter King",
     "airDate": "2023-09-14",
     "synopsis": "After landing in the Winter Kingdom, Fionna and Simon discover a possible solution.",
-    "characterIds": ["cake", "fionna", "ice-king", "winter-king", "gary-prince"],
-    "storylineIds": ["simon-and-marcy"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "winter-king",
+      "gary-prince"
+    ],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 25,
     "tmdbId": 4591687
@@ -4724,7 +6138,11 @@
     "title": "Jerry",
     "airDate": "2023-09-21",
     "synopsis": "Stranded in a desolate wasteland, Fionna, Cake and Simon must resort to desperate measures.",
-    "characterIds": ["cake", "fionna", "ice-king"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
@@ -4738,7 +6156,12 @@
     "title": "Casper & Nova",
     "airDate": "2023-09-28",
     "synopsis": "While Simon experiences a cosmic detour, doom closes in on Fionna and Cake.",
-    "characterIds": ["cake", "fionna", "ice-king", "scarab"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king",
+      "scarab"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4762,7 +6185,9 @@
       "hunter",
       "gary-prince"
     ],
-    "storylineIds": ["simon-and-marcy"],
+    "storylineIds": [
+      "simon-and-marcy"
+    ],
     "songIds": [],
     "runtime": 27,
     "tmdbId": 4591691
@@ -4775,7 +6200,11 @@
     "title": "The Hare and the Sprout",
     "airDate": "2025-10-23",
     "synopsis": "After saving their world, Fionna and Cake try to find where they fit in.",
-    "characterIds": ["cake", "fionna", "ice-king"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "ice-king"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4789,7 +6218,10 @@
     "title": "The Crocodile Who Bit a Log",
     "airDate": "2025-10-30",
     "synopsis": "Fionna and Cake attempt to solve a heated debate with force.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4803,7 +6235,11 @@
     "title": "The Lion of Embers",
     "airDate": "2025-11-06",
     "synopsis": "A nervous Cake goes on her first date. Fionna revisits an old flame.",
-    "characterIds": ["cake", "fionna", "marshall-lee"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "marshall-lee"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4817,7 +6253,10 @@
     "title": "The Cat Who Tipped the Box",
     "airDate": "2025-11-13",
     "synopsis": "While Cake explores a career in television, a heartbroken Fionna takes a walk down memory lane.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4831,7 +6270,10 @@
     "title": "The Butterfly and the River",
     "airDate": "2025-11-20",
     "synopsis": "Despite several setbacks, Fionna redoubles her efforts to help her friends.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 24,
@@ -4845,7 +6287,11 @@
     "title": "The Bird in the Clock",
     "airDate": "2025-11-27",
     "synopsis": "During a night of strange visions, Huntress enlists Finn's allies to save him from a Croak Dream.",
-    "characterIds": ["cake", "finn", "fionna"],
+    "characterIds": [
+      "cake",
+      "finn",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4859,7 +6305,10 @@
     "title": "The Wolves Who Wandered",
     "airDate": "2025-12-04",
     "synopsis": "After a VIP goes missing, Fionna turns to magic and an unlikely ally for help.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4873,7 +6322,10 @@
     "title": "The Insect that Sang",
     "airDate": "2025-12-11",
     "synopsis": "When Fionna and Huntress Wizard are taken captive, Cake is left to pull off Boys Night on her own.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4887,7 +6339,10 @@
     "title": "The Worm and his Orchard",
     "airDate": "2025-12-18",
     "synopsis": "After plunging into the unknown, Fionna, Cake, and Huntress Wizard confront difficult truths.",
-    "characterIds": ["cake", "fionna"],
+    "characterIds": [
+      "cake",
+      "fionna"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 25,
@@ -4901,7 +6356,11 @@
     "title": "The Bear and the Rose",
     "airDate": "2025-12-25",
     "synopsis": "As time runs out for a wounded hero, PB turns to science for solutions.",
-    "characterIds": ["cake", "fionna", "princess-bubblegum"],
+    "characterIds": [
+      "cake",
+      "fionna",
+      "princess-bubblegum"
+    ],
     "storylineIds": [],
     "songIds": [],
     "runtime": 26,
