@@ -58,10 +58,10 @@ A location earns inclusion if it meets **at least one** of these thresholds:
 | Prismo                         | Prismo's Time Room             | Yes                                  |
 | Death                          | Dead Worlds / Land of the Dead | Yes                                  |
 | Grob Gob Glob Grod / Magic Man | Mars                           | Yes                                  |
-| Tree Trunks                    | Crystal Dimension              | Yes                                  |
+| Tree Trunks / Lady Rainicorn   | Crystal Dimension              | Yes (both characters linked)         |
 | Wildberry Princess             | Wildberry Kingdom              | Yes                                  |
-| Slime Princess                 | **Slime Kingdom**              | **No — should add**                  |
-| Ghost Princess                 | Ghost Kingdom                  | Yes                                  |
+| Slime Princess                 | Slime Kingdom                  | Yes (added this session)             |
+| Starchy / Ghost Princess       | Candy Kingdom Graveyard        | Yes (reworked from "Ghost Kingdom")  |
 | Susan Strong                   | Beautopia                      | No                                   |
 | Jermaine                       | Joshua & Margaret's house      | No                                   |
 | BMO (future)                   | Land of Ooo (future)           | No (covered by Future Ooo storyline) |
@@ -115,61 +115,84 @@ A location earns inclusion if it meets **at least one** of these thresholds:
 
 ---
 
-## 4. Current Data Quality Assessment
+## 4. Current Data Quality Assessment (Updated)
 
 ### 4a. Validation results
 
 ```
-Characters: 39/39 valid references
-Storylines: 15/15 valid references
-Episodes:   56/57 valid references
+18 locations, 0 broken references
+Characters: all valid
+Storylines: all valid
+Episodes:   all valid
 ```
 
-**One broken reference:** `adventure-time-s10e16` in Tree Fort's episodeIds does not exist in episodes.json. Needs correction.
+### 4b. Cross-reference density (current 18 locations)
 
-### 4b. Cross-reference density (current 17 locations)
+| Location                | Chars | Eps | Storylines | Signal strength |
+| ----------------------- | ----- | --- | ---------- | --------------- |
+| Candy Kingdom           | 7     | 11  | 2          | Strong          |
+| Tree Fort               | 6     | 5   | 2          | Strong          |
+| Founders' Island        | 4     | 7   | 1          | Strong          |
+| Fire Kingdom            | 3     | 6   | 2          | Strong          |
+| Castle Lemongrab        | 2     | 5   | 1          | Strong          |
+| Prismo's Time Room      | 2     | 4   | 2          | Strong          |
+| Ice Kingdom             | 2     | 4   | 1          | Strong          |
+| Wizard City             | 2     | 4   | 0          | Moderate        |
+| Mars                    | 2     | 3   | 1          | Moderate        |
+| Crystal Dimension       | 2     | 3   | 0          | Moderate        |
+| Nightosphere            | 2     | 2   | 1          | Moderate        |
+| Candy Kingdom Graveyard | 2     | 1   | 0          | Moderate\*      |
+| Marceline's House       | 1     | 4   | 2          | Moderate        |
+| Lumpy Space             | 1     | 6   | 0          | Moderate\*\*    |
+| Dead Worlds             | 1     | 3   | 0          | Moderate        |
+| Wildberry Kingdom       | 1     | 1   | 0          | Weak            |
+| Slime Kingdom           | 1     | 2   | 1          | Moderate        |
+| Pillow World            | 1     | 1   | 0          | Weak            |
 
-| Location           | Chars | Eps | Storylines | Signal strength |
-| ------------------ | ----- | --- | ---------- | --------------- |
-| Candy Kingdom      | 7     | 5   | 2          | Strong          |
-| Tree Fort          | 6     | 4   | 2          | Strong          |
-| Founders' Island   | 4     | 4   | 1          | Strong          |
-| Fire Kingdom       | 3     | 4   | 2          | Strong          |
-| Castle Lemongrab   | 2     | 5   | 1          | Strong          |
-| Prismo's Time Room | 2     | 4   | 2          | Strong          |
-| Ice Kingdom        | 2     | 4   | 1          | Strong          |
-| Wizard City        | 2     | 4   | 0          | Moderate        |
-| Mars               | 2     | 3   | 1          | Moderate        |
-| Nightosphere       | 2     | 2   | 1          | Moderate        |
-| Marceline's House  | 1     | 4   | 2          | Moderate        |
-| Lumpy Space        | 1     | 3   | 0          | Moderate        |
-| Dead Worlds        | 1     | 3   | 0          | Moderate        |
-| Crystal Dimension  | 1     | 3   | 0          | Weak            |
-| Wildberry Kingdom  | 1     | 2   | 0          | Weak            |
-| Ghost Kingdom      | 1     | 2   | 0          | Weak            |
-| Pillow World       | 1     | 1   | 0          | Weak            |
+\*Graveyard: user confirms it appears more often than data shows; transcript search priority.
+\*\*Lumpy Space: see quality concern below.
 
-**Weak entries** (Wildberry, Ghost, Pillow, Crystal) have minimal cross-references. They're real locations but borderline for inclusion at the current curation level. Could be kept for completeness or deferred until transcript search enriches their episode lists.
+### 4c. Episode coverage — lessons learned
 
-### 4c. Episode coverage is thin
+**Key finding: hand-picked episode IDs from memory are unreliable.** The initial data had **6 incorrect episode references** caught by spot-checking IDs against actual episode content:
 
-The episodeIds in the current data are hand-picked highlights (2-5 per location). For comparison:
+- `s10e16` (doesn't exist) in Tree Fort
+- `s05e03` (Short Graybles) in Pillow World — should be `s05e16` (Puhoy)
+- `s06e32` (Friends Forever, an Ice King ep) in Fire Kingdom
+- `s03e18` (The New Frontier, Jake's death dream) in Wildberry Kingdom
+- `s06e14` (Princess Day, LSP/Marceline prank) in Wildberry Kingdom
+- `s05e37` (Box Prince, Box Kingdom) in Graveyard
+- `s08e18-21` (wrong range) for Founders' Island — actual Islands miniseries is `s08e20-27`
 
-- Candy Kingdom appears in **15** episode synopses but only has **5** episodeIds
-- Lumpy Space appears in **7** synopses but only has **3** episodeIds
-- Fire Kingdom appears in **6** synopses but only has **4** episodeIds
+**Implication:** Every episode reference should be verified against actual episode content before committing. Synopsis search is more reliable than recall.
 
-This is the biggest gap. Synopsis-based search catches explicit name-drops, but many episodes _take place_ in a location without naming it in the synopsis. **Transcript search would dramatically improve episode coverage.**
+**Lumpy Space quality concern:** Synopsis search enriched Lumpy Space to 6 episodes, but several (s04e12 Gotcha, s05e49 Bad Timing, s06e09 Prince Who Wanted Everything, s06e39 Be Sweet) are LSP-centric episodes that may not be _set_ in Lumpy Space itself. Only s01e02 and s03e06 clearly take place there. Needs transcript verification.
+
+**Remaining coverage gap:** Synopsis search catches explicit name-drops, but many episodes _take place_ in a location without naming it. Transcript search would dramatically improve coverage.
+
+### 4d. Validation branch convergence
+
+The `claude/validate-episode-data-PKJEc` branch (in progress) adds:
+
+- **96 character additions** across episodes.json
+- **20 transcriptFile fields** (especially Fionna & Cake, previously 0% linked)
+- **2 character aliases** (Huntress, Marshall) for better parser coverage
+
+Once merged, this improves the locations pipeline:
+
+- More transcripts available for `parse_transcript_locations.py`
+- Better character data for co-occurrence heuristics (method 3 in §6a)
+- Validated episode data means cross-references we build on top are trustworthy
 
 ---
 
 ## 5. Recommended Additions
 
-### Definite adds (meet Tier 1 criteria)
+### Definite adds — completed
 
-| Location          | Category | Basis                                                                       |
-| ----------------- | -------- | --------------------------------------------------------------------------- |
-| **Slime Kingdom** | kingdom  | Slime Princess is a character; 2 synopsis mentions; Elements storyline zone |
+| Location          | Category | Basis                                                                       | Status |
+| ----------------- | -------- | --------------------------------------------------------------------------- | ------ |
+| **Slime Kingdom** | kingdom  | Slime Princess is a character; 2 synopsis mentions; Elements storyline zone | Added  |
 
 ### Strong candidates (meet Tier 2, need transcript verification)
 
