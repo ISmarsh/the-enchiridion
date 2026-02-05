@@ -6,7 +6,7 @@
     "aliases": ["Finn", "Finn Mertens", "The Human"],
     "description": "The last human in the Land of Ooo (or so he thought). Finn is a brave, righteous hero who lives for adventure with his best friend and adoptive brother Jake. Over the series, he matures from an enthusiastic kid into a thoughtful young adult.",
     "type": "individual",
-    "parentIds": ["martin-mertens", "minerva-campbell"],
+    "parentIds": ["martin-mertens", "minerva-campbell", "joshua", "margaret"],
     "childIds": [],
     "siblingIds": ["jake", "jermaine"]
   },
@@ -39,7 +39,7 @@
     "description": "The brilliant, centuries-old ruler of the Candy Kingdom. A scientist and creator at heart, she built her entire kingdom and its citizens from candy biomass. Her relationship with Marceline spans centuries of complicated history.",
     "type": "individual",
     "parentIds": [],
-    "childIds": [],
+    "childIds": ["lemongrab"],
     "siblingIds": ["neddy"]
   },
   {
@@ -151,7 +151,7 @@
     "description": "The innocent giant child form of the Lich after being splashed with the Citadel Guardian's healing blood. Raised by Tree Trunks and Mr. Pig, Sweet P is kind and gentle, though the Lich's evil occasionally resurfaces within him.",
     "type": "individual",
     "variantOf": "the-lich",
-    "parentIds": ["tree-trunks", "mr-pig"],
+    "parentIds": ["the-lich", "tree-trunks", "mr-pig"],
     "childIds": []
   },
   {
@@ -197,7 +197,7 @@
   {
     "id": "elise",
     "name": "Elise",
-    "series": ["adventure-time"],
+    "series": ["adventure-time", "distant-lands"],
     "aliases": [],
     "description": "Marceline's human mother who lived during and after the Mushroom War. She cared for young Marceline in the post-apocalyptic wasteland before succumbing to illness. Her loss deeply affected Marceline for centuries.",
     "type": "individual",
@@ -222,7 +222,7 @@
     "description": "Princess Bubblegum's uncle and one of her first candy creations. He plotted to usurp her kingdom, leading her to transform him into Punch Bowl for centuries. After being restored, he waged the Gum War against her before eventual reconciliation.",
     "type": "individual",
     "parentIds": [],
-    "childIds": []
+    "childIds": ["chicle"]
   },
   {
     "id": "lolly",
@@ -232,7 +232,7 @@
     "description": "Gumbald's wife and one of Princess Bubblegum's original candy creations. She was transformed into Manfried the Piñata after Gumbald's failed coup and remained that way for centuries before being restored.",
     "type": "individual",
     "parentIds": [],
-    "childIds": []
+    "childIds": ["chicle"]
   },
   {
     "id": "chicle",
@@ -279,7 +279,7 @@
     "id": "gunter",
     "name": "Gunter",
     "series": ["adventure-time"],
-    "aliases": ["Gunther", "Orgalorg"],
+    "aliases": ["Gunther", "Orgalorg", "Ice Thing"],
     "description": "Ice King's penguin companion, seemingly just a cute pet. In reality, Gunter is the ancient cosmic entity Orgalorg, a world-destroying being who was banished to Earth and compressed into penguin form. After the series, Gunter uses the Ice Crown to become Ice Thing.",
     "type": "individual",
     "parentIds": [],
@@ -397,7 +397,7 @@
     "description": "Jake and Lady Rainicorn's most responsible son, a successful businessman and real estate investor. He's serious and sometimes disapproves of his father's carefree lifestyle, creating tension between them.",
     "type": "individual",
     "parentIds": ["jake", "lady-rainicorn"],
-    "childIds": [],
+    "childIds": ["bronwyn"],
     "siblingIds": ["charlie", "tv", "viola", "jake-jr"]
   },
   {
@@ -480,7 +480,15 @@
     "series": ["adventure-time"],
     "aliases": [],
     "description": "Ooo is home to numerous princesses ruling various kingdoms. Notable members include Ghost Princess (whose death mystery is solved in a two-parter), Breakfast Princess, Wildberry Princess, Hot Dog Princess, Turtle Princess (the librarian), and Muscle Princess. They often appear together at royal events and Princess Day.",
-    "memberIds": ["princess-bubblegum", "flame-princess", "slime-princess", "lumpy-space-princess"]
+    "memberIds": [
+      "princess-bubblegum",
+      "flame-princess",
+      "slime-princess",
+      "lumpy-space-princess",
+      "wildberry-princess",
+      "turtle-princess",
+      "ghost-princess"
+    ]
   },
   {
     "id": "fionna",
@@ -570,7 +578,8 @@
     "description": "A Martian wizard known for playing cruel pranks and causing suffering for his own amusement. His behavior stems from the loss of his wife Margles. He eventually reforms and becomes Normal Man, later King Man of Mars.",
     "type": "individual",
     "parentIds": [],
-    "childIds": []
+    "childIds": [],
+    "siblingIds": ["grob-gob-glob-grod"]
   },
   {
     "id": "cosmic-owl",
@@ -618,6 +627,177 @@
     "series": ["adventure-time"],
     "aliases": [],
     "description": "A gentle, pink-skinned wizard who creates rainbows. He's one of the more peaceful magic users in Ooo and becomes romantically involved with Cadebra.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "huntress-wizard",
+    "name": "Huntress Wizard",
+    "series": ["adventure-time", "fionna-and-cake"],
+    "aliases": ["HW"],
+    "description": "A mysterious wood nymph and skilled archer who lives in the forest. She shares Finn's warrior spirit and becomes his romantic interest in the later seasons, sharing a pragmatic outlook on their connection as fellow exceptional beasts.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "death",
+    "name": "Death",
+    "series": ["adventure-time", "distant-lands"],
+    "aliases": [],
+    "description": "The skeletal personification of death who rules the Land of the Dead. Despite his fearsome role, he has a rock-and-roll personality and maintains relationships with various Ooo residents, including a complicated friendship with Peppermint Butler. He plays a major role in Distant Lands: Together Again.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "bronwyn",
+    "name": "Bronwyn",
+    "series": ["adventure-time", "distant-lands"],
+    "aliases": [],
+    "description": "Kim Kil Whan's teenage daughter and Jake's granddaughter. A skateboarding enthusiast who bonds with Jake over their shared love of fun and adventure, much to her strict father's disapproval.",
+    "type": "individual",
+    "parentIds": ["kim-kil-whan"],
+    "childIds": []
+  },
+  {
+    "id": "choose-goose",
+    "name": "Choose Goose",
+    "series": ["adventure-time", "distant-lands", "fionna-and-cake"],
+    "aliases": [],
+    "description": "A flamboyant merchant goose who speaks exclusively in rhyming couplets. He sells magical items and equipment to adventurers at questionable prices, and despite his cheerful demeanor, some of his deals have dangerous consequences.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "banana-man",
+    "name": "Banana Man",
+    "series": ["adventure-time"],
+    "aliases": [],
+    "description": "A banana-headed inventor and engineer who lives outside the Candy Kingdom. Resourceful and technically skilled, he builds rockets and other devices, becoming a reliable ally to Finn and Jake on various missions.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "rattleballs",
+    "name": "Rattleballs",
+    "series": ["adventure-time"],
+    "aliases": [],
+    "description": "A discarded Gumball Guardian prototype who survived Princess Bubblegum's purge of the original guardians. Living in hiding, he becomes Finn's sword-fighting mentor and teaches him a disciplined combat style.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "winter-king",
+    "name": "Winter King",
+    "series": ["fionna-and-cake"],
+    "aliases": ["Simon Petrikov"],
+    "description": "The version of Simon Petrikov from Fionna's universe who retained his intelligence while wearing the crown, unlike the main timeline's Ice King. He initially appears helpful but reveals sinister intentions, seeking to steal crown power from other universes to sustain his world.",
+    "type": "individual",
+    "variantOf": "ice-king",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "maja",
+    "name": "Maja the Sky Witch",
+    "series": ["adventure-time"],
+    "aliases": ["Maja"],
+    "description": "A powerful sky witch who collects items imbued with sentimental value to fuel her magic. She obtained Marceline's beloved teddy bear Hambo from Ash and later used the ancient psychic tandem war elephant in a bid for power that left her comatose.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "grob-gob-glob-grod",
+    "name": "Grob Gob Glob Grod",
+    "series": ["adventure-time"],
+    "aliases": ["Glob", "GGGG"],
+    "description": "A four-headed Martian deity and Magic Man's sibling. They serve as cosmic protectors and are revered throughout Ooo\u2014'Oh my Glob' is actually a reference to them. They sacrifice themselves by crashing into the Catalyst Comet to save Mars.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": [],
+    "siblingIds": ["magic-man"]
+  },
+  {
+    "id": "mr-fox",
+    "name": "Mr. Fox",
+    "series": ["adventure-time", "distant-lands"],
+    "aliases": [],
+    "description": "A fox who frequently appears in mundane domestic situations across Ooo, often serving as an unwitting bystander to Finn and Jake's adventures. He occasionally gets caught up in cosmic events far beyond his understanding.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "root-beer-guy",
+    "name": "Root Beer Guy",
+    "series": ["adventure-time", "fionna-and-cake"],
+    "aliases": ["Dirt Beer Guy", "RBG"],
+    "description": "A candy person detective and Banana Guard captain who yearns for excitement beyond his desk job. He heroically sacrifices himself protecting the Candy Kingdom, only to be resurrected as Dirt Beer Guy with a new, rougher personality.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "banana-guards",
+    "name": "Banana Guards",
+    "series": ["adventure-time"],
+    "type": "group",
+    "aliases": [],
+    "description": "The bumbling but well-meaning guards of the Candy Kingdom, tasked with protecting Princess Bubblegum and maintaining order. They appear in virtually every Candy Kingdom episode as the kingdom's primary defense force.",
+    "memberIds": []
+  },
+  {
+    "id": "wildberry-princess",
+    "name": "Wildberry Princess",
+    "series": ["adventure-time"],
+    "aliases": ["WBP"],
+    "description": "The ruler of the Wildberry Kingdom, a small berry princess who is one of the most frequently seen princesses at royal gatherings across Ooo. She's generally kind and soft-spoken.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "turtle-princess",
+    "name": "Turtle Princess",
+    "series": ["adventure-time"],
+    "aliases": [],
+    "description": "A bespectacled turtle princess who runs the library in the Candy Kingdom. She's bookish, quiet, and a bit shy, with a love of literature and writing that often puts her at the center of story-themed episodes.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "ghost-princess",
+    "name": "Ghost Princess",
+    "series": ["adventure-time", "distant-lands"],
+    "aliases": ["Warrior Princess"],
+    "description": "A ghostly princess whose death is a mystery Finn helps solve. She was once Warrior Princess in life, and after learning the truth, she passes on to the 50th Dead World. She appears as a cameo in Distant Lands: Together Again.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "series": ["fionna-and-cake"],
+    "aliases": [],
+    "description": "A skilled wilderness survivor and tracker who becomes a recurring ally in Fionna and Cake. Originally from the magicless world, Hunter helps Fionna's group navigate dangerous situations across the multiverse.",
+    "type": "individual",
+    "parentIds": [],
+    "childIds": []
+  },
+  {
+    "id": "gary-prince",
+    "name": "Gary Prince",
+    "series": ["fionna-and-cake"],
+    "aliases": ["Gary"],
+    "description": "Marshall Lee's boyfriend and a recurring character in Fionna and Cake. In the magicless world, he's a supportive presence who joins Fionna and her friends on their multiversal journey.",
     "type": "individual",
     "parentIds": [],
     "childIds": []
