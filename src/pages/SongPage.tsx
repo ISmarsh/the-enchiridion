@@ -96,9 +96,9 @@ export function SongPage() {
             <div className="ornamental-rule flex-1" aria-hidden="true" />
           </h2>
           <div className="space-y-2">
-            {song.externalLinks.map((link, i) => (
+            {song.externalLinks.map((link) => (
               <a
-                key={i}
+                key={`${link.type}-${link.url}`}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
