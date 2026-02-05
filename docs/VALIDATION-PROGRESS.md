@@ -39,8 +39,8 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S02 | 26 | Complete | 1 | 1 |
 | S03 | 26 | Complete | 2 | 2 |
 | S04 | 26 | Complete | 3 | 3 |
-| S05 | 52 | Not started | — | — |
-| S06 | 43 | Not started | — | — |
+| S05 | 52 | Complete | 3 | 3 |
+| S06 | 43 | Complete | 1 | 1 |
 | S07 | 26 | Not started | — | — |
 | S08 | 27 | Not started | — | — |
 | S09 | 14 | Not started | — | — |
@@ -219,7 +219,66 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 51/52 (S05E36 "Dungeon Train" has no transcript)
+**Automated discrepancies:** 8 episodes flagged
+**Storyline episodes:** S05E01 (the-lich, finn-the-human, prismo-cosmic), S05E02 (the-lich, sweet-p, prismo-cosmic), S05E06 (jake-pups), S05E09 (lemongrab-saga), S05E12 (flame-princess-arc), S05E14 (simon-and-marcy), S05E29 (simon-and-marcy, bubbline), S05E30 (flame-princess-arc), S05E31 (lemongrab-saga), S05E32 (flame-princess-arc), S05E34 (finn-the-human), S05E45 (grass-sword-fern), S05E47 (flame-princess-arc), S05E48 (simon-and-marcy), S05E50-51 (lemongrab-saga), S05E52 (the-lich) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S05E01 | Finn the Human | OK | Lich + Choose Goose appear visually; storylines correct |
+| S05E02 | Jake the Dog | OK | Lich speaks as Lich/Jake (transcript parser missed composite speaker) |
+| S05E03 | Five More Short Graybles | OK | |
+| S05E04 | Up a Tree | OK | |
+| S05E05 | All the Little People | OK | |
+| S05E06 | Jake the Dad | OK | Jake's Pups — storyline correct |
+| S05E07 | Davey | OK | |
+| S05E08 | Mystery Dungeon | OK | |
+| S05E09 | All Your Fault | OK | Lemongrab saga — correct |
+| S05E10 | Little Dude | OK | |
+| S05E11 | Bad Little Boy | FIXED | Added turtle-princess + wildberry-princess (speaking lines as audience) |
+| S05E12 | Vault of Bones | OK | Flame Princess arc — correct |
+| S05E13 | The Great Bird Man | OK | |
+| S05E14 | Simon & Marcy | OK | Simon & Marcy — correct |
+| S05E15 | A Glitch Is a Glitch | OK | |
+| S05E16 | Puhoy | OK | FP mentioned in dialogue + calls Finn at end, doesn't appear on screen — correct to include |
+| S05E17 | BMO Lost | OK | |
+| S05E18 | Princess Potluck | OK | Turtle/Wildberry appear visually at potluck, don't speak — correct |
+| S05E19 | James Baxter the Horse | OK | |
+| S05E20 | Shh! | OK | |
+| S05E21 | The Suitor | OK | |
+| S05E22 | The Party's Over, Isla de Señorita | OK | |
+| S05E23 | One Last Job | OK | |
+| S05E24 | Another Five More Short Graybles | FIXED | Added mr-fox (has a short grayble segment with speaking lines) |
+| S05E25 | Candy Streets | OK | |
+| S05E26 | Wizards Only, Fools | OK | |
+| S05E27 | Jake Suit | OK | |
+| S05E28 | Be More | OK | |
+| S05E29 | Sky Witch | OK | Simon & Marcy + Bubbline — correct |
+| S05E30 | Frost & Fire | OK | Flame Princess arc — correct |
+| S05E31 | Too Old | OK | Lemongrab saga — correct |
+| S05E32 | Earth & Water | OK | Flame Princess arc — correct |
+| S05E33 | Time Sandwich | OK | |
+| S05E34 | The Vault | OK | BMO appears in framing, doesn't speak in past segment — correct |
+| S05E35 | Love Games | OK | |
+| S05E36 | Dungeon Train | OK | No transcript available; characters (Finn, Jake, BMO) match synopsis |
+| S05E37 | Box Prince | OK | |
+| S05E38 | Red Starved | OK | |
+| S05E39 | We Fixed a Truck | OK | |
+| S05E40 | Play Date | OK | |
+| S05E41 | The Pit | OK | |
+| S05E42 | James | OK | |
+| S05E43 | Root Beer Guy | OK | |
+| S05E44 | Apple Wedding | OK | |
+| S05E45 | Blade of Grass | OK | Grass Sword & Fern — correct |
+| S05E46 | Rattleballs | OK | Root Beer Guy appears visually, doesn't speak — correct |
+| S05E47 | The Red Throne | OK | Flame Princess arc — correct |
+| S05E48 | Betty | OK | Simon & Marcy — correct |
+| S05E49 | Bad Timing | OK | |
+| S05E50 | Lemonhope (1) | OK | Lemongrab saga — correct |
+| S05E51 | Lemonhope (2) | OK | Lemongrab saga — correct |
+| S05E52 | Billy's Bucket List | OK | The Lich — correct |
+
+**Summary:** 3 fixes applied. No storyline changes needed.
 
 ---
 
@@ -227,7 +286,57 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-*(pending)*
+**Transcript coverage:** 39/43 (S06E32, S06E37, S06E38, S06E40 have no transcripts)
+**Automated discrepancies:** 7 episodes flagged
+**Storyline episodes:** S06E01-02 (finn-the-human, prismo-cosmic, the-lich, grass-sword-fern, sweet-p), S06E04 (finn-the-human), S06E06 (finn-the-human, grass-sword-fern), S06E12 (jake-pups), S06E15 (peppermint-butler-dark), S06E16 (jake-pups), S06E19 (prismo-cosmic), S06E22 (elements, flame-princess-arc), S06E24 (simon-and-marcy, elements), S06E26 (the-lich, sweet-p), S06E27 (finn-the-human), S06E35 (lemongrab-saga, future-ooo), S06E39 (sweet-p), S06E43 (finn-the-human) — all correct
+
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S06E01 | Wake Up | FIXED | transcriptFile was pointing to mini-episode "All's Well That Rats Swell" instead of "Wake Up" |
+| S06E02 | Escape from the Citadel | OK | Multiple storylines — correct |
+| S06E03 | James II | OK | |
+| S06E04 | The Tower | OK | Finn the Human arc — correct |
+| S06E05 | Sad Face | OK | |
+| S06E06 | Breezy | OK | Storylines correct |
+| S06E07 | Food Chain | OK | |
+| S06E08 | Furniture & Meat | OK | Transcript parser false positive on "Wildberry kid" → wildberry-princess |
+| S06E09 | The Prince Who Wanted Everything | OK | |
+| S06E10 | Something Big | OK | Root Beer Guy visual appearance, no dialogue — correct |
+| S06E11 | Little Brother | OK | |
+| S06E12 | Ocarina | OK | Jake's Pups — correct |
+| S06E13 | Thanks for the Crabapples, Giuseppe! | OK | |
+| S06E14 | Princess Day | OK | Turtle/Wildberry visual appearances — correct |
+| S06E15 | Nemesis | OK | Peppermint Butler dark — correct |
+| S06E16 | Joshua & Margaret Investigations | OK | Jake's Pups — correct |
+| S06E17 | Ghost Fly | OK | |
+| S06E18 | Everything's Jake | OK | |
+| S06E19 | Is That You? | OK | Prismo & Cosmic — correct |
+| S06E20 | Jake the Brick | OK | |
+| S06E21 | Dentist | OK | |
+| S06E22 | The Cooler | OK | Elements + FP arc — correct |
+| S06E23 | The Pajama War | OK | |
+| S06E24 | Evergreen | OK | Simon & Marcy + Elements — correct |
+| S06E25 | Astral Plane | OK | Banana Man visual appearance — correct |
+| S06E26 | Gold Stars | OK | Lich presence within Sweet P — correct |
+| S06E27 | The Visitor | OK | Finn the Human — correct |
+| S06E28 | The Mountain | OK | |
+| S06E29 | Dark Purple | OK | |
+| S06E30 | The Diary | OK | |
+| S06E31 | Walnuts & Rain | OK | |
+| S06E32 | Friends Forever | OK | No transcript; characters match episode |
+| S06E33 | Jermaine | OK | |
+| S06E34 | Chips & Ice Cream | OK | |
+| S06E35 | Graybles 1000+ | OK | Lemongrab + Future Ooo — correct |
+| S06E36 | Hoots | OK | |
+| S06E37 | Water Park Prank | OK | No transcript; characters match episode |
+| S06E38 | You Forgot Your Floaties | OK | No transcript; Simon & Marcy — correct |
+| S06E39 | Be Sweet | OK | Sweet P arc — correct |
+| S06E40 | Orgalorg | OK | No transcript; characters match episode |
+| S06E41 | On the Lam | OK | |
+| S06E42 | Hot Diggity Doom | OK | |
+| S06E43 | The Comet | OK | Finn the Human — correct |
+
+**Summary:** 1 fix applied (S06E01 transcriptFile corrected). No character or storyline changes needed.
 
 ---
 

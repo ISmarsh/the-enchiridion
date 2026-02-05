@@ -2385,7 +2385,9 @@
       "marceline",
       "marshall-lee",
       "prince-gumball",
-      "slime-princess"
+      "slime-princess",
+      "turtle-princess",
+      "wildberry-princess"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -2655,6 +2657,7 @@
       "jake",
       "jake-jr",
       "lemongrab",
+      "mr-fox",
       "princess-bubblegum"
     ],
     "storylineIds": [],
@@ -3300,7 +3303,7 @@
     "songIds": [],
     "runtime": 11,
     "tmdbId": 989720,
-    "transcriptFile": "Adventure.Time.S06E01.All's.Well.That.Rats.Swell.txt"
+    "transcriptFile": "Adventure.Time.S06E01.Wake.Up.txt"
   },
   {
     "id": "adventure-time-s06e02",
