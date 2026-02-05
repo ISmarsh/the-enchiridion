@@ -236,7 +236,7 @@
     "name": "Peppermint Butler's Dark Side",
     "category": "minor",
     "description": "Beneath his loyal butler exterior, Peppermint Butler harbors extensive knowledge of dark magic and connections to entities like Death and Hunson Abadeer. His occult interests culminate in Distant Lands where his dark side fully emerges.",
-    "characterIds": ["peppermint-butler", "hunson-abadeer", "princess-bubblegum"],
+    "characterIds": ["peppermint-butler", "princess-bubblegum"],
     "episodeOrder": [
       "adventure-time-s02e17",
       "adventure-time-s03e04",
