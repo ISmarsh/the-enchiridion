@@ -46,10 +46,21 @@ CSS variables in `src/index.css`, Tailwind tokens in `tailwind.config.js`.
 
 Two theme layers:
 
-- **Enchiridion** (site chrome) — brown, gold, parchment
-- **Character** — finn, jake, bubblegum, marceline, bmo, iceking, flame, lsp, simon, lemongrab, prismo
+- **Enchiridion** — default site theme (book aesthetic)
+- **Character** — per-character palettes, user-selectable
 
-Each theme defines: primary, secondary, accent, dark.
+Each theme defines: primary, secondary, accent, dark. See `src/index.css` for values.
+
+**A11y:** 13/19 themes fail WCAG contrast — needs tuning pass.
+
+**Color extraction:** Character palettes extracted from Wikimedia Commons images
+via `colorthief` (npm). Ice King/Flame Princess/LSP curated from show knowledge
+(no clean Wikimedia art). colorthief can't process SVGs — needs raster images.
+
+**Wikimedia Commons API** (for sourcing character images):
+
+- Search: `commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=QUERY&srnamespace=6&format=json`
+- Image URL: `?action=query&titles=FILE_TITLE&prop=imageinfo&iiprop=url&format=json`
 
 **Design rule:** Shared components (cards, badges, etc.) must use semantic tokens
 (`bg-primary`, `border-accent`) — never hardcode a specific theme name. Parent
