@@ -47,7 +47,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S10 | 13 | Complete | 2 | 2 |
 | DL | 4 | Complete | 0 | 0 |
 | F&C S1 | 10 | Complete | 2 | 2 |
-| F&C S2 | 10 | Complete | 0 | 0 |
+| F&C S2 | 10 | Complete | 10 | 10 |
 
 ---
 
@@ -466,9 +466,18 @@ All episodes validated against synopses and storyline definitions. No transcript
 | F&C S01E08 | Jerry | OK | |
 | F&C S01E09 | Casper & Nova | OK | |
 | F&C S01E10 | Cheers | FIXED | Added marshall-lee (confirmed via web search — fights Scarab in finale) |
-| F&C S02E01-10 | Season 2 fables | OK | Minimal cast (mostly Fionna + Cake); no storyline assignments — correct |
+| F&C S02E01 | The Hare and the Sprout | FIXED | Added gary-prince, huntress-wizard, marceline, marshall-lee, princess-bubblegum (all confirmed speaking) |
+| F&C S02E02 | The Crocodile Who Bit a Log | FIXED | Added gary-prince, huntress-wizard, ice-king, marshall-lee (all confirmed speaking) |
+| F&C S02E03 | The Lion of Embers | FIXED | Added flame-princess, gary-prince, huntress-wizard, ice-king, marceline, princess-bubblegum, prismo (all confirmed speaking) |
+| F&C S02E04 | The Cat Who Tipped the Box | FIXED | Added huntress-wizard, ice-king, marceline, princess-bubblegum, prismo (all confirmed speaking) |
+| F&C S02E05 | The Butterfly and the River | FIXED | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum (all confirmed speaking) |
+| F&C S02E06 | The Bird in the Clock | FIXED | Added cosmic-owl, gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum (Cosmic Owl is killed by Huntress) |
+| F&C S02E07 | The Wolves Who Wandered | FIXED | Added huntress-wizard, marshall-lee (both confirmed speaking) |
+| F&C S02E08 | The Insect that Sang | FIXED | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum, scarab (trial episode + Boys Night) |
+| F&C S02E09 | The Worm and his Orchard | FIXED | Added cosmic-owl, fern, huntress-wizard, princess-bubblegum (Fern's major return; Cosmic Owl resurrected) |
+| F&C S02E10 | The Bear and the Rose | FIXED | Added finn, gary-prince, hunson-abadeer, huntress-wizard, ice-king, marceline, marshall-lee (Finn wakes up; season finale) |
 
-**Summary:** 2 fixes applied (added marshall-lee to S01E01 and S01E10).
+**Summary:** 12 fixes applied — 2 in S1 (marshall-lee), 10 in S2 (all episodes had severely incomplete character lists). Season 2 re-validated via web search; Huntress Wizard confirmed as co-lead appearing in all 10 episodes.
 
 ---
 
@@ -499,8 +508,18 @@ All episodes validated against synopses and storyline definitions. No transcript
 | 16 | F&C S01E01 | Added marshall-lee | Web search (significant dialogue confirmed) |
 | 17 | F&C S01E10 | Added marshall-lee | Web search (fights Scarab in finale) |
 | 18 | S06E28 | Added lemongrab-saga storylineId | Transcript + web search (core Lemongrab episode) |
+| 19 | F&C S02E01 | Added gary-prince, huntress-wizard, marceline, marshall-lee, princess-bubblegum | Web search (all speaking) |
+| 20 | F&C S02E02 | Added gary-prince, huntress-wizard, ice-king, marshall-lee | Web search (all speaking) |
+| 21 | F&C S02E03 | Added flame-princess, gary-prince, huntress-wizard, ice-king, marceline, princess-bubblegum, prismo | Web search (all speaking) |
+| 22 | F&C S02E04 | Added huntress-wizard, ice-king, marceline, princess-bubblegum, prismo | Web search (all speaking) |
+| 23 | F&C S02E05 | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum | Web search (all speaking) |
+| 24 | F&C S02E06 | Added cosmic-owl, gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum | Web search (Cosmic Owl major role) |
+| 25 | F&C S02E07 | Added huntress-wizard, marshall-lee | Web search (both speaking) |
+| 26 | F&C S02E08 | Added gary-prince, huntress-wizard, ice-king, marceline, marshall-lee, princess-bubblegum, scarab | Web search (trial + Boys Night) |
+| 27 | F&C S02E09 | Added cosmic-owl, fern, huntress-wizard, princess-bubblegum | Web search (Fern's major return) |
+| 28 | F&C S02E10 | Added finn, gary-prince, hunson-abadeer, huntress-wizard, ice-king, marceline, marshall-lee | Web search (Finn wakes up; season finale) |
 
-**Total: 14 character additions, 3 transcript file corrections, 1 storyline addition**
+**Total: 14 + 53 character additions (10 F&C S2 episodes re-validated), 3 transcript file corrections, 1 storyline addition**
 
 ### Known False Positives in Transcript Analysis
 

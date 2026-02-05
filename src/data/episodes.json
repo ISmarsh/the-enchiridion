@@ -6212,7 +6212,12 @@
     "characterIds": [
       "cake",
       "fionna",
-      "ice-king"
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
+      "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6229,7 +6234,11 @@
     "synopsis": "Fionna and Cake attempt to solve a heated debate with force.",
     "characterIds": [
       "cake",
-      "fionna"
+      "fionna",
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marshall-lee"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6247,7 +6256,14 @@
     "characterIds": [
       "cake",
       "fionna",
-      "marshall-lee"
+      "flame-princess",
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
+      "princess-bubblegum",
+      "prismo"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6264,7 +6280,12 @@
     "synopsis": "While Cake explores a career in television, a heartbroken Fionna takes a walk down memory lane.",
     "characterIds": [
       "cake",
-      "fionna"
+      "fionna",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "princess-bubblegum",
+      "prismo"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6281,7 +6302,13 @@
     "synopsis": "Despite several setbacks, Fionna redoubles her efforts to help her friends.",
     "characterIds": [
       "cake",
-      "fionna"
+      "fionna",
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
+      "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6298,8 +6325,15 @@
     "synopsis": "During a night of strange visions, Huntress enlists Finn's allies to save him from a Croak Dream.",
     "characterIds": [
       "cake",
+      "cosmic-owl",
       "finn",
-      "fionna"
+      "fionna",
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
+      "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6316,7 +6350,9 @@
     "synopsis": "After a VIP goes missing, Fionna turns to magic and an unlikely ally for help.",
     "characterIds": [
       "cake",
-      "fionna"
+      "fionna",
+      "huntress-wizard",
+      "marshall-lee"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6333,7 +6369,14 @@
     "synopsis": "When Fionna and Huntress Wizard are taken captive, Cake is left to pull off Boys Night on her own.",
     "characterIds": [
       "cake",
-      "fionna"
+      "fionna",
+      "gary-prince",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
+      "princess-bubblegum",
+      "scarab"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6350,7 +6393,11 @@
     "synopsis": "After plunging into the unknown, Fionna, Cake, and Huntress Wizard confront difficult truths.",
     "characterIds": [
       "cake",
-      "fionna"
+      "cosmic-owl",
+      "fern",
+      "fionna",
+      "huntress-wizard",
+      "princess-bubblegum"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -6367,7 +6414,14 @@
     "synopsis": "As time runs out for a wounded hero, PB turns to science for solutions.",
     "characterIds": [
       "cake",
+      "finn",
       "fionna",
+      "gary-prince",
+      "hunson-abadeer",
+      "huntress-wizard",
+      "ice-king",
+      "marceline",
+      "marshall-lee",
       "princess-bubblegum"
     ],
     "storylineIds": [],
