@@ -1,5 +1,5 @@
 import { Outlet, Link, NavLink } from 'react-router-dom';
-import { Moon, Sun, BookOpen, Users, Route, Music } from 'lucide-react';
+import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 import { cn } from '@/lib/utils';
 
@@ -13,10 +13,11 @@ const navItems = [
 ];
 
 export function Layout() {
-  const { theme, toggleTheme } = useTheme();
+  // Initialize and sync theme attribute on <html>
+  useTheme();
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
       {/* Header */}
       <header className="border-b border-border">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
@@ -42,14 +43,6 @@ export function Layout() {
                 <span className="hidden sm:inline">{label}</span>
               </NavLink>
             ))}
-            <div className="mx-1 h-6 w-px bg-border" />
-            <button
-              onClick={toggleTheme}
-              className="rounded-md p-2 hover:bg-muted"
-              aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-            >
-              {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-            </button>
           </nav>
         </div>
       </header>
@@ -64,6 +57,10 @@ export function Layout() {
         <div className="container mx-auto flex items-center justify-center gap-4 px-4 py-6 text-sm text-muted-foreground">
           <Link to="/credits" className="underline hover:text-foreground">
             Credits & Licenses
+          </Link>
+          <span aria-hidden="true">&middot;</span>
+          <Link to="/themes" className="underline hover:text-foreground">
+            Themes
           </Link>
           <span aria-hidden="true">&middot;</span>
           <a
