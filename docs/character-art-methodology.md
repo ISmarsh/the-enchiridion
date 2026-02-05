@@ -251,11 +251,44 @@ When scanning an episode, check for ALL target characters — not just the one
 you opened the episode for. One pass through "Finn the Human" (S05E01) could
 yield frames for Finn, Jake, and Prismo simultaneously.
 
+## Episode Data Status
+
+Character art extraction depends on accurate `characterIds` in `episodes.json`.
+Validation progress tracked on branch `claude/validate-episode-data-PKJEc`.
+
+### Validated and Safe to Target
+
+| Range | Episodes | Transcript Coverage | Notes |
+| ----- | -------- | ------------------- | ----- |
+| S01–S04 | 104 | 100% | Fully validated, all fixes applied |
+| S05 | 52 | 98% (1 gap) | Fully validated |
+| S06 | 43 | 91% (4 gaps) | Fully validated |
+| S07 | 26 | 69% (8 gaps) | Validated; transcript gaps don't affect character data |
+| S10 | 13 | 69% (4 gaps) | Validated, 2 fixes applied |
+| F&C S1–S2 | 20 | 100% | Major overhaul complete — 29 character additions, all transcripts linked |
+
+### Still Has Queued Character Fixes
+
+These seasons have known character data gaps queued for the next validation pass.
+Avoid targeting these episodes for art extraction until fixes land.
+
+| Range | Issue |
+| ----- | ----- |
+| S08 (Islands) | S08E20 missing 7 characters; other gaps in miniseries |
+| S09 (Elements) | 8 of 14 episodes have character gaps |
+| DL S01E03 "Together Again" | 11 missing characters |
+| DL S01E04 "Wizard City" | 1 missing character |
+| S04E18 "King Worm" | 2 missing (flame-princess, peppermint-butler) |
+
+### Validation Stats
+
+- **Total episodes:** 303
+- **Fixes applied so far:** 96 character additions, 3 transcript corrections, 1 storyline addition
+- **Transcript coverage:** 272/303 (90%) — 31 episodes have wiki transcripts not yet scraped
+
 ## Shot List
 
-> **Status:** Pending — episode data corrections in progress.
->
-> Once episode data is finalized, rerun the candidate analysis with these criteria:
+> **Status:** Pending — generate once episode data validation is complete.
 >
 > For each themed character, find candidates across eras:
 >
@@ -268,6 +301,9 @@ yield frames for Finn, Jake, and Prismo simultaneously.
 >
 > Episode selection weighted by: cast size (smaller = better), character presence
 > in title/synopsis, era match for target version.
+>
+> **Safe ranges for initial shot list:** S01–S07, S10, F&C. Avoid S08 (Islands),
+> S09 (Elements), and DL S01E03–04 until queued fixes land.
 
 ## Notes
 
