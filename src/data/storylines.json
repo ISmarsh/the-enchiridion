@@ -4,35 +4,109 @@
     "name": "Simon & Marcy",
     "category": "major",
     "description": "The tragic backstory of Simon Petrikov, who found the Ice King's crown and slowly lost his sanity while caring for young Marceline during the aftermath of the Mushroom War. Their bond endures across centuries as Marceline watches her father figure fade into madness.",
-    "characterIds": ["ice-king", "marceline", "betty-grof"]
+    "characterIds": ["ice-king", "marceline", "betty-grof"],
+    "episodeOrder": [
+      "adventure-time-s03e19",
+      "adventure-time-s03e20",
+      "adventure-time-s04e25",
+      "adventure-time-s05e14",
+      "adventure-time-s05e29",
+      "adventure-time-s05e48",
+      "adventure-time-s06e24",
+      "adventure-time-s06e38",
+      "adventure-time-s07e21",
+      "adventure-time-s07e23",
+      "adventure-time-s08e01",
+      "adventure-time-s10e11",
+      "adventure-time-s10e13",
+      "distant-lands-s01e02",
+      "fionna-and-cake-s01e02",
+      "fionna-and-cake-s01e06",
+      "fionna-and-cake-s01e10"
+    ]
   },
   {
     "id": "the-lich",
     "name": "The Lich",
     "category": "major",
     "description": "An ancient undead being of pure evil created during the Mushroom War, the Lich seeks the extinction of all life. His schemes span dimensions and timelines, making him Adventure Time's most persistent existential threat. Though his physical form is transformed into Sweet P, the Lich's essence persists—reappearing in later incarnations including Fionna and Cake.",
-    "characterIds": ["the-lich", "sweet-p", "finn", "jake", "billy", "prismo"]
+    "characterIds": ["the-lich", "sweet-p", "finn", "jake", "billy", "prismo"],
+    "episodeOrder": [
+      "adventure-time-s01e25",
+      "adventure-time-s02e24",
+      "adventure-time-s02e25",
+      "adventure-time-s04e26",
+      "adventure-time-s05e01",
+      "adventure-time-s05e02",
+      "adventure-time-s05e52",
+      "adventure-time-s06e02",
+      "adventure-time-s06e26",
+      "adventure-time-s09e13",
+      "adventure-time-s10e13"
+    ]
   },
   {
     "id": "finn-the-human",
     "name": "Finn the Human",
     "category": "major",
     "description": "Finn's journey to understand his origins as apparently the last human in Ooo. He discovers his father Martin, a deadbeat cosmic criminal, learns of his mother Minerva on a distant island of humans, and grapples with what it means to be a hero when your family disappoints you.",
-    "characterIds": ["finn", "martin-mertens", "minerva-campbell", "susan-strong"]
+    "characterIds": ["finn", "martin-mertens", "minerva-campbell", "susan-strong"],
+    "episodeOrder": [
+      "adventure-time-s02e18",
+      "adventure-time-s03e14",
+      "adventure-time-s03e25",
+      "adventure-time-s05e01",
+      "adventure-time-s05e34",
+      "adventure-time-s06e01",
+      "adventure-time-s06e02",
+      "adventure-time-s06e04",
+      "adventure-time-s06e06",
+      "adventure-time-s06e27",
+      "adventure-time-s06e43",
+      "adventure-time-s08e12",
+      "adventure-time-s08e13",
+      "adventure-time-s08e20",
+      "adventure-time-s08e21",
+      "adventure-time-s08e22",
+      "adventure-time-s08e23",
+      "adventure-time-s08e24",
+      "adventure-time-s08e25",
+      "adventure-time-s08e26",
+      "adventure-time-s08e27"
+    ]
   },
   {
     "id": "bubbline",
     "name": "Bubbline",
     "category": "major",
     "description": "The complex romantic history between Princess Bubblegum and Marceline, spanning centuries from their early friendship through a painful breakup to eventual reconciliation. Their relationship develops from estranged exes to allies to partners by the series finale.",
-    "characterIds": ["princess-bubblegum", "marceline"]
+    "characterIds": ["princess-bubblegum", "marceline"],
+    "episodeOrder": [
+      "adventure-time-s03e10",
+      "adventure-time-s05e29",
+      "adventure-time-s07e02",
+      "adventure-time-s09e11",
+      "adventure-time-s10e07",
+      "adventure-time-s10e13",
+      "distant-lands-s01e02"
+    ]
   },
   {
     "id": "stakes",
     "name": "Stakes",
     "category": "major",
     "description": "Marceline's quest to become mortal again by having Princess Bubblegum extract her vampire essence. This releases the vampires she defeated centuries ago, forcing her to confront her past while her friends help her re-stake each vampire king and queen.",
-    "characterIds": ["marceline", "princess-bubblegum", "finn", "jake"]
+    "characterIds": ["marceline", "princess-bubblegum", "finn", "jake"],
+    "episodeOrder": [
+      "adventure-time-s07e06",
+      "adventure-time-s07e07",
+      "adventure-time-s07e08",
+      "adventure-time-s07e09",
+      "adventure-time-s07e10",
+      "adventure-time-s07e11",
+      "adventure-time-s07e12",
+      "adventure-time-s07e13"
+    ]
   },
   {
     "id": "elements",
@@ -46,6 +120,20 @@
       "flame-princess",
       "slime-princess",
       "patience-st-pim"
+    ],
+    "episodeOrder": [
+      "adventure-time-s06e22",
+      "adventure-time-s06e24",
+      "adventure-time-s08e08",
+      "adventure-time-s09e01",
+      "adventure-time-s09e02",
+      "adventure-time-s09e03",
+      "adventure-time-s09e04",
+      "adventure-time-s09e05",
+      "adventure-time-s09e06",
+      "adventure-time-s09e07",
+      "adventure-time-s09e08",
+      "adventure-time-s09e09"
     ]
   },
   {
@@ -53,7 +141,21 @@
     "name": "The Grass Sword & Fern",
     "category": "major",
     "description": "Finn's cursed grass sword merges with his arm and eventually creates Fern—a grass duplicate of Finn who struggles with his identity, jealousy, and the question of whether he's truly Finn or something else. His arc ends in tragic sacrifice during the finale.",
-    "characterIds": ["finn", "fern"]
+    "characterIds": ["finn", "fern"],
+    "episodeOrder": [
+      "adventure-time-s05e45",
+      "adventure-time-s06e02",
+      "adventure-time-s06e06",
+      "adventure-time-s08e05",
+      "adventure-time-s08e12",
+      "adventure-time-s08e13",
+      "adventure-time-s08e14",
+      "adventure-time-s08e15",
+      "adventure-time-s09e14",
+      "adventure-time-s10e01",
+      "adventure-time-s10e05",
+      "adventure-time-s10e13"
+    ]
   },
   {
     "id": "gum-war",
@@ -70,6 +172,13 @@
       "marceline",
       "fern",
       "golb"
+    ],
+    "episodeOrder": [
+      "adventure-time-s07e01",
+      "adventure-time-s10e04",
+      "adventure-time-s10e05",
+      "adventure-time-s10e12",
+      "adventure-time-s10e13"
     ]
   },
   {
@@ -77,48 +186,106 @@
     "name": "Sweet P",
     "category": "minor",
     "description": "After the Lich is reborn as a giant baby, Tree Trunks and Mr. Pig adopt him as their son Sweet P. He grows up kind and gentle, but the Lich occasionally tries to resurface, creating tension between his innocent nature and the evil lurking within.",
-    "characterIds": ["sweet-p", "the-lich", "tree-trunks", "mr-pig", "finn", "jake"]
+    "characterIds": ["sweet-p", "the-lich", "tree-trunks", "mr-pig", "finn", "jake"],
+    "episodeOrder": [
+      "adventure-time-s05e02",
+      "adventure-time-s06e02",
+      "adventure-time-s06e26",
+      "adventure-time-s06e39",
+      "adventure-time-s09e13"
+    ]
   },
   {
     "id": "flame-princess-arc",
     "name": "Flame Princess",
     "category": "minor",
     "description": "Flame Princess's journey from imprisoned daughter to righteous ruler of the Fire Kingdom. Her relationship with Finn teaches them both about honesty and boundaries, while her overthrow of her manipulative father shows her growing into a strong, independent leader.",
-    "characterIds": ["flame-princess", "flame-king", "finn"]
+    "characterIds": ["flame-princess", "flame-king", "finn"],
+    "episodeOrder": [
+      "adventure-time-s03e26",
+      "adventure-time-s04e01",
+      "adventure-time-s04e16",
+      "adventure-time-s04e22",
+      "adventure-time-s05e12",
+      "adventure-time-s05e30",
+      "adventure-time-s05e32",
+      "adventure-time-s05e47",
+      "adventure-time-s06e22",
+      "adventure-time-s08e19"
+    ]
   },
   {
     "id": "lemongrab-saga",
     "name": "The Lemongrabs",
     "category": "minor",
     "description": "Princess Bubblegum's failed experiment Lemongrab and his clone spiral into tyranny over Castle Lemongrab. Their treatment of the lemon children, the liberation of Lemonhope, and the eventual merging of the two Lemongrabs explores themes of creation, responsibility, and dysfunction.",
-    "characterIds": ["lemongrab", "lemonhope", "princess-bubblegum"]
+    "characterIds": ["lemongrab", "lemonhope", "princess-bubblegum"],
+    "episodeOrder": [
+      "adventure-time-s03e05",
+      "adventure-time-s04e20",
+      "adventure-time-s05e09",
+      "adventure-time-s05e31",
+      "adventure-time-s05e50",
+      "adventure-time-s05e51",
+      "adventure-time-s06e35"
+    ]
   },
   {
     "id": "peppermint-butler-dark",
     "name": "Peppermint Butler's Dark Side",
     "category": "minor",
     "description": "Beneath his loyal butler exterior, Peppermint Butler harbors extensive knowledge of dark magic and connections to entities like Death and Hunson Abadeer. His occult interests culminate in Distant Lands where his dark side fully emerges.",
-    "characterIds": ["peppermint-butler", "hunson-abadeer", "princess-bubblegum"]
+    "characterIds": ["peppermint-butler", "hunson-abadeer", "princess-bubblegum"],
+    "episodeOrder": [
+      "adventure-time-s02e17",
+      "adventure-time-s03e04",
+      "adventure-time-s04e11",
+      "adventure-time-s06e15",
+      "distant-lands-s01e04"
+    ]
   },
   {
     "id": "jake-pups",
     "name": "Jake's Pups",
     "category": "minor",
     "description": "Jake and Lady Rainicorn's five children rapidly age to adulthood and develop their own distinct personalities—from responsible Kim Kil Whan to laid-back T.V. to future-seeing Charlie. Their dynamics with Jake explore fatherhood and generational differences.",
-    "characterIds": ["jake", "lady-rainicorn", "charlie", "tv", "viola", "kim-kil-whan", "jake-jr"]
+    "characterIds": ["jake", "lady-rainicorn", "charlie", "tv", "viola", "kim-kil-whan", "jake-jr"],
+    "episodeOrder": [
+      "adventure-time-s05e06",
+      "adventure-time-s06e12",
+      "adventure-time-s06e16",
+      "adventure-time-s08e11",
+      "adventure-time-s09e10"
+    ]
   },
   {
     "id": "prismo-cosmic",
     "name": "Prismo & the Cosmic",
     "category": "minor",
     "description": "Prismo, the wish-granting entity in the Time Room, becomes one of Jake's closest friends. His death at the Lich's hands and eventual revival through Jake's dream self introduces the cosmic hierarchy including the Cosmic Owl and Party God.",
-    "characterIds": ["prismo", "jake", "the-lich"]
+    "characterIds": ["prismo", "jake", "the-lich"],
+    "episodeOrder": [
+      "adventure-time-s04e15",
+      "adventure-time-s04e26",
+      "adventure-time-s05e01",
+      "adventure-time-s05e02",
+      "adventure-time-s06e01",
+      "adventure-time-s06e19",
+      "adventure-time-s07e23",
+      "fionna-and-cake-s01e04"
+    ]
   },
   {
     "id": "future-ooo",
     "name": "Future Ooo",
     "category": "minor",
     "description": "A thousand years after the main series, Shermy and Beth carry on the tradition of heroes in a transformed Ooo. Beth, a descendant of Jake's pups, mirrors his role while Shermy echoes Finn's adventurous spirit. Their era connects to expanded lore in Fionna and Cake.",
-    "characterIds": ["shermy", "beth", "bmo"]
+    "characterIds": ["shermy", "beth", "bmo"],
+    "episodeOrder": [
+      "adventure-time-s06e35",
+      "adventure-time-s10e13",
+      "distant-lands-s01e01",
+      "distant-lands-s01e03"
+    ]
   }
 ]
