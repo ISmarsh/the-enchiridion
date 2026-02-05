@@ -17,9 +17,15 @@
     "storylineIds": ["gum-war", "peppermint-butler-dark"],
     "episodeIds": [
       "adventure-time-s01e01",
+      "adventure-time-s01e07",
       "adventure-time-s03e05",
-      "adventure-time-s06e22",
-      "adventure-time-s08e08",
+      "adventure-time-s03e15",
+      "adventure-time-s04e13",
+      "adventure-time-s06e10",
+      "adventure-time-s06e42",
+      "adventure-time-s07e01",
+      "adventure-time-s10e01",
+      "adventure-time-s10e04",
       "adventure-time-s10e13"
     ],
     "notes": "The Candy Kingdom was created by Princess Bubblegum using the Mother Gum. It has been destroyed and rebuilt multiple times throughout the series."
@@ -49,12 +55,25 @@
     "characterIds": ["flame-princess", "flame-king", "cinnamon-bun"],
     "storylineIds": ["flame-princess-arc", "elements"],
     "episodeIds": [
+      "adventure-time-s03e17",
       "adventure-time-s04e22",
       "adventure-time-s06e22",
       "adventure-time-s06e32",
-      "adventure-time-s08e06"
+      "adventure-time-s08e06",
+      "adventure-time-s09e07",
+      "adventure-time-s09e08"
     ],
     "notes": "After deposing her father, Flame Princess reformed the Fire Kingdom into a more democratic society."
+  },
+  {
+    "id": "slime-kingdom",
+    "name": "Slime Kingdom",
+    "category": "kingdom",
+    "description": "A gelatinous kingdom ruled by Slime Princess, one of the four elementals of Ooo representing the slime element.",
+    "series": ["adventure-time"],
+    "characterIds": ["slime-princess"],
+    "storylineIds": ["elements"],
+    "episodeIds": ["adventure-time-s05e35", "adventure-time-s09e06"]
   },
   {
     "id": "tree-fort",
@@ -68,7 +87,8 @@
       "adventure-time-s01e12",
       "adventure-time-s01e23",
       "adventure-time-s06e17",
-      "adventure-time-s10e16"
+      "adventure-time-s06e34",
+      "adventure-time-s10e13"
     ]
   },
   {
@@ -104,7 +124,14 @@
     "description": "A cloud-like dimension floating above Ooo, inhabited by the Lumpy Space People. Accessible via a frog sitting on a mushroom that serves as a portal.",
     "series": ["adventure-time"],
     "characterIds": ["lumpy-space-princess"],
-    "episodeIds": ["adventure-time-s01e02", "adventure-time-s03e06", "adventure-time-s04e12"],
+    "episodeIds": [
+      "adventure-time-s01e02",
+      "adventure-time-s03e06",
+      "adventure-time-s04e12",
+      "adventure-time-s05e49",
+      "adventure-time-s06e09",
+      "adventure-time-s06e39"
+    ],
     "notes": "Lumpy Space is one of the elemental dimensions, representing the Lumps element. Getting bitten by a Lumpy Space Person can turn you lumpy."
   },
   {
@@ -222,10 +249,13 @@
     "characterIds": ["finn", "minerva-campbell", "susan-strong", "martin-mertens"],
     "storylineIds": ["finn-the-human"],
     "episodeIds": [
-      "adventure-time-s08e18",
-      "adventure-time-s08e19",
       "adventure-time-s08e20",
-      "adventure-time-s08e21"
+      "adventure-time-s08e21",
+      "adventure-time-s08e22",
+      "adventure-time-s08e24",
+      "adventure-time-s08e25",
+      "adventure-time-s08e26",
+      "adventure-time-s08e27"
     ],
     "notes": "The humans of Founders' Island developed Helper programs to protect their society, eventually uploading Minerva's consciousness into the system."
   }
