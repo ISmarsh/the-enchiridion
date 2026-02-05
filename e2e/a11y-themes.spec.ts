@@ -29,7 +29,7 @@ test('screenshots: capture all themes', async ({ page }) => {
   for (const theme of ALL_THEMES) {
     await page.goto('/themes');
     await page.selectOption('#theme-select', theme);
-    await page.waitForTimeout(100);
+    await page.locator(`html[data-theme="${theme}"]`).waitFor();
     await page.locator('[data-testid="theme-preview"]').screenshot({
       path: `e2e/screenshots/${theme}.png`,
     });
@@ -42,7 +42,7 @@ for (const theme of ALL_THEMES) {
   test(`a11y: ${theme}`, async ({ page }) => {
     await page.goto('/themes');
     await page.selectOption('#theme-select', theme);
-    await page.waitForTimeout(100);
+    await page.locator(`html[data-theme="${theme}"]`).waitFor();
 
     const results = await new AxeBuilder({ page })
       .include('[data-testid="theme-preview"]')
