@@ -1,0 +1,306 @@
+[
+  {
+    "id": "all-gummed-up-inside",
+    "title": "All Gummed Up Inside",
+    "episodeIds": ["adventure-time-s03e26"],
+    "composer": "Rebecca Sugar",
+    "performer": "Finn (Jeremy Shada)",
+    "externalLinks": [],
+    "notes": "Finn sings about his heartbreak over Princess Bubblegum. Paired with Jake's 'All Warmed Up Inside' in the same episode."
+  },
+  {
+    "id": "all-warmed-up-inside",
+    "title": "All Warmed Up Inside",
+    "episodeIds": ["adventure-time-s03e26"],
+    "composer": "Rebecca Sugar",
+    "performer": "Jake (John DiMaggio)",
+    "externalLinks": [],
+    "notes": "Jake sings this to woo Flame Princess on Finn's behalf. Counterpart to Finn's 'All Gummed Up Inside'."
+  },
+  {
+    "id": "bacon-pancakes",
+    "title": "Bacon Pancakes",
+    "episodeIds": ["adventure-time-s04e16", "adventure-time-s06e19"],
+    "composer": "Rebecca Sugar",
+    "performer": "Jake (John DiMaggio)",
+    "externalLinks": [],
+    "notes": "Jake's viral cooking jingle. Became one of the show's most recognizable songs and an internet meme."
+  },
+  {
+    "id": "bad-little-boy",
+    "title": "Bad Little Boy",
+    "episodeIds": ["adventure-time-s05e11"],
+    "composer": "Rebecca Sugar",
+    "performer": "Marshall Lee (Donald Glover)",
+    "externalLinks": [],
+    "notes": "Marshall Lee raps to prove he's really a bad guy. Gender-swapped counterpart to Marceline's musical style."
+  },
+  {
+    "id": "baked-with-love",
+    "title": "Baked with Love",
+    "episodeIds": ["fionna-and-cake-s01e06"],
+    "composer": "Brian David Gilbert",
+    "performer": "Candy Queen (Hynden Walch)",
+    "externalLinks": [],
+    "notes": "The Candy Queen sings about belonging with the Winter King. Companion piece to 'Winter Wonder World' in the same episode."
+  },
+  {
+    "id": "cake-on-the-loose",
+    "title": "Cake on the Loose",
+    "episodeIds": ["fionna-and-cake-s01e03"],
+    "performer": "Cake (Roz Ryan)",
+    "externalLinks": [],
+    "notes": "Cake's solo number about discovering Ooo for the first time, behaving like a normal cat in a magical world."
+  },
+  {
+    "id": "dream-of-love",
+    "title": "Dream of Love",
+    "episodeIds": ["adventure-time-s04e04"],
+    "performer": "Tree Trunks & Mr. Pig",
+    "externalLinks": [],
+    "notes": "A duet about Tree Trunks and Mr. Pig's blossoming romance that becomes uncomfortably public."
+  },
+  {
+    "id": "eternity-with-you",
+    "title": "Eternity with You",
+    "episodeIds": ["distant-lands-s01e02"],
+    "composer": "Zuzu",
+    "performer": "Glassboy (Michaela Dietz)",
+    "externalLinks": [],
+    "notes": "Glassboy's closing song in Obsidian. A Gilligan Moss remix appeared on BMO's Mixtape."
+  },
+  {
+    "id": "everything-in-you",
+    "title": "Everything in You",
+    "episodeIds": ["fionna-and-cake-s01e08"],
+    "composer": "Half Shy",
+    "performer": "Half Shy",
+    "externalLinks": [],
+    "notes": "Simon and Betty's song — 'our song' as Simon describes it. Bittersweet reflection on a love that can't be recaptured."
+  },
+  {
+    "id": "everything-stays",
+    "title": "Everything Stays",
+    "episodeIds": ["adventure-time-s07e07"],
+    "composer": "Rebecca Sugar",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Lullaby Marceline's mother sang to her as a child. Sung during the Stakes miniseries as Marceline reflects on becoming a vampire again. One of the show's most beloved songs."
+  },
+  {
+    "id": "food-chain",
+    "title": "Food Chain",
+    "episodeIds": ["adventure-time-s06e07"],
+    "performer": "Finn (Jeremy Shada)",
+    "externalLinks": [],
+    "notes": "Musical number from the surreal Masaaki Yuasa-directed episode about the cycle of life. Features unique animation style."
+  },
+  {
+    "id": "founders-song",
+    "title": "Founder's Song",
+    "episodeIds": ["adventure-time-s08e24"],
+    "performer": "Dr. Gross (Lennon Parham)",
+    "externalLinks": [],
+    "notes": "Traditional song sung every Friday on Founder's Island. Provides worldbuilding for the human colony Finn discovers during the Islands arc."
+  },
+  {
+    "id": "fresh-potatoes",
+    "title": "Fresh Potatoes",
+    "episodeIds": ["distant-lands-s01e01"],
+    "performer": "BMO (Niki Yang)",
+    "externalLinks": [],
+    "notes": "BMO sings about potatoes and the mysteries of the universe while being sent to Mars in a rocket. Classic BMO whimsy."
+  },
+  {
+    "id": "fry-song",
+    "title": "Fry Song (Daddy, Why Did You Eat My Fries?)",
+    "episodeIds": ["adventure-time-s02e01"],
+    "composer": "Rebecca Sugar",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Marceline sings about her father eating her fries, revealing deeper feelings about Hunson Abadeer's neglect. First major Marceline song in the series."
+  },
+  {
+    "id": "good-little-girl",
+    "title": "Good Little Girl",
+    "episodeIds": ["adventure-time-s05e11"],
+    "composer": "Rebecca Sugar",
+    "performer": "Fionna (Madeleine Martin)",
+    "externalLinks": [],
+    "notes": "Fionna sings to Marshall Lee in the gender-swapped universe. Counterpart to Marshall Lee's 'Bad Little Boy' in the same episode."
+  },
+  {
+    "id": "house-hunting-song",
+    "title": "House Hunting Song",
+    "episodeIds": ["adventure-time-s01e12"],
+    "composer": "Pendleton Ward",
+    "performer": "Finn & Jake",
+    "externalLinks": [],
+    "notes": "Finn and Jake sing while searching for a new home after Marceline claims their treehouse. One of the earliest memorable songs."
+  },
+  {
+    "id": "im-just-your-problem",
+    "title": "I'm Just Your Problem",
+    "episodeIds": ["adventure-time-s03e10"],
+    "composer": "Rebecca Sugar",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Marceline's raw confession directed at Princess Bubblegum during the Door Lord challenge. A defining moment for the Bubbline relationship."
+  },
+  {
+    "id": "island-song",
+    "title": "Island Song (Come Along with Me)",
+    "episodeIds": [],
+    "composer": "Ashley Eriksson",
+    "performer": "Ashley Eriksson",
+    "externalLinks": [],
+    "notes": "The closing credits theme played at the end of every Adventure Time episode. Simple ukulele melody that became synonymous with the show."
+  },
+  {
+    "id": "lemonhope-song",
+    "title": "Lemonhope's Song",
+    "episodeIds": ["adventure-time-s05e50", "adventure-time-s05e51"],
+    "composer": "Casey Basichis & Tim Kiefer",
+    "performer": "Princess Bubblegum (Hynden Walch)",
+    "externalLinks": [],
+    "notes": "PB sings a lullaby to Lemonhope about his potential and freedom. Lyrics by Tom Herpich. Reprised at the end of Part 2 with an emotionally devastating flash-forward."
+  },
+  {
+    "id": "monster",
+    "title": "Monster",
+    "episodeIds": ["distant-lands-s01e02"],
+    "composer": "Half Shy",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Love song Marceline composed for Bubblegum while living together. Nominated for a Daytime Emmy for Best Original Song. King Princess recorded a promotional cover."
+  },
+  {
+    "id": "my-best-friends-in-the-world",
+    "title": "My Best Friends in the World",
+    "episodeIds": ["adventure-time-s03e10"],
+    "composer": "Rebecca Sugar",
+    "performer": "Finn (Jeremy Shada)",
+    "externalLinks": [],
+    "notes": "Finn's heartfelt declaration of friendship that opens the Door Lord's gate. The truth in his words is what breaks the spell."
+  },
+  {
+    "id": "not-myself",
+    "title": "Not Myself",
+    "episodeIds": ["fionna-and-cake-s01e01"],
+    "composer": "Zuzu",
+    "performer": "Zuzu (soundtrack)",
+    "externalLinks": [],
+    "notes": "Upbeat opening song that masks Fionna's depression in her mundane, magic-less life. Sets the tonal contrast for the series."
+  },
+  {
+    "id": "oh-fionna",
+    "title": "Oh, Fionna",
+    "episodeIds": ["adventure-time-s03e09"],
+    "composer": "Rebecca Sugar",
+    "performer": "Prince Gumball (Neil Patrick Harris)",
+    "externalLinks": [],
+    "notes": "Prince Gumball serenades Fionna in the first gender-swapped episode. Features Neil Patrick Harris's vocals."
+  },
+  {
+    "id": "part-of-the-madness",
+    "title": "Part of the Madness",
+    "episodeIds": ["fionna-and-cake-s01e02"],
+    "composer": "Rebecca Sugar",
+    "performer": "Rebecca Sugar (soundtrack)",
+    "externalLinks": [],
+    "notes": "Rebecca Sugar's return to Adventure Time. Plays as Simon walks home feeling isolated and detached from Ooo's magical world."
+  },
+  {
+    "id": "red-light",
+    "title": "Red Light",
+    "episodeIds": ["distant-lands-s01e02"],
+    "performer": "Young Marceline (Audrey Bennett)",
+    "externalLinks": [],
+    "notes": "Sung by young Marceline in flashback. Establishes the lore that Marceline's music first defeated the dragon Larvo."
+  },
+  {
+    "id": "remember-you",
+    "title": "Remember You",
+    "episodeIds": ["adventure-time-s04e25"],
+    "composer": "Rebecca Sugar",
+    "performer": "Ice King (Tom Kenny) & Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Ice King and Marceline try to write a song together, revealing their shared tragic past. Simon's journal entries become lyrics. One of the most emotionally powerful moments in the series."
+  },
+  {
+    "id": "see-through",
+    "title": "See-Through",
+    "episodeIds": ["distant-lands-s01e02"],
+    "performer": "Glassboy (Michaela Dietz)",
+    "externalLinks": [],
+    "notes": "Glassboy sings about See-Thru Princess to cheer up Marceline. Sweet and earnest from an innocent perspective."
+  },
+  {
+    "id": "slow-dance-with-you",
+    "title": "Slow Dance with You",
+    "episodeIds": ["adventure-time-s10e07"],
+    "composer": "Babeo Baggins",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Marceline performs this love song at a concert where Hunson unexpectedly shows up. Ghost backup vocals by Hynden Walch. Key moment in the Bubbline arc."
+  },
+  {
+    "id": "son-of-rap-bear",
+    "title": "Son of Rap Bear",
+    "episodeIds": ["adventure-time-s10e03"],
+    "performer": "Flame Princess (Jessica DiCicco)",
+    "externalLinks": [],
+    "notes": "Flame Princess is tricked into a high-stakes rap battle where losing means the Fire Kingdom. She gains life experience with Finn to fuel her rhymes."
+  },
+  {
+    "id": "the-music-hole",
+    "title": "The Music Hole",
+    "episodeIds": ["adventure-time-s08e10"],
+    "performer": "The Music Hole",
+    "externalLinks": [],
+    "notes": "A sentient 1,000-year-old hole in the ground sings a mysterious song only Finn can hear. Musical episode structured around a Battle of the Bands."
+  },
+  {
+    "id": "time-adventure",
+    "title": "Time Adventure",
+    "episodeIds": ["adventure-time-s10e13"],
+    "composer": "Rebecca Sugar",
+    "performer": "BMO (Niki Yang)",
+    "externalLinks": [],
+    "notes": "BMO sings to comfort Jake during the battle with GOLB, and the harmony defeats GOLB's creatures as all of Ooo joins in. Rebecca Sugar's final Adventure Time song. Title is an anagram of 'Adventure Time'."
+  },
+  {
+    "id": "transformation",
+    "title": "Transformation",
+    "episodeIds": ["fionna-and-cake-s02e09"],
+    "performer": "Cake (Roz Ryan) & Karmic Worm (Sean Rohani)",
+    "externalLinks": [],
+    "notes": "Duet about change and transformation. One of the emotional highlights of Fionna & Cake Season 2."
+  },
+  {
+    "id": "winter-wonder-world",
+    "title": "Winter Wonder World",
+    "episodeIds": ["fionna-and-cake-s01e06"],
+    "composer": "Brian David Gilbert",
+    "performer": "Winter King (Tom Kenny)",
+    "externalLinks": [],
+    "notes": "Musical number from the standout episode 'The Winter King' (rated 9.2 on IMDb). Features the alternate-universe version of Ice King."
+  },
+  {
+    "id": "wizard-city-song",
+    "title": "Wizard City",
+    "episodeIds": ["distant-lands-s01e04"],
+    "performer": "Con Wizard",
+    "externalLinks": [],
+    "notes": "Con Wizard (initially 'Song Wizard') sings to welcome Peppermint Butler to Wizard City. Sets the tone for the school-mystery special."
+  },
+  {
+    "id": "woke-up",
+    "title": "Woke Up",
+    "episodeIds": ["distant-lands-s01e02"],
+    "composer": "Zuzu & Kurran Karbal",
+    "performer": "Marceline (Olivia Olson)",
+    "externalLinks": [],
+    "notes": "Raw, angry song Marceline directed at Bubblegum that ended their relationship — and also defeated the dragon Larvo. The Glass Kingdom recited it for hundreds of years. Central conflict of Obsidian."
+  }
+]
