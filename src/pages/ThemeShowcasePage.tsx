@@ -49,12 +49,12 @@ function ColorSwatch({
   className?: string;
 }) {
   return (
-    <div className="flex flex-col items-center gap-1">
+    <div className="flex flex-col items-center gap-1.5">
       <div
-        className={`h-10 w-10 rounded-md border border-border ${className ?? ''}`}
+        className={`h-12 w-12 rounded-md border border-border ${className ?? ''}`}
         style={style}
       />
-      <span className="text-[10px] text-muted-foreground">{label}</span>
+      <span className="text-xs text-muted-foreground">{label}</span>
     </div>
   );
 }

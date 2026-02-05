@@ -160,6 +160,14 @@ export default {
         },
       },
       fontFamily: {
+        display: [
+          '"IM Fell English"',
+          '"Palatino Linotype"',
+          'Palatino',
+          '"Book Antiqua"',
+          'Georgia',
+          'serif',
+        ],
         serif: ['"Palatino Linotype"', 'Palatino', '"Book Antiqua"', 'Georgia', 'serif'],
       },
       borderColor: {

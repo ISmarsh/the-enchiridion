@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { cn } from './utils';
+import { cn, toRomanNumeral } from './utils';
 
 describe('cn', () => {
   it('merges class names', () => {
@@ -25,5 +25,19 @@ describe('cn', () => {
 
   it('handles arrays', () => {
     expect(cn(['foo', 'bar'])).toBe('foo bar');
+  });
+});
+
+describe('toRomanNumeral', () => {
+  it('converts 1–4 to Roman numerals', () => {
+    expect(toRomanNumeral(1)).toBe('I');
+    expect(toRomanNumeral(2)).toBe('II');
+    expect(toRomanNumeral(3)).toBe('III');
+    expect(toRomanNumeral(4)).toBe('IV');
+  });
+
+  it('falls back to string for out-of-range values', () => {
+    expect(toRomanNumeral(11)).toBe('11');
+    expect(toRomanNumeral(0)).toBe('0');
   });
 });
