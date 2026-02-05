@@ -3225,7 +3225,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1070830
+    "tmdbId": 1070830,
+    "transcriptFile": "Adventure.Time.S06E40.Orgalorg.txt"
   },
   {
     "id": "adventure-time-s06e41",
@@ -3646,7 +3647,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1156214
+    "tmdbId": 1156214,
+    "transcriptFile": "Adventure.Time.S07E22.Scamps.txt"
   },
   {
     "id": "adventure-time-s07e23",
@@ -3675,7 +3677,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1174242
+    "tmdbId": 1174242,
+    "transcriptFile": "Adventure.Time.S07E24.The.Hall.of.Egress.txt"
   },
   {
     "id": "adventure-time-s07e25",
@@ -3689,7 +3692,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1174243
+    "tmdbId": 1174243,
+    "transcriptFile": "Adventure.Time.S07E25.Flute.Spell.txt"
   },
   {
     "id": "adventure-time-s07e26",
@@ -3802,7 +3806,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312845
+    "tmdbId": 2312845,
+    "transcriptFile": "Adventure.Time.S08E06.Bun.Bun.txt"
   },
   {
     "id": "adventure-time-s08e07",
@@ -3831,7 +3836,8 @@
     "storylineIds": ["elements"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312847
+    "tmdbId": 2312847,
+    "transcriptFile": "Adventure.Time.S08E08.Elemental.txt"
   },
   {
     "id": "adventure-time-s08e09",
@@ -3845,7 +3851,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312848
+    "tmdbId": 2312848,
+    "transcriptFile": "Adventure.Time.S08E09.Five.Short.Tables.txt"
   },
   {
     "id": "adventure-time-s08e10",
@@ -3887,7 +3894,8 @@
     "storylineIds": ["finn-the-human", "grass-sword-fern"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312851
+    "tmdbId": 2312851,
+    "transcriptFile": "Adventure.Time.S08E12.Preboot.txt"
   },
   {
     "id": "adventure-time-s08e13",
@@ -3901,7 +3909,8 @@
     "storylineIds": ["finn-the-human", "grass-sword-fern"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 2312852
+    "tmdbId": 2312852,
+    "transcriptFile": "Adventure.Time.S08E13.Reboot.txt"
   },
   {
     "id": "adventure-time-s08e14",
@@ -3915,7 +3924,8 @@
     "storylineIds": ["grass-sword-fern"],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260521
+    "tmdbId": 1260521,
+    "transcriptFile": "Adventure.Time.S08E14.Two.Swords.txt"
   },
   {
     "id": "adventure-time-s08e15",
@@ -3971,7 +3981,8 @@
     "storylineIds": [],
     "songIds": [],
     "runtime": 11,
-    "tmdbId": 1260526
+    "tmdbId": 1260526,
+    "transcriptFile": "Adventure.Time.S08E18.Horse.and.Ball.txt"
   },
   {
     "id": "adventure-time-s08e19",
