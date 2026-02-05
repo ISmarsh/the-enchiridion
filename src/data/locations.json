@@ -58,7 +58,6 @@
       "adventure-time-s03e17",
       "adventure-time-s04e22",
       "adventure-time-s06e22",
-      "adventure-time-s06e32",
       "adventure-time-s08e06",
       "adventure-time-s09e07",
       "adventure-time-s09e08"
@@ -192,9 +191,9 @@
     "id": "crystal-dimension",
     "name": "Crystal Dimension",
     "category": "dimension",
-    "description": "A dimension made entirely of crystalline structures, connected to Ooo through various portals. Tree Trunks became its queen after consuming a crystal apple.",
+    "description": "A dimension made entirely of crystalline structures, connected to Ooo through various portals. Home to Rainicorns including Lady Rainicorn's family, and where Tree Trunks became queen after consuming a crystal apple.",
     "series": ["adventure-time"],
-    "characterIds": ["tree-trunks"],
+    "characterIds": ["tree-trunks", "lady-rainicorn"],
     "episodeIds": ["adventure-time-s01e04", "adventure-time-s02e08", "adventure-time-s08e04"]
   },
   {
@@ -219,16 +218,18 @@
     "description": "A kingdom of berry people ruled by Wildberry Princess, set within a lush forested region of Ooo.",
     "series": ["adventure-time"],
     "characterIds": ["wildberry-princess"],
-    "episodeIds": ["adventure-time-s03e18", "adventure-time-s06e14"]
+    "episodeIds": ["adventure-time-s06e08"],
+    "notes": "Needs transcript search to find more episodes set here. Wildberry Princess appears in 6+ episodes but most take place at gatherings outside her kingdom."
   },
   {
-    "id": "ghost-kingdom",
-    "name": "Ghost Kingdom",
-    "category": "kingdom",
-    "description": "An ethereal kingdom inhabited by ghosts and spectral beings, ruled by Ghost Princess before she moved on to the 50th Dead World.",
+    "id": "candy-kingdom-graveyard",
+    "name": "Candy Kingdom Graveyard",
+    "category": "landmark",
+    "description": "A recurring cemetery on the outskirts of the Candy Kingdom, tended by Starchy the gravedigger. A gathering place for ghosts including Ghost Princess.",
     "series": ["adventure-time"],
-    "characterIds": ["ghost-princess"],
-    "episodeIds": ["adventure-time-s03e24", "adventure-time-s05e37"]
+    "characterIds": ["starchy", "ghost-princess"],
+    "episodeIds": ["adventure-time-s03e24"],
+    "notes": "Needs transcript search to identify all episodes featuring the graveyard — it appears more frequently than synopsis data suggests."
   },
   {
     "id": "pillow-world",
@@ -237,7 +238,7 @@
     "description": "A dimension made entirely of pillows and soft fabric, where Finn once lived an entire lifetime — growing old, having a family, and eventually returning to Ooo.",
     "series": ["adventure-time"],
     "characterIds": ["finn"],
-    "episodeIds": ["adventure-time-s05e03"],
+    "episodeIds": ["adventure-time-s05e16"],
     "notes": "In 'Puhoy,' Finn enters Pillow World through a pillow fort and lives a full life there before waking up back in Ooo with no memory of it."
   },
   {

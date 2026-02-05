@@ -286,10 +286,16 @@ This would be the most reliable way to build comprehensive episodeIds lists.
 - [x] Mine storylines.json for location-tied settings
 - [x] Search episode synopses for place name frequency
 - [x] Validate current cross-references
-- [ ] Fix broken episode reference (adventure-time-s10e16 in Tree Fort)
-- [ ] Add Slime Kingdom to locations.json
-- [ ] Enrich episodeIds using synopsis search results (low-hanging fruit)
-- [ ] Decide on weak entries (Wildberry, Ghost, Pillow, Crystal): keep or defer?
+- [x] Fix broken episode reference (adventure-time-s10e16 → s10e13 in Tree Fort)
+- [x] Fix Pillow World episode (s05e03 → s05e16 "Puhoy")
+- [x] Fix Founders' Island episodes (s08e18-21 → s08e20-27, actual Islands miniseries)
+- [x] Remove bad episode refs: s06e32 from Fire Kingdom, s03e18/s06e14 from Wildberry, s05e37 from Graveyard
+- [x] Add Slime Kingdom (Slime Princess + Elements storyline)
+- [x] Enrich episodeIds: Candy Kingdom 5→11, Fire Kingdom 4→6, Lumpy Space 3→6
+- [x] Rework Ghost Kingdom → Candy Kingdom Graveyard (recurring location, not a kingdom)
+- [x] Add Lady Rainicorn to Crystal Dimension (per "Lady Rainicorn of the Crystal Dimension")
+- [x] Add Furniture & Meat (s06e08) to Wildberry Kingdom
+- [x] Keep Pillow World, Wildberry Kingdom, Crystal Dimension; all have valid basis
 
 ### Needs desktop (transcript access + richer tools)
 
