@@ -1963,9 +1963,11 @@
     "characterIds": [
       "bmo",
       "finn",
+      "flame-princess",
       "ice-king",
       "jake",
       "lady-rainicorn",
+      "peppermint-butler",
       "princess-bubblegum"
     ],
     "storylineIds": [],
@@ -5131,8 +5133,15 @@
     "synopsis": "A mysterious craft invades Ooo and Finn believes it may hold the secrets to his past.",
     "characterIds": [
       "bmo",
+      "charlie",
+      "fern",
       "finn",
       "jake",
+      "lady-rainicorn",
+      "marceline",
+      "neptr",
+      "princess-bubblegum",
+      "starchy",
       "susan-strong"
     ],
     "storylineIds": [
@@ -5263,7 +5272,8 @@
       "bmo",
       "finn",
       "jake",
-      "minerva-campbell"
+      "minerva-campbell",
+      "susan-strong"
     ],
     "storylineIds": [
       "finn-the-human"
@@ -5326,9 +5336,17 @@
     "airDate": "2017-04-24",
     "synopsis": "Finn, Jake, and BMO return to a radically changed Ooo.",
     "characterIds": [
+      "betty-grof",
       "bmo",
       "finn",
-      "jake"
+      "gunter",
+      "ice-king",
+      "jake",
+      "mr-pig",
+      "princess-bubblegum",
+      "shelby",
+      "sweet-p",
+      "tree-trunks"
     ],
     "storylineIds": [
       "elements"
@@ -5349,8 +5367,10 @@
     "characterIds": [
       "betty-grof",
       "finn",
+      "gunter",
       "ice-king",
-      "jake"
+      "jake",
+      "patience-st-pim"
     ],
     "storylineIds": [
       "elements"
@@ -5435,8 +5455,11 @@
     "airDate": "2017-04-26",
     "synopsis": "Finn and LSP go to the Fire Kingdom to gather the Flame Jewel.",
     "characterIds": [
+      "cinnamon-bun",
       "finn",
       "flame-princess",
+      "gunter",
+      "lady-rainicorn",
       "lumpy-space-princess"
     ],
     "storylineIds": [
@@ -5456,7 +5479,12 @@
     "airDate": "2017-04-27",
     "synopsis": "After going to the Fire Kingdom, Finn becomes taken over by fire.",
     "characterIds": [
+      "betty-grof",
       "finn",
+      "flame-princess",
+      "gunter",
+      "ice-king",
+      "jake",
       "lumpy-space-princess",
       "princess-bubblegum"
     ],
@@ -5506,10 +5534,12 @@
     "airDate": "2017-07-17",
     "synopsis": "Jake struggles through personal changes as a mysterious dream with Jermaine haunts him.",
     "characterIds": [
+      "bronwyn",
+      "finn",
       "jake",
       "jermaine",
+      "joshua",
       "lady-rainicorn",
-      "bronwyn",
       "root-beer-guy"
     ],
     "storylineIds": [
@@ -5551,7 +5581,9 @@
     "characterIds": [
       "cake",
       "fionna",
-      "ice-king"
+      "gunter",
+      "ice-king",
+      "jake"
     ],
     "storylineIds": [],
     "songIds": [],
@@ -5568,11 +5600,14 @@
     "airDate": "2017-07-20",
     "synopsis": "While safeguarding Sweet P, Finn is led into a confrontation with an old foe.",
     "characterIds": [
+      "bmo",
+      "fern",
       "finn",
       "jake",
+      "mr-fox",
       "sweet-p",
-      "tree-trunks",
-      "mr-fox"
+      "the-lich",
+      "tree-trunks"
     ],
     "storylineIds": [
       "the-lich",
@@ -5592,9 +5627,13 @@
     "airDate": "2017-07-21",
     "synopsis": "Finn and Fern's carefree visit to some old ruins turns disastrous.",
     "characterIds": [
+      "bmo",
       "fern",
       "finn",
-      "jake"
+      "gumbald",
+      "jake",
+      "neptr",
+      "princess-bubblegum"
     ],
     "storylineIds": [
       "grass-sword-fern"
@@ -5976,12 +6015,23 @@
     "airDate": "2021-05-20",
     "synopsis": "Finn and Jake rediscover their brotherly bond and embark on the most important adventure of their lives.",
     "characterIds": [
-      "finn",
-      "jake",
-      "death",
       "choose-goose",
+      "death",
+      "finn",
+      "ghost-princess",
+      "ice-king",
+      "jake",
+      "jermaine",
+      "joshua",
+      "lumpy-space-princess",
+      "margaret",
       "mr-fox",
-      "ghost-princess"
+      "mr-pig",
+      "peppermint-butler",
+      "the-lich",
+      "tiffany",
+      "tree-trunks",
+      "turtle-princess"
     ],
     "storylineIds": [
       "future-ooo"
@@ -6000,9 +6050,10 @@
     "airDate": "2021-09-02",
     "synopsis": "Peppermint Butler starts over at Wizard School. When mysterious events cast suspicion on him, can he master the mystic arts in time?",
     "characterIds": [
+      "abracadaniel",
+      "choose-goose",
       "peppermint-butler",
-      "princess-bubblegum",
-      "choose-goose"
+      "princess-bubblegum"
     ],
     "storylineIds": [
       "peppermint-butler-dark"

@@ -38,14 +38,14 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S01 | 26 | Complete | 1 | 1 |
 | S02 | 26 | Complete | 1 | 1 |
 | S03 | 26 | Complete | 2 | 2 |
-| S04 | 26 | Complete | 3 | 3 |
+| S04 | 26 | Complete | 4 | 4 |
 | S05 | 52 | Complete | 3 | 3 |
 | S06 | 43 | Complete | 2 | 2 |
 | S07 | 26 | Complete | 2 | 2 |
-| S08 | 27 | Complete | 2 | 2 |
-| S09 | 14 | Complete | 0 | 0 |
+| S08 | 27 | Complete | 4 | 4 |
+| S09 | 14 | Complete | 8 | 8 |
 | S10 | 13 | Complete | 2 | 2 |
-| DL | 4 | Complete | 0 | 0 |
+| DL | 4 | Complete | 2 | 2 |
 | F&C S1 | 10 | Complete | 7 | 7 |
 | F&C S2 | 10 | Complete | 10 | 10 |
 
@@ -201,7 +201,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S04E15 | Sons of Mars | OK | Prismo & Cosmic — correct |
 | S04E16 | Burning Low | OK | Flame Princess arc — correct |
 | S04E17 | BMO Noire | OK | |
-| S04E18 | King Worm | OK | Dream episode — many chars appear visually but don't speak; data correct |
+| S04E18 | King Worm | FIXED | Added flame-princess, peppermint-butler (both speak in dream sequence — transcript confirmed) |
 | S04E19 | Lady & Peebles | OK | |
 | S04E20 | You Made Me! | OK | Lemongrab saga — correct |
 | S04E21 | Who Would Win? | OK | |
@@ -211,7 +211,7 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S04E25 | I Remember You | OK | Simon & Marcy — correct |
 | S04E26 | The Lich | OK | The Lich + Prismo — correct |
 
-**Summary:** 3 fixes applied. No storyline changes needed.
+**Summary:** 4 fixes applied. No storyline changes needed.
 
 ---
 
@@ -367,8 +367,8 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-**Transcript coverage:** 7/27 (major gap — Islands miniseries and late episodes lack transcripts)
-**Automated discrepancies:** 23 episodes flagged (20 due to missing transcripts)
+**Transcript coverage:** 12/27 (S08E20-27 Islands linked; 15 episodes still missing transcripts)
+**Automated discrepancies:** 23 episodes flagged (15 due to missing transcripts)
 **Storyline episodes:** S08E01 (simon-and-marcy), S08E05 (grass-sword-fern), S08E08 (elements), S08E11 (jake-pups), S08E12-15 (finn-the-human, grass-sword-fern), S08E19 (flame-princess-arc), S08E20-27 Islands miniseries (finn-the-human) — all correct
 
 | Episode | Title | Status | Notes |
@@ -379,13 +379,17 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 | S08E05 | I am a Sword | OK | Grass Sword & Fern — correct |
 | S08E06 | No transcript | OK | |
 | S08E07 | Normal Man | FIXED | Added grob-gob-glob-grod (Glob has speaking lines) |
-| S08E08-27 | Mixed transcript coverage | OK | Character data validated; storyline assignments correct |
+| S08E08-19 | No transcripts | OK | Character data validated against synopses; 15 episodes in gap plan |
+| S08E20 | The Invitation | FIXED | Added charlie, fern, lady-rainicorn, marceline, neptr, princess-bubblegum, starchy (transcript confirmed — Islands opener) |
+| S08E21-25 | Islands miniseries | OK | Transcripts linked; characters match |
+| S08E26 | Helpers | FIXED | Added susan-strong (transcript confirmed) |
+| S08E27 | The Light Cloud | OK | Characters match transcript |
 
 **Notable false positives documented:**
 - S08E01: `winter-king` detected via shared alias "Simon Petrikov" — this refers to AT's Simon/Ice King, not F&C's Winter King
 - S08E01: `gunter` detected via "Gunther" — this is Evergreen's ancient dinosaur apprentice, not the penguin
 
-**Summary:** 2 character fixes applied. No storyline changes needed.
+**Summary:** 4 character fixes applied. No storyline changes needed.
 
 ---
 
@@ -393,12 +397,30 @@ Many are expected (non-speaking visual appearances, alternate name forms).
 
 ### Validation Notes
 
-**Transcript coverage:** 0/14 (entire season lacks transcripts)
+**Transcript coverage:** 14/14 (all transcripts linked — Elements miniseries + post-Elements)
+**Automated discrepancies:** 8 episodes had character gaps
 **Storyline episodes:** S09E01-09 (elements miniseries), S09E10 (jake-pups), S09E11 (bubbline), S09E13 (the-lich, sweet-p), S09E14 (grass-sword-fern) — all correct
 
-All episodes validated against synopses and storyline definitions. No transcript data available for cross-reference. Character data appears consistent with episode descriptions.
+| Episode | Title | Status | Notes |
+|---------|-------|--------|-------|
+| S09E01 | Orb | OK | No character matches in transcript (dialogue-only format, no speaker labels) |
+| S09E02 | Skyhooks | FIXED | Added betty-grof, gunter, ice-king, mr-pig, princess-bubblegum, shelby, sweet-p, tree-trunks (Elements opener — many characters present) |
+| S09E03 | Bespoken For | FIXED | Added gunter, patience-st-pim (transcript confirmed) |
+| S09E04 | Winter Light | OK | No speaker labels in transcript |
+| S09E05 | Cloudy | OK | No speaker labels in transcript |
+| S09E06 | Slime Central | OK | No speaker labels in transcript |
+| S09E07 | Happy Warrior | FIXED | Added cinnamon-bun, gunter, lady-rainicorn (Fire Kingdom episode — transcript confirmed) |
+| S09E08 | Hero Heart | FIXED | Added betty-grof, flame-princess, gunter, ice-king, jake (Elements climax — transcript confirmed) |
+| S09E09 | Skyhooks II | OK | No speaker labels in transcript |
+| S09E10 | Abstract | FIXED | Added finn, joshua (transcript confirmed — Jake transformation episode) |
+| S09E11 | Ketchup | OK | BMO and Marceline match |
+| S09E12 | Fionna and Cake and Fionna | FIXED | Added gunter, jake (Ice King's fanfic episode — transcript confirmed) |
+| S09E13 | Whispers | FIXED | Added bmo, fern, the-lich (Lich hand speaks through Sweet P — transcript confirmed) |
+| S09E14 | Three Buckets | FIXED | Added bmo, gumbald, neptr, princess-bubblegum (Gumbald foreshadowed — transcript confirmed) |
 
-**Summary:** No fixes needed. No transcripts available for deeper validation.
+**Note:** S09E01, E04-E06, E09 transcripts exist but lack speaker labels (raw dialogue format per TRANSCRIPT-CORRECTIONS.md). Character data for these was validated against synopses.
+
+**Summary:** 8 episodes fixed, 29 character additions. Transcript linkage revealed significant gaps in season that previously had no transcript cross-reference.
 
 ---
 
@@ -433,17 +455,17 @@ All episodes validated against synopses and storyline definitions. No transcript
 
 ### Validation Notes
 
-**Transcript coverage:** 2/4 (DL S01E01-02 have transcripts; S01E03-04 do not)
+**Transcript coverage:** 4/4 (DL S01E03-04 transcripts linked this pass)
 **Storyline episodes:** DL S01E01 (future-ooo), DL S01E02 (simon-and-marcy, bubbline), DL S01E03 (future-ooo), DL S01E04 (peppermint-butler-dark) — all correct
 
 | Episode | Title | Status | Notes |
 |---------|-------|--------|-------|
 | DL S01E01 | BMO | OK | Characters match transcript |
 | DL S01E02 | Obsidian | OK | Bronwyn visual appearance — correct |
-| DL S01E03 | Together Again | OK | No transcript; characters validated against synopsis |
-| DL S01E04 | Wizard City | OK | No transcript; characters validated against synopsis |
+| DL S01E03 | Together Again | FIXED | Added ice-king, jermaine, joshua, lumpy-space-princess, margaret, mr-pig, peppermint-butler, the-lich, tiffany, tree-trunks, turtle-princess (Dead World episode — 11 characters with speaking lines in transcript) |
+| DL S01E04 | Wizard City | FIXED | Added abracadaniel (transcript confirmed speaking) |
 
-**Summary:** No fixes needed.
+**Summary:** 2 episodes fixed, 12 character additions. Transcript linkage revealed DL S01E03 had only 6 of 17 speaking characters listed.
 
 ---
 
@@ -529,8 +551,21 @@ All episodes validated against synopses and storyline definitions. No transcript
 | 37 | F&C S02E03 | Added cosmic-owl, hunter, scarab | Transcript (all speaking) |
 | 38 | F&C S02E07 | Added starchy | Transcript (3 lines) |
 | 39 | F&C S02E10 | Added hunter, minerva-campbell | Transcript (Hunter 7 lines, Minerva 16 lines) |
+| 40 | S04E18 | Added flame-princess, peppermint-butler | Transcript (both speak in King Worm dream) |
+| 41 | S08E20 | Added charlie, fern, lady-rainicorn, marceline, neptr, princess-bubblegum, starchy | Transcript (Islands opener — 7 characters) |
+| 42 | S08E26 | Added susan-strong | Transcript (speaking in Helpers) |
+| 43 | S09E02 | Added betty-grof, gunter, ice-king, mr-pig, princess-bubblegum, shelby, sweet-p, tree-trunks | Transcript (Elements opener — 8 characters) |
+| 44 | S09E03 | Added gunter, patience-st-pim | Transcript (both speaking) |
+| 45 | S09E07 | Added cinnamon-bun, gunter, lady-rainicorn | Transcript (Fire Kingdom episode) |
+| 46 | S09E08 | Added betty-grof, flame-princess, gunter, ice-king, jake | Transcript (Elements climax — 5 characters) |
+| 47 | S09E10 | Added finn, joshua | Transcript (both speaking in Abstract) |
+| 48 | S09E12 | Added gunter, jake | Transcript (Ice King's fanfic episode) |
+| 49 | S09E13 | Added bmo, fern, the-lich | Transcript (Lich hand speaks through Sweet P) |
+| 50 | S09E14 | Added bmo, gumbald, neptr, princess-bubblegum | Transcript (Gumbald foreshadowed) |
+| 51 | DL S01E03 | Added ice-king, jermaine, joshua, lumpy-space-princess, margaret, mr-pig, peppermint-butler, the-lich, tiffany, tree-trunks, turtle-princess | Transcript (Dead World — 11 characters) |
+| 52 | DL S01E04 | Added abracadaniel | Transcript (speaking in Wizard City) |
 
-**Total: 96 character additions, 3 transcript file corrections, 1 storyline addition, 20 transcriptFile fields added, 2 character aliases added**
+**Total: 147 character additions, 3 transcript file corrections, 1 storyline addition, 44 transcriptFile fields added, 2 character aliases added**
 
 ### Known False Positives in Transcript Analysis
 
@@ -597,14 +632,21 @@ All 31 have transcript pages on the Adventure Time Wiki — they were never scra
 
 **Summary:** 19 complete or near-complete, 12 incomplete (missing stage directions or partial dialogue). All have at least partial dialogue with speaker labels usable for character validation.
 
-#### Character Gaps Exposed by New Linkage
+#### Character Gaps Exposed by New Linkage — RESOLVED
 
-Cross-checking the 24 newly linked episodes against transcript speaker analysis revealed discrepancies in:
-- **DL S01E03** "Together Again" — 11 characters speaking in transcript but missing from episode data
-- **DL S01E04** "Wizard City" — 1 missing (abracadaniel)
-- **S08E20** "The Invitation" — 7 missing (opening of Islands miniseries)
-- **S08E26** "Helpers" — 1 missing (susan-strong)
-- **S09** Elements — gaps in 8 of 14 episodes (gunter frequently detected as Ice King transforms)
-- **S04E18** "King Worm" — 2 missing (flame-princess, peppermint-butler)
+Cross-checking the 24 newly linked episodes against transcript speaker analysis revealed and fixed discrepancies in 13 episodes (51 character additions):
+- **DL S01E03** "Together Again" — 11 characters added (Dead World episode with many returning characters)
+- **DL S01E04** "Wizard City" — 1 added (abracadaniel)
+- **S04E18** "King Worm" — 2 added (flame-princess, peppermint-butler in dream)
+- **S08E20** "The Invitation" — 7 added (Islands opener)
+- **S08E26** "Helpers" — 1 added (susan-strong)
+- **S09E02** "Skyhooks" — 8 added (Elements opener)
+- **S09E03** "Bespoken For" — 2 added (gunter, patience-st-pim)
+- **S09E07** "Happy Warrior" — 3 added (cinnamon-bun, gunter, lady-rainicorn)
+- **S09E08** "Hero Heart" — 5 added (Elements climax)
+- **S09E10** "Abstract" — 2 added (finn, joshua)
+- **S09E12** "Fionna and Cake and Fionna" — 2 added (gunter, jake)
+- **S09E13** "Whispers" — 3 added (bmo, fern, the-lich)
+- **S09E14** "Three Buckets" — 4 added (bmo, gumbald, neptr, princess-bubblegum)
 
-These are queued for the next validation pass.
+**Note:** S09 Elements episodes S09E01, E04-E06, E09 have transcripts but lack speaker labels (raw dialogue format). These cannot be validated via transcript analysis — character data was verified against synopses.
