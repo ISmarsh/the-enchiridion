@@ -9,6 +9,7 @@ import { CharactersPage } from './pages/CharactersPage';
 import { StorylinesPage } from './pages/StorylinesPage';
 import { StorylinePage } from './pages/StorylinePage';
 import { SongsPage } from './pages/SongsPage';
+import { SongPage } from './pages/SongPage';
 import { ThemeShowcasePage } from './pages/ThemeShowcasePage';
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/storylines" element={<StorylinesPage />} />
           <Route path="/storylines/:id" element={<StorylinePage />} />
           <Route path="/songs" element={<SongsPage />} />
+          <Route path="/songs/:id" element={<SongPage />} />
           <Route path="/credits" element={<CreditsPage />} />
           <Route path="/themes" element={<ThemeShowcasePage />} />
         </Route>
