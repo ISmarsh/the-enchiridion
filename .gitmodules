@@ -1,6 +1,6 @@
-[submodule ".planet-smars"]
-	path = .planet-smars
-	url = https://github.com/ISmarsh/planet-smars
 [submodule "transcripts"]
 	path = transcripts
-	url = https://github.com/ISmarsh/adventuretime-transcripts
+	url = https://github.com/samm-the-dev/adventuretime-transcripts
+[submodule ".toolbox"]
+	path = .toolbox
+	url = https://github.com/samm-the-dev/toolbox

@@ -679,4 +679,4 @@ Issues identified during validation that require future decisions or work.
 
 5. **5 S09 transcripts without speaker labels** — S09E01 Orb, S09E04 Winter Light, S09E05 Cloudy, S09E06 Slime Central, S09E09 Skyhooks II have raw dialogue format (no `Speaker:  line` structure). These need speaker attribution added, likely via SDH subtitles + video verification (desktop pipeline).
 
-6. **Submodule sync** — `docs/TRANSCRIPT-GAP-PLAN.md` should be moved to `transcripts/TRANSCRIPT-GAP-PLAN.md` when the submodule is next updated. The plan document was created locally in the submodule but couldn't be pushed (no credentials for ISmarsh/adventuretime-transcripts from this environment).
+6. **Submodule sync** — `docs/TRANSCRIPT-GAP-PLAN.md` should be moved to `transcripts/TRANSCRIPT-GAP-PLAN.md` when the submodule is next updated. The plan document was created locally in the submodule but couldn't be pushed (no credentials for samm-the-dev/adventuretime-transcripts from this environment).

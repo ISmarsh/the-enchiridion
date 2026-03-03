@@ -8,7 +8,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
-    exclude: ['**/node_modules/**', '**/.planet-smars/**', '**/e2e/**'],
+    exclude: ['**/node_modules/**', '**/.toolbox/**', '**/e2e/**'],
   },
   resolve: {
     alias: {
