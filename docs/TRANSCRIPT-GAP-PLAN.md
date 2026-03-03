@@ -2,17 +2,6 @@
 
 31 Adventure Time episodes have no transcript file in the submodule. All 31 have transcript pages on the Adventure Time Wiki (adventuretime.fandom.com). This document tracks each gap, its expected filename, wiki status, and recommended source method.
 
-## Gap Summary
-
-| Season    | Missing | Total   | Coverage |
-| --------- | ------- | ------- | -------- |
-| S05       | 1       | 52      | 98%      |
-| S06       | 1       | 43      | 98%      |
-| S07       | 2       | 26      | 92%      |
-| S08       | 2       | 27      | 93%      |
-| S10       | 4       | 13      | 69%      |
-| **Total** | **11**  | **303** | **96%**  |
-
 ## Episode Details
 
 ### Season 5 (1 missing)
@@ -73,7 +62,7 @@
 
 ## Source Methods
 
-### 1. Wiki Scrape (19 episodes — complete transcripts)
+### 1. Wiki Scrape
 
 The Adventure Time Wiki has full transcripts for these episodes at:
 
