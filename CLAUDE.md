@@ -1,8 +1,8 @@
 # Adventure Time Catalog — Claude Context
 
-@.planet-smars/templates/ai-context/CLAUDE.md
+@.toolbox/templates/ai-context/CLAUDE.md
 
-> _[View shared context](.planet-smars/templates/ai-context/CLAUDE.md) — git, testing, PR workflows_
+> _[View shared context](.toolbox/templates/ai-context/CLAUDE.md) — git, testing, PR workflows_
 
 ---
 
