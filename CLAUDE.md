@@ -1,8 +1,8 @@
 # Adventure Time Catalog — Claude Context
 
-@.toolbox/templates/ai-context/CLAUDE.md
+@.toolbox/ai-context/CLAUDE.md
 
-> _[View shared context](.toolbox/templates/ai-context/CLAUDE.md) — git, testing, PR workflows_
+> _[View shared context](.toolbox/ai-context/CLAUDE.md) — git, testing, PR workflows_
 
 ---
 
@@ -87,7 +87,7 @@ detail page.
 
 ## Transcripts Submodule
 
-Git submodule: `transcripts/` → [ISmarsh/adventuretime-transcripts](https://github.com/ISmarsh/adventuretime-transcripts)
+Git submodule: `transcripts/` → [samm-the-dev/adventuretime-transcripts](https://github.com/samm-the-dev/adventuretime-transcripts)
 
 See [transcripts/README.md](transcripts/README.md) for full documentation including:
 
