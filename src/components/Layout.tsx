@@ -3,7 +3,7 @@ import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 import { cn, toRomanNumeral } from '@/lib/utils';
 
-const GITHUB_URL = 'https://github.com/ISmarsh/the-enchiridion';
+const GITHUB_URL = 'https://github.com/samm-the-dev/the-enchiridion';
 
 const navItems = [
   { to: '/episodes', label: 'Episodes', icon: BookOpen, numeral: 1 },
