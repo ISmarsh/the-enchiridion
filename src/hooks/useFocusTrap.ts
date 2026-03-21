@@ -29,7 +29,7 @@ export function useFocusTrap<T extends HTMLElement>() {
       if (e.key !== 'Tab') return;
 
       const focusable = Array.from(container!.querySelectorAll<HTMLElement>(FOCUSABLE)).filter(
-        (el) => el.offsetParent !== null,
+        (el) => el.getClientRects().length > 0,
       );
 
       if (focusable.length === 0) {

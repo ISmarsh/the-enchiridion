@@ -82,6 +82,7 @@ export function useSwipeToDismiss(
         panel.style.transform = `translateY(${direction})`;
         panel.style.opacity = '0';
       }
+      if (dismissTimer.current != null) clearTimeout(dismissTimer.current);
       dismissTimer.current = setTimeout(onClose, TRANSITION_MS);
     } else {
       resetPanel();

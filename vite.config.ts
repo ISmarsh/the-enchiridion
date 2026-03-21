@@ -6,7 +6,7 @@ import mkcert from 'vite-plugin-mkcert';
 import path from 'path';
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig(() => ({
   plugins: [
     react(),
     tailwindcss(),
@@ -18,6 +18,9 @@ export default defineConfig(({ command }) => ({
         description: 'A Guide to the Land of Ooo',
         theme_color: '#1a1108',
         background_color: '#1a1108',
+        display: 'standalone',
+        start_url: '/',
+        scope: '/',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           {
@@ -51,9 +54,7 @@ export default defineConfig(({ command }) => ({
     }),
     ...(!process.env.CI ? [mkcert()] : []),
   ],
-  // Base path: Update for GitHub Pages or other deployments
-  // '/<repo-name>/' for GitHub Pages, '/' for local dev
-  base: command === 'build' ? '/' : '/',
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
