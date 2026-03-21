@@ -1,4 +1,4 @@
-import { useRef, useCallback, type RefObject } from 'react';
+import { useRef, useCallback, useEffect, type RefObject } from 'react';
 
 const SWIPE_THRESHOLD = 80;
 const TRANSITION_MS = 200;
@@ -21,6 +21,7 @@ export function useSwipeToDismiss(
   const { checkScrollLimits = false, scrollRef } = options;
   const touchStart = useRef<{ y: number; time: number } | null>(null);
   const translateY = useRef(0);
+  const dismissTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const resetPanel = useCallback(() => {
     touchStart.current = null;
@@ -81,11 +82,18 @@ export function useSwipeToDismiss(
         panel.style.transform = `translateY(${direction})`;
         panel.style.opacity = '0';
       }
-      setTimeout(onClose, TRANSITION_MS);
+      dismissTimer.current = setTimeout(onClose, TRANSITION_MS);
     } else {
       resetPanel();
     }
   }, [panelRef, onClose, resetPanel]);
+
+  // Clean up pending dismiss timer on unmount
+  useEffect(() => {
+    return () => {
+      if (dismissTimer.current != null) clearTimeout(dismissTimer.current);
+    };
+  }, []);
 
   return { onTouchStart, onTouchMove, onTouchEnd, onTouchCancel: resetPanel };
 }

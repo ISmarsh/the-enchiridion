@@ -20,6 +20,9 @@ export function useFocusTrap<T extends HTMLElement>() {
     const container = containerRef.current;
     if (!container) return;
 
+    if (!container.hasAttribute('tabindex')) {
+      container.tabIndex = -1;
+    }
     container.focus();
 
     function handleKeyDown(e: KeyboardEvent) {
