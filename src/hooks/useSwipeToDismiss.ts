@@ -1,3 +1,4 @@
+import type React from 'react';
 import { useRef, useCallback, useEffect, type RefObject } from 'react';
 
 const SWIPE_THRESHOLD = 80;

@@ -1,3 +1,4 @@
+import type React from 'react';
 import { Link } from 'react-router-dom';
 
 interface SectionCardProps {
@@ -9,12 +10,12 @@ interface SectionCardProps {
 
 export function SectionCard({ to, icon: Icon, title, description }: SectionCardProps) {
   return (
-    <Link to={to} className="group rounded-lg border border-border bg-card p-6">
-      <Icon className="mb-3 h-8 w-8 text-primary" />
-      <h2 className="text-xl font-semibold text-card-foreground transition-colors group-hover:text-primary">
+    <Link to={to} className="group border-border bg-card rounded-lg border p-6">
+      <Icon className="text-primary mb-3 h-8 w-8" />
+      <h2 className="text-card-foreground group-hover:text-primary text-xl font-semibold transition-colors">
         {title}
       </h2>
-      <p className="mt-1 text-sm text-muted-foreground">{description}</p>
+      <p className="text-muted-foreground mt-1 text-sm">{description}</p>
     </Link>
   );
 }

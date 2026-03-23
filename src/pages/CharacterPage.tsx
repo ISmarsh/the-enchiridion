@@ -1,3 +1,4 @@
+import type React from 'react';
 import { useMemo, useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { ChevronDown, Search, X } from 'lucide-react';
@@ -46,7 +47,7 @@ export function CharacterPage() {
       <div className="mb-8 space-y-3">
         {character.aliases && character.aliases.length > 0 && (
           <div>
-            <h2 className="mb-1.5 text-sm font-medium text-muted-foreground">Also known as</h2>
+            <h2 className="text-muted-foreground mb-1.5 text-sm font-medium">Also known as</h2>
             <div className="flex flex-wrap gap-1.5">
               {character.aliases.map((alias) => (
                 <Badge key={alias} variant="secondary">
@@ -58,7 +59,7 @@ export function CharacterPage() {
         )}
 
         <div>
-          <h2 className="mb-1.5 text-sm font-medium text-muted-foreground">Appears in</h2>
+          <h2 className="text-muted-foreground mb-1.5 text-sm font-medium">Appears in</h2>
           <div className="flex flex-wrap gap-1.5">
             {character.series.map((s) => (
               <Badge key={s} variant="secondary">
@@ -77,13 +78,13 @@ export function CharacterPage() {
       {/* Reverse variants */}
       {(reverseVariantMap.get(character.id)?.length ?? 0) > 0 && (
         <div className="mb-8">
-          <h2 className="mb-1.5 text-sm font-medium text-muted-foreground">Variants</h2>
+          <h2 className="text-muted-foreground mb-1.5 text-sm font-medium">Variants</h2>
           <div className="flex flex-wrap gap-2">
             {reverseVariantMap.get(character.id)!.map((v) => (
               <Link key={v.id} to={`/characters/${v.id}`}>
                 <Badge
                   variant="secondary"
-                  className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
+                  className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
                 >
                   {v.name}
                 </Badge>
@@ -96,13 +97,13 @@ export function CharacterPage() {
       {/* Group membership */}
       {(groupMembershipMap.get(character.id)?.length ?? 0) > 0 && (
         <div className="mb-8">
-          <h2 className="mb-1.5 text-sm font-medium text-muted-foreground">Groups</h2>
+          <h2 className="text-muted-foreground mb-1.5 text-sm font-medium">Groups</h2>
           <div className="flex flex-wrap gap-2">
             {groupMembershipMap.get(character.id)!.map((g) => (
               <Link key={g.id} to={`/characters/${g.id}`}>
                 <Badge
                   variant="secondary"
-                  className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
+                  className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
                 >
                   {g.name}
                 </Badge>
@@ -132,7 +133,7 @@ export function CharacterPage() {
                 <Link key={memberId} to={`/characters/${memberId}`}>
                   <Badge
                     variant="secondary"
-                    className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
+                    className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
                   >
                     {member.name}
                   </Badge>
@@ -148,15 +149,15 @@ export function CharacterPage() {
         <CollapsibleSection title="Storylines" count={charStorylines.length} collapseThreshold={4}>
           <div className="space-y-3">
             {charStorylines.map((sl) => (
-              <div key={sl.id} className="rounded-lg border border-border bg-card p-4">
+              <div key={sl.id} className="border-border bg-card rounded-lg border p-4">
                 <div className="flex items-baseline gap-2">
-                  <h3 className="font-medium text-card-foreground">{sl.name}</h3>
+                  <h3 className="text-card-foreground font-medium">{sl.name}</h3>
                   <Badge variant="outline" className="text-xs">
                     {sl.category}
                   </Badge>
                 </div>
                 {sl.description && (
-                  <p className="mt-1 text-sm text-muted-foreground">{sl.description}</p>
+                  <p className="text-muted-foreground mt-1 text-sm">{sl.description}</p>
                 )}
               </div>
             ))}
@@ -194,7 +195,7 @@ function CollapsibleSection({
         <span>{title}</span>
         <div className="ornamental-rule flex-1" aria-hidden="true" />
         <ChevronDown
-          className={`h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          className={`text-muted-foreground h-5 w-5 shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
           aria-hidden="true"
         />
       </button>
@@ -256,7 +257,7 @@ function EpisodesSection({ episodes }: { episodes: Episode[] }) {
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <div className="relative flex-1">
           <Search
-            className="absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+            className="text-muted-foreground absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2"
             aria-hidden="true"
           />
           <input
@@ -264,13 +265,13 @@ function EpisodesSection({ episodes }: { episodes: Episode[] }) {
             placeholder="Search episodes..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="h-9 w-full rounded-md border border-border bg-background pl-9 pr-3 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            className="border-border bg-background placeholder:text-muted-foreground focus:ring-ring h-9 w-full rounded-md border pr-3 pl-9 text-sm focus:ring-2 focus:outline-none"
           />
           {search && (
             <button
               type="button"
               onClick={() => setSearch('')}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+              className="text-muted-foreground hover:text-foreground absolute top-1/2 right-2.5 -translate-y-1/2"
               aria-label="Clear search"
             >
               <X className="h-4 w-4" />
@@ -303,7 +304,7 @@ function EpisodesSection({ episodes }: { episodes: Episode[] }) {
         </Button>
       </div>
       {filtered.length === 0 ? (
-        <p className="py-4 text-center text-sm text-muted-foreground">
+        <p className="text-muted-foreground py-4 text-center text-sm">
           No episodes match your search.
         </p>
       ) : (
@@ -316,7 +317,7 @@ function EpisodesSection({ episodes }: { episodes: Episode[] }) {
                 <button
                   type="button"
                   onClick={() => toggleSeason(key)}
-                  className="mb-3 flex w-full cursor-pointer items-center gap-2 text-left text-sm font-medium text-muted-foreground"
+                  className="text-muted-foreground mb-3 flex w-full cursor-pointer items-center gap-2 text-left text-sm font-medium"
                   aria-expanded={isOpen}
                 >
                   <span>
@@ -355,11 +356,11 @@ function VariantLink({
 
   return (
     <div className="mb-8">
-      <h2 className="mb-1.5 text-sm font-medium text-muted-foreground">Variant of</h2>
+      <h2 className="text-muted-foreground mb-1.5 text-sm font-medium">Variant of</h2>
       <Link to={`/characters/${variantOf}`}>
         <Badge
           variant="secondary"
-          className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
+          className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
         >
           {original.name}
         </Badge>
@@ -423,13 +424,13 @@ function RelationshipLinks({
 
   return (
     <div>
-      <h3 className="mb-1.5 text-sm font-medium text-muted-foreground">{label}</h3>
+      <h3 className="text-muted-foreground mb-1.5 text-sm font-medium">{label}</h3>
       <div className="flex flex-wrap gap-2">
         {resolved.map((rel) => (
           <Link key={rel!.id} to={`/characters/${rel!.id}`}>
             <Badge
               variant="secondary"
-              className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
+              className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
             >
               {rel!.name}
             </Badge>

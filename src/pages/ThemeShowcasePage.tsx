@@ -1,3 +1,4 @@
+import type React from 'react';
 import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageHeader } from '@/components/PageHeader';
