@@ -3,7 +3,7 @@ import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 import { cn, toRomanNumeral } from '@/lib/utils';
 
-const GITHUB_URL = 'https://github.com/ISmarsh/the-enchiridion';
+const GITHUB_URL = 'https://github.com/samm-the-dev/the-enchiridion';
 
 const navItems = [
   { to: '/episodes', label: 'Episodes', icon: BookOpen, numeral: 1 },
@@ -17,15 +17,22 @@ export function Layout() {
   useTheme();
 
   return (
-    <div className="flex min-h-screen flex-col bg-background text-foreground">
+    <div className="bg-background text-foreground flex min-h-screen flex-col">
+      <a
+        href="#main-content"
+        className="focus:bg-primary focus:text-primary-foreground sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:px-4 focus:py-2"
+      >
+        Skip to content
+      </a>
+
       {/* Header — book title page style */}
       <header className="py-6">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <Link to="/" className="group inline-block">
-            <h1 className="text-2xl font-bold tracking-wide text-foreground transition-colors group-hover:text-primary sm:text-3xl">
+            <h1 className="text-foreground group-hover:text-primary text-2xl font-bold tracking-wide transition-colors sm:text-3xl">
               The Enchiridion
             </h1>
-            <p className="mt-1 font-serif text-sm italic text-foreground">
+            <p className="text-foreground mt-1 font-serif text-sm italic">
               A Guide to the Land of Ooo
             </p>
           </Link>
@@ -42,7 +49,7 @@ export function Layout() {
                     'flex items-center gap-1 border-b-2 px-1 py-1 text-sm transition-colors sm:px-2',
                     isActive
                       ? 'border-primary text-primary'
-                      : 'border-transparent text-foreground hover:border-primary/30 hover:text-foreground',
+                      : 'text-foreground hover:border-primary/30 hover:text-foreground border-transparent',
                   )
                 }
               >
@@ -57,7 +64,7 @@ export function Layout() {
       </header>
 
       {/* Main content */}
-      <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
+      <main id="main-content" className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
         <Outlet />
       </main>
 
@@ -65,7 +72,7 @@ export function Layout() {
       <footer className="mt-auto py-6">
         <div className="mx-auto max-w-4xl px-4">
           <div className="ornamental-rule mx-auto mb-4 max-w-xs" />
-          <div className="flex items-center justify-center gap-4 font-serif text-sm text-foreground">
+          <div className="text-foreground flex items-center justify-center gap-4 font-serif text-sm">
             <Link to="/credits" className="hover:text-foreground">
               Credits & Licenses
             </Link>

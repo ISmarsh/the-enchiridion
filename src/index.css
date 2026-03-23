@@ -1,6 +1,111 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Bridge CSS variables to Tailwind v4 theme tokens */
+@theme inline {
+  /* Semantic tokens */
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  /* Enchiridion palette */
+  --color-enchiridion-brown: var(--enchiridion-brown);
+  --color-enchiridion-gold: var(--enchiridion-gold);
+  --color-enchiridion-parchment: var(--enchiridion-parchment);
+  --color-enchiridion-leather: var(--enchiridion-leather);
+  --color-enchiridion-sword: var(--enchiridion-sword);
+  --color-enchiridion-gem: var(--enchiridion-gem);
+  --color-enchiridion-dark: var(--enchiridion-dark);
+
+  /* Character palette colors */
+  --color-finn: var(--finn-primary);
+  --color-finn-secondary: var(--finn-secondary);
+  --color-finn-accent: var(--finn-accent);
+  --color-finn-dark: var(--finn-dark);
+
+  --color-jake: var(--jake-primary);
+  --color-jake-secondary: var(--jake-secondary);
+  --color-jake-accent: var(--jake-accent);
+  --color-jake-dark: var(--jake-dark);
+
+  --color-bubblegum: var(--bubblegum-primary);
+  --color-bubblegum-secondary: var(--bubblegum-secondary);
+  --color-bubblegum-accent: var(--bubblegum-accent);
+  --color-bubblegum-dark: var(--bubblegum-dark);
+
+  --color-marceline: var(--marceline-primary);
+  --color-marceline-secondary: var(--marceline-secondary);
+  --color-marceline-accent: var(--marceline-accent);
+  --color-marceline-dark: var(--marceline-dark);
+
+  --color-bmo: var(--bmo-primary);
+  --color-bmo-secondary: var(--bmo-secondary);
+  --color-bmo-accent: var(--bmo-accent);
+  --color-bmo-dark: var(--bmo-dark);
+
+  --color-iceking: var(--iceking-primary);
+  --color-iceking-secondary: var(--iceking-secondary);
+  --color-iceking-accent: var(--iceking-accent);
+  --color-iceking-dark: var(--iceking-dark);
+
+  --color-flame: var(--flame-primary);
+  --color-flame-secondary: var(--flame-secondary);
+  --color-flame-accent: var(--flame-accent);
+  --color-flame-dark: var(--flame-dark);
+
+  --color-lsp: var(--lsp-primary);
+  --color-lsp-secondary: var(--lsp-secondary);
+  --color-lsp-accent: var(--lsp-accent);
+  --color-lsp-dark: var(--lsp-dark);
+
+  --color-simon: var(--simon-primary);
+  --color-simon-secondary: var(--simon-secondary);
+  --color-simon-accent: var(--simon-accent);
+  --color-simon-dark: var(--simon-dark);
+
+  --color-lemongrab: var(--lemongrab-primary);
+  --color-lemongrab-secondary: var(--lemongrab-secondary);
+  --color-lemongrab-accent: var(--lemongrab-accent);
+  --color-lemongrab-dark: var(--lemongrab-dark);
+
+  --color-prismo: var(--prismo-primary);
+  --color-prismo-secondary: var(--prismo-secondary);
+  --color-prismo-accent: var(--prismo-accent);
+  --color-prismo-dark: var(--prismo-dark);
+
+  /* Chart colors */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Font families */
+  --font-display: 'IM Fell English', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --font-serif: 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+
+  /* Border radius */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
 
 /*
  * CSS Variables for theming
@@ -13,407 +118,419 @@
 @layer base {
   :root {
     /*
-     * Enchiridion site theme — curated from book cover ref images
+     * Enchiridion site theme -- curated from book cover ref images
      * Brown leather, dark gray clasps, cream parchment pages
      */
-    --enchiridion-brown: 30 45% 35%;
+    --enchiridion-brown: hsl(30 45% 35%);
     /* repurposed: dark gray metal clasps (book has no gold trim) */
-    --enchiridion-gold: 0 0% 35%;
-    --enchiridion-parchment: 45 30% 82%;
-    --enchiridion-leather: 25 36% 29%;
+    --enchiridion-gold: hsl(0 0% 35%);
+    --enchiridion-parchment: hsl(45 30% 82%);
+    --enchiridion-leather: hsl(25 36% 29%);
     /* muted purple from sword/shields illustration */
-    --enchiridion-sword: 270 20% 55%;
-    --enchiridion-gem: 4 44% 22%;
-    --enchiridion-dark: 18 43% 10%;
+    --enchiridion-sword: hsl(270 20% 55%);
+    --enchiridion-gem: hsl(4 44% 22%);
+    --enchiridion-dark: hsl(18 43% 10%);
 
     /*
-     * Character palettes — curated from ref image visual analysis.
+     * Character palettes -- curated from ref image visual analysis.
      * Environment colors removed, only character design colors retained.
      * Each has primary, secondary, accent, dark.
      */
 
-    --finn-primary: 198 96% 41%;
-    --finn-secondary: 205 95% 31%;
-    --finn-accent: 94 44% 36%;
-    --finn-dark: 0 0% 4%;
+    --finn-primary: hsl(198 96% 41%);
+    --finn-secondary: hsl(205 95% 31%);
+    --finn-accent: hsl(94 44% 36%);
+    --finn-dark: hsl(0 0% 4%);
 
-    --jake-primary: 42 95% 57%;
-    --jake-secondary: 44 97% 64%;
-    --jake-accent: 39 82% 27%;
-    --jake-dark: 30 56% 7%;
+    --jake-primary: hsl(42 95% 57%);
+    --jake-secondary: hsl(44 97% 64%);
+    --jake-accent: hsl(39 82% 27%);
+    --jake-dark: hsl(30 56% 7%);
 
-    --bubblegum-primary: 319 93% 68%;
-    --bubblegum-secondary: 311 97% 49%;
-    --bubblegum-accent: 47 86% 56%;
-    --bubblegum-dark: 325 29% 12%;
+    --bubblegum-primary: hsl(319 93% 68%);
+    --bubblegum-secondary: hsl(311 97% 49%);
+    --bubblegum-accent: hsl(47 86% 56%);
+    --bubblegum-dark: hsl(325 29% 12%);
 
-    --marceline-primary: 347 73% 40%;
-    --marceline-secondary: 234 58% 33%;
-    --marceline-accent: 343 22% 28%;
-    --marceline-dark: 233 36% 5%;
+    --marceline-primary: hsl(347 73% 40%);
+    --marceline-secondary: hsl(234 58% 33%);
+    --marceline-accent: hsl(343 22% 28%);
+    --marceline-dark: hsl(233 36% 5%);
 
-    --bmo-primary: 181 41% 40%;
-    --bmo-secondary: 143 45% 72%;
-    --bmo-accent: 358 77% 52%;
-    --bmo-dark: 193 36% 5%;
+    --bmo-primary: hsl(181 41% 40%);
+    --bmo-secondary: hsl(143 45% 72%);
+    --bmo-accent: hsl(358 77% 52%);
+    --bmo-dark: hsl(193 36% 5%);
 
-    --iceking-primary: 237 91% 38%;
-    --iceking-secondary: 0 0% 92%;
-    --iceking-accent: 59 90% 52%;
-    --iceking-dark: 237 91% 20%;
+    --iceking-primary: hsl(237 91% 38%);
+    --iceking-secondary: hsl(0 0% 92%);
+    --iceking-accent: hsl(59 90% 52%);
+    --iceking-dark: hsl(237 91% 20%);
 
-    --flame-primary: 14 97% 52%;
-    --flame-secondary: 31 94% 53%;
-    --flame-accent: 41 97% 52%;
-    --flame-dark: 0 91% 44%;
+    --flame-primary: hsl(14 97% 52%);
+    --flame-secondary: hsl(31 94% 53%);
+    --flame-accent: hsl(41 97% 52%);
+    --flame-dark: hsl(0 91% 44%);
 
-    --lsp-primary: 285 90% 80%;
-    --lsp-secondary: 272 43% 12%;
-    --lsp-accent: 55 90% 70%;
-    --lsp-dark: 272 43% 12%;
+    --lsp-primary: hsl(285 90% 80%);
+    --lsp-secondary: hsl(272 43% 12%);
+    --lsp-accent: hsl(55 90% 70%);
+    --lsp-dark: hsl(272 43% 12%);
 
-    --simon-primary: 35 30% 40%;
-    --simon-secondary: 0 0% 25%;
-    --simon-accent: 350 60% 35%;
-    --simon-dark: 28 16% 16%;
+    --simon-primary: hsl(35 30% 40%);
+    --simon-secondary: hsl(0 0% 25%);
+    --simon-accent: hsl(350 60% 35%);
+    --simon-dark: hsl(28 16% 16%);
 
-    --lemongrab-primary: 54 81% 45%;
-    --lemongrab-secondary: 51 70% 73%;
-    --lemongrab-accent: 0 0% 30%;
-    --lemongrab-dark: 54 50% 20%;
+    --lemongrab-primary: hsl(54 81% 45%);
+    --lemongrab-secondary: hsl(51 70% 73%);
+    --lemongrab-accent: hsl(0 0% 30%);
+    --lemongrab-dark: hsl(54 50% 20%);
 
-    --prismo-primary: 350 60% 70%;
-    --prismo-secondary: 55 90% 60%;
-    --prismo-accent: 200 80% 60%;
-    --prismo-dark: 350 40% 35%;
+    --prismo-primary: hsl(350 60% 70%);
+    --prismo-secondary: hsl(55 90% 60%);
+    --prismo-accent: hsl(200 80% 60%);
+    --prismo-dark: hsl(350 40% 35%);
 
     --radius: 0.5rem;
   }
 
   /*
-   * ─── ENCHIRIDION THEMES ───────────────────────────────────────────────
+   * --- ENCHIRIDION THEMES ---
    */
 
-  /* Enchiridion — dark leather cover with parchment page cards */
+  /* Enchiridion -- dark leather cover with parchment page cards */
   [data-theme='enchiridion'] {
     /* Surface: dark leather cover */
-    --background: 30 20% 10%;
-    --foreground: 40 25% 85%;
+    --background: hsl(30 20% 10%);
+    --foreground: hsl(40 25% 85%);
     /* Surface: parchment pages */
-    --card: 50 40% 88%;
-    --card-foreground: 24 23% 15%;
-    --popover: 50 40% 88%;
-    --popover-foreground: 24 23% 15%;
-    /* Warm sienna — book-adjacent warm tone for contrast on both surfaces */
-    --primary: 25 55% 30%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 25 55% 38%;
+    --card: hsl(50 40% 88%);
+    --card-foreground: hsl(24 23% 15%);
+    --popover: hsl(50 40% 88%);
+    --popover-foreground: hsl(24 23% 15%);
+    /* Warm sienna -- book-adjacent warm tone for contrast on both surfaces */
+    --primary: hsl(25 55% 30%);
+    --primary-foreground: hsl(0 0% 98%);
+    --primary-hover: hsl(25 55% 38%);
     /* Card-level tones (secondary/muted sit on parchment) */
-    --secondary: 33 25% 78%;
-    --secondary-foreground: 24 23% 18%;
-    --muted: 40 20% 82%;
-    --muted-foreground: 24 15% 38%;
+    --secondary: hsl(33 25% 78%);
+    --secondary-foreground: hsl(24 23% 18%);
+    --muted: hsl(40 20% 82%);
+    --muted-foreground: hsl(24 15% 38%);
     /* Accent/destructive */
-    --accent: 33 40% 32%;
-    --accent-foreground: 45 30% 95%;
-    --destructive: 4 44% 35%;
-    --destructive-foreground: 45 30% 95%;
+    --accent: hsl(33 40% 32%);
+    --accent-foreground: hsl(45 30% 95%);
+    --destructive: hsl(4 44% 35%);
+    --destructive-foreground: hsl(45 30% 95%);
     /* Border: mid-tone visible on both surfaces */
-    --border: 33 25% 65%;
-    --input: 33 25% 65%;
-    --ring: 39 89% 42%;
-    --chart-1: 39 89% 50%;
-    --chart-2: 24 23% 42%;
-    --chart-3: 206 40% 60%;
-    --chart-4: 4 44% 22%;
-    --chart-5: 55 75% 73%;
+    --border: hsl(33 25% 65%);
+    --input: hsl(33 25% 65%);
+    --ring: hsl(39 89% 42%);
+    --chart-1: hsl(39 89% 50%);
+    --chart-2: hsl(24 23% 42%);
+    --chart-3: hsl(206 40% 60%);
+    --chart-4: hsl(4 44% 22%);
+    --chart-5: hsl(55 75% 73%);
   }
 
   /*
-   * ─── CHARACTER THEMES ─────────────────────────────────────────────────
+   * --- CHARACTER THEMES ---
    */
 
-  /* Finn — dark: shirt blue background, white bear-hat cards */
+  /* Finn -- dark: shirt blue background, white bear-hat cards */
   [data-theme='finn'] {
-    --background: 191 70% 18%;
-    --foreground: 195 15% 90%;
-    --card: 195 10% 96%;
-    --card-foreground: 191 30% 15%;
-    --popover: 191 50% 22%;
-    --popover-foreground: 195 15% 90%;
-    --primary: 191 100% 29%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 191 100% 44%;
-    --secondary: 195 25% 25%;
-    --secondary-foreground: 195 15% 85%;
-    --muted: 195 20% 22%;
-    --muted-foreground: 195 15% 42%;
-    --accent: 94 44% 30%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 50% 40%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 195 20% 30%;
-    --input: 195 20% 30%;
-    --ring: 191 100% 34%;
+    --background: hsl(191 70% 18%);
+    --foreground: hsl(195 15% 90%);
+    --card: hsl(195 10% 96%);
+    --card-foreground: hsl(191 30% 15%);
+    --popover: hsl(191 50% 22%);
+    --popover-foreground: hsl(195 15% 90%);
+    --primary: hsl(191 100% 29%);
+    --primary-foreground: hsl(0 0% 98%);
+    --primary-hover: hsl(191 100% 44%);
+    --secondary: hsl(195 25% 25%);
+    --secondary-foreground: hsl(195 15% 85%);
+    --muted: hsl(195 20% 22%);
+    --muted-foreground: hsl(195 15% 42%);
+    --accent: hsl(94 44% 30%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 50% 40%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(195 20% 30%);
+    --input: hsl(195 20% 30%);
+    --ring: hsl(191 100% 34%);
   }
 
-  /* Jake — light: golden fur yellow, sunny and friendly */
+  /* Jake -- light: golden fur yellow, sunny and friendly */
   [data-theme='jake'] {
-    --background: 50 56% 65%;
-    --foreground: 40 35% 12%;
-    --card: 48 45% 93%;
-    --card-foreground: 40 35% 10%;
-    --popover: 48 45% 93%;
-    --popover-foreground: 40 35% 10%;
-    --primary: 45 80% 22%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 45 80% 16%;
-    --secondary: 50 40% 58%;
-    --secondary-foreground: 40 35% 12%;
-    --muted: 50 35% 60%;
-    --muted-foreground: 40 25% 29%;
-    --accent: 39 82% 22%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 48 35% 55%;
-    --input: 48 35% 55%;
-    --ring: 45 80% 24%;
+    --background: hsl(50 56% 65%);
+    --foreground: hsl(40 35% 12%);
+    --card: hsl(48 45% 93%);
+    --card-foreground: hsl(40 35% 10%);
+    --popover: hsl(48 45% 93%);
+    --popover-foreground: hsl(40 35% 10%);
+    --primary: hsl(45 80% 22%);
+    --primary-foreground: hsl(0 0% 98%);
+    --primary-hover: hsl(45 80% 16%);
+    --secondary: hsl(50 40% 58%);
+    --secondary-foreground: hsl(40 35% 12%);
+    --muted: hsl(50 35% 60%);
+    --muted-foreground: hsl(40 25% 29%);
+    --accent: hsl(39 82% 22%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 60% 45%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(48 35% 55%);
+    --input: hsl(48 35% 55%);
+    --ring: hsl(45 80% 24%);
   }
 
-  /* Princess Bubblegum — pink hair background, candy cards */
+  /* Princess Bubblegum -- pink hair background, candy cards */
   [data-theme='bubblegum'] {
-    --background: 326 50% 42%;
-    --foreground: 330 15% 95%;
-    --card: 330 35% 93%;
-    --card-foreground: 330 25% 12%;
-    --popover: 326 40% 38%;
-    --popover-foreground: 330 15% 95%;
-    --primary: 321 69% 44%;
-    --primary-foreground: 330 30% 98%;
-    --primary-hover: 321 69% 54%;
-    --secondary: 326 35% 36%;
-    --secondary-foreground: 330 15% 90%;
-    --muted: 326 30% 38%;
-    --muted-foreground: 330 15% 44%;
-    --accent: 47 90% 50%;
-    --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 326 25% 48%;
-    --input: 326 25% 48%;
-    --ring: 321 69% 65%;
+    --background: hsl(326 50% 42%);
+    --foreground: hsl(330 15% 95%);
+    --card: hsl(330 35% 93%);
+    --card-foreground: hsl(330 25% 12%);
+    --popover: hsl(326 40% 38%);
+    --popover-foreground: hsl(330 15% 95%);
+    --primary: hsl(321 69% 44%);
+    --primary-foreground: hsl(330 30% 98%);
+    --primary-hover: hsl(321 69% 54%);
+    --secondary: hsl(326 35% 36%);
+    --secondary-foreground: hsl(330 15% 90%);
+    --muted: hsl(326 30% 38%);
+    --muted-foreground: hsl(330 15% 44%);
+    --accent: hsl(47 90% 50%);
+    --accent-foreground: hsl(40 30% 8%);
+    --destructive: hsl(0 50% 45%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(326 25% 48%);
+    --input: hsl(326 25% 48%);
+    --ring: hsl(321 69% 65%);
   }
 
-  /* Marceline — dark: vampire red on near-black, navy jeans undertone */
+  /* Marceline -- dark: vampire red on near-black, navy jeans undertone */
   [data-theme='marceline'] {
-    --background: 233 36% 5%;
-    --foreground: 347 10% 85%;
-    --card: 234 28% 12%;
-    --card-foreground: 347 10% 85%;
-    --popover: 234 28% 12%;
-    --popover-foreground: 347 10% 85%;
-    --primary: 347 73% 63%;
-    --primary-foreground: 347 30% 8%;
-    --primary-hover: 347 73% 70%;
-    --secondary: 234 25% 16%;
-    --secondary-foreground: 347 10% 78%;
-    --muted: 234 18% 14%;
-    --muted-foreground: 347 8% 58%;
-    --accent: 234 58% 33%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 50% 50%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 234 18% 20%;
-    --input: 234 18% 20%;
-    --ring: 347 73% 40%;
+    --background: hsl(233 36% 5%);
+    --foreground: hsl(347 10% 85%);
+    --card: hsl(234 28% 12%);
+    --card-foreground: hsl(347 10% 85%);
+    --popover: hsl(234 28% 12%);
+    --popover-foreground: hsl(347 10% 85%);
+    --primary: hsl(347 73% 63%);
+    --primary-foreground: hsl(347 30% 8%);
+    --primary-hover: hsl(347 73% 70%);
+    --secondary: hsl(234 25% 16%);
+    --secondary-foreground: hsl(347 10% 78%);
+    --muted: hsl(234 18% 14%);
+    --muted-foreground: hsl(347 8% 58%);
+    --accent: hsl(234 58% 33%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 50% 50%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(234 18% 20%);
+    --input: hsl(234 18% 20%);
+    --ring: hsl(347 73% 40%);
   }
 
-  /* BMO — dark: teal body background, yellow-green screen cards */
+  /* BMO -- dark: teal body background, yellow-green screen cards */
   [data-theme='bmo'] {
-    --background: 180 42% 22%;
-    --foreground: 160 20% 90%;
-    --card: 75 35% 82%;
-    --card-foreground: 180 30% 12%;
-    --popover: 180 35% 26%;
-    --popover-foreground: 160 20% 90%;
-    --primary: 180 51% 28%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 180 51% 38%;
-    --secondary: 180 32% 28%;
-    --secondary-foreground: 160 20% 85%;
-    --muted: 180 28% 26%;
-    --muted-foreground: 170 15% 35%;
-    --accent: 358 70% 35%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 50% 40%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 180 25% 32%;
-    --input: 180 25% 32%;
-    --ring: 181 41% 40%;
+    --background: hsl(180 42% 22%);
+    --foreground: hsl(160 20% 90%);
+    --card: hsl(75 35% 82%);
+    --card-foreground: hsl(180 30% 12%);
+    --popover: hsl(180 35% 26%);
+    --popover-foreground: hsl(160 20% 90%);
+    --primary: hsl(180 51% 28%);
+    --primary-foreground: hsl(0 0% 98%);
+    --primary-hover: hsl(180 51% 38%);
+    --secondary: hsl(180 32% 28%);
+    --secondary-foreground: hsl(160 20% 85%);
+    --muted: hsl(180 28% 26%);
+    --muted-foreground: hsl(170 15% 35%);
+    --accent: hsl(358 70% 35%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 50% 40%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(180 25% 32%);
+    --input: hsl(180 25% 32%);
+    --ring: hsl(181 41% 40%);
   }
 
-  /* Ice King — dark: royal blue robe, icy crown */
+  /* Ice King -- dark: royal blue robe, icy crown */
   [data-theme='iceking'] {
-    --background: 225 55% 32%;
-    --foreground: 215 20% 92%;
-    --card: 210 25% 85%;
-    --card-foreground: 225 35% 15%;
-    --popover: 210 25% 85%;
-    --popover-foreground: 225 35% 15%;
-    --primary: 210 80% 37%;
-    --primary-foreground: 210 20% 98%;
-    --primary-hover: 210 80% 47%;
-    --secondary: 225 40% 38%;
-    --secondary-foreground: 215 20% 88%;
-    --muted: 225 35% 36%;
-    --muted-foreground: 215 18% 38%;
-    --accent: 51 90% 50%;
-    --accent-foreground: 40 30% 8%;
-    --destructive: 0 50% 45%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 225 30% 45%;
-    --input: 225 30% 45%;
-    --ring: 210 80% 70%;
+    --background: hsl(225 55% 32%);
+    --foreground: hsl(215 20% 92%);
+    --card: hsl(210 25% 85%);
+    --card-foreground: hsl(225 35% 15%);
+    --popover: hsl(210 25% 85%);
+    --popover-foreground: hsl(225 35% 15%);
+    --primary: hsl(210 80% 37%);
+    --primary-foreground: hsl(210 20% 98%);
+    --primary-hover: hsl(210 80% 47%);
+    --secondary: hsl(225 40% 38%);
+    --secondary-foreground: hsl(215 20% 88%);
+    --muted: hsl(225 35% 36%);
+    --muted-foreground: hsl(215 18% 38%);
+    --accent: hsl(51 90% 50%);
+    --accent-foreground: hsl(40 30% 8%);
+    --destructive: hsl(0 50% 45%);
+    --destructive-foreground: hsl(0 0% 95%);
+    --border: hsl(225 30% 45%);
+    --input: hsl(225 30% 45%);
+    --ring: hsl(210 80% 70%);
   }
 
-  /* Flame Princess — dark: bright ember, fierce warmth */
+  /* Flame Princess -- dark: bright ember, fierce warmth */
   [data-theme='flame'] {
-    --background: 15 40% 12%;
-    --foreground: 35 25% 90%;
-    --card: 20 35% 18%;
-    --card-foreground: 35 25% 90%;
-    --popover: 20 35% 18%;
-    --popover-foreground: 35 25% 90%;
-    --primary: 24 100% 50%;
-    --primary-foreground: 15 30% 8%;
-    --primary-hover: 24 100% 60%;
-    --secondary: 18 30% 22%;
-    --secondary-foreground: 35 20% 82%;
-    --muted: 18 25% 18%;
-    --muted-foreground: 25 18% 58%;
-    --accent: 45 90% 50%;
-    --accent-foreground: 40 30% 8%;
-    --destructive: 0 60% 42%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 18 25% 25%;
-    --input: 18 25% 25%;
-    --ring: 24 100% 50%;
+    --background: hsl(15 40% 12%);
+    --foreground: hsl(35 25% 90%);
+    --card: hsl(20 35% 18%);
+    --card-foreground: hsl(35 25% 90%);
+    --popover: hsl(20 35% 18%);
+    --popover-foreground: hsl(35 25% 90%);
+    --primary: hsl(24 100% 50%);
+    --primary-foreground: hsl(15 30% 8%);
+    --primary-hover: hsl(24 100% 60%);
+    --secondary: hsl(18 30% 22%);
+    --secondary-foreground: hsl(35 20% 82%);
+    --muted: hsl(18 25% 18%);
+    --muted-foreground: hsl(25 18% 58%);
+    --accent: hsl(45 90% 50%);
+    --accent-foreground: hsl(40 30% 8%);
+    --destructive: hsl(0 60% 42%);
+    --destructive-foreground: hsl(0 0% 95%);
+    --border: hsl(18 25% 25%);
+    --input: hsl(18 25% 25%);
+    --ring: hsl(24 100% 50%);
   }
 
-  /* LSP — purple with star yellow primary */
+  /* LSP -- purple with star yellow primary */
   [data-theme='lsp'] {
-    --background: 268 40% 28%;
-    --foreground: 270 15% 92%;
-    --card: 268 28% 36%;
-    --card-foreground: 270 15% 92%;
-    --popover: 268 28% 36%;
-    --popover-foreground: 270 15% 92%;
-    --primary: 50 85% 55%;
-    --primary-foreground: 270 30% 10%;
-    --primary-hover: 50 85% 65%;
-    --secondary: 268 28% 34%;
-    --secondary-foreground: 270 15% 85%;
-    --muted: 268 24% 32%;
-    --muted-foreground: 270 12% 76%;
-    --accent: 260 60% 42%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 50% 45%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 268 22% 38%;
-    --input: 268 22% 38%;
-    --ring: 50 85% 55%;
+    --background: hsl(268 40% 28%);
+    --foreground: hsl(270 15% 92%);
+    --card: hsl(268 28% 36%);
+    --card-foreground: hsl(270 15% 92%);
+    --popover: hsl(268 28% 36%);
+    --popover-foreground: hsl(270 15% 92%);
+    --primary: hsl(50 85% 55%);
+    --primary-foreground: hsl(270 30% 10%);
+    --primary-hover: hsl(50 85% 65%);
+    --secondary: hsl(268 28% 34%);
+    --secondary-foreground: hsl(270 15% 85%);
+    --muted: hsl(268 24% 32%);
+    --muted-foreground: hsl(270 12% 76%);
+    --accent: hsl(260 60% 42%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 50% 45%);
+    --destructive-foreground: hsl(0 0% 95%);
+    --border: hsl(268 22% 38%);
+    --input: hsl(268 22% 38%);
+    --ring: hsl(50 85% 55%);
   }
 
-  /* Simon Petrikov — dark: warm scholarly, aged paper by candlelight */
+  /* Simon Petrikov -- dark: warm scholarly, aged paper by candlelight */
   [data-theme='simon'] {
-    --background: 25 15% 10%;
-    --foreground: 35 15% 85%;
-    --card: 25 12% 14%;
-    --card-foreground: 35 15% 85%;
-    --popover: 25 12% 14%;
-    --popover-foreground: 35 15% 85%;
-    --primary: 30 40% 55%;
-    --primary-foreground: 25 15% 10%;
-    --primary-hover: 30 40% 65%;
-    --secondary: 25 12% 20%;
-    --secondary-foreground: 35 15% 80%;
-    --muted: 25 8% 16%;
-    --muted-foreground: 30 10% 55%;
-    --accent: 350 60% 35%;
-    --accent-foreground: 0 0% 95%;
-    --destructive: 0 50% 35%;
-    --destructive-foreground: 0 0% 95%;
-    --border: 25 10% 22%;
-    --input: 25 10% 22%;
-    --ring: 350 60% 40%;
+    --background: hsl(25 15% 10%);
+    --foreground: hsl(35 15% 85%);
+    --card: hsl(25 12% 14%);
+    --card-foreground: hsl(35 15% 85%);
+    --popover: hsl(25 12% 14%);
+    --popover-foreground: hsl(35 15% 85%);
+    --primary: hsl(30 40% 55%);
+    --primary-foreground: hsl(25 15% 10%);
+    --primary-hover: hsl(30 40% 65%);
+    --secondary: hsl(25 12% 20%);
+    --secondary-foreground: hsl(35 15% 80%);
+    --muted: hsl(25 8% 16%);
+    --muted-foreground: hsl(30 10% 55%);
+    --accent: hsl(350 60% 35%);
+    --accent-foreground: hsl(0 0% 95%);
+    --destructive: hsl(0 50% 35%);
+    --destructive-foreground: hsl(0 0% 95%);
+    --border: hsl(25 10% 22%);
+    --input: hsl(25 10% 22%);
+    --ring: hsl(350 60% 40%);
   }
 
-  /* Lemongrab — light: acidic lemon skin, harsh and unpleasant */
+  /* Lemongrab -- light: acidic lemon skin, harsh and unpleasant */
   [data-theme='lemongrab'] {
-    --background: 52 80% 68%;
-    --foreground: 50 35% 10%;
-    --card: 52 50% 90%;
-    --card-foreground: 50 35% 8%;
-    --popover: 52 50% 90%;
-    --popover-foreground: 50 35% 8%;
-    --primary: 50 85% 24%;
-    --primary-foreground: 55 20% 96%;
-    --primary-hover: 50 85% 18%;
-    --secondary: 52 50% 60%;
-    --secondary-foreground: 50 35% 12%;
-    --muted: 52 45% 62%;
-    --muted-foreground: 50 25% 28%;
-    --accent: 0 0% 15%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 52 40% 55%;
-    --input: 52 40% 55%;
-    --ring: 50 85% 24%;
+    --background: hsl(52 80% 68%);
+    --foreground: hsl(50 35% 10%);
+    --card: hsl(52 50% 90%);
+    --card-foreground: hsl(50 35% 8%);
+    --popover: hsl(52 50% 90%);
+    --popover-foreground: hsl(50 35% 8%);
+    --primary: hsl(50 85% 24%);
+    --primary-foreground: hsl(55 20% 96%);
+    --primary-hover: hsl(50 85% 18%);
+    --secondary: hsl(52 50% 60%);
+    --secondary-foreground: hsl(50 35% 12%);
+    --muted: hsl(52 45% 62%);
+    --muted-foreground: hsl(50 25% 28%);
+    --accent: hsl(0 0% 15%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 60% 45%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(52 40% 55%);
+    --input: hsl(52 40% 55%);
+    --ring: hsl(50 85% 24%);
   }
 
-  /* Prismo — light: warm golden Time Room, pink silhouette */
+  /* Prismo -- light: warm golden Time Room, pink silhouette */
   [data-theme='prismo'] {
-    --background: 45 70% 68%;
-    --foreground: 40 35% 10%;
-    --card: 45 45% 92%;
-    --card-foreground: 40 35% 8%;
-    --popover: 45 45% 92%;
-    --popover-foreground: 40 35% 8%;
-    --primary: 330 70% 37%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 330 70% 47%;
-    --secondary: 45 45% 60%;
-    --secondary-foreground: 40 30% 12%;
-    --muted: 45 40% 62%;
-    --muted-foreground: 40 22% 30%;
-    --accent: 200 80% 34%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 45 35% 55%;
-    --input: 45 35% 55%;
-    --ring: 350 60% 50%;
+    --background: hsl(45 70% 68%);
+    --foreground: hsl(40 35% 10%);
+    --card: hsl(45 45% 92%);
+    --card-foreground: hsl(40 35% 8%);
+    --popover: hsl(45 45% 92%);
+    --popover-foreground: hsl(40 35% 8%);
+    --primary: hsl(330 70% 37%);
+    --primary-foreground: hsl(0 0% 98%);
+    --primary-hover: hsl(330 70% 47%);
+    --secondary: hsl(45 45% 60%);
+    --secondary-foreground: hsl(40 30% 12%);
+    --muted: hsl(45 40% 62%);
+    --muted-foreground: hsl(40 22% 30%);
+    --accent: hsl(200 80% 34%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 60% 45%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(45 35% 55%);
+    --input: hsl(45 35% 55%);
+    --ring: hsl(350 60% 50%);
   }
 }
 
 @layer base {
   * {
     @apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--muted-foreground) 40%, transparent) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--muted-foreground) 40%, transparent);
+    border-radius: 3px;
   }
   html {
     font-size: 17px;
   }
   body {
     @apply bg-background text-foreground;
-    font-family: theme('fontFamily.display');
+    font-family: var(--font-display);
   }
 }
 
 @layer components {
   /*
-   * Card surface — base styles shared by all themes.
+   * Card surface -- base styles shared by all themes.
    * The aged paper texture only activates on the enchiridion theme;
    * other themes get a clean card with hover effects.
    * Targets .bg-card (Tailwind utility) so any card-like surface
@@ -427,8 +544,8 @@
   }
 
   .bg-card:hover {
-    box-shadow: 0 4px 12px hsl(var(--foreground) / 0.1);
-    border-color: hsl(var(--primary) / 0.5);
+    box-shadow: 0 4px 12px color-mix(in srgb, var(--foreground) 10%, transparent);
+    border-color: color-mix(in srgb, var(--primary) 50%, transparent);
   }
 
   /*
@@ -438,12 +555,12 @@
    */
   [data-theme='enchiridion'] .bg-card {
     background-image:
-      /* Corner wear — asymmetric darkening like a handled book page */
+      /* Corner wear -- asymmetric darkening like a handled book page */
       radial-gradient(ellipse at 0% 0%, hsl(30 30% 15% / 0.07) 0%, transparent 50%),
       radial-gradient(ellipse at 100% 100%, hsl(30 30% 15% / 0.1) 0%, transparent 50%),
       radial-gradient(ellipse at 100% 0%, hsl(30 30% 15% / 0.05) 0%, transparent 40%),
       radial-gradient(ellipse at 0% 100%, hsl(30 30% 15% / 0.06) 0%, transparent 45%),
-      /* Edge darkening — simulates aged paper browning at borders */
+      /* Edge darkening -- simulates aged paper browning at borders */
         linear-gradient(
           to right,
           hsl(30 20% 20% / 0.06),
@@ -458,7 +575,7 @@
         transparent 90%,
         hsl(30 20% 20% / 0.06)
       ),
-      /* Subtle warm texture variation — uneven paper aging */
+      /* Subtle warm texture variation -- uneven paper aging */
         radial-gradient(ellipse at 30% 60%, hsl(40 40% 80% / 0.1) 0%, transparent 50%),
       radial-gradient(ellipse at 70% 25%, hsl(35 35% 75% / 0.07) 0%, transparent 45%);
     box-shadow:
@@ -467,7 +584,7 @@
       inset 1px 0 2px hsl(30 20% 15% / 0.03);
   }
 
-  /* Edge damage — rough, worn edge effect via pseudo-element */
+  /* Edge damage -- rough, worn edge effect via pseudo-element */
   [data-theme='enchiridion'] .bg-card::after {
     content: '';
     position: absolute;
@@ -475,7 +592,7 @@
     border-radius: inherit;
     pointer-events: none;
     box-shadow:
-      /* Irregular inner edge shadows — varying thickness per side */
+      /* Irregular inner edge shadows -- varying thickness per side */
       inset 2px 0 4px -2px hsl(30 20% 15% / 0.1),
       inset -3px 0 5px -3px hsl(30 20% 15% / 0.08),
       inset 0 2px 3px -2px hsl(30 20% 15% / 0.06),
@@ -487,7 +604,7 @@
       inset 0 1px 4px hsl(30 20% 15% / 0.08),
       inset 0 -1px 2px hsl(30 20% 15% / 0.05),
       inset 1px 0 2px hsl(30 20% 15% / 0.03),
-      0 4px 12px hsl(var(--foreground) / 0.1);
+      0 4px 12px color-mix(in srgb, var(--foreground) 10%, transparent);
   }
 
   .ornamental-rule {
@@ -495,9 +612,9 @@
     background: linear-gradient(
       to right,
       transparent,
-      hsl(var(--primary) / 0.5),
-      hsl(var(--primary)),
-      hsl(var(--primary) / 0.5),
+      color-mix(in srgb, var(--primary) 50%, transparent),
+      var(--primary),
+      color-mix(in srgb, var(--primary) 50%, transparent),
       transparent
     );
   }

@@ -1,3 +1,4 @@
+import type React from 'react';
 import { BookOpen, Users, Route, Music } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageHeader } from '@/components/PageHeader';
@@ -51,10 +52,10 @@ function ColorSwatch({
   return (
     <div className="flex flex-col items-center gap-1.5">
       <div
-        className={`h-12 w-12 rounded-md border border-border ${className ?? ''}`}
+        className={`border-border h-12 w-12 rounded-md border ${className ?? ''}`}
         style={style}
       />
-      <span className="text-xs text-muted-foreground">{label}</span>
+      <span className="text-muted-foreground text-xs">{label}</span>
     </div>
   );
 }
@@ -78,7 +79,7 @@ export function ThemeShowcasePage() {
           id="theme-select"
           value={theme}
           onChange={(e) => setTheme(e.target.value)}
-          className="rounded-md border border-border bg-card px-3 py-2 text-sm text-card-foreground"
+          className="border-border bg-card text-card-foreground rounded-md border px-3 py-2 text-sm"
         >
           <option value="enchiridion">Enchiridion</option>
           <optgroup label="Characters">
@@ -93,11 +94,11 @@ export function ThemeShowcasePage() {
 
       <div data-testid="theme-preview" className="space-y-6">
         {/* Background surface text */}
-        <p className="text-sm text-foreground">Foreground on background</p>
+        <p className="text-foreground text-sm">Foreground on background</p>
 
         <Card className="group">
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm transition-colors group-hover:text-primary">
+            <CardTitle className="group-hover:text-primary text-sm transition-colors">
               Theme Preview
             </CardTitle>
           </CardHeader>
@@ -113,7 +114,7 @@ export function ThemeShowcasePage() {
                       key={variant}
                       label={variant}
                       style={{
-                        backgroundColor: `hsl(var(--${paletteKey}-${variant}))`,
+                        backgroundColor: `var(--${paletteKey}-${variant})`,
                       }}
                     />
                   ))}
@@ -161,7 +162,7 @@ export function ThemeShowcasePage() {
             <div className="flex flex-wrap gap-4">
               {ICON_SAMPLES.map(({ icon: Icon, label: iconLabel }) => (
                 <div key={iconLabel} className="flex items-center gap-1.5 text-sm">
-                  <Icon className="h-5 w-5 text-primary" />
+                  <Icon className="text-primary h-5 w-5" />
                   <span className="text-card-foreground">{iconLabel}</span>
                 </div>
               ))}
@@ -170,7 +171,7 @@ export function ThemeShowcasePage() {
               <p className="text-card-foreground">Card foreground text</p>
               <p className="text-muted-foreground">Muted foreground text</p>
               <p className="text-primary">Primary text</p>
-              <p className="inline-block rounded bg-accent px-2 text-accent-foreground">
+              <p className="bg-accent text-accent-foreground inline-block rounded px-2">
                 Accent foreground on accent
               </p>
             </div>
@@ -179,7 +180,7 @@ export function ThemeShowcasePage() {
 
             {/* Ornamental rule preview */}
             <div className="space-y-2">
-              <p className="text-xs text-muted-foreground">Ornamental Rule</p>
+              <p className="text-muted-foreground text-xs">Ornamental Rule</p>
               <div className="ornamental-rule" />
             </div>
           </CardContent>
